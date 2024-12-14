@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  
+  <title>Fluidoterapia de manutenção: Holliday-Segar | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.webp">
+  <meta name="description" content="
+
+
+
+
+Calculadora de manutenção hidroeletrolítica de Holliday-Segar
+Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.
+Nenhuma calculadora substitui seu julgamento clínico!
+Esta calculadora aceita valores decimais nas unidades indicadas.
+Use pontos e não vírgulas.
+Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.
+Veja aqui sobre hidratação venosa em geral.
+">
+  <meta name="keywords" content="Projetos, Medicina, Calculadoras, Pediatria">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+  
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+<nav class=barra>
+  <a href="../index.html"><span class="material-icons">home</span></a>
+  <a href="../files/"><span class="material-icons">inventory_2</span></a>
+  <a href="../dicionario/"><span class="material-icons">menu_book</span></a>
+  <a href="../medicina/bulario/"><span class="material-icons">medication</span></a>
+  <a href="../tags/calculadoras/"><span class="material-icons">calculate</span></a>
+  <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
+    
+      <script>const noglobalsearch = false </script>
+    <div class=divGlobalSearch>
+      <input type="text" id="globalsearch" placeholder="    busca..."></input>
+    </div>
+    <ul id="artlist">
+      <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.jeffersontorres.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
+      <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.jeffersontorres.com.br/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
+      <li data-tags="[pneumologia infectologia resumos]"><a href="https://www.jeffersontorres.com.br/doencas-pulmonares/">Pneumopatias</a></li>
+      <li data-tags="[pediatria emergências trauma]"><a href="https://www.jeffersontorres.com.br/tce/">Traumatismo craniencefálico</a></li>
+      <li data-tags="[medicina emergências neurologia]"><a href="https://www.jeffersontorres.com.br/avc/">Acidente vascular cerebral</a></li>
+      <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/neonatologia/">Neonatologia e recém-nascidos</a></li>
+      <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/saude-mulher/">Saúde da mulher</a></li>
+      <li data-tags="[medicina urologia]"><a href="https://www.jeffersontorres.com.br/prostatopatias/">Prostatopatias</a></li>
+      <li data-tags="[medicina história política Brasil]"><a href="https://www.jeffersontorres.com.br/sus/">Sistema único de saúde do Brasil</a></li>
+      <li data-tags="[medicina calculadoras projetos]"><a href="https://www.jeffersontorres.com.br/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
+      <li data-tags="[cirurgia medicina]"><a href="https://www.jeffersontorres.com.br/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
+      <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/doenca-renal/">Nefropatias</a></li>
+      <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.jeffersontorres.com.br/calculadoras-fetais/">Calculadoras fetais</a></li>
+      <li data-tags="[emergências medicina]"><a href="https://www.jeffersontorres.com.br/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
+      <li data-tags="[medicina infectologia ciência história]"><a href="https://www.jeffersontorres.com.br/antibioticos/">Antibioticoterapia</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/autismo/">Bases fisiopatológicas do autismo</a></li>
+      <li data-tags="[medicina penal direito perícias]"><a href="https://www.jeffersontorres.com.br/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
+      <li data-tags="[sociologia medicina]"><a href="https://www.jeffersontorres.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
+      <li data-tags="[medicina ginecologia emergência]"><a href="https://www.jeffersontorres.com.br/sua/">Sangramento uterino anormal</a></li>
+      <li data-tags="[medicina farmacologia]"><a href="https://www.jeffersontorres.com.br/adiccao/">Adicção: os impactos de diversas drogas</a></li>
+      <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.jeffersontorres.com.br/receituario/">Documento em papel timbrado</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/febre-reumatica/">Febre reumática</a></li>
+      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina-legal/docs/">Documentos em medicina legal</a></li>
+      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/hepatites/">Hepatopatias</a></li>
+      <li data-tags="[medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/autopsias/">Autópsias</a></li>
+      <li data-tags="[direito medicina penal]"><a href="https://www.jeffersontorres.com.br/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
+      <li data-tags="[medicina direito penal ciência]"><a href="https://www.jeffersontorres.com.br/medicina-legal/morte-legal/">Tanatologia forense</a></li>
+      <li data-tags="[direito medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/aborto/">Aborto e infanticídio no Brasil</a></li>
+      <li data-tags="[medicina direito penal perícias]"><a href="https://www.jeffersontorres.com.br/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
+      <li data-tags="[medicina perícias direito]"><a href="https://www.jeffersontorres.com.br/medicina-legal/embriaguez/">Visão toxicológica e legal da embriaguez</a></li>
+      <li data-tags="[medicina direito penal perícias]"><a href="https://www.jeffersontorres.com.br/medicina-legal/asfixias/">A morte por asfixias</a></li>
+      <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.jeffersontorres.com.br/anemias/">Anemias: investigação e tratamento</a></li>
+      <li data-tags="[medicina infectologia]"><a href="https://www.jeffersontorres.com.br/gastrite/">Gastrite e úlceras gástricas</a></li>
+      <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.jeffersontorres.com.br/cetoacidose/">Cetoacidose diabética</a></li>
+      <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.jeffersontorres.com.br/processo-morte/">Processo ativo de morte</a></li>
+      <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.jeffersontorres.com.br/ventilador-mec/">Simulador de ventilador mecânico</a></li>
+      <li data-tags="[Medicina Emergência Cardiologia]"><a href="https://www.jeffersontorres.com.br/icc/">Insuficiência cardíaca</a></li>
+      <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.jeffersontorres.com.br/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
+      <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.jeffersontorres.com.br/ecg/">Eletrocardiograma</a></li>
+      <li data-tags="[Medicina Projetos]"><a href="https://www.jeffersontorres.com.br/neoplasias/">Nomeclatura das neoplasias</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/surdez/">Surdez aguda</a></li>
+      <li data-tags="[Medicina Calculadoras Ciência]"><a href="https://www.jeffersontorres.com.br/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
+      <li data-tags=""><a href="https://www.jeffersontorres.com.br/colesterol/">Dislipidemias</a></li>
+      <li data-tags="[emergências medicina anestesia]"><a href="https://www.jeffersontorres.com.br/intubacao/">Intubação orotraqueal</a></li>
+      <li data-tags="[medicina apresentações]"><a href="https://www.jeffersontorres.com.br/apresentacoes/">Minhas apresentações</a></li>
+      <li data-tags="[Medicina Resumos]"><a href="https://www.jeffersontorres.com.br/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
+      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.jeffersontorres.com.br/superficie-corporal/">Calculadoras de superfície corporal</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.jeffersontorres.com.br/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
+      <li data-tags="[obstetrícia medicina resumos guias pediatria]"><a href="https://www.jeffersontorres.com.br/gestacao/">Concepção, gestação, pré-natal e pós-parto</a></li>
+      <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.jeffersontorres.com.br/hanseniase/">Hanseníase</a></li>
+      <li data-tags="[Medicina Emergência]"><a href="https://www.jeffersontorres.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/taquicardias/">Taquiarritimias: visão geral</a></li>
+      <li data-tags="[Medicina Dor]"><a href="https://www.jeffersontorres.com.br/analgesias/">Analgesias</a></li>
+      <li data-tags=""><a href="https://www.jeffersontorres.com.br/files/">Arquivos</a></li>
+      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medical_ai/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+      <li data-tags="[medicina projetos farmacologia]"><a href="https://www.jeffersontorres.com.br/bulario/">Bulário</a></li>
+      <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.jeffersontorres.com.br/vacinas/">Imunológicos e vacinas</a></li>
+      <li data-tags="[medicina projetos ciência]"><a href="https://www.jeffersontorres.com.br/dicionario/">Dicionário</a></li>
+      <li data-tags="[Medicina Filosofia Ciência]"><a href="https://www.jeffersontorres.com.br/abaixo-a-medicina/">Abaixo a medicina!</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.jeffersontorres.com.br/hemodinamica/">Hemodinâmica</a></li>
+      <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.jeffersontorres.com.br/queimados/">Calculadoras para pacientes queimados</a></li>
+      <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.jeffersontorres.com.br/convulsoes/">Convulsões e grande mal</a></li>
+      <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.jeffersontorres.com.br/dor-toracica/">Dor torácica</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
+      <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.jeffersontorres.com.br/banco-de-questoes/">Banco de questões</a></li>
+      <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/tokyo-guideline/">Colecistite aguda</a></li>
+      <li data-tags="[emergências Medicina Resumos Projetos Calculadoras]"><a href="https://www.jeffersontorres.com.br/gasometria-arterial/">Gasometria arterial</a></li>
+      <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.jeffersontorres.com.br/wells-tep/">Tromboembolismo pulmonar</a></li>
+      <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Websites e páginas úteis</a></li>
+      </ul>
+    <script src=../baseof-search.js></script>
+</nav>
+</head>
+<body>
+  <article>
+
+  <h1>Fluidoterapia de manutenção: Holliday-Segar</h1>
+
+
+    
+  <script src=../baseof-tema.js></script>
+  
+  
+  
+  
+    <!-- <span style="background: red; color: black">ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!</span> -->
+
+
+<img class="fundo-only-big" src="../pix/medicina/paudesoro.webp"></img>
+
+<h2 id="calculadora-de-manutenção-hidroeletrolítica-de-holliday-segar">Calculadora de manutenção hidroeletrolítica de Holliday-Segar</h2>
+<p><strong>Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.</strong></p>
+<p>Nenhuma calculadora substitui seu julgamento clínico!</p>
+<p>Esta calculadora aceita valores decimais nas unidades indicadas.</p>
+<p>Use pontos e não vírgulas.</p>
+<p>Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.</p>
+<p>Veja <a href="../medicina/hidratacao/">aqui</a> sobre hidratação venosa em geral.
+<br></p>
+<div class="calculadoras">
+<h2>Fluido</h2>
+<label for="massa">Massa do paciente</label><br>
+<input type="number" placeholder="Kg" id="massa"></input><br><br>
+<label for="fluidoPrincipal">Fluido principal</label><br>
+<select id="tipoFluidoPrincipal">
+    <!-- 
+    <option value="sf5">Soro fisiológico a 5%</option>
+    <option value="sf10">Soro fisiológico a 10%</option>
+    <option value="sf20">Soro fisiológico a 20%</option>
+    -->
+    <option value="">Selecione fluido principal</option>
+    <option value="ringer">Ringer Lactato</option>
+    <option value="sg5">Soro glicosado a 5%</option>
+    <option value="sg10">Soro glicosado a 10%</option>
+    <option value="sg20">Soro glicosado a 20%</option>
+    <option value="sf09">Soro fisiológico (0.9% de Na)</option>
+    </select>
+<br><br>
+<h2>Sódio</h2>
+<label for="volumeAmpNa">Volume de cada ampola de sódio</label><br>
+<input type="number" placeholder="mL" id="volumeAmpNa"></input> <br><br>
+<label for="concentAmpNa">Ampola de sódio concentrado</label><br>
+<select id="concentAmpNa">
+    <option value="">Selecione sódio concentrado</option>
+    <option value="10">Cloreto de sódio a 10%</option>
+    <option value="20">Cloreto de sódio a 20%</option>
+</select>
+<br>
+<br>
+<h2>Tonicidade do sódio</h2>
+<form>
+    <input name="tonicidade" type="radio" id="sodioIso">Isotônico - 135mEq/L</input> <br>
+    <input name="tonicidade" type="radio" id="sodioHipo">Hipotônico - 30mEq/L</input> 
+</form>
+<br><br>
+<h2>Potássio</h2>
+<label for="volumeAmpK">Volume de cada ampola de potássio</label><br>
+<input type="number" placeholder="mL" id="volumeAmpK"></input> <br><br>
+<label for="concentAmpK">Concentração de potássio da ampola<label><br>
+<select id="concentAmpK">
+    <option value="">Selecione ampola</option>
+    <option value="19">Cloreto de Potássio a 19,1%</option>
+    <option value="10">Cloreto de Potássio a 10%</option>
+    <option value="fosft2meqml">Fosfato de Potássio a 2mEq/mL</option>
+    <!--<option value="10">Cloreto de Potássio a 10%</option>  conferir se 10 -->
+ <!--    <option value="5">Cloreto de Potássio a 5%</option> conferir se 5 -->
+</select><br>
+<br><br>
+<h2>Glicose</h2>
+<label for="volumeAmpGlic">Volume de cada ampola de glicose</label><br>
+<input type="number" placeholder="mL" id="volumeAmpGlic"></input> <br><br>
+<label for="percentualGlic">Percentual de glicose da ampola<label><br>
+<select id="percentualGlic">
+    <option value="">Selecione tipo de ampola</option>
+    <option value=5>Glicose a 5%</option>
+    <option value=50>Glicose a 50%</option> 
+</select><br>
+<br>
+<p><button onclick="holliday()">Calcular</button></p>
+<p id="resultado" style="max-width: 60vw;"></p>
+<p id="alertas" style="display: none;">
+O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
+<br>
+– A velocidade de infusão máxima de potássio é 10-20 mEq/h!
+<br>
+– A concentração ideal em acesso periférico é de no máx. 40-50mEq/L.
+<br>
+– A concentração ideal em acesso central é de no máx. 80-100mEq/L.
+<br>
+– Não prescreva potássio ao paciente anúrico!
+</p>
+</div>
+<script src="../holliday.js"></script>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>HOLLIDAY MA, SEGAR WE. <strong>The maintenance need for water in parenteral fluid therapy.</strong> Pediatrics. 1957 May;19(5):823-32. PMID: 13431307.</li>
+</ol>
+
+  
+  
+    <br>
+        <div style="" class=taglist> 
+                <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">projetos</a> &middot;  
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">calculadoras</a> &middot;  
+                <a id="tag_pediatria" href="https://www.jeffersontorres.com.br/tags/pediatria">pediatria</a></div>
+
+
+
+  
+    
+      <br>
+      <a href='#' onClick="retornaTopo()">Ao topo!</a> 
+    
+  <script>
+    function retornaTopo(){
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  </article>
+  <footer>
+    <hr>
+    By Jefferson T. - @fatiservae - 2024 
+  </footer>
+  
+</body>
+</html>
