@@ -52,6 +52,7 @@
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  background-blend-mode: screen;
   --gradiente: radial-gradient(
                       ellipse at 50% 50%, 
                       #bf398910 0, 
@@ -77,6 +78,7 @@
 
 body {
   /*
+  border-radius: var(--borderRadius);
   */
   margin-top: 2ch;
   align-items: center;
@@ -131,6 +133,12 @@ a:hover{
   text-decoration: underline;
   */
   color: var(--linkColorHover);
+}
+#artigos {
+  columns: 2;
+}
+#artigos li:hover::before {
+  content: ">";
 }
 
 #search-output,
@@ -270,7 +278,7 @@ nav {
 nav a {
   margin: 0px;
   color: var(--headingsColor);
-  padding: 3px 14px;
+  padding: 3px 10px;
   border-radius: var(--borderRadius);
   transition: var(--stdTransition);
 }
@@ -781,6 +789,9 @@ hr {
   }
 }
 @media only screen and (max-width: 900px){
+  #artigos {
+    columns: 1;
+  }
   .duploflex {
     display: block;
   }
