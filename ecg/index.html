@@ -43,26 +43,80 @@
   <meta name="description" content="Intro
 Este é um compêndio e exemplos de eletrocardiogramas de condições incomuns.
 
-Padrão Wellens
+Arritmias atriais
+Fibrilação atrial
+
+$QRS$ estreito;
+Ritmo irregularmente irregular;
+Ondas $P$ não identificadas ou desorganizadas; e
+Possível presença de ondas $f$ que possuem linha de base elétrica e chamadas grosseiras quando possuírem voltagem superior a 0,5mm ou 1mm.
+
+graph TD;
+2(Presença de ondas f.Ritmo irregularmente irregular.) --&gt; fa(Fibrilação atrial);
+fa -- hemodinamicamenteinstável --&gt; cve(1. Internação;2. Cardioversão elétrica imediata:200J iniciaisouBifásico 200JouPás anteroposteriorizadas);
+fa -- hemodinamicamenteestável --&gt; t(Tempo de sintomas) -- menor que 48houpaciente já anticoagulado --&gt; 3(Cardioversão elétrica ou química);
+t -- menor que 7 dias --&gt; 4(Ainda compensatentar cardioversãoquímica);
+t -- maior que 7 diasouanticoagulação desconhecida --&gt; 6(1. Anticoagular;2. Jejum;3. Sedação;4. Cardioversão elétrica.); 
+
+
+Cardioversão química
+
+Amiodarona em bolo de 5 a 7mg/kg em 30 minutos; e
+Propafenona oral de 600 mg ou 2 mg/kg intravenosa.
+
+Flutter atrial
 
 
 
   
     
-       
+      ECG típico com ondas F de base elétrica perdida.
     
   
 
-Critérios
 
-Ondas T bifásicas ou simétricas e invertidas em V2 e V3. Pode ou não haver em V1, V4, V5 e V6.
-Ausência de ondas Q patológicas.
-Ondas R no plano horizontal (V1-V6) com progressão normal.
-Supradesnivelamento do segmento ST pequeno ou ausente.
-Sem indicadores de necrose miocárdica.
+Ritmo pode ser irregular ou regular;
+Possíveis ondas $F$ de base isoelétrica perdida. O mais comum é que a polaridade dessa onda seja negativa em DII, DIII e aVF; e
+A frequência ventricular costuma ser metade ou outra fração inteira da frequência atrial.
 
-Significado
-Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.">
+graph TD;
+5(Presença de ondas F em II, III e aVFpossivelmente negativas.Base isoelétrica perdida.) --&gt; ff(Flutter atrial); 
+ff --&gt; t2(Tempo de sintomas) -- menor que 48h --&gt; 7(Tentar cardioversão com 50J) -- falha --&gt; 8(Repetir com 200J);
+t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.2 Ecocardio paradescartar trombos.);
+
+
+Controle de frequência ventricular
+
+Diltiazem intravenoso a 0,25mg/kg em 2 minutos;
+Verapamil intravenoso 5mg em 2min; ou
+Metoprolol intravenoso 5mg em 5min.
+
+Observações
+
+A adenosina a 6mg/bolo intravenoso pode ser usada em toda arritmia supraventricular, porém a reversão para ritmo sinusal é rara. Funciona mais como um redutor de frequência cardíaca, permitindo diagnóstico mais apurado, e.g. quando há confusão entre flutter e fibrilação atrial;
+Pode-se repetir o bolus de adenosina dentro de 2min ou em momento diferente;
+O flutter pode ser curado por meio da ablação por radiofrequência;
+No flutter está contraindicado a tentativa de reversão química, notadamente a amiodarona, porque o ritmo pode se converter em um mais lento ainda levando a instabilidade hemodinâmica.
+
+Bloqueio atrioventricular
+De grau 1
+
+Todas ondas P&rsquo;s associadas a um $\overline{QRS}$ sequente.
+Intervalo $\overline{PR}$ vai alargando acima de 200ms.
+
+
+ 
+
+  
+    Anterior
+    Próxima
+  
+  
+  
+
+
+
+  Grau 1">
   <meta name="keywords" content="Medicina, Cardiologia, Emergência">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -186,12 +240,6 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
       <nav id="TableOfContents">
   <ul>
     <li><a href="#intro">Intro</a></li>
-    <li><a href="#padrão-wellens">Padrão Wellens</a>
-      <ul>
-        <li><a href="#critérios">Critérios</a></li>
-        <li><a href="#significado">Significado</a></li>
-      </ul>
-    </li>
     <li><a href="#arritmias-atriais">Arritmias atriais</a>
       <ul>
         <li><a href="#fibrilação-atrial">Fibrilação atrial</a></li>
@@ -228,11 +276,16 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
         <li><a href="#alterações-de-repolarização">Alterações de repolarização</a></li>
         <li><a href="#infradesnivelamento-de-st">Infradesnivelamento de ST</a></li>
         <li><a href="#supradesnivelamento-de-st">Supradesnivelamento de ST</a></li>
+        <li><a href="#padrão-wellens">Padrão Wellens</a></li>
+        <li><a href="#padrão-winter">Padrão Winter</a></li>
+        <li><a href="#padrão-aslanger-1">Padrão Aslanger [1]</a></li>
         <li><a href="#isquemia-circunferencial">Isquemia circunferencial</a></li>
+        <li><a href="#padrão-de-ascenção-côncava-para-baixo-ou-feliz">Padrão de ascenção côncava para baixo ou &ldquo;feliz&rdquo;</a></li>
       </ul>
     </li>
     <li><a href="#inversão-fisiológica-de-ondas-t">Inversão fisiológica de ondas T</a></li>
     <li><a href="#marca-passo">Marca-passo</a></li>
+    <li><a href="#referências">Referências</a></li>
     <li><a href="#bibliografia">Bibliografia</a></li>
     <li><a href="#imagens">Imagens</a></li>
   </ul>
@@ -246,26 +299,6 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
 ## O eletrocardiograma normal adulto
 ## O eletrocardiograma normal pediátrico 
 -->
-<h2 id="padrão-wellens">Padrão Wellens</h2>
-
-
-
-  <div id="img-div">
-    <img src="../pix/medicina/ecg/wellens.jpg">
-      <figcaption> </figcaption>
-    </img>
-  </div>
-
-<h3 id="critérios">Critérios</h3>
-<ul>
-<li>Ondas T bifásicas ou simétricas e invertidas em V2 e V3. Pode ou não haver em V1, V4, V5 e V6.</li>
-<li>Ausência de ondas Q patológicas.</li>
-<li>Ondas R no plano horizontal (V1-V6) com progressão normal.</li>
-<li>Supradesnivelamento do segmento ST pequeno ou ausente.</li>
-<li>Sem indicadores de necrose miocárdica.</li>
-</ul>
-<h3 id="significado">Significado</h3>
-<p>Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.</p>
 <h2 id="arritmias-atriais">Arritmias atriais</h2>
 <h3 id="fibrilação-atrial">Fibrilação atrial</h3>
 <ul>
@@ -609,21 +642,56 @@ t2 -- maior que 48h --> 9(1 Controle de frequência ventricular.<br>2 Ecocardio 
 
 <h2 id="achados-isquêmicos">Achados isquêmicos</h2>
 <h3 id="alterações-de-repolarização">Alterações de repolarização</h3>
+<p>Em breve.</p>
 <h3 id="infradesnivelamento-de-st">Infradesnivelamento de ST</h3>
+<p>Em breve.</p>
 <h3 id="supradesnivelamento-de-st">Supradesnivelamento de ST</h3>
-<h4 id="padrão-de-ascenção-côncava-para-baixo-ou-feliz">Padrão de ascenção côncava para baixo ou &ldquo;feliz&rdquo;</h4>
-<p>Indica início de infarto miocárdico ou alterações não isquêmicas na topografia da derivação ou globais, como alterações eletrolíticas.
+<p>O ponto $J$ se desnivela acima da linha de base em $V2$ e $V3$:</p>
+<ul>
+<li>Em mulheres, pelo menos 1,5mm;</li>
+<li>Em homens com mais de 40 anos, mais que 2mm;</li>
+<li>Em homens com menos de 40 anos, mais que 2,5mm;</li>
+<li>Nas derivações de plano horizontal e em $V1$, $V4$ a $V6$, a elevação acima de 1mm em quaisquer destas, para quaisquer pessoas; e</li>
+<li>Para derivações $V3R, V4R$ e $V7$ a $V9$, quaisquer desnivelamentos de pelo menos 0,5mm em todos indivíduos.</li>
+</ul>
+<h3 id="padrão-wellens">Padrão Wellens</h3>
+<p>Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.</p>
 
 
 
   <div id="img-div">
-    <img src="../pix/medicina/ecg/supra-bom.jpg">
-      <figcaption>Supradesnivelamento com aspecto de concavidade voltada para baixo.</figcaption>
+    <img src="../pix/medicina/ecg/wellens.jpg">
+      <figcaption> </figcaption>
     </img>
   </div>
-</p>
+
+<ul>
+<li>Ondas T bifásicas ou simétricas e invertidas em $V2$ e $V3$. Pode ou não haver em V1, V4, V5 e V6.</li>
+<li>Ausência de ondas Q patológicas.</li>
+<li>Ondas R no plano horizontal (V1-V6) com progressão normal.</li>
+<li>Supradesnivelamento do segmento ST pequeno ou ausente.</li>
+<li>Sem indicadores de necrose miocárdica.</li>
+</ul>
+<h3 id="padrão-winter">Padrão Winter</h3>
+<p>Em breve.</p>
+<h3 id="padrão-aslanger-1">Padrão Aslanger [1]</h3>
+<p>Um infarto de parede inferior se dá sem configuração tradicional de infarto com supra. Além disso, a afecção de circunflexa e padrões de infarto difuso também apresentam correlação com o padrão.</p>
+<ul>
+<li>Supra isolado de $III$;</li>
+<li>Infra concomitante em qualquer derivação de $V4$ a $V6$ com onda $T$ ou final da onda $T$ positiva; e</li>
+<li>$\overline{ST}$ em $V1$ mais alto do que em $V2$.</li>
+</ul>
+
+
+
+  <div id="img-div">
+    <img src="../pix/medicina/ecg/aslanger.jpg">
+      <figcaption> </figcaption>
+    </img>
+  </div>
+
 <h3 id="isquemia-circunferencial">Isquemia circunferencial</h3>
-<p>Supradesnivelamento de $ST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.</p>
+<p>Supradesnivelamento de $\overlineST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.</p>
 
  
 <div class="carouselcircunf">
@@ -712,6 +780,17 @@ t2 -- maior que 48h --> 9(1 Controle de frequência ventricular.<br>2 Ecocardio 
   </script>
 
 
+<h3 id="padrão-de-ascenção-côncava-para-baixo-ou-feliz">Padrão de ascenção côncava para baixo ou &ldquo;feliz&rdquo;</h3>
+<p>Indica início de infarto miocárdico ou alterações não isquêmicas na topografia da derivação ou globais, como alterações eletrolíticas.
+
+
+
+  <div id="img-div">
+    <img src="../pix/medicina/ecg/supra-bom.jpg">
+      <figcaption>Supradesnivelamento com aspecto de concavidade voltada para baixo.</figcaption>
+    </img>
+  </div>
+</p>
 <h2 id="inversão-fisiológica-de-ondas-t">Inversão fisiológica de ondas T</h2>
 <p>É possível o achado de ondas T precordias invertidas, principalmente em mulheres jovens e atletas.</p>
 
@@ -738,6 +817,10 @@ t2 -- maior que 48h --> 9(1 Controle de frequência ventricular.<br>2 Ecocardio 
 <br>
 <br>
 <hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18</li>
+</ol>
 <h2 id="bibliografia">Bibliografia</h2>
 <ol>
 <li>Malcolm S Thaler. <strong>ECG essencial 7°ed.</strong> Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.</li>

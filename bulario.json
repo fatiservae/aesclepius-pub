@@ -1,5 +1,17 @@
 [
 	{
+		"nome": ["dexpantenol", "Bepantol"],
+		"class": ["hidratantes", "vitaminas"],
+		"posologias": [
+			{
+				"unidades": ["aplicações", "dia"],
+				"dosagem": ["várias ", 1],
+				"via": "tópica",
+				"instrucao": "bepantol pode ser encontrado na forma de pomada, de creme e de bastão labial."
+			}
+		]
+	},
+	{
 		"nome": ["isometpteno", "Doralgina"],
 		"class": ["simpatomiméticos", "vasoconstrictores", "analgésicos"],
 		"posologias": [
@@ -1322,8 +1334,8 @@
       {
         "unidades": ["mg"],
         "dosagem": [6],
-        "via": "intravenoso",
-        "instrucao": "no contexto de taquicardias supraventriculares feita em bolo intravenoso que pode ser repetido em 2min."
+        "via": "intravenosa",
+        "instrucao": "no contexto de taquicardias supraventriculares feita em bolo intravenosa que pode ser repetido em 2min."
       }
     ]
   },
@@ -1334,7 +1346,7 @@
       {
         "unidades": ["mg", "kg"],
         "dosagem": [0.25, 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "para controle de frequência ventricular em flutter, correr o bolo em 2min."
       }
     ]
@@ -1346,7 +1358,7 @@
       {
         "unidades": ["mg"],
         "dosagem": [5],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "no contexto de controle da frequência ventricular em flutter, correr o bolo em 2min."
       }
     ]
@@ -1358,7 +1370,7 @@
       {
         "unidades": ["mg"],
         "dosagem": [5],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "no contexto de controle da frequência ventricular em flutter, correr o bolo em 5min."
       }
     ]
@@ -1552,17 +1564,29 @@
       {
         "unidades": ["g", "h"],
         "dosagem": [1, 6],
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["g", "h"],
         "dosagem": [2, 6], 
         "instrucao": "ou com tempo interdoses de 4h.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ],
     "mecanismo": "inibe síntese de parede celular da bactéria."
   },
+	{
+		"nome": ["ferrocarbonila", "Novofer"],
+		"class": ["suplementos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [120, 1],
+				"via": "oral",
+				"instrucao": "cada comprimido possui 126mg de ferro disponíveis para via sérica, o que corresponde aos 120mg efetivos."
+			}
+		]
+	},
   {
     "nome": ["sulfato ferroso"],
     "class": ["suplementos"],
@@ -1597,7 +1621,7 @@
       {
         "unidades": ["mg", "kg"],
         "dosagem": [1, 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "bloqueio muscular pediátrico para intubação de emergência."
       }
     ]
@@ -1608,20 +1632,20 @@
       {
         "unidades": ["mcg", "kg"],
         "dosagem": [8, 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "dose inicial no auxílio ao despertar pós anestésico."
       },
       {
         "unidades": ["mcg", "kg"],
         "dosagem": [15, 1],
         "instrucao": "dose máxima literária no auxílio ao despertar pós anestésico.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg"],
         "dosagem": [0.2],
         "instrucao": "dose habitual de antídoto para adultos, podendo ser repetido até o máximo de 3mg.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ],
     "obs":[
@@ -1638,7 +1662,7 @@
       {
         "unidades": ["mg"], 
         "dosagem": [20],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "ajustado de acordo com o nível de hemoglobina."
       }
     ]
@@ -1649,7 +1673,7 @@
       {
         "unidades": ["g"],
         "dosagem": [1],
-        "via": "intravenoso", 
+        "via": "intravenosa", 
         "instrucao": "nunca excedendo 1g ou 20mg/Kg"
       }
     ],
@@ -1802,19 +1826,19 @@
       {
        "unidades": ["g"],
        "dosagem": [1],
-       "via": "intravenoso",
+       "via": "intravenosa",
        "instrucao": "no trauma deve ser administrado nas 3 primeiras horas em infusão por 10min no melhor acesso adquirido."
       },
       {
        "unidades": ["g", "h"],
        "dosagem": [1, 8],
-       "via": "intravenoso",
+       "via": "intravenosa",
        "instrucao": "manutenção no pós-trauma, <i>ter in die</i>."
       },
       { 
        "unidades": ["g"],
        "dosagem": [1],
-       "via": "intravenoso",
+       "via": "intravenosa",
        "instrucao": "em obstetrícia, nos sangramentos uterogênicos nas 3 primeiras horas em infusão por 10min."
       },
       {
@@ -1832,19 +1856,19 @@
 			{
 				"unidades": ["mg", "Kg", "h"],
 				"dosagem": ["40-50", 1, 1],
-				"via": "intravenoso",
+				"via": "intravenosa",
 				"instrucao": "dose habitual em crise grave de asma no contexto pediátrico, diluir em 100ml no máximo de 2g/paciente."
 			},
       {
         "unidades": ["g", "min"],
         "dosagem": [4, 10],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "acompanhado de 5g IM em cada nádega - ataque por esquemas Zuspan e Pritchard."
       },
       {
         "unidades": ["g", "min"],
         "dosagem": [6, 10],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "esquema Zuspan ataque modificado (Sibai)."
       },
       {
@@ -1856,13 +1880,13 @@
       {
         "unidades": ["g", "min"],
         "dosagem": [1, 10],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "manutenção - esquema Zuspan."
       },
       {
         "unidades": ["g", "min"],
         "dosagem": [2, 60],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "manutenção - esquema Sibai."
       }
     ],
@@ -1926,24 +1950,24 @@
         "unidades": ["mg", "Kg"],
         "dosagem": [1, 1],
         "instrucao": "dose inicial para sedação.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [3, 1],
         "instrucao": "dose máxima literária para sedação.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [0.3, 1],
         "instrucao": "dose máxima para analgesia moderada.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "kg"],
         "dosagem": ["0.5 a 2", 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "sedação pediátrica para intubação de emergência."
       },
       {
@@ -1989,25 +2013,25 @@
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [1, 1, 10],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "ataque por 10min."
       },
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [0.5, 1, 60],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao":"para manutenção, por hora. Também pode ser usada como droga de auxílio à VNI e para ansiólise." 
       },
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [0.2, 1, 60],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "é o mínimo conhecido para manutenção de hora."
       },
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [0.7, 1, 60],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "é o máximo indicado por bula comercial para manutenção de hora."
       }
     ]
@@ -2019,25 +2043,25 @@
       {
         "unidades": ["mcg", "Kg"],
         "dosagem": [3, 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "dose de indução na intubação orotraqueal adulta."
       },
       {
         "unidades": ["mcg", "Kg"],
         "dosagem": ["1 a 2", 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "dose de indução na intubação orotraqueal pediátrica."
       },
 			{
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": ["0.03-0.05", 1, 1],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "dose de manutenção da sedação adulta."
       },
       {
         "unidades": ["mcg"],
         "dosagem": [200],
-        "via": "intravenoso",
+        "via": "intravenosa",
         "instrucao": "dose individual máxima adulta permitida pela literatura."
       }
     ],
@@ -2071,34 +2095,34 @@
       { 
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [5.1, 24],
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
         "instrucao": "se clearence de Cr abaixo de 90ml/min.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 24],
         "instrucao": "se clearence de Cr abaixo de 50ml/min.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 48],
         "instrucao": "se clearence de Cr abaixo de 10ml/min.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ],
     "obs": [ 
-      "Há apresentações IM/intravenoso/SUBCAPS/ITRQ etc", 
+      "Há apresentações IM/intravenosa/SUBCAPS/ITRQ etc", 
       "Repetir 1/2 dose no pós-diálise.",
       "Todo aminoglicosídeo é capaz de provocar bloqueio da atividade neuromuscular.",
       "Os aminoglicosídeos não agem em ambiente de anaerobiose, pois o oxigênio é fundamental para o transporte dessas drogas para o interior da célula bacteriana."
@@ -2111,30 +2135,30 @@
       { 
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [5.1, 24],
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
         "instrucao": "se clearence de Cr abaixo de 90ml/min.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 24],
         "instrucao": "se clearence de Cr abaixo de 50ml/min.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 48],
         "instrucao": "se clearence de Cr abaixo de 10ml/min.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ],
     "obs": [ 
@@ -2167,13 +2191,13 @@
         "unidades": ["mg", "Kg"],
         "dosagem": [2, 1],
         "instrucao": "dose para fibrilação atrial.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg"],
         "dosagem": [600],
         "instrucao": "dose ataque para fibrilação atrial.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ]
   },
@@ -2185,13 +2209,13 @@
         "unidades": ["mg", "Kg"],
         "dosagem": [5, 1],
         "instrucao": "dose inicial para fibrilação atrial, bolo em 2 minutos",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [7, 1],
         "instrucao": "dose máxima para fibrilação atrial, bolo em 2 minutos",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ]
   },
@@ -2203,31 +2227,31 @@
         "unidades": ["mg", "Kg"],
         "dosagem": [0.1, 1],
         "instrucao": "dose habitual para intubação orotraqueal com bloqueador neuromuscular.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [0.3, 1],
         "instrucao": "dose máxima habitual para intubação orotraqueal com bloqueador neuromuscular.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "Kg", "h"],
         "dosagem": [0.03, 1, 1],
         "instrucao": "manutenção.",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [0.2, 1],
         "instrucao": "dose para interrupção de crise convulsiva em pediatria.",
-        "via": "intravenoso ou intramuscular"
+        "via": "intravenosa ou intramuscular"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [0.5, 1],
         "instrucao": "dose máxima para interrupção de crise convulsiva em pediatria.",
-        "via": "intravenoso ou intramuscular"
+        "via": "intravenosa ou intramuscular"
       },
       {
         "unidades": ["mg"],
@@ -2261,7 +2285,7 @@
       {
         "unidades": ["mg"],
         "dosagem": [5],
-        "instrucao": "dose de bolo intravenoso em agitação, ansiólise, abstinência. Na abstinência, repetir a dose de forma espaçada até encontrar sedação desejada.",
+        "instrucao": "dose de bolo intravenosa em agitação, ansiólise, abstinência. Na abstinência, repetir a dose de forma espaçada até encontrar sedação desejada.",
         "via": "intravenosa"
       }
     ],
@@ -2292,13 +2316,13 @@
         "unidades": ["mg", "g"],
         "dosagem": [3, ""], 
         "instrucao": "uso tópico",
-        "via": "intravenoso"
+        "via": "intravenosa"
       },
       {
         "unidades": ["mg", "g"],
         "dosagem": [5, 1], 
         "instrucao": "uso tópico",
-        "via": "intravenoso"
+        "via": "intravenosa"
       }
     ],
     "obs": [

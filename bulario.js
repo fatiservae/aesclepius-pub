@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
           indexUnidades--
         };
 
-        dose.innerHTML += " "+posologia.via;
+        dose.innerHTML += " via "+posologia.via;
         dose.style.color = "var(--corTermo)";
 
         let instrucao = document.createElement('p');
