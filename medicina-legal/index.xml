@@ -7159,26 +7159,6 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 ## O eletrocardiograma normal adulto
 ## O eletrocardiograma normal pediátrico 
 --&gt;
-&lt;h2 id=&#34;padrão-wellens&#34;&gt;Padrão Wellens&lt;/h2&gt;
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/wellens.jpg&#34;&gt;
-      &lt;figcaption&gt; &lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
-&lt;h3 id=&#34;critérios&#34;&gt;Critérios&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Ondas T bifásicas ou simétricas e invertidas em V2 e V3. Pode ou não haver em V1, V4, V5 e V6.&lt;/li&gt;
-&lt;li&gt;Ausência de ondas Q patológicas.&lt;/li&gt;
-&lt;li&gt;Ondas R no plano horizontal (V1-V6) com progressão normal.&lt;/li&gt;
-&lt;li&gt;Supradesnivelamento do segmento ST pequeno ou ausente.&lt;/li&gt;
-&lt;li&gt;Sem indicadores de necrose miocárdica.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;significado&#34;&gt;Significado&lt;/h3&gt;
-&lt;p&gt;Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.&lt;/p&gt;
 &lt;h2 id=&#34;arritmias-atriais&#34;&gt;Arritmias atriais&lt;/h2&gt;
 &lt;h3 id=&#34;fibrilação-atrial&#34;&gt;Fibrilação atrial&lt;/h3&gt;
 &lt;ul&gt;
@@ -7522,21 +7502,56 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 &lt;h2 id=&#34;achados-isquêmicos&#34;&gt;Achados isquêmicos&lt;/h2&gt;
 &lt;h3 id=&#34;alterações-de-repolarização&#34;&gt;Alterações de repolarização&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h3 id=&#34;infradesnivelamento-de-st&#34;&gt;Infradesnivelamento de ST&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h3 id=&#34;supradesnivelamento-de-st&#34;&gt;Supradesnivelamento de ST&lt;/h3&gt;
-&lt;h4 id=&#34;padrão-de-ascenção-côncava-para-baixo-ou-feliz&#34;&gt;Padrão de ascenção côncava para baixo ou &amp;ldquo;feliz&amp;rdquo;&lt;/h4&gt;
-&lt;p&gt;Indica início de infarto miocárdico ou alterações não isquêmicas na topografia da derivação ou globais, como alterações eletrolíticas.
+&lt;p&gt;O ponto $J$ se desnivela acima da linha de base em $V2$ e $V3$:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Em mulheres, pelo menos 1,5mm;&lt;/li&gt;
+&lt;li&gt;Em homens com mais de 40 anos, mais que 2mm;&lt;/li&gt;
+&lt;li&gt;Em homens com menos de 40 anos, mais que 2,5mm;&lt;/li&gt;
+&lt;li&gt;Nas derivações de plano horizontal e em $V1$, $V4$ a $V6$, a elevação acima de 1mm em quaisquer destas, para quaisquer pessoas; e&lt;/li&gt;
+&lt;li&gt;Para derivações $V3R, V4R$ e $V7$ a $V9$, quaisquer desnivelamentos de pelo menos 0,5mm em todos indivíduos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;padrão-wellens&#34;&gt;Padrão Wellens&lt;/h3&gt;
+&lt;p&gt;Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.&lt;/p&gt;
 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
-      &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para baixo.&lt;/figcaption&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/wellens.jpg&#34;&gt;
+      &lt;figcaption&gt; &lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ondas T bifásicas ou simétricas e invertidas em $V2$ e $V3$. Pode ou não haver em V1, V4, V5 e V6.&lt;/li&gt;
+&lt;li&gt;Ausência de ondas Q patológicas.&lt;/li&gt;
+&lt;li&gt;Ondas R no plano horizontal (V1-V6) com progressão normal.&lt;/li&gt;
+&lt;li&gt;Supradesnivelamento do segmento ST pequeno ou ausente.&lt;/li&gt;
+&lt;li&gt;Sem indicadores de necrose miocárdica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;padrão-winter&#34;&gt;Padrão Winter&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger [1]&lt;/h3&gt;
+&lt;p&gt;Um infarto de parede inferior se dá sem configuração tradicional de infarto com supra. Além disso, a afecção de circunflexa e padrões de infarto difuso também apresentam correlação com o padrão.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supra isolado de $III$;&lt;/li&gt;
+&lt;li&gt;Infra concomitante em qualquer derivação de $V4$ a $V6$ com onda $T$ ou final da onda $T$ positiva; e&lt;/li&gt;
+&lt;li&gt;$\overline{ST}$ em $V1$ mais alto do que em $V2$.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/aslanger.jpg&#34;&gt;
+      &lt;figcaption&gt; &lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h3 id=&#34;isquemia-circunferencial&#34;&gt;Isquemia circunferencial&lt;/h3&gt;
-&lt;p&gt;Supradesnivelamento de $ST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
+&lt;p&gt;Supradesnivelamento de $\overlineST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
 
  
 &lt;div class=&#34;carouselcircunf&#34;&gt;
@@ -7625,6 +7640,17 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
   &lt;/script&gt;
 
 
+&lt;h3 id=&#34;padrão-de-ascenção-côncava-para-baixo-ou-feliz&#34;&gt;Padrão de ascenção côncava para baixo ou &amp;ldquo;feliz&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Indica início de infarto miocárdico ou alterações não isquêmicas na topografia da derivação ou globais, como alterações eletrolíticas.
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
+      &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para baixo.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;inversão-fisiológica-de-ondas-t&#34;&gt;Inversão fisiológica de ondas T&lt;/h2&gt;
 &lt;p&gt;É possível o achado de ondas T precordias invertidas, principalmente em mulheres jovens e atletas.&lt;/p&gt;
 
@@ -7651,6 +7677,10 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;br&gt;
 &lt;br&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/li&gt;
@@ -8282,6 +8312,47 @@ $$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
 &lt;p id=resultadoTuboPed&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=../calcTuboPed.js&gt;&lt;/script&gt;
+&lt;!--
+Cânula = 3,5 + idade / 4
+Até 1 ano: 3 / até 2 anos: 3,5
+
+Pré - Oxigenação 
+- Respiração espontânea: MNR, 7 L/min, Fi 100%
+- Apenica: Bolsa-mascara 100% 1:2 - 1:3
+
+Pré - Tratamento 
+(Atropina 0.02mg/kg, max 1mg, IV ou IM)
+- Criança &lt; 1 ano 
+- Choque 
+- Criança &lt; 5 anos, com Succinilcolina 
+- 2a dose de Succinilcolina (causa bradicardia)
+
+Indução / Sedação 
+- Etomidato 0,3 mg/kg IV
+   Não usar para choque séptico 
+- Ketamina 1 - 2 mg/kg IV ou 3 - 7 mg/kg IM
+   Não usar na suspeita de HIC
+- Propofol 1 - 1,5 mg/kg IV
+   Não usar em Instabilidade Hemodinâmica 
+- Midazolam 0,2 - 0,3 mg/kg, Max 10 mg
+   Não usar em Instabilidade Hemodinâmica 
+   Demora 2 a 3 minutos 
+
+Paralítico (1 a 2 minutos pós Sedativo)
+- Rocuronio 1 mg/kg
+   Antídoto: sugammadex 
+- Succinilcolina 1 - 1,5 mg/kg (2 mg/kg se &lt; 5 anos)
+                            4 mg/kg se for IM
+   CI: risco de rabdomiólise ou HiperCalemia (queimados, lesão por esmagamento, ...)
+
+Intubação (1 minuto pós Paralítico)
+
+Instabilidade 
+D - Deslocamento do tubo
+O - Obstrução da Cânula 
+P - Pneumotórax 
+E - Equipamento falho
+--&gt;
 </description>
 	</item>
 	
