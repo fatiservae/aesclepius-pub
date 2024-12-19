@@ -802,7 +802,7 @@ K --&gt; L[Colposcopia em 60 dias];
 	</item>
 	
 	<item>
-		<title>Prostatopatias</title>
+		<title>Testículo e prostatopatias</title>
 		<link>https://www.aesclepius.com.br/prostatopatias/</link>
 		<pubDate>Fri, 20 Sep 2024 16:31:48 -0300</pubDate>
 		
@@ -838,6 +838,25 @@ K --&gt; L[Colposcopia em 60 dias];
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;rastreio-por-antígeno-prostático-específico-psa&#34;&gt;Rastreio por antígeno prostático específico (PSA)&lt;/h2&gt;
+&lt;p&gt;Guidelines americanos e europeus recomendam &lt;strong&gt;não&lt;/strong&gt; se solicitar PSA para pacientes com mais de 70-75 anos ou expectativa de vida menor que 15 anos.&lt;/p&gt;
+&lt;h2 id=&#34;manejo&#34;&gt;Manejo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Doxasozina&lt;/strong&gt;: um anti-hipertensivo com ação alfa-bloqueadora com efeitos relaxantes sobre a próstata e da bexiga.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finasterida&lt;/strong&gt;: inibidor da enzima conversora de testosterona em sua forma di-hidrotestosterona, a 5-alfa-redutase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;emergências-testiculares&#34;&gt;Emergências testiculares.&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;manejo-1&#34;&gt;Manejo&lt;/h3&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
+      &lt;figcaption&gt;Exemplo de suspensório caseiro para alívio de dor exacerbada pelo efeito gravitacional&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 </description>
 	</item>
 	
@@ -1697,7 +1716,7 @@ quinta --&gt; 9(Ceftarolina);
 &lt;rect x=&#34;-450&#34; y=&#34;-405&#34; width=&#34;900&#34; height=&#34;900&#34; fill=&#34;none&#34;/&gt;
 &lt;g fill=&#34;none&#34; stroke=&#34;var(--fonte)&#34; stroke-width=&#34;1.25&#34;&gt;
 &lt;circle r=&#34;315&#34; fill=&#34;none&#34;/&gt;
-&lt;rect x=&#34;-114.38&#34; y=&#34;397.9&#34; width=&#34;228.76&#34; height=&#34;86.2&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;rect x=&#34;-114.38&#34; y=&#34;397.9&#34; width=&#34;180&#34; height=&#34;86.2&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;g stroke-width=&#34;.63&#34;&gt;
 &lt;path id=&#34;radial&#34; d=&#34;M-315 0h630M0-315v630&#34;/&gt;
 &lt;g id=&#34;radial2&#34;&gt;
@@ -1726,16 +1745,16 @@ quinta --&gt; 9(Ceftarolina);
 &lt;/g&gt;
 &lt;/g&gt;
 &lt;/g&gt;
-&lt;g font-family=&#34;DejaVu Sans Condensed&#34; font-size=&#34;15&#34; stroke=&#34;var(--fonte)&#34; fill=&#34;var(--fonte)&#34;&gt;
+&lt;g font-family=&#34;fira Sans&#34; font-size=&#34;15&#34; stroke=&#34;var(--fonte)&#34; fill=&#34;var(--fonte)&#34;&gt;
 &lt;text x=&#34;56&#34; y=&#34;-4&#34;&gt;0.5&lt;/text&gt;
 &lt;text x=&#34;108.2&#34; y=&#34;-10.8&#34;&gt;1.0&lt;/text&gt;
 &lt;text x=&#34;160.4&#34; y=&#34;-17.6&#34;&gt;1.5&lt;/text&gt;
 &lt;text x=&#34;212.6&#34; y=&#34;-24.4&#34;&gt;2.0&lt;/text&gt;
 &lt;text x=&#34;264.8&#34; y=&#34;-31.2&#34;&gt;2.5&lt;/text&gt;
-&lt;text x=&#34;317&#34; y=&#34;-38&#34;&gt;3.0&lt;/text&gt;
-&lt;text x=&#34;-56&#34; y=&#34;419&#34;&gt;Dano social (média)&lt;/text&gt;
-&lt;text x=&#34;-56&#34; y=&#34;445.94&#34;&gt;Dependência (média)&lt;/text&gt;
-&lt;text x=&#34;-56&#34; y=&#34;472.88&#34;&gt;Dano físico (média)&lt;/text&gt;
+&lt;text x=&#34;317&#34; y=&#34;-38&#34;&gt;3.0 (score médio)&lt;/text&gt;
+&lt;text x=&#34;-56&#34; y=&#34;419&#34;&gt;Dano social&lt;/text&gt;
+&lt;text x=&#34;-56&#34; y=&#34;445.94&#34;&gt;Dependência&lt;/text&gt;
+&lt;text x=&#34;-56&#34; y=&#34;472.88&#34;&gt;Dano físico&lt;/text&gt;
 &lt;text x=&#34;107&#34; y=&#34;-323&#34;&gt;Álcool&lt;/text&gt;
 &lt;text x=&#34;203&#34; y=&#34;-275&#34;&gt;Metadona de rua&lt;/text&gt;
 &lt;text x=&#34;280&#34; y=&#34;-198&#34;&gt;Barbitúricos&lt;/text&gt;
@@ -7148,10 +7167,10 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 	
 	<item>
 		<title>Eletrocardiograma</title>
-		<link>https://www.aesclepius.com.br/ecg/</link>
+		<link>https://www.aesclepius.com.br/eletrocardiograma/</link>
 		<pubDate>Fri, 22 Mar 2024 16:15:54 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/ecg/</guid>
+		<guid>https://www.aesclepius.com.br/eletrocardiograma/</guid>
 		<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Este é um compêndio e exemplos de eletrocardiogramas de condições incomuns.&lt;/p&gt;
 &lt;!--
@@ -7159,6 +7178,17 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 ## O eletrocardiograma normal pediátrico 
 --&gt;
 &lt;h2 id=&#34;arritmias-atriais&#34;&gt;Arritmias atriais&lt;/h2&gt;
+&lt;h3 id=&#34;fenômeno-de-ashman&#34;&gt;Fenômeno de Ashman&lt;/h3&gt;
+&lt;p&gt;$QRS$s alargados, com morfologia de BRD que aparecem com $\overline{RR}$ curto se comparado ao prévio. Pode se apresentar em quaisquer arritmias, porém é mais comum na fibrilação atrial.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/ashman.jpeg&#34;&gt;
+      &lt;figcaption&gt;Exemplo real de paciente com fibrilação atrial. Note a morfologia de BRD&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h3 id=&#34;fibrilação-atrial&#34;&gt;Fibrilação atrial&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;$QRS$ estreito;&lt;/li&gt;
@@ -7534,7 +7564,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;h3 id=&#34;padrão-winter&#34;&gt;Padrão Winter&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger [1]&lt;/h3&gt;
-&lt;p&gt;Um infarto de parede inferior se dá sem configuração tradicional de infarto com supra. Além disso, a afecção de circunflexa e padrões de infarto difuso também apresentam correlação com o padrão.&lt;/p&gt;
+&lt;p&gt;Um infarto transmural de parede inferior sem configuração tradicional de infarto com supra.&lt;/p&gt;
+&lt;p&gt;Além disso, o comprometimento de circunflexa e outros infartos difusos também podem apresentar correlação com o padrão.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Supra isolado de $III$;&lt;/li&gt;
 &lt;li&gt;Infra concomitante em qualquer derivação de $V4$ a $V6$ com onda $T$ ou final da onda $T$ positiva; e&lt;/li&gt;
@@ -7545,12 +7576,12 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
   &lt;div id=&#34;img-div&#34;&gt;
     &lt;img src=&#34;../pix/medicina/ecg/aslanger.jpg&#34;&gt;
-      &lt;figcaption&gt; &lt;/figcaption&gt;
+      &lt;figcaption&gt;Aslanger típico.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h3 id=&#34;isquemia-circunferencial&#34;&gt;Isquemia circunferencial&lt;/h3&gt;
-&lt;p&gt;Supradesnivelamento de $\overlineST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
+&lt;p&gt;Supradesnivelamento de $\overline{ST}$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
 
  
 &lt;div class=&#34;carouselcircunf&#34;&gt;

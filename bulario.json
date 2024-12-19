@@ -343,6 +343,7 @@
 			}
 		],
 		"obs": [
+			"No manejo de hiperplasia prostática, é possível usar a dose dobrada à noite, associada ou não a finasterida.",
 			"Cuidado ao prescrever para pacientes hipo ou normotensos, tendo em vista efeito hipotensor."
 		]
 	},
@@ -1267,6 +1268,25 @@
       "antidepressivo com menor ganho de peso associado."
     ]
   },
+	{
+		"nome": ["fenitoína", "Hidantal"],
+		"class": ["anticonvulsivantes", "antiepiléticos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [300, 1],
+				"via": "oral",
+				"instrucao": "dose adulta tradicional para convulsões pós-operatório ou no diagnóstico de epilepsia."
+			},
+			{
+				"unidades": ["mg", "kg", "dia"],
+				"dosagem": ["4 a 8", 1, 1],
+				"via": "oral",
+				"instrucao": "dose pediátrica. Crianças acima de 6 anos podem requerer a dose adulta habitual após falha terapêutica."
+			}
+		],
+		"obs": ["o uso em gestantes leva ao quadro da síndrome hidantoína fetal."]
+	},
   {
     "nome": ["haloperidol", "Haldol"],
     "class": ["antipsicóticos clássicos ou típicos"],
@@ -1286,7 +1306,7 @@
     ],
     "obs": [
 			"Pode ser usado em gestantes.",
-      "Na combinação com prometazina, evitar repetir a prometazina em todas repetições de haloperidol",
+      "Na combinação com prometazina, evitar repetir a prometazina em todas repetições de haloperidol.",
       "Para pacientes em uso contínuo de haloperidol ou impregnados, sempre associar prometazina se não houver contraindicação.",
       "Pode causar síndrome neuroléptica maligna."
     ]
@@ -1937,8 +1957,18 @@
     ]
   },
   {
-    "nome": ["tansulosina"]
-  },
+    "nome": ["tansulosina com dutasterida", "Combodart", "Dutam"],
+		"class": ["alfabloqueadores", "inibidores de 5-alfa-redutase"],
+		"posologias": [
+			{
+				"unidades": ["mg+mg", "dia"],
+				"dosagem": ["0.5+0.4", 1],
+				"via": "oral",
+				"instrucao": "tomar sempre 30min antes da mesma refeição."
+			}
+		],
+		"obs": ["As medicações alcançam sinergismo no mesmo efeito alfabloqueador por mecanismos distintos."]
+	},
   {
     "nome": ["dopamina"]
   },
