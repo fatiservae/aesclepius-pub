@@ -1,5 +1,28 @@
 [
 	{
+		"nome": ["tiabendazol", "Foldan"],
+		"class": ["antifúngicos", "antiparasitários"],
+		"posologias": [
+			{
+				"unidades": ["x", "dia"],
+				"dosagem": [3, 1],
+				"via": "tópica"
+			}
+		]
+	},
+	{
+		"nome": ["sacubitril com valsartana", "Entresto"],
+		"class": ["inibidores de neprilisina", "bloqueadores de receptores de angiotensina"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": ["100 a 400", 1],
+				"via": "oral",
+				"instrucao": "dividir a dose <i>bis in die</i>."
+			}
+		]
+	},
+	{
 		"nome": ["dexpantenol", "Bepantol"],
 		"class": ["hidratantes", "vitaminas"],
 		"posologias": [
@@ -81,7 +104,7 @@
 				"unidades": ["g", "bisnaga"],
 				"dosagem":  [300, 1],
 				"via": "tópico",
-				"instrucao": "aplicar três vezes no dia sobre áreas de flebite, edema local, contusões, luxações e artroartries diversas."
+				"instrucao": "aplicar <i>ter in die</i> sobre áreas de flebite, edema local, contusões, luxações e artroartries diversas."
 			}
 		]
 	},
