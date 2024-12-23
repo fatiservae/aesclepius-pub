@@ -840,7 +840,9 @@ K --&gt; L[Colposcopia em 60 dias];
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;rastreio-por-antígeno-prostático-específico-psa&#34;&gt;Rastreio por antígeno prostático específico (PSA)&lt;/h2&gt;
+&lt;p&gt;Não há guideline com indicação de rastreio para câncer de próstata.&lt;/p&gt;
 &lt;p&gt;Guidelines americanos e europeus recomendam &lt;strong&gt;não&lt;/strong&gt; se solicitar PSA para pacientes com mais de 70-75 anos ou expectativa de vida menor que 15 anos.&lt;/p&gt;
+&lt;p&gt;O PSA se eleva por diversos motivos, inclusive o câncer.&lt;/p&gt;
 &lt;h2 id=&#34;manejo&#34;&gt;Manejo&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Doxasozina&lt;/strong&gt;: um anti-hipertensivo com ação alfa-bloqueadora com efeitos relaxantes sobre a próstata e da bexiga.&lt;/li&gt;
@@ -6763,10 +6765,10 @@ oedema.&lt;/p&gt;
 	
 	<item>
 		<title>Insuficiência cardíaca</title>
-		<link>https://www.aesclepius.com.br/icc/</link>
+		<link>https://www.aesclepius.com.br/insuficiencia-cardiaca/</link>
 		<pubDate>Fri, 29 Mar 2024 09:48:00 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/icc/</guid>
+		<guid>https://www.aesclepius.com.br/insuficiencia-cardiaca/</guid>
 		<description>&lt;h2 id=&#34;icc-nova-vs-doença-descompensada&#34;&gt;ICC nova vs. doença descompensada&lt;/h2&gt;
 &lt;p&gt;O paciente com ICC nova, diagnosticada na emergência se apresenta com sintomatologia mais pulmonar, &lt;strong&gt;como dispneia, asculta grosseira ou com creptação e dessaturação periférica&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, aquele que já tem diagnóstico e descompensa tem sinais sistêmicos como edemas, congestão generalizada e hipervolemia. Também traz história compatível, como:&lt;/p&gt;
@@ -6839,6 +6841,14 @@ oedema.&lt;/p&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;classificação-por-fração-de-ejeção&#34;&gt;Classificação por fração de ejeção&lt;/h2&gt;
+&lt;h3 id=&#34;preservada&#34;&gt;Preservada&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;reduzida&#34;&gt;Reduzida&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prescrição&lt;/strong&gt;: Sacubitril com valsartana.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;manejo-imediato&#34;&gt;Manejo imediato&lt;/h2&gt;
 &lt;p&gt;
  
@@ -6925,9 +6935,32 @@ oedema.&lt;/p&gt;
 &lt;h3 id=&#34;terapia-diurética&#34;&gt;Terapia diurética&lt;/h3&gt;
 &lt;h3 id=&#34;vasodilatação&#34;&gt;Vasodilatação&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Vasodilate o paciente o máximo tolerável pela estabilidade hemodinâmica.
-Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
+&lt;p&gt;Vasodilate o paciente o máximo tolerável pela estabilidade hemodinâmica.&lt;/p&gt;
+&lt;p&gt;Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&#34;calculadora-de-score-adhere-2&#34;&gt;Calculadora de score ADHERE [2]&lt;/h3&gt;
+&lt;p&gt;Ao internar o paciente com insuficiência cardíaca, estime sua mortalidade para ajuste de condutas, expectativas e orientações. O &lt;em&gt;score&lt;/em&gt; validado é o Acute Decompensated Heart Failure National Registry (ADHERE).&lt;/p&gt;
+&lt;div class=calculadoras&gt;
+    &lt;label for=bun&gt;Nitrogênio ureico&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number placeholder=mg/dL id=bun required&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=pa&gt;Pressão sistólica&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number placeholder=mmHg id=pa required&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=cr&gt;Creatinina&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number placeholder=mg/dL id=cr required&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;p id=resultadoADHERE&gt;&lt;/p&gt;
+    &lt;button style=&#34;display:none;&#34; id=buttonCopiarADHERE onclick=copiarADHERE()&gt;Copiar resultado&lt;/button&gt;
+    &lt;br&gt;
+    &lt;button onclick=adhere()&gt;Calcular&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=../../adhere.js&gt;&lt;/script&gt;
 &lt;h2 id=&#34;conduta-concomitante-e-alta&#34;&gt;Conduta concomitante e alta&lt;/h2&gt;
 &lt;p&gt;Considere:&lt;/p&gt;
 &lt;ol&gt;
@@ -6947,6 +6980,7 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Rohde LEP, Montera MW, Bocchi EA, Clausell NO, Albuquerque DC, Rassi S, Colafranceschi AS, et al. &lt;strong&gt;Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda&lt;/strong&gt;. Arq. Bras. Cardiol. 2018;111(3):436-59.&lt;/li&gt;
+&lt;li&gt;Rey, H., Rangel, F., Bittencourt, M. et al. &lt;strong&gt;Validation of the ADHERE model for risk stratification in patients with acute heart failure admitted to the critical care unit&lt;/strong&gt;. Crit Care 9 (Suppl 2), P35 (2005). &lt;a href=&#34;https://doi.org/10.1186/cc3579&#34;&gt;https://doi.org/10.1186/cc3579&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -7405,6 +7439,17 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     &lt;/img&gt;
   &lt;/div&gt;
 
+&lt;h2 id=&#34;ritmo-juncional&#34;&gt;Ritmo juncional&lt;/h2&gt;
+&lt;p&gt;Na ausência de ritmo predominante do nó sinoatrial, pode ocorrer do nó atrioventricular, &lt;strong&gt;da região de junção entre câmaras superiores e inferiores&lt;/strong&gt;, assumir a regulagem cardíaca, com uma frequência caracteristicamente baixa de mais ou menos 40 a 60bpm, débito cardíaco existente mas reduzido e sintomas gerais de baixo débito. Na verdade, pode ser confundido com bloqueio grau 3. O manejo pode ser feito como bradicardia instável, com uso de atropina em bomba, adrenalina ou marca-passo.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/juncional.jpg&#34;&gt;
+      &lt;figcaption&gt;Note em precordiais V2 a V4 esboços de ondas P perdidas. Entretanto, este traçado não consegue fechar um bloqueio de 3 grau, com ritmo assumido pelo nó atrioventricular. A frequência gira em torno dos 35 a 40bpm.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h2 id=&#34;bloqueios-de-ramos&#34;&gt;Bloqueios de ramos&lt;/h2&gt;
 &lt;h3 id=&#34;esquerdo&#34;&gt;Esquerdo&lt;/h3&gt;
 &lt;p&gt;Não há negatividade de V6.&lt;/p&gt;
@@ -7682,7 +7727,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     &lt;/img&gt;
   &lt;/div&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;inversão-fisiológica-de-ondas-t&#34;&gt;Inversão fisiológica de ondas T&lt;/h2&gt;
+&lt;h2 id=&#34;achados-diversos&#34;&gt;Achados diversos&lt;/h2&gt;
+&lt;h3 id=&#34;inversão-fisiológica-de-ondas-t&#34;&gt;Inversão fisiológica de ondas T&lt;/h3&gt;
 &lt;p&gt;É possível o achado de ondas T precordias invertidas, principalmente em mulheres jovens e atletas.&lt;/p&gt;
 
 
@@ -7693,13 +7739,24 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     &lt;/img&gt;
   &lt;/div&gt;
 
-&lt;h2 id=&#34;marca-passo&#34;&gt;Marca-passo&lt;/h2&gt;
+&lt;h3 id=&#34;marca-passo&#34;&gt;Marca-passo&lt;/h3&gt;
 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
     &lt;img src=&#34;../../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
       &lt;figcaption&gt;Espículas pequenas precedendo QRSs efetivos.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+&lt;h3 id=&#34;sinal-de-crochetage&#34;&gt;Sinal de Crochetage&lt;/h3&gt;
+&lt;p&gt;Indica comunicação entre átrios e trata-se de um entalhe no topo das ondas $R$ de derivações inferiores.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/crochetage.jpg&#34;&gt;
+      &lt;figcaption&gt;Topo de onda R entalhada em aVF em paciente com comunicação iteratrial conhecida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
 

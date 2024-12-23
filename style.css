@@ -160,7 +160,7 @@ a:hover{
   border-radius: var(--borderRadius);
 }
 #search-output li::marker{
-  content: none;
+  content: " - ";
 }
 
 #artlist {
@@ -686,18 +686,21 @@ pre, blockquote {
   border-left: 1px solid var(--headingsColor); 
   background: var(--vidro);
   border-radius: var(--borderRadius);
+  font-style: italic;
 }
 p code {
   border: none;
 }
 
 @keyframes blinkEmConstrucao {
-  0% { color: black };
-  50% { color: pink };
-  100% { color: red };
+  0% { color: black; background: red};
+  50% { color: pink; background: #333};
+  100% { color: red; background: black};
 }
 .emConstrucao {
   font-weight: bold;
+}
+.emConstrucao span{
   animation: blinkEmConstrucao 2s infinite;
 }
 
