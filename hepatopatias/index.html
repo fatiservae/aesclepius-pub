@@ -9,7 +9,8 @@
   <link rel='alternate' type='application/rss+xml' title="Aesclepius RSS" href='../index.xml'>
   <link rel='stylesheet' type='text/css' href='../style.css'>
   <link rel="icon" href="../favicon.webp">
-  <meta name="description" content="Hepatites Virais
+  <meta name="description" content="
+Hepatites Virais
 Sistema de decisão em hepatite B [1]
 
     Marque os exames positivados
@@ -25,7 +26,6 @@ Sistema de decisão em hepatite B [1]
     Calcular
     
     
-
 
 Cirrose
 Child-Pugh Score [2][3]
@@ -126,7 +126,7 @@ Child-Pugh Score [2][3]
       <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/febre-reumatica/">Febre reumática</a></li>
       <li data-tags=""><a href="https://www.aesclepius.com.br/medicina-legal/docs/">Documentos em medicina legal</a></li>
       <li data-tags=""><a href="https://www.aesclepius.com.br/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
-      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatites/">Hepatopatias</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatopatias/">Hepatopatias</a></li>
       <li data-tags="[medicina perícias penal]"><a href="https://www.aesclepius.com.br/autopsias/">Autópsias</a></li>
       <li data-tags="[direito medicina penal]"><a href="https://www.aesclepius.com.br/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
       <li data-tags="[medicina direito penal ciência]"><a href="https://www.aesclepius.com.br/medicina-legal/morte-legal/">Tanatologia forense</a></li>
@@ -187,7 +187,8 @@ Child-Pugh Score [2][3]
   
   
   
-    <h2 id="hepatites-virais">Hepatites Virais</h2>
+    <script src="../hepatopatias.js"></script>
+<h2 id="hepatites-virais">Hepatites Virais</h2>
 <h3 id="sistema-de-decisão-em-hepatite-b-1">Sistema de decisão em hepatite B [1]</h3>
 <div class=calculadoras>
     <p>Marque os exames positivados</p>
@@ -204,18 +205,17 @@ Child-Pugh Score [2][3]
     <br>
     <p id=resultadoHepB></p>
 </div>
-<script src="../hepatites.js"></script>
 <h2 id="cirrose">Cirrose</h2>
 <h3 id="child-pugh-score-23">Child-Pugh Score [2][3]</h3>
 <div class="calculadoras">
     <label for=cpsBr>Bilirrubina total</label>
     <br>
-    <input type=number id=cpsBr required></input>
+    <input type=number id=cpsBr placeholder="mg/dL" required></input>
     <br>
     <br>
     <label for=cpsAb>Albumina</label>
     <br>
-    <input type=number id=cpsAb required></input>
+    <input type=number id=cpsAb placeholder=g/dL required></input>
     <br>
     <br>
     <label for=cpsInr>International Normalized Ratio</label>
@@ -246,13 +246,15 @@ Child-Pugh Score [2][3]
         IV: coma, decerebração.
     </p>
     <br>
-    <button onclick="calcularCPS()">Calcular</button>
+    <button onclick="childPugh()">Calcular</button>
     <br>
     <p id=resultadoCPS></p>
 </div>
+<h2 id="transplante">Transplante</h2>
+<p>Em breve: critérios de Kings College.
 <br>
 <br>
-<br>
+<br></p>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>

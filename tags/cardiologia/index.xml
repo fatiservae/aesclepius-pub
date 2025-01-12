@@ -179,6 +179,15 @@
 		<description>&lt;h2 id=&#34;o-que-é-sepse&#34;&gt;O que é sepse&lt;/h2&gt;
 &lt;h2 id=&#34;choque-séptico&#34;&gt;Choque séptico&lt;/h2&gt;
 &lt;h3 id=&#34;diagnóstico&#34;&gt;Diagnóstico&lt;/h3&gt;
+&lt;h4 id=&#34;procalcitonina&#34;&gt;Procalcitonina&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Inferior a 0,5 ng/mL
+• Baixo risco de progressão para septicemia.Caso seja clinicamente indicado, considerar nova dosagem depois de 6 a 24 horas.&lt;/li&gt;
+&lt;li&gt;De 0,5 a &amp;lt;2,0 ng/mL
+• Risco moderado de progressão para septicemia.Recomenda-se repetição do exame depois de 6 a 24 horas.&lt;/li&gt;
+&lt;li&gt;De 2,0 a &amp;lt;10,0 ng/mL
+• Alto risco de progressão para septicemia.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;abordagem-imediata&#34;&gt;Abordagem imediata&lt;/h3&gt;
 &lt;h4 id=&#34;hipovolemia-ou-colapso-distributivo&#34;&gt;Hipovolemia ou colapso distributivo&lt;/h4&gt;
 &lt;h4 id=&#34;vasoplegia&#34;&gt;Vasoplegia&lt;/h4&gt;
@@ -2258,11 +2267,12 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 	
 	<item>
 		<title>Hepatopatias</title>
-		<link>https://www.aesclepius.com.br/hepatites/</link>
+		<link>https://www.aesclepius.com.br/hepatopatias/</link>
 		<pubDate>Wed, 08 May 2024 11:54:37 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/hepatites/</guid>
-		<description>&lt;h2 id=&#34;hepatites-virais&#34;&gt;Hepatites Virais&lt;/h2&gt;
+		<guid>https://www.aesclepius.com.br/hepatopatias/</guid>
+		<description>&lt;script src=&#34;../../hepatopatias.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;hepatites-virais&#34;&gt;Hepatites Virais&lt;/h2&gt;
 &lt;h3 id=&#34;sistema-de-decisão-em-hepatite-b-1&#34;&gt;Sistema de decisão em hepatite B [1]&lt;/h3&gt;
 &lt;div class=calculadoras&gt;
     &lt;p&gt;Marque os exames positivados&lt;/p&gt;
@@ -2279,18 +2289,17 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
     &lt;br&gt;
     &lt;p id=resultadoHepB&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;script src=&#34;../../hepatites.js&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;cirrose&#34;&gt;Cirrose&lt;/h2&gt;
 &lt;h3 id=&#34;child-pugh-score-23&#34;&gt;Child-Pugh Score [2][3]&lt;/h3&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
     &lt;label for=cpsBr&gt;Bilirrubina total&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=number id=cpsBr required&gt;&lt;/input&gt;
+    &lt;input type=number id=cpsBr placeholder=&#34;mg/dL&#34; required&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;br&gt;
     &lt;label for=cpsAb&gt;Albumina&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=number id=cpsAb required&gt;&lt;/input&gt;
+    &lt;input type=number id=cpsAb placeholder=g/dL required&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;br&gt;
     &lt;label for=cpsInr&gt;International Normalized Ratio&lt;/label&gt;
@@ -2321,13 +2330,15 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
         IV: coma, decerebração.
     &lt;/p&gt;
     &lt;br&gt;
-    &lt;button onclick=&#34;calcularCPS()&#34;&gt;Calcular&lt;/button&gt;
+    &lt;button onclick=&#34;childPugh()&#34;&gt;Calcular&lt;/button&gt;
     &lt;br&gt;
     &lt;p id=resultadoCPS&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;transplante&#34;&gt;Transplante&lt;/h2&gt;
+&lt;p&gt;Em breve: critérios de Kings College.
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -7278,6 +7289,19 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;li&gt;O flutter pode ser curado por meio da ablação por radiofrequência;&lt;/li&gt;
 &lt;li&gt;No flutter está &lt;mark&gt;contraindicado&lt;/mark&gt; a tentativa de reversão química, notadamente a amiodarona, porque o ritmo pode se converter em um mais lento ainda levando a instabilidade hemodinâmica.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;extrassístoles-supraventriculares&#34;&gt;Extrassístoles supraventriculares&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Complexos $\overline{QRS}$ de origem distintas, facilmente identificados por suas ondas $P$ distintas.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
+      &lt;figcaption&gt;Observe as diferentes ondas P precedendo diferentes QRSs&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h2 id=&#34;bloqueio-atrioventricular&#34;&gt;Bloqueio atrioventricular&lt;/h2&gt;
 &lt;h3 id=&#34;de-grau-1&#34;&gt;De grau 1&lt;/h3&gt;
 &lt;ul&gt;
@@ -7793,20 +7817,33 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
         &lt;th&gt;Benigna&lt;/th&gt;
         &lt;th&gt;Maligna&lt;/th&gt;
     &lt;thead&gt;
-        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Sanguíneos&lt;/th&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Medula óssea&lt;/th&gt;
     &lt;/thead&gt;
         &lt;tr&gt;
-            &lt;td&gt;Hematopoiéticas&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;Leucemias&lt;/td&gt;
+            &lt;td&gt;Blastos&lt;/td&gt;
+            &lt;td&gt;Mielodisplasias&lt;/td&gt;
+            &lt;td&gt;Leucemia aguda ou crônica&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td&gt;Tecido linfoide&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;Linfomas malignos&lt;/td&gt;
+            &lt;td&gt;Mieloproliferativas&lt;/td&gt;
+            &lt;td&gt;Trombocitose essencial e policitemia vera&lt;/td&gt;
+            &lt;td&gt;Mielofibrose&lt;/td&gt;
         &lt;/tr&gt;
     &lt;thead&gt;
-        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Endoteliais&lt;/th&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Sangue periférico&lt;/th&gt;
+    &lt;/thead&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Linfócitos T&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Linfomas cutis, anaplásico etc&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Linfócitos B&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Mielomas&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;thead&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Endotelial&lt;/th&gt;
     &lt;/thead&gt;
     &lt;tr&gt;
         &lt;td&gt;Sanguíneos&lt;/td&gt;
@@ -7819,7 +7856,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
         &lt;td&gt;Linfangiossarcoma&lt;/td&gt;
     &lt;/tr&gt;
     &lt;thead&gt;
-        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Musculares&lt;/th&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Muscular&lt;/th&gt;
     &lt;/thead&gt;
     &lt;tr&gt;
         &lt;td&gt;Liso&lt;/td&gt;
@@ -7926,7 +7963,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
         &lt;td&gt;Melanoma maligno&lt;/td&gt;
     &lt;/tr&gt;
     &lt;thead&gt;
-       &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Mistos&lt;/th&gt;
+       &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Mista&lt;/th&gt;
     &lt;/thead&gt;
     &lt;tr&gt;
         &lt;td&gt;Glândulas salivares&lt;/td&gt;
@@ -8905,6 +8942,14 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;li&gt;Apresentação anômala&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;rastreios&#34;&gt;Rastreios&lt;/h2&gt;
+&lt;h3 id=&#34;incompatibilidade-sanguínea&#34;&gt;Incompatibilidade sanguínea&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;saber se a gestante tinha coombs indireto positivo na primeira gestacao&lt;/li&gt;
+&lt;li&gt;saber se ela ja transfundiu, pode ser anticorpo adquirido apos transfusao&lt;/li&gt;
+&lt;li&gt;saber a fenotipagem do esposo, pra comparar se o anticorpo que esta surgindo pode ser do filho atual, pelo risco de doenca hemolitica perinatal&lt;/li&gt;
+&lt;li&gt;acompanhar titulacao desse coombs indireto&lt;/li&gt;
+&lt;li&gt;acompanhar o feto com doppler de arteria cerebral (saber se esta desenvolvendo anemia)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;diabetes-mellitus-gestacional&#34;&gt;Diabetes mellitus gestacional&lt;/h3&gt;
 &lt;p&gt;A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.&lt;/p&gt;
 &lt;h4 id=&#34;conduta&#34;&gt;Conduta&lt;/h4&gt;
