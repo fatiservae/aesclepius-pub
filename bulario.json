@@ -1,5 +1,50 @@
 [
 	{
+		"nome": ["pidolato de magnésio", "Pidomag"],
+		"class": ["antiarrítmicos", "suplemento vitamínico", "eletrólitos"],
+		"posologias": [
+			{
+				"unidades": ["g"],
+				"dosagem": ["1.5 a 3"],
+				"via": "oral",
+				"instrucao": "ideal para contexto de contraindicação de betabloqueadores"
+			}
+		]
+	},
+	{
+		"nome": ["hidratante a base de ureia"],
+		"class": ["hidratantes", "desodorantes"],
+		"posologias": [
+			{
+				"unidades": ["%"],
+				"dosagem":[10],
+				"via": "tópica"
+			}
+		]
+	},
+	{
+		"nome": ["hidratante a base de glicerina", "Neutrogena Norwegian"],
+		"class": ["hidratantes", "desodorantes"],
+		"posologias": [
+			{
+				"unidades": ["aplicações", "dia"],
+				"dosagem":["várias ", 1],
+				"via": "tópica"
+			}
+		]
+	},
+	{
+		"nome": ["hidratante restaurador de barreira", "Cetaphil Pro AD Restoraderm"],
+		"class": ["hidratantes", "desodorantes"],
+		"posologias": [
+			{
+				"unidades": ["aplicações", "dia"],
+				"dosagem":["várias ", 1],
+				"via": "tópica"
+			}
+		]
+	},
+	{
 		"nome": ["tiabendazol", "Foldan"],
 		"class": ["antifúngicos", "antiparasitários"],
 		"posologias": [
@@ -89,11 +134,13 @@
 				"unidades": ["mg", "g"],
 				"dosagem": [10, 1],
 				"via": "tópico",
-				"instrucao": "loção tópico padrão"
+				"instrucao": "aplicar sobre todo o corpo, evitando apenas as mucosas, com especial atenção para alcançar todas áreas de dobras."
 			}
 		],
 		"obs": [
-			"O uso de compostos de enxofre é autorizado por estudos em menores de 2 meses, da permetrina não. Porém seu uso <i>offlabel</i> é comumente aceito."
+			"O uso de compostos de enxofre é autorizado por estudos em menores de 2 meses, da permetrina não. Porém seu uso <i>offlabel</i> é comumente aceito.",
+			"Em crianças, evitar aplicar acima de 7.5ml até os 5 anos e de 15ml até os 12 anos.",
+			"O uso em gestantes é seguro."
 		]
 	},
 	{

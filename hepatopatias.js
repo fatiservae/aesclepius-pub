@@ -53,7 +53,7 @@ function calcularHepB() {
   }
 }
 
-function calcularCPS() {
+function childPugh() {
   let albumina = document.getElementById("cpsAb").value;
   let inr = document.getElementById("cpsInr").value;
   let bilirrubina = document.getElementById("cpsBr").value;
