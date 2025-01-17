@@ -1,5 +1,26 @@
 [
 	{
+		"nome": ["meropenem"],
+		"class": ["antibióticos", "carbapenêmicos", "beta-lactâmico"],
+		"posologias": [
+			{
+				"unidades": ["mg", "kg", "h"],
+				"dosagem": [60, 1, 1],
+				"via": "intravenosa",
+				"instrucao": "dose habitual <i>ter in die</i>."				
+			},
+			{
+				"unidades": ["mg", "kg", "h"],
+				"dosagem": [120, 1, 1],
+				"via": "intravenosa",
+				"instrucao": "dose habitual <i>ter in die</i> para meningite."				
+			}
+		],
+		"obs": [
+			"O clearence deve ser ajustado de acordo com a taxa de filtração glomerular. Para clearence entre 25-50% passar a <i>duo in die</i>, entre 10-25% meia dose em <i>bis in die</i> e caso inferior a isso, metade da dose uma vez ao dia."
+		]
+	},
+	{
 		"nome": ["pidolato de magnésio", "Pidomag"],
 		"class": ["antiarrítmicos", "suplemento vitamínico", "eletrólitos"],
 		"posologias": [
@@ -42,6 +63,33 @@
 				"dosagem":["várias ", 1],
 				"via": "tópica"
 			}
+		]
+	},
+	{
+		"nome": ["griseofulvina"],
+		"class": ["antifúngicos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": ["500-1000", 1],
+				"via": "oral",
+				"instrucao": "dose adulta média."
+			},
+			{
+				"unidades": ["mg", "Kg", "dia"],
+				"dosagem": ["10", 1],
+				"via": "oral",
+				"instrucao": "dose pediátrica."
+			},
+			{
+				"unidades": ["%"],
+				"dosagem": ["1-2"],
+				"via": "tópica",
+				"instrucao": "formulação tópica padrão."
+			}
+		],
+		"obs": [
+			"O tratamento pode perdurar por até doze meses."
 		]
 	},
 	{
@@ -1694,9 +1742,9 @@
     "class": ["analgésicos", "opidoides", "narcóticos"],
     "posologias": [
       {
-        "via": "VO",
-        "unidades": ["mg", "comprimido"],
-        "dosagem": ["5+2.5", 1] 
+        "via": "oral",
+        "unidades": ["mg", "h"],
+        "dosagem": ["5+2.5", 12] 
       }
     ],
     "obs": [
