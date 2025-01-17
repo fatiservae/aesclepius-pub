@@ -40,78 +40,6 @@
     "path": "Aulas e apresentações"
   },
   {
-    "name": "Boethius-Consolation-of-Philosophy.pdf",
-    "subjects": [
-      "Filosofia",
-      "Estoicismo"
-    ],
-    "size": "531.58 KB",
-    "path": "Filosofia/Estoicismo"
-  },
-  {
-    "name": "George-Stock-a-Guide-to-Stoicism.pdf",
-    "subjects": [
-      "Filosofia",
-      "Estoicismo"
-    ],
-    "size": "387.07 KB",
-    "path": "Filosofia/Estoicismo"
-  },
-  {
-    "name": "Meditations Marcus Aurelius.pdf",
-    "subjects": [
-      "Filosofia",
-      "Estoicismo"
-    ],
-    "size": "1.99 MB",
-    "path": "Filosofia/Estoicismo"
-  },
-  {
-    "name": "Erwin-Schrodinger-What-Is-Life-1944.pdf",
-    "subjects": [
-      "Filosofia",
-      "Filosofia da ciência"
-    ],
-    "size": "277.45 KB",
-    "path": "Filosofia/Filosofia da ciência"
-  },
-  {
-    "name": "Gigerenzer-Mindless-Statistics.pdf",
-    "subjects": [
-      "Filosofia",
-      "Filosofia da ciência"
-    ],
-    "size": "147.59 KB",
-    "path": "Filosofia/Filosofia da ciência"
-  },
-  {
-    "name": "Imposturas-Intelectuais.pdf",
-    "subjects": [
-      "Filosofia",
-      "Filosofia da ciência"
-    ],
-    "size": "14.08 MB",
-    "path": "Filosofia/Filosofia da ciência"
-  },
-  {
-    "name": "John-Gall-Systemantics.pdf",
-    "subjects": [
-      "Filosofia",
-      "Filosofia da ciência"
-    ],
-    "size": "11.34 MB",
-    "path": "Filosofia/Filosofia da ciência"
-  },
-  {
-    "name": "On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905.pdf",
-    "subjects": [
-      "Física",
-      "Teoria da Relatividade"
-    ],
-    "size": "242.25 KB",
-    "path": "Física/Teoria da Relatividade"
-  },
-  {
     "name": "dengue-manejo-adulto-crianca-5d.pdf",
     "subjects": [
       "Medicina",
@@ -253,21 +181,12 @@
     "path": "Medicina/Manuais médicos"
   },
   {
-    "name": "Medical-Algorithm-Diagnosis-Treatment.pdf",
-    "subjects": [
-      "Medicina",
-      "Manuais médicos"
-    ],
-    "size": "10.02 MB",
-    "path": "Medicina/Manuais médicos"
-  },
-  {
     "name": "modelo-historia-clinica.txt",
     "subjects": [
       "Medicina",
       "Manuais médicos"
     ],
-    "size": "2.46 KB",
+    "size": "3.30 KB",
     "path": "Medicina/Manuais médicos"
   },
   {
@@ -316,31 +235,464 @@
     "path": "Medicina/Pediatria"
   },
   {
-    "name": "NT35-2018-MS-Anquiloglossia.pdf",
+    "name": "anafilaxia-2016.pdf",
     "subjects": [
       "Medicina",
-      "Pediatria"
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
     ],
-    "size": "1.02 MB",
-    "path": "Medicina/Pediatria"
+    "size": "694.42 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
-    "name": "calculadora-nutricao-parenteral-pediatria.xlsx",
+    "name": "anemia-hemolitica-autoimune-2017.pdf",
     "subjects": [
       "Medicina",
-      "Pediatria"
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
     ],
-    "size": "69.89 KB",
-    "path": "Medicina/Pediatria"
+    "size": "610.88 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
-    "name": "calculadora-taxa-de-infusao-glicose-pediatria.xlsx",
+    "name": "avaliacao-sopro-cardiaco-2018.pdf",
     "subjects": [
       "Medicina",
-      "Pediatria"
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
     ],
-    "size": "30.54 KB",
-    "path": "Medicina/Pediatria"
+    "size": "918.78 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "choque-septico-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.15 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "consenso-anemia-ferropriva-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "586.60 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "consenso-anemia-ferropriva-2021.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.58 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "deficiencia-g6pd-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "804.90 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "dengue-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "4.03 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "dermatite-fraldas-sbp-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "5.13 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "diarreia-aguda-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "271.26 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "dislipidemia-crianca-adolescente-2020.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "790.69 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "doencas-hemorragicas-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.15 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "estridor-sbp-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "656.43 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "fimose-tratamento-clinico-cirurgico-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.01 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "higiene-do-sono-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "619.44 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "hiperbilirrubinemia-indireta-neonatal-2021.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "3.38 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "hipovitaminose-d-2016.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "640.78 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "infeccao-urinaria-2016.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.44 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "infeccao-urinaria-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "879.37 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "infeccao-urinaria-overview-2020.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.54 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "interpretacao-hemograma-mielograma-2021.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "895.50 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "linfonodomegalia-periferica-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "733.37 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "manejo-da-febre-aguda-2021.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.48 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "manejo-nausea-vomito-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.08 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "manual-nutrologia-3ed-2012.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.62 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "manual-nutrologia-4ed-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.98 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "nem-toda-anemia-ferropriva-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "926.02 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "neonatologia-nascimento-seguro-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "675.23 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "neutropenia-por-quimioterapicos-2021.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "809.13 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "novas-diretrizes-surviving-sepsis-2020.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "881.13 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "nutricao-parenteral-pre-termo-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.38 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "parasitoses-intestinais-2020.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "951.96 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "phoenix-sepsis-score-2024.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "889.66 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "pneumonia-comunitaria-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "646.64 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "reanimacao-abaixo-34s-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.49 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "reanimacao-acima-34s-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.72 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "recomendacoes-aleitamento-oms-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.05 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "sarampo-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "4.24 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "sepse-neonatal-precoce-2020.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.10 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "sibilancia-recorrente-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "219.75 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "teste-reflexo-vermelho-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "2.17 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "transtorno-espectro-autista-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "2.02 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "triagem-auditiva-sbp-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "186.86 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "triagem-precoce-espectro-autista-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "624.47 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "vacinas-covid-19-2024.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "973.65 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "violencia-contra-crianca-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.09 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
     "name": "Protocolo-clinico-e-diretrizes-terapeuticas-epilepsia-2018.pdf",
@@ -389,32 +741,5 @@
     ],
     "size": "107.17 KB",
     "path": "Medicina"
-  },
-  {
-    "name": "Hacking-The-Hacker-Learn-From-The-Experts-Who-Take-Down-Hackers.pdf",
-    "subjects": [
-      "Programação"
-    ],
-    "size": "1.41 MB",
-    "path": "Programação"
-  },
-  {
-    "name": "A-Non-Technical-Survey-On-Deep-Convolutional-Neural-Network-Architectures.pdf",
-    "subjects": [
-      "Programação",
-      "Inteligência artificial"
-    ],
-    "size": "1.13 MB",
-    "path": "Programação/Inteligência artificial"
-  },
-  {
-    "name": "Towards Accurate Differential with large language models.pdf",
-    "subjects": [
-      "Programação",
-      "Inteligência artificial",
-      "IA médica"
-    ],
-    "size": "10.18 MB",
-    "path": "Programação/Inteligência artificial/IA médica"
   }
 ]
