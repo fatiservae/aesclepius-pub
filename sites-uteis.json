@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "https://www.anafilaxiabrasil.com.br/": "página dedicada a anafilaxia da associação brasileira, com materiais fáceis e informações precisas.",
+=======
+  "https://fluidtherapy.org": "FluidTherapy.org, um compêndio sobre fluidoterapia do Dr. Sanjay Pandya.",
+  "https://pedb.com.br/": "Assistente pediátrico com doses, fluxogramas e condutas feito pelo Dr. Wilson Nunes.",
+>>>>>>> refs/remotes/origin/main
   "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/controlados/lista-substancias": "Lista de substâncias sujeitas a controle especial no Brasil.",
   "https://www.equator-network.org/": "Equator Network, iniciativa do centro de estatística médica de Oxford para melhoria da pesquisa médica.",
   "https://thevalveclub.com.br/": "Portal The Valve Club, dedicado a valvopatias e outras cardiopatias estruturais.",

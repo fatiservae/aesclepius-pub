@@ -93,6 +93,7 @@ strong {
 }
 
 article {
+  background: var(--gradiente);
   text-align: start;
   padding: 1rem;
 }
@@ -822,4 +823,3 @@ hr {
     border: none;
   }
 }
-
