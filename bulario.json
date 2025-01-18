@@ -1,5 +1,64 @@
 [
 	{
+		"nome": ["Metoclopramida", "plasil"],
+		"class": ["antagonistas de dopamina", "antagonistas de serotonina", "antieméticos", "procinéticos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [10, 8],
+				"via": "oral",
+				"instrucao": "dose coadjuvante em cefaleias."
+			}
+		],
+		"obs": [
+			"Com frequentes sintomas colaterais, notadamente parkinsonismo e extrapiramidais, deve ser evitado nas condições que seus efeitos diversos podem atrapalhar a condição de base."
+		]
+	},
+	{
+		"nome": ["Sumatriptano com naproxeno", "Sumaxpro"],
+		"class": ["antimigrâneos", "triptanos", "analgésicos", "antiinflamatórios não esteroides ou hormonais"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": ["85+500", 12],
+				"via": "oral",
+				"instrucao": "dose única que pode ser repetida na primeira hora de sintomas e 12h após, se dor persistente."
+			}
+		],
+		"obs": [
+			"Não deve ser usado em casos de suspeita de acidente vascular ecenfálico."
+		]
+	},
+	{
+		"nome": ["Sumatriptano"],
+		"class": ["triptanos", "analgésicos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [50, 12],
+				"via": "oral",
+				"instrucao": "pode ser repetida a primeira dose na primeira hora de sintomas."
+			},
+			{
+				"unidades": ["mg"],
+				"dosagem": [6],
+				"via": "subcutânea",
+				"instrucao": "ataque em crises de cefaleia. Pode ser repetido na primeira ou segunda hora."
+			}
+		]
+	},
+	{
+		"nome": ["Cetoprofeno"],
+		"class": ["antiinflamantórios não esteroidais"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [100, 8],
+				"via": "endovenosa"
+			}
+		]
+	},
+	{
 		"nome": ["meropenem"],
 		"class": ["antibióticos", "carbapenêmicos", "beta-lactâmico"],
 		"posologias": [
@@ -961,11 +1020,14 @@
     "posologias": [
       {
         "unidades": ["mg", "dia"],
-        "dosagem": [4, 1],
+        "dosagem": ["4 a 10", 1],
         "via": "oral",
         "instrucao": "dose habitual de corticoterapia antiinflamatória."
       }
-    ]
+    ],
+    "obs": [
+  		"A dose habitual também é a dose coadjuvante no tratamento de cefaleias."
+  	]
   },
   {
     "nome": ["metilpredinisolona"],
@@ -2055,23 +2117,17 @@
         "instrucao": ["dose antipsicótica de uso contínuo, podendo chegar a 400mg/dia."]
       },
       {
-        "instrucao": "dose para cessação de soluço persistente é indicado 25mg dose única.",
+        "instrucao": "dose única analgésica para cefaleia ou para cessação de soluço persistente.",
         "unidades": ["mg"],
         "dosagem": [25],
         "via": "intravenosa ou oral"
       },
       {
         "unidades": ["mg", "ampola"],
-	"dosagem": [125, 1],
-	"via": "intramuscular ou intravenosa",
-	"instrucao": "administrar uma ampola se agitação não controlada por haloperidol, podendo chegar a 800mg/dia na repetição a cada 30min. Para controle de agitação grave, considerar sedação."
+				"dosagem": [125, 1],
+				"via": "intramuscular ou intravenosa",
+				"instrucao": "administrar uma ampola se agitação não controlada por haloperidol, podendo chegar a 800mg/dia na repetição a cada 30min. Para controle de agitação grave, considerar sedação."
       }
-    ]
-  },
-  {
-    "nome": ["sumatriptano"],
-    "obs": [
-      "Subcutâneo para migrânea."
     ]
   },
   {

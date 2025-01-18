@@ -15,8 +15,8 @@
   --stdBorder: 1px solid var(--fontColor);
   color: var(--fontColor);
   font-family: 'Fira sans';
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 1.1rem;
   background-color: var(--backgroundColor);
 }
 
@@ -748,6 +748,7 @@ h4::before, h5::before, h6::before {
   display: flex;
 }
 .scalidraw svg{
+  max-height: 80vw;
   margin-left: var(--margem);
   margin-bottom: 0%;
   padding: 0%;
