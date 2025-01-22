@@ -26,6 +26,7 @@
 }
 
 :root[data-tema="light"] {
+  --strongColor: black;
   --gradiente: radial-gradient(
                        ellipse at 50% 50%, 
                        #c61d1020 0, 
@@ -52,6 +53,7 @@
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  --strongColor: #ddd;
   background-blend-mode: screen;
   --gradiente: radial-gradient(
                       ellipse at 50% 50%, 
@@ -89,7 +91,7 @@ p {
 }
 
 strong {
-  font-weight: 500;
+  color: var(--strongColor);
 }
 
 article {
@@ -293,7 +295,10 @@ nav.barra a:hover{
   display: flex;
   align-content: center;
 }
-
+input#globalsearch {
+  margin: 0px;
+  padding: 0px;
+}
 mark {
   color: black;
   background-color: var(--highLightColor);
@@ -714,6 +719,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, h2 {
   font-size: 110%;
+  margin-top: 15vh;
+}
+
+h2:nth-of-type(1) {
+  margin-top: 0px;
 }
 h3, h4, h5, h6 {
   font-size: 100%;
@@ -773,7 +783,9 @@ div.duploflex p{
 
 hr {
   width: 25%;
-  align: start;
+}
+.footnotes hr{
+  margin-top: 20%;
 }
 
 #nomeTema:hover{
@@ -791,6 +803,9 @@ hr {
 @media only screen and (max-width: 800px){
   img {
     max-height: 80vw;
+  }
+  input#globalsearch {
+    margin-top: 1ch;
   }
 }
 @media only screen and (max-width: 900px){
@@ -823,4 +838,8 @@ hr {
   article, nav.barra {
     border: none;
   }
+}
+.mediaframe {
+  height: 500px;
+  max-height: 50vw;
 }

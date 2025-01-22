@@ -11,6 +11,306 @@
 	
 	
 	<item>
+		<title>aesclepiusrx</title>
+		<link>https://www.aesclepius.com.br/aesclepiusrx/</link>
+		<pubDate>Wed, 22 Jan 2025 15:35:03 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/aesclepiusrx/</guid>
+		<description>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=utf-8&#34; /&gt;
+
+&lt;!-- Disable zooming: --&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0, user-scalable=no&#34;&gt;
+
+&lt;head&gt;
+    &lt;!-- change this to your project name --&gt;
+    &lt;title&gt;eframe template&lt;/title&gt;
+
+    &lt;!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization --&gt;
+    
+&lt;script type=&#34;module&#34;&gt;
+import init, * as bindings from &#39;/dist/aesclepiusrx-1d080efa4deea9e0.js&#39;;
+const wasm = await init({ module_or_path: &#39;/dist/aesclepiusrx-1d080efa4deea9e0_bg.wasm&#39; });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent(&#34;TrunkApplicationStarted&#34;, {detail: {wasm}}));
+
+&lt;/script&gt;
+    &lt;!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option --&gt;
+    &lt;base href=&#34;../../&#34; /&gt;
+
+    &lt;link rel=&#34;icon&#34; href=&#34;../../favicon-b11db74522a56e9e.ico&#34; integrity=&#34;sha384&amp;#x2D;fF2B5&amp;#x2B;jjDVs14n8GFsxFgtGIse5Djhn2RqbKArkDFFavsiwfDdgr5tgc&amp;#x2F;qstiuEF&#34;/&gt;
+
+
+    
+    
+    
+    
+    
+    
+
+
+    &lt;link rel=&#34;manifest&#34; href=&#34;manifest.json&#34;&gt;
+    &lt;link rel=&#34;apple-touch-icon&#34; href=&#34;assets/icon_ios_touch_192.png&#34;&gt;
+    &lt;meta name=&#34;theme-color&#34; media=&#34;(prefers-color-scheme: light)&#34; content=&#34;white&#34;&gt;
+    &lt;meta name=&#34;theme-color&#34; media=&#34;(prefers-color-scheme: dark)&#34; content=&#34;#404040&#34;&gt;
+
+    &lt;style&gt;
+        html {
+            /* Remove touch delay: */
+            touch-action: manipulation;
+        }
+
+        body {
+            /* Light mode background color for what is not covered by the egui canvas,
+            or where the egui canvas is translucent. */
+            background: #909090;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                /* Dark mode background color for what is not covered by the egui canvas,
+                or where the egui canvas is translucent. */
+                background: #404040;
+            }
+        }
+
+        /* Allow canvas to fill entire web page: */
+        html,
+        body {
+            overflow: hidden;
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Make canvas fill entire document: */
+        canvas {
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .centered {
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #f0f0f0;
+            font-size: 24px;
+            font-family: Ubuntu-Light, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        /* ---------------------------------------------- */
+        /* Loading animation from https://loading.io/css/ */
+        .lds-dual-ring {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+        }
+
+        .lds-dual-ring:after {
+            content: &#34; &#34;;
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin: 0px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            border-color: #fff transparent #fff transparent;
+            animation: lds-dual-ring 1.2s linear infinite;
+        }
+
+        @keyframes lds-dual-ring {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    &lt;/style&gt;
+&lt;link rel=&#34;modulepreload&#34; href=&#34;../../aesclepiusrx-1d080efa4deea9e0.js&#34; crossorigin=&#34;anonymous&#34; integrity=&#34;sha384-wSv6cf7tBb0gxd7pB5nXGG3gx1Z0WNqzUpU+UbKzt2YwVg/MIGU1DoD9TDrEKqRI&#34;&gt;&lt;link rel=&#34;preload&#34; href=&#34;../../aesclepiusrx-1d080efa4deea9e0_bg.wasm&#34; crossorigin=&#34;anonymous&#34; integrity=&#34;sha384-CPtfazV0kUzKK6sFn8mpODKH3oLEcRewYaGo/lTG6IUJp3cXfaNjcdNmnA2ZoGrF&#34; as=&#34;fetch&#34; type=&#34;application/wasm&#34;&gt;&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;!-- The WASM code will resize the canvas dynamically --&gt;
+    &lt;!-- the id is hardcoded in main.rs . so, make sure both match. --&gt;
+    &lt;canvas id=&#34;the_canvas_id&#34;&gt;&lt;/canvas&gt;
+
+    &lt;!-- the loading spinner will be removed in main.rs --&gt;
+    &lt;div class=&#34;centered&#34; id=&#34;loading_text&#34;&gt;
+        &lt;p style=&#34;font-size:16px&#34;&gt;
+            Loading…
+        &lt;/p&gt;
+        &lt;div class=&#34;lds-dual-ring&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Register Service Worker. this will cache the wasm / js scripts for offline use (for PWA functionality). --&gt;
+    &lt;!-- Force refresh (Ctrl + F5) to load the latest files instead of cached files  --&gt;
+    &lt;script&gt;
+        // We disable caching during development so that we always view the latest version.
+        if (&#39;serviceWorker&#39; in navigator &amp;&amp; window.location.hash !== &#34;#dev&#34;) {
+            window.addEventListener(&#39;load&#39;, function () {
+                navigator.serviceWorker.register(&#39;sw.js&#39;);
+            });
+        }
+    &lt;/script&gt;
+&lt;script&gt;&#34;use strict&#34;;
+
+(function () {
+
+    const address = &#39;{{__TRUNK_ADDRESS__}}&#39;;
+    const base = &#39;{{__TRUNK_WS_BASE__}}&#39;;
+    let protocol = &#39;&#39;;
+    protocol =
+        protocol
+            ? protocol
+            : window.location.protocol === &#39;https:&#39;
+                ? &#39;wss&#39;
+                : &#39;ws&#39;;
+    const url = protocol + &#39;://&#39; + address + base + &#39;.well-known/trunk/ws&#39;;
+
+    class Overlay {
+        constructor() {
+            // create an overlay
+            this._overlay = document.createElement(&#34;div&#34;);
+            const style = this._overlay.style;
+            style.height = &#34;100vh&#34;;
+            style.width = &#34;100vw&#34;;
+            style.position = &#34;fixed&#34;;
+            style.top = &#34;0&#34;;
+            style.left = &#34;0&#34;;
+            style.backgroundColor = &#34;rgba(222, 222, 222, 0.5)&#34;;
+            style.fontFamily = &#34;sans-serif&#34;;
+            // not sure that&#39;s the right approach
+            style.zIndex = &#34;1000000&#34;;
+            style.backdropFilter = &#34;blur(1rem)&#34;;
+
+            const container = document.createElement(&#34;div&#34;);
+            // center it
+            container.style.position = &#34;absolute&#34;;
+            container.style.top = &#34;30%&#34;;
+            container.style.left = &#34;15%&#34;;
+            container.style.maxWidth = &#34;85%&#34;;
+
+            this._title = document.createElement(&#34;div&#34;);
+            this._title.innerText = &#34;Build failure&#34;;
+            this._title.style.paddingBottom = &#34;2rem&#34;;
+            this._title.style.fontSize = &#34;2.5rem&#34;;
+
+            this._message = document.createElement(&#34;div&#34;);
+            this._message.style.whiteSpace = &#34;pre-wrap&#34;;
+
+            const icon= document.createElement(&#34;div&#34;);
+            icon.innerHTML = &#39;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;64&#34; height=&#34;64&#34; fill=&#34;#dc3545&#34; viewBox=&#34;0 0 16 16&#34;&gt;&lt;path d=&#34;M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z&#34;/&gt;&lt;/svg&gt;&#39;;
+            this._title.prepend(icon);
+
+            container.append(this._title, this._message);
+            this._overlay.append(container);
+
+            this._inject();
+            window.setInterval(() =&gt; {
+                this._inject();
+            }, 250);
+        }
+
+        set reason(reason) {
+            this._message.textContent = reason;
+        }
+
+        _inject() {
+            if (!this._overlay.isConnected) {
+                // prepend it
+                document.body?.prepend(this._overlay);
+            }
+        }
+
+    }
+
+    class Client {
+        constructor(url) {
+            this.url = url;
+            this.poll_interval = 5000;
+            this._overlay = null;
+        }
+
+        start() {
+            const ws = new WebSocket(this.url);
+            ws.onmessage = (ev) =&gt; {
+                const msg = JSON.parse(ev.data);
+                switch (msg.type) {
+                    case &#34;reload&#34;:
+                        this.reload();
+                        break;
+                    case &#34;buildFailure&#34;:
+                        this.buildFailure(msg.data)
+                        break;
+                }
+            };
+            ws.onclose = () =&gt; this.onclose();
+        }
+
+        onclose() {
+            window.setTimeout(
+                () =&gt; {
+                    // when we successfully reconnect, we&#39;ll force a
+                    // reload (since we presumably lost connection to
+                    // trunk due to it being killed, so it will have
+                    // rebuilt on restart)
+                    const ws = new WebSocket(this.url);
+                    ws.onopen = () =&gt; window.location.reload();
+                    ws.onclose = () =&gt; this.onclose();
+                },
+                this.poll_interval);
+        }
+
+        reload() {
+            window.location.reload();
+        }
+
+        buildFailure({reason}) {
+            // also log the console
+            console.error(&#34;Build failed:&#34;, reason);
+
+            console.debug(&#34;Overlay&#34;, this._overlay);
+
+            if (!this._overlay) {
+                this._overlay = new Overlay();
+            }
+            this._overlay.reason = reason;
+        }
+    }
+
+    new Client(url).start();
+
+})()
+&lt;/script&gt;&lt;/body&gt;
+
+&lt;/html&gt;
+
+&lt;!-- Powered by egui: https://github.com/emilk/egui/ --&gt;
+
+</description>
+	</item>
+	
+	<item>
 		<title>Valores de referência para sinais vitais</title>
 		<link>https://www.aesclepius.com.br/sinais-vitais/</link>
 		<pubDate>Sat, 14 Dec 2024 11:13:49 -0300</pubDate>
@@ -368,7 +668,7 @@ obstc -- decidido&lt;br&gt;observar --&gt; fim;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/maisel-nomogram.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/maisel-nomogram.png&#34;&gt;
       &lt;figcaption&gt;Nomograma de Maisel&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -865,7 +1165,7 @@ K --&gt; L[Colposcopia em 60 dias];
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
       &lt;figcaption&gt;Exemplo de suspensório caseiro para alívio de dor exacerbada pelo efeito gravitacional&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1354,7 +1654,7 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/eliminated-synapses.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/eliminated-synapses.png&#34;&gt;
       &lt;figcaption&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1365,7 +1665,7 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/mentalizing-areas.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/mentalizing-areas.png&#34;&gt;
       &lt;figcaption&gt;Áreas envolvidas no processo de mentalização&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1457,7 +1757,7 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/valproic-acid-autism.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/valproic-acid-autism.png&#34;&gt;
       &lt;figcaption&gt;&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1664,52 +1964,246 @@ quinta --&gt; 9(Ceftarolina);
 	
 	<item>
 		<title>Sangramento uterino anormal</title>
-		<link>https://www.aesclepius.com.br/sua/</link>
+		<link>https://www.aesclepius.com.br/sangramento-uterino-anormal/</link>
 		<pubDate>Thu, 20 Jun 2024 16:10:46 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/sua/</guid>
-		<description>&lt;h2 id=&#34;diagnósticos&#34;&gt;Diagnósticos&lt;/h2&gt;
-&lt;p&gt;Em breve.&lt;/p&gt;
-&lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
+		<guid>https://www.aesclepius.com.br/sangramento-uterino-anormal/</guid>
+		<description>&lt;h2 id=&#34;conceitos&#34;&gt;Conceitos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Menorragia:&lt;/strong&gt; 80mL de sangramento em meses intercalados ou por mais de sete dias em um episódio.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metrorragia:&lt;/strong&gt; o sangramento uterino fora do período menstrual habitual da mulher.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Menometrorragia:&lt;/strong&gt; a concorrência das definições anteriores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;diagnósticos1&#34;&gt;Diagnósticos&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;sangramentos-uterinos-anormais&#34;&gt;Sangramentos uterinos anormais&lt;/h3&gt;
+&lt;p&gt;Todo e qualquer sangramento fora do habitualmente relatado pela paciente ou que tenha impacto na sua saúde física, emocional ou social.&lt;/p&gt;
+&lt;p&gt;Antigamente, havia distinção etiológica hormonal entre os conceitos de sangramento anormal disfuncional e não disfuncional&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Esta distinção caiu por terra em 2017&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Atualmente, a Federação Brasileira de Ginecologia e Obstetrícia recomenda que se use a distinção entre etiologias estruturais e não estruturais.&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Medicamento&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Categoria&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Descrição&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Estruturais (PALM)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pólipo&lt;/td&gt;
+          &lt;td&gt;Crescimento benigno no endométrio ou canal endocervical.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Adenomiose&lt;/td&gt;
+          &lt;td&gt;Presença de tecido endometrial no miométrio.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Leiomioma&lt;/td&gt;
+          &lt;td&gt;Tumores benignos do músculo uterino, também conhecidos como miomas.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Malignidade e Hiperplasia&lt;/td&gt;
+          &lt;td&gt;Neoplasias malignas ou crescimento excessivo do endométrio.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Não Estruturais (COEIN)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Coagulopatia&lt;/td&gt;
+          &lt;td&gt;Distúrbios hemorrágicos que afetam a coagulação sanguínea.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Disfunção Ovulatória&lt;/td&gt;
+          &lt;td&gt;Irregularidades na ovulação, incluindo anovulação.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Endometrial&lt;/td&gt;
+          &lt;td&gt;Anormalidades no funcionamento do endométrio sem lesões estruturais.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Iatrogênica&lt;/td&gt;
+          &lt;td&gt;Sangramentos causados por intervenções médicas ou uso de medicamentos.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Não Classificado&lt;/td&gt;
+          &lt;td&gt;Outras causas não especificadas nas categorias anteriores.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;não-disfuncionais&#34;&gt;Não disfuncionais&lt;/h4&gt;
+&lt;p&gt;As causas podem ainda ser orgânicas ou não orgânicas:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Orgânicas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Endometrite ou espectro clínico de doença inflamatória pélvica;&lt;/li&gt;
+&lt;li&gt;Mioma;&lt;/li&gt;
+&lt;li&gt;Pólipos;&lt;/li&gt;
+&lt;li&gt;Hipertrofia endometrial;&lt;/li&gt;
+&lt;li&gt;Metaplasia óssea;&lt;/li&gt;
+&lt;li&gt;Adenomiose;&lt;/li&gt;
+&lt;li&gt;Coagulopatias; e&lt;/li&gt;
+&lt;li&gt;Medicamentosas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Os sangramentos também podem ser classificados como &lt;strong&gt;ovulatórios&lt;/strong&gt;, principalmente durante a &lt;strong&gt;menacme&lt;/strong&gt; ou &lt;strong&gt;anovulatórios&lt;/strong&gt;, notadamente na puberdade e na perimenopausa.&lt;/p&gt;
+&lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
+&lt;h3 id=&#34;hormonioterapia&#34;&gt;Hormonioterapia&lt;/h3&gt;
+&lt;p&gt;O objetivo da prescrição hormonal no sangramento pode ser seu controle imediato ou sua regulação a longo prazo.&lt;/p&gt;
+&lt;p&gt;Os progestágenos tendem a estimular uma estabilidade de endométrio, levando a regulação de sangramento em médio ou longo prazo.&lt;/p&gt;
+&lt;p&gt;Os estrógenos causam forte vascularização e reforço da trama endometrial, cessando de forma mais intensa os sangramentos. Porém, &lt;u&gt;quando encerrada a terapia&lt;/u&gt; &lt;strong&gt;há forte descamação uterina&lt;/strong&gt;, retornando o sangramento anterior ou até mais intenso.&lt;/p&gt;
+&lt;h4 id=&#34;progestagenioterapia&#34;&gt;Progestagenioterapia&lt;/h4&gt;
+&lt;p&gt;Não interrompe o sangramento, apenas regula-o, pois a proliferação endometrial continua. Haverá curetagem farmacológica duas semanas após.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Fármaco&lt;/th&gt;
           &lt;th&gt;Posologia&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;etinilestradiol oral&lt;/td&gt;
-          &lt;td&gt;- 90mg/8h por 2 dias e 30mcg/dia por mais 3 a 6 semanas.&lt;br&gt;- 30mcg/6h até parar sangramento.&lt;br&gt;- 30mcg/8h por 2 a 7 dias.&lt;br&gt;- 30mcg/12h por 2 a 7 dias, seguido de 30mcg/dia de manutenção.&lt;/td&gt;
+          &lt;td&gt;Medroxiprogesterona oral&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1)&lt;/strong&gt; 60-120mg/dia até parar sangramento, seguidos de 20-40mg/dia por 3 a 6 semanas.&lt;br&gt;&lt;br&gt;&lt;strong&gt;2)&lt;/strong&gt; 10mg/4h até 80mg ou parada do sangramento seguido de 10mg/6h por 4 dias seguido de 10mg/8h por 3 dias seguido de 10mg/12h por 2 dias por até 2 semanas e manutenção com 10mg/dia.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;medroxiprogesterona oral&lt;/td&gt;
-          &lt;td&gt;- 60-120mg/dia até parar sangramento, seguidos de 20-40mg/dia por 3 a 6 semanas.&lt;br&gt;- 10mg/4h até 80mg ou parada do sangramento seguido de 10mg/6h por 4 dias seguido de 10mg/8h por 3 dias seguido de 10mg/12h por 2 dias por até 2 semanas e manutenção com 10mg/dia.&lt;/td&gt;
+          &lt;td&gt;Megestrol oral&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1)&lt;/strong&gt; 80-160mg/dia até parar sangramento seguido de 40-80mg/dia por 3 a 6 semanas.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;noretisterona oral&lt;/td&gt;
-          &lt;td&gt;- 5-10mg/4h até parar sangramento seguido de 5-10mg/6h por 4 dias seguido de 5-10mg/8h por 3 dias seguido de 5-10mg/12h por 2 dias e manutenção com 5-10mg/dia.&lt;br&gt;- 5-15mg por 2 dias seguidos de 5-10mg por 3 a 6.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;megestrol oral&lt;/td&gt;
-          &lt;td&gt;- 80-160mg/dia até parar sangramento seguido de 40-80mg/dia por 3 a 6 semanas.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ácido tranexâmico&lt;/td&gt;
-          &lt;td&gt;- 15 a 25mg/kg de 8/8h por no máximo 7 dias.&lt;br&gt;- 500mg-1g endovenoso de 50mg/ml de 8/8h por no máximo 3 dias.&lt;br&gt;- acima de 3 dias sempre oral.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;ácido épsilon-aminocaproico&lt;/td&gt;
-          &lt;td&gt;- 1-2g oral de 8/8h ou de 6/6h por até 7 dias.&lt;br&gt;- 1g endovenoso de 8/8h ou de 6/6h com no máximo 4g por paciente.&lt;/td&gt;
+          &lt;td&gt;Noretisterona oral&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1)&lt;/strong&gt; 5-10mg/4h até parar sangramento seguido de 5-10mg/6h por 4 dias seguido de 5-10mg/8h por 3 dias seguido de 5-10mg/12h por 2 dias e manutenção com 5-10mg/dia.&lt;br&gt;&lt;br&gt;&lt;strong&gt;2)&lt;/strong&gt; 5-15mg por 2 dias seguidos de 5-10mg por 3 a 6.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h4 id=&#34;estrogenioterapia&#34;&gt;Estrogenioterapia&lt;/h4&gt;
+&lt;p&gt;Interrompe bem o sangramento, porém provoca sangramento intenso na retirada.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Fármaco&lt;/th&gt;
+          &lt;th&gt;Posologia&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Etinilestradiol oral&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1)&lt;/strong&gt; 90mg/8h por 2 dias e 30mcg/dia por mais 3 a 6 semanas.&lt;br&gt;&lt;br&gt;&lt;strong&gt;2)&lt;/strong&gt; 30mcg/6h até parar sangramento.&lt;br&gt;&lt;br&gt;&lt;strong&gt;3)&lt;/strong&gt; 30mcg/8h por 2 a 7 dias.&lt;br&gt;&lt;br&gt;&lt;strong&gt;4)&lt;/strong&gt; 30mcg/12h por 2 a 7 dias, seguido de 30mcg/dia de manutenção.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;outras-medicações&#34;&gt;Outras medicações&lt;/h4&gt;
+&lt;p&gt;Atuam de forma global, inibindo as vias anticoaguladoras.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Fármaco&lt;/th&gt;
+          &lt;th&gt;Posologia&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ácido épsilon-aminocaproico&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1)&lt;/strong&gt; 1-2g oral de 8/8h ou de 6/6h por até 7 dias.&lt;br&gt;&lt;br&gt;&lt;strong&gt;2)&lt;/strong&gt; 1g endovenoso de 8/8h ou de 6/6h com no máximo 4g por paciente.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ácido tranexâmico&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1)&lt;/strong&gt; 15 a 25mg/kg de 8/8h por no máximo 7 dias.&lt;br&gt;&lt;br&gt;&lt;strong&gt;2)&lt;/strong&gt; 500mg-1g endovenoso de 50mg/ml de 8/8h por no máximo 3 dias.&lt;br&gt;&lt;br&gt;&lt;strong&gt;3)&lt;/strong&gt; acima de 3 dias sempre oral.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;fluxogramas-de-conduta&#34;&gt;Fluxogramas de conduta&lt;/h3&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+  
+  
+  
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      &lt;a href=&#34;../../pix/medicina/sua-agudo.png&#34;&gt;
+        &lt;img src=&#34;../../pix/medicina/sua-agudo.png&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      &lt;a href=&#34;../../pix/medicina/sua-cronico.png&#34;&gt;
+        &lt;img src=&#34;../../pix/medicina/sua-cronico.png&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;EstratégiaMed. &lt;strong&gt;Guia prático - GO Descomplica&lt;/strong&gt;. 2022. Brasil.&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Machado LV. &lt;strong&gt;Sangramento uterino disfuncional&lt;/strong&gt;. Arq Bras Endocrinol Metab [Internet]. 2001Aug;45(4):375–82. Available from: &lt;a href=&#34;https://doi.org/10.1590/S0004-27302001000400010&#34;&gt;https://doi.org/10.1590/S0004-27302001000400010&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;EstratégiaMed. &lt;strong&gt;Guia prático - GO Descomplica&lt;/strong&gt;. 2022. Brasil.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;FEBRASGO. &lt;strong&gt;Sangramento uterino anormal&lt;/strong&gt;. Pg 11. São Paulo: Federação Brasileira das Associações de Ginecologia e Obstetrícia. 2017. Série Orientações e Recomendações FEBRASGO. n. 7, 2017. ISSN 2525-6416.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -2253,7 +2747,7 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/himem-integro.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/himem-integro.png&#34;&gt;
       &lt;figcaption&gt;Exemplo de hímem íntegro.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -3238,7 +3732,7 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/suchey-brooks.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/suchey-brooks.png&#34;&gt;
       &lt;figcaption&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -3248,7 +3742,7 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/condyle-animated.gif&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/condyle-animated.gif&#34;&gt;
       &lt;figcaption&gt;Côndilos em destaque&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7231,7 +7725,7 @@ oedema.&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/ashman.jpeg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/ashman.jpeg&#34;&gt;
       &lt;figcaption&gt;Exemplo real de paciente com fibrilação atrial. Note a morfologia de BRD&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7261,7 +7755,7 @@ t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
       &lt;figcaption&gt;ECG típico com ondas F de base elétrica perdida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7298,7 +7792,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
       &lt;figcaption&gt;Observe as diferentes ondas P precedendo diferentes QRSs&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7395,7 +7889,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
       &lt;figcaption&gt;Grau 2 Mobitz I&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7410,7 +7904,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
       &lt;figcaption&gt;Grau 2 Mobitz II&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7434,7 +7928,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/bavt3.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt3.jpg&#34;&gt;
       &lt;figcaption&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7459,7 +7953,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/bdas-brd.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bdas-brd.jpg&#34;&gt;
       &lt;figcaption&gt;Bloqueio anterosuperior com eixo desviado e vários critérios preenchidos. Há, também, um claro bloqueio de ramo direito&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7470,7 +7964,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/juncional.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/juncional.jpg&#34;&gt;
       &lt;figcaption&gt;Note em precordiais V2 a V4 esboços de ondas P perdidas. Entretanto, este traçado não consegue fechar um bloqueio de 3 grau, com ritmo assumido pelo nó atrioventricular. A frequência gira em torno dos 35 a 40bpm.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7485,7 +7979,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
       &lt;figcaption&gt;Destaque para onda delta no início do QRS&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7501,7 +7995,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
       &lt;figcaption&gt;ECG típico em SWPW&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7620,7 +8114,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/wellens.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/wellens.jpg&#34;&gt;
       &lt;figcaption&gt; &lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7646,7 +8140,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/aslanger.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/aslanger.jpg&#34;&gt;
       &lt;figcaption&gt;Aslanger típico.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7747,7 +8241,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
       &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para baixo.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7759,7 +8253,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
       &lt;figcaption&gt;Eletrocardiograma de mulher jovem sem sintomas e comorbidades mostrando V1 e V2 com T invertida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7769,7 +8263,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
       &lt;figcaption&gt;Espículas pequenas precedendo QRSs efetivos.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7780,7 +8274,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ecg/crochetage.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/crochetage.jpg&#34;&gt;
       &lt;figcaption&gt;Topo de onda R entalhada em aVF em paciente com comunicação iteratrial conhecida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8121,7 +8615,7 @@ $$&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/fagan-nomogram.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/fagan-nomogram.jpg&#34;&gt;
       &lt;figcaption&gt; &lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8380,24 +8874,54 @@ table{
 		<pubDate>Sun, 11 Feb 2024 16:31:22 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/intubacao/</guid>
-		<description>&lt;h2 id=&#34;alteracao&#34;&gt;Alteracao&lt;/h2&gt;
-&lt;h2 id=&#34;protocolo&#34;&gt;Protocolo&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;verificação-do-material&#34;&gt;Verificação do material&lt;/h2&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/material-intubacao.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;ul&gt;
-&lt;li&gt;Verificar condições do balão ventilatório (Ambu).&lt;/li&gt;
-&lt;li&gt;Escolher e separar o tubo orotraqueal.&lt;/li&gt;
-&lt;li&gt;Escolher lâmina e verificar a luz do laringoscópio.&lt;/li&gt;
-&lt;li&gt;Aspiração&lt;/li&gt;
-&lt;li&gt;Monte seringas com:&lt;/li&gt;
+&lt;li&gt;Observar as condições do balão ventilatório.&lt;/li&gt;
+&lt;li&gt;Certificar-se que a fonte de oxigênio está operante.&lt;/li&gt;
+&lt;li&gt;Ligar monitores e ter certeza da ciência da equipe sobre o procedimento.&lt;/li&gt;
+&lt;li&gt;Verifique a luz do laringoscópio e a firmeza de sua lâmina.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;preparo-das-medicações&#34;&gt;Preparo das medicações&lt;/h3&gt;
+&lt;p&gt;Monte seringas com:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Soro.&lt;/li&gt;
-&lt;li&gt;Sedação.&lt;/li&gt;
-&lt;li&gt;Bloqueador neuromuscular, e.g. rocurônio.&lt;/li&gt;
+&lt;li&gt;Indutor de sedoanalgesia.&lt;/li&gt;
+&lt;li&gt;Bloqueador neuromuscular.&lt;/li&gt;
+&lt;li&gt;Analgésico.&lt;/li&gt;
+&lt;li&gt;Hipnótico.&lt;/li&gt;
 &lt;li&gt;Solução de adrenalina 1ml com 19ml de soro.&lt;/li&gt;
-&lt;li&gt;Analgésico, e.g. fentanil.&lt;/li&gt;
-&lt;li&gt;Hipnótico, e.g. etomidato.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;escala-mallampati&#34;&gt;Escala Mallampati&lt;/h2&gt;
+&lt;h2 id=&#34;abordagem-do-paciente&#34;&gt;Abordagem do paciente&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Explicar ao paciente que o procedimento é necessário e suas justificativas.&lt;/li&gt;
+&lt;li&gt;Esclareça que haverá analgesia e sedação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;avalie-a-fisiologia-do-paciente&#34;&gt;Avalie a fisiologia do paciente&lt;/h2&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/paciente-intubacao.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pacientes obesos ou muito grandes, com limitações de posição ou dispositivos podem exigir adaptações, coxins maiores ou técnicas não ortodoxas.&lt;/li&gt;
+&lt;li&gt;Avalie a via aérea do paciente.&lt;/li&gt;
+&lt;li&gt;Aspire secreções se necessário.&lt;/li&gt;
+&lt;li&gt;Escolha o tubo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;escala-mallampati&#34;&gt;Escala Mallampati&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -8424,9 +8948,10 @@ table{
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;pediátrica&#34;&gt;Pediátrica&lt;/h2&gt;
-&lt;p&gt;Tamanho de cânula:
-$$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
+&lt;h3 id=&#34;escolha-do-tubo&#34;&gt;Escolha do tubo&lt;/h3&gt;
+&lt;p&gt;Para homens de até 1.8m, considere tubo 7. Mulheres de até 1.7m, tubo 6. O julgamento do tamanho do tubo é subjetivo.&lt;/p&gt;
+&lt;h4 id=&#34;tamanho-de-cânula-em-pediatria&#34;&gt;Tamanho de cânula em pediatria:&lt;/h4&gt;
+&lt;p&gt;$$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
 &lt;div class=calculadoras&gt;
 &lt;label for=idadeTuboPed&gt;Idade&lt;/label&gt;
 &lt;br&gt;
@@ -8492,7 +9017,7 @@ E - Equipamento falho
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/projector.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/projector.png&#34;&gt;
       &lt;figcaption&gt;&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -9314,7 +9839,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
       &lt;figcaption&gt;Forma clássica&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -9325,7 +9850,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
       &lt;figcaption&gt;Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -9882,7 +10407,7 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/dr-stupid.webp&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/dr-stupid.webp&#34;&gt;
       &lt;figcaption&gt;É só uma picadinha!&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -9924,7 +10449,7 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
 		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/files/</guid>
-		<description>&lt;p&gt;&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;procure aqui&#34;&gt;&lt;/input&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;ex. pediatria&#34;&gt;&lt;/input&gt;&lt;/p&gt;
 &lt;script src=&#34;../../files.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;files&#34;&gt;&lt;/ul&gt;
 </description>
