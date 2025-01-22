@@ -1,5 +1,43 @@
 [
 	{
+		"nome": ["ciclobenzaprina com clonixinato de lisina", "Dolamin Flex"],
+		"class": ["relaxantes musculares", "analgésicos não esteroidais", "aminoácidos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": ["125+5", "8"],
+				"via": "oral"
+			}
+		]
+	},
+	{
+		"nome": ["clonixinato de lisina", "Dolamin"],
+		"class": ["analgésicos não esteroidais", "aminoácidos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": ["125 a 250", "6 a 8"],
+				"via": "oral"
+			}
+		]
+	},
+	{
+		"nome": ["citrato de potássio", "Litocit"],
+		"class": ["alcalinizadores de urina"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": ["1080 a 1620", 1],
+				"via": "oral",
+				"instrucao": "a dose diária pode ser administrada <i>bis in die</i> ou <i>ter in die</i>."
+			}
+		],
+		"obs": [
+			"Apesar de não ser propriamente uma terapia expulsiva, é linha auxiliar na litíase de sistema urinário.",
+			"O bicarbonato de potássio é uma alternativa com opções comerciais."
+		]
+	},
+	{
 		"nome": ["Metoclopramida", "plasil"],
 		"class": ["antagonistas de dopamina", "antagonistas de serotonina", "antieméticos", "procinéticos"],
 		"posologias": [
