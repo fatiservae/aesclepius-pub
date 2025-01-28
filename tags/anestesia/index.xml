@@ -11,6 +11,31 @@
 	
 	
 	<item>
+		<title>insuficiencia respiratoria</title>
+		<link>https://www.aesclepius.com.br/insuficiencia-respiratoria/</link>
+		<pubDate>Mon, 27 Jan 2025 10:34:02 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/insuficiencia-respiratoria/</guid>
+		<description>&lt;h2 id=&#34;pediatria&#34;&gt;Pediatria&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+    ImpressaoInicial(&#34;Impressão inicial: Consciência, Cor, Respiração&#34;) --&gt; |Algum presente?| SalaEmergencia
+    SalaEmergencia(&#34;Sala de emergência: Chamar ajuda, Monitorização&#34;) --&gt; A
+    A(&#34;A: Via aérea&lt;br&gt;Checar obstrução&lt;br&gt;Aspirar/remover corpo estranho&lt;br&gt;Posicionar (cheirar ou neutro)&#34;) --&gt; AirwayDecision{Via aérea pérvia?}
+    AirwayDecision --&gt;|Sim| B
+    AirwayDecision --&gt;|Não| ConsiderarCannula(&#34;Considerar cânula orofaríngea ou intubação&#34;)
+    B(&#34;B: Ventilação&lt;br&gt;Verificar trabalho ventilatório eficaz&#34;) --&gt; VentilationDecision{Ventilação eficaz?}
+    VentilationDecision --&gt;|Sim| O2(&#34;Oferecer O₂&lt;br&gt;Tratar causa primária&#34;)
+    O2 --&gt; C
+    VentilationDecision --&gt;|Não| VentilacaoPressao(&#34;Ventilação com pressão positiva + O₂&lt;br&gt;Considerar via aérea avançada&#34;)
+    C(&#34;C: Avaliar outras disfunções&lt;br&gt;Circulação, metabólica, neurológica&lt;br&gt;Glicemia, temperatura&lt;br&gt;Lesões de pele, sinais de choque&#34;) --&gt; AirwayCheckAgain{Via aérea mantém pérvia?}
+    AirwayCheckAgain --&gt;|Sim| B
+    AirwayCheckAgain --&gt;|Não| ConsiderarCannula
+&lt;/pre&gt;
+
+</description>
+	</item>
+	
+	<item>
 		<title>Prescrição de suplementos dietéticos</title>
 		<link>https://www.aesclepius.com.br/suplementacao/</link>
 		<pubDate>Sat, 25 Jan 2025 07:05:38 -0300</pubDate>
@@ -2615,6 +2640,47 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 &lt;li&gt;Child CG, Turcotte JG. &lt;strong&gt;Surgery and portal hypertension. In: The liver and portal hypertension&lt;/strong&gt;. Edited by CG Child. Philadelphia: Saunders 1964:50-64.&lt;/li&gt;
 &lt;li&gt;Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R (1973). &lt;strong&gt;Transection of the oesophagus for bleeding oesophageal varices&lt;/strong&gt;. The British journal of surgery 60 (8).&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Púrpuras e lesões hemáticas</title>
+		<link>https://www.aesclepius.com.br/purpuras/</link>
+		<pubDate>Wed, 08 May 2024 11:53:29 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/purpuras/</guid>
+		<description>&lt;h2 id=&#34;púrpuras&#34;&gt;Púrpuras&lt;/h2&gt;
+&lt;h3 id=&#34;diagnóstico-diferencial&#34;&gt;Diagnóstico diferencial&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Mecanismo&lt;/th&gt;
+          &lt;th&gt;Exemplos&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Baixa trombocitopoese&lt;/td&gt;
+          &lt;td&gt;Leucemia&lt;br&gt;Linfoma&lt;br&gt;Anemia aplásica&lt;br&gt;Consumo intenso de álcool&lt;br&gt;Anemias por deficiência de vitaminas, incluindo vitamina B12, e anemias por deficiência de folato&lt;br&gt;Alguns distúrbios da medula óssea&lt;br&gt;Alguns medicamentos quimioterápicos&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sequestro plaquetário esplênico&lt;/td&gt;
+          &lt;td&gt;Cirrose hepática, hipertensão arterial hepática ou esplênica&lt;br&gt;Mielofibrose&lt;br&gt;Doença de Gaucher&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pseudoplaquetopenia&lt;/td&gt;
+          &lt;td&gt;Reposição maciça de eritrócitos ou transfusões&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Plaquetólise&lt;/td&gt;
+          &lt;td&gt;Trombocitopenia imune&lt;br&gt;Infecção pelo vírus da hepatite C, infecção por HIV e outras infecções virais&lt;br&gt;Medicamentos como heparina, quinina, muitos antibióticos (tais como trimetoprima/sulfametoxazol, rifampicina e vancomicina) e alguns medicamentos orais para diabetes&lt;br&gt;Quadros clínicos que provocam coagulação intravascular disseminada nos vasos sanguíneos, como pode acontecer em algumas complicações do parto, câncer, infecção generalizada do sangue (septicemia) devido a bactérias Gram-negativas e lesões cerebrais traumáticas&lt;br&gt;Cirurgia de revascularização (bypass) cardiopulmonar&lt;br&gt;Púrpura trombocitopênica trombótica&lt;br&gt;Síndrome hemolítico-urêmica&lt;br&gt;Algumas vacinas, como, por exemplo, para sarampo, caxumba e rubéola, gripe, hepatite B, COVID-19&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;equimoses&#34;&gt;Equimoses&lt;/h2&gt;
+&lt;p&gt;Ver&lt;/p&gt;
+&lt;h2 id=&#34;violência&#34;&gt;Violência&lt;/h2&gt;
+&lt;p&gt;Veja melhor em &lt;a href=&#34;http://localhost:1313/medicina-legal/traumato-forense/#les%C3%B5es-e-feridas&#34;&gt;medicina legal&lt;/a&gt;.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -7493,6 +7559,17 @@ oedema.&lt;/p&gt;
 ## O eletrocardiograma normal pediátrico 
 --&gt;
 &lt;h2 id=&#34;arritmias-atriais&#34;&gt;Arritmias atriais&lt;/h2&gt;
+&lt;h3 id=&#34;taquiarritmia-supraventricular-paroxística&#34;&gt;Taquiarritmia supraventricular paroxística&lt;/h3&gt;
+&lt;p&gt;Vias acessórias de condução, Wolff-Parkinson-White e outras condições preciptantes tornam o ritmo cardíaco acelerado mantendo origem atrial, preservando-se a morfologia de $\overline{QRS}$.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/taqui-supra-paroxistica.jpg&#34;&gt;
+      &lt;figcaption&gt;Registro oportuno do fim de taquicardia supraventricular paroxística.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h3 id=&#34;fenômeno-de-ashman&#34;&gt;Fenômeno de Ashman&lt;/h3&gt;
 &lt;p&gt;$QRS$s alargados, com morfologia de BRD que aparecem com $\overline{RR}$ curto se comparado ao prévio. Pode se apresentar em quaisquer arritmias, porém é mais comum na fibrilação atrial.&lt;/p&gt;
 
@@ -7556,7 +7633,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;li&gt;A adenosina a 6mg/bolo intravenoso pode ser usada em toda arritmia supraventricular, porém a reversão para ritmo sinusal é rara. &lt;strong&gt;Funciona mais como um redutor de frequência cardíaca, permitindo diagnóstico mais apurado, e.g. quando há confusão entre flutter e fibrilação atrial;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Pode-se repetir o bolus de adenosina dentro de 2min ou em momento diferente;&lt;/li&gt;
 &lt;li&gt;O flutter pode ser curado por meio da ablação por radiofrequência;&lt;/li&gt;
-&lt;li&gt;No flutter está &lt;mark&gt;contraindicado&lt;/mark&gt; a tentativa de reversão química, notadamente a amiodarona, porque o ritmo pode se converter em um mais lento ainda levando a instabilidade hemodinâmica.&lt;/li&gt;
+&lt;li&gt;No flutter, está &lt;mark&gt;contraindicada&lt;/mark&gt; a tentativa de reversão química, notadamente com amiodarona, porque o ritmo pode se converter em um mais lento, levando a instabilidade hemodinâmica.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;extrassístoles-supraventriculares&#34;&gt;Extrassístoles supraventriculares&lt;/h2&gt;
 &lt;ul&gt;
@@ -7902,7 +7979,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;/ul&gt;
 &lt;h3 id=&#34;padrão-winter&#34;&gt;Padrão Winter&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
-&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger [1]&lt;/h3&gt;
+&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;Um infarto transmural de parede inferior sem configuração tradicional de infarto com supra.&lt;/p&gt;
 &lt;p&gt;Além disso, o comprometimento de circunflexa e outros infartos difusos também podem apresentar correlação com o padrão.&lt;/p&gt;
 &lt;ul&gt;
@@ -8058,10 +8135,6 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;br&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/li&gt;
@@ -8069,6 +8142,14 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;/ol&gt;
 &lt;h2 id=&#34;imagens&#34;&gt;Imagens&lt;/h2&gt;
 &lt;p&gt;Acervo próprio.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -8947,6 +9028,11 @@ $$&lt;/p&gt;
 
 &lt;img class=&#34;fundo-only-big&#34; src=&#34;../../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
 
+&lt;style&gt;
+    h2 {
+    }
+&lt;/style&gt;
+
 &lt;h2 id=&#34;calculadora-de-manutenção-hidroeletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidroeletrolítica de Holliday-Segar&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Nenhuma calculadora substitui seu julgamento clínico!&lt;/p&gt;
@@ -9000,8 +9086,6 @@ $$&lt;/p&gt;
     &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
     &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;
     &lt;option value=&#34;fosft2meqml&#34;&gt;Fosfato de Potássio a 2mEq/mL&lt;/option&gt;
-    &lt;!--&lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;  conferir se 10 --&gt;
- &lt;!--    &lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; conferir se 5 --&gt;
 &lt;/select&gt;&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Glicose&lt;/h2&gt;
@@ -9050,7 +9134,9 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;li&gt;GS/Rh&lt;/li&gt;
 &lt;li&gt;Coombs indireto&lt;/li&gt;
 &lt;li&gt;Glicemia jejum&lt;/li&gt;
+&lt;li&gt;Rastreio de doença trofoblástica&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- marcador de mola p-57 (se positivo, é parcial; se negativo, é completa)--&gt;
 &lt;h3 id=&#34;segundo-trimestre&#34;&gt;Segundo trimestre&lt;/h3&gt;
 &lt;h3 id=&#34;terceiro-trimestre&#34;&gt;Terceiro trimestre&lt;/h3&gt;
 &lt;h3 id=&#34;puerpério&#34;&gt;Puerpério&lt;/h3&gt;

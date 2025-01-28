@@ -2,7 +2,7 @@
 function holliday() {
   // principal
   const tipoFluidoPrincipal = document.getElementById("tipoFluidoPrincipal").value;
-  const massa = document.getElementById("massa").value;
+  const massa = parseFloat(document.getElementById("massa").value);
 
   // sodio 
   const concentAmpNa = document.getElementById("concentAmpNa").value;
@@ -10,8 +10,9 @@ function holliday() {
   
   // potassio
   const concentAmpK = document.getElementById("concentAmpK").value;
-  const volumeAmpK = document.getElementById("volumeAmpK").value;
+  const volumeAmpK = parseFloat(document.getElementById("volumeAmpK").value);
 
+  console.log("tipoFluido:"+tipoFluidoPrincipal+"<br>massa:"+ massa+"<br>conc. amp na:"+concentAmpNa+"<br>vol amp na:"+volumeAmpNa+"<br>conc amp k:"+concentAmpK+"<br>vol amp k:"+volumeAmpK);
   // aporte calorico e hídrico deve manter 100kcal/100ml
   // cada 1g de glicose hidratada tem 3.4kcal
   

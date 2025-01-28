@@ -13,7 +13,7 @@ if (temaEspecificado == "true") {
   document.documentElement.setAttribute('data-tema', "dark");
   localStorage.setItem('tema', "dark"); 
   //document.getElementById("nomeTema").innerHTML = ".light";
-  setNomeTema();
+  //setNomeTema();
 } else {
   document.documentElement.setAttribute('data-tema', "light");
   localStorage.setItem('tema', "light"); 
