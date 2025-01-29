@@ -11,6 +11,31 @@
 	
 	
 	<item>
+		<title>insuficiencia respiratoria</title>
+		<link>https://www.aesclepius.com.br/insuficiencia-respiratoria/</link>
+		<pubDate>Mon, 27 Jan 2025 10:34:02 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/insuficiencia-respiratoria/</guid>
+		<description>&lt;h2 id=&#34;pediatria&#34;&gt;Pediatria&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+    ImpressaoInicial(&#34;Impressão inicial: Consciência, Cor, Respiração&#34;) --&gt; |Algum presente?| SalaEmergencia
+    SalaEmergencia(&#34;Sala de emergência: Chamar ajuda, Monitorização&#34;) --&gt; A
+    A(&#34;A: Via aérea&lt;br&gt;Checar obstrução&lt;br&gt;Aspirar/remover corpo estranho&lt;br&gt;Posicionar (cheirar ou neutro)&#34;) --&gt; AirwayDecision{Via aérea pérvia?}
+    AirwayDecision --&gt;|Sim| B
+    AirwayDecision --&gt;|Não| ConsiderarCannula(&#34;Considerar cânula orofaríngea ou intubação&#34;)
+    B(&#34;B: Ventilação&lt;br&gt;Verificar trabalho ventilatório eficaz&#34;) --&gt; VentilationDecision{Ventilação eficaz?}
+    VentilationDecision --&gt;|Sim| O2(&#34;Oferecer O₂&lt;br&gt;Tratar causa primária&#34;)
+    O2 --&gt; C
+    VentilationDecision --&gt;|Não| VentilacaoPressao(&#34;Ventilação com pressão positiva + O₂&lt;br&gt;Considerar via aérea avançada&#34;)
+    C(&#34;C: Avaliar outras disfunções&lt;br&gt;Circulação, metabólica, neurológica&lt;br&gt;Glicemia, temperatura&lt;br&gt;Lesões de pele, sinais de choque&#34;) --&gt; AirwayCheckAgain{Via aérea mantém pérvia?}
+    AirwayCheckAgain --&gt;|Sim| B
+    AirwayCheckAgain --&gt;|Não| ConsiderarCannula
+&lt;/pre&gt;
+
+</description>
+	</item>
+	
+	<item>
 		<title>Prescrição de suplementos dietéticos</title>
 		<link>https://www.aesclepius.com.br/suplementacao/</link>
 		<pubDate>Sat, 25 Jan 2025 07:05:38 -0300</pubDate>
@@ -2615,6 +2640,47 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 &lt;li&gt;Child CG, Turcotte JG. &lt;strong&gt;Surgery and portal hypertension. In: The liver and portal hypertension&lt;/strong&gt;. Edited by CG Child. Philadelphia: Saunders 1964:50-64.&lt;/li&gt;
 &lt;li&gt;Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R (1973). &lt;strong&gt;Transection of the oesophagus for bleeding oesophageal varices&lt;/strong&gt;. The British journal of surgery 60 (8).&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Púrpuras e lesões hemáticas</title>
+		<link>https://www.aesclepius.com.br/purpuras/</link>
+		<pubDate>Wed, 08 May 2024 11:53:29 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/purpuras/</guid>
+		<description>&lt;h2 id=&#34;púrpuras&#34;&gt;Púrpuras&lt;/h2&gt;
+&lt;h3 id=&#34;diagnóstico-diferencial&#34;&gt;Diagnóstico diferencial&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Mecanismo&lt;/th&gt;
+          &lt;th&gt;Exemplos&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Baixa trombocitopoese&lt;/td&gt;
+          &lt;td&gt;Leucemia&lt;br&gt;Linfoma&lt;br&gt;Anemia aplásica&lt;br&gt;Consumo intenso de álcool&lt;br&gt;Anemias por deficiência de vitaminas, incluindo vitamina B12, e anemias por deficiência de folato&lt;br&gt;Alguns distúrbios da medula óssea&lt;br&gt;Alguns medicamentos quimioterápicos&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sequestro plaquetário esplênico&lt;/td&gt;
+          &lt;td&gt;Cirrose hepática, hipertensão arterial hepática ou esplênica&lt;br&gt;Mielofibrose&lt;br&gt;Doença de Gaucher&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pseudoplaquetopenia&lt;/td&gt;
+          &lt;td&gt;Reposição maciça de eritrócitos ou transfusões&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Plaquetólise&lt;/td&gt;
+          &lt;td&gt;Trombocitopenia imune&lt;br&gt;Infecção pelo vírus da hepatite C, infecção por HIV e outras infecções virais&lt;br&gt;Medicamentos como heparina, quinina, muitos antibióticos (tais como trimetoprima/sulfametoxazol, rifampicina e vancomicina) e alguns medicamentos orais para diabetes&lt;br&gt;Quadros clínicos que provocam coagulação intravascular disseminada nos vasos sanguíneos, como pode acontecer em algumas complicações do parto, câncer, infecção generalizada do sangue (septicemia) devido a bactérias Gram-negativas e lesões cerebrais traumáticas&lt;br&gt;Cirurgia de revascularização (bypass) cardiopulmonar&lt;br&gt;Púrpura trombocitopênica trombótica&lt;br&gt;Síndrome hemolítico-urêmica&lt;br&gt;Algumas vacinas, como, por exemplo, para sarampo, caxumba e rubéola, gripe, hepatite B, COVID-19&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;equimoses&#34;&gt;Equimoses&lt;/h2&gt;
+&lt;p&gt;Ver&lt;/p&gt;
+&lt;h2 id=&#34;violência&#34;&gt;Violência&lt;/h2&gt;
+&lt;p&gt;Veja melhor em &lt;a href=&#34;http://localhost:1313/medicina-legal/traumato-forense/#les%C3%B5es-e-feridas&#34;&gt;medicina legal&lt;/a&gt;.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -6971,7 +7037,7 @@ oedema.&lt;/p&gt;
     }
 &lt;/style&gt;
 &lt;div class=modulos&gt;
-&lt;div class=&#34;modulo sticker&#34; id=&#34;dados-clinicos&#34;&gt;
+&lt;div class=&#34;calculadoras&#34; id=&#34;dados-clinicos&#34;&gt;
     &lt;h2&gt;Paciente&lt;/h2&gt;
     &lt;label for=&#34;nome&#34;&gt;Nome&lt;/label&gt;
     &lt;br&gt;
@@ -6991,7 +7057,7 @@ oedema.&lt;/p&gt;
     &lt;!-- Adicione mais opções conforme necessário --&gt;
     &lt;/select&gt;
 &lt;/div&gt;
-&lt;div class=&#34;modulo sticker&#34; id=&#34;ventilador&#34;&gt;
+&lt;div class=&#34;calculadoras&#34; id=&#34;ventilador&#34;&gt;
     &lt;h2&gt;Ventilador&lt;/h2&gt;
     &lt;label for=&#34;volTidal&#34;&gt;Volume Tidal(ml)&lt;/label&gt;
     &lt;br&gt;
@@ -7001,7 +7067,7 @@ oedema.&lt;/p&gt;
     &lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;fr&#34; value=&#34;20&#34; min=&#34;0&#34; max=&#34;100&#34; step=&#34;1&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;modulo sticker&#34; id=&#34;gasometria&#34;&gt;
+&lt;div class=&#34;calculadoras&#34; id=&#34;gasometria&#34;&gt;
     &lt;h2&gt;Gasometria&lt;/h2&gt;
 &lt;!-- PH
 &lt;input type=&#34;number&#34; id=&#34;ph&#34; max=7.6 min=7.11 name=&#34;ph&#34; step=&#34;0.01&#34; value=7.31&gt; 
@@ -7493,6 +7559,17 @@ oedema.&lt;/p&gt;
 ## O eletrocardiograma normal pediátrico 
 --&gt;
 &lt;h2 id=&#34;arritmias-atriais&#34;&gt;Arritmias atriais&lt;/h2&gt;
+&lt;h3 id=&#34;taquiarritmia-supraventricular-paroxística&#34;&gt;Taquiarritmia supraventricular paroxística&lt;/h3&gt;
+&lt;p&gt;Vias acessórias de condução, Wolff-Parkinson-White e outras condições preciptantes tornam o ritmo cardíaco acelerado mantendo origem atrial, preservando-se a morfologia de $\overline{QRS}$.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/taqui-supra-paroxistica.jpg&#34;&gt;
+      &lt;figcaption&gt;Registro oportuno do fim de taquicardia supraventricular paroxística.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h3 id=&#34;fenômeno-de-ashman&#34;&gt;Fenômeno de Ashman&lt;/h3&gt;
 &lt;p&gt;$QRS$s alargados, com morfologia de BRD que aparecem com $\overline{RR}$ curto se comparado ao prévio. Pode se apresentar em quaisquer arritmias, porém é mais comum na fibrilação atrial.&lt;/p&gt;
 
@@ -7556,7 +7633,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;li&gt;A adenosina a 6mg/bolo intravenoso pode ser usada em toda arritmia supraventricular, porém a reversão para ritmo sinusal é rara. &lt;strong&gt;Funciona mais como um redutor de frequência cardíaca, permitindo diagnóstico mais apurado, e.g. quando há confusão entre flutter e fibrilação atrial;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Pode-se repetir o bolus de adenosina dentro de 2min ou em momento diferente;&lt;/li&gt;
 &lt;li&gt;O flutter pode ser curado por meio da ablação por radiofrequência;&lt;/li&gt;
-&lt;li&gt;No flutter está &lt;mark&gt;contraindicado&lt;/mark&gt; a tentativa de reversão química, notadamente a amiodarona, porque o ritmo pode se converter em um mais lento ainda levando a instabilidade hemodinâmica.&lt;/li&gt;
+&lt;li&gt;No flutter, está &lt;mark&gt;contraindicada&lt;/mark&gt; a tentativa de reversão química, notadamente com amiodarona, porque o ritmo pode se converter em um mais lento, levando a instabilidade hemodinâmica.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;extrassístoles-supraventriculares&#34;&gt;Extrassístoles supraventriculares&lt;/h2&gt;
 &lt;ul&gt;
@@ -7902,7 +7979,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;/ul&gt;
 &lt;h3 id=&#34;padrão-winter&#34;&gt;Padrão Winter&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
-&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger [1]&lt;/h3&gt;
+&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;Um infarto transmural de parede inferior sem configuração tradicional de infarto com supra.&lt;/p&gt;
 &lt;p&gt;Além disso, o comprometimento de circunflexa e outros infartos difusos também podem apresentar correlação com o padrão.&lt;/p&gt;
 &lt;ul&gt;
@@ -8058,10 +8135,6 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;br&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/li&gt;
@@ -8069,6 +8142,14 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;/ol&gt;
 &lt;h2 id=&#34;imagens&#34;&gt;Imagens&lt;/h2&gt;
 &lt;p&gt;Acervo próprio.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -8649,46 +8730,112 @@ table{
 		
 		<guid>https://www.aesclepius.com.br/intubacao/</guid>
 		<description>&lt;h2 id=&#34;verificação-do-material&#34;&gt;Verificação do material&lt;/h2&gt;
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/material-intubacao.png&#34;&gt;
-      &lt;figcaption&gt;&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Observar as condições do balão ventilatório.&lt;/li&gt;
 &lt;li&gt;Certificar-se que a fonte de oxigênio está operante.&lt;/li&gt;
 &lt;li&gt;Ligar monitores e ter certeza da ciência da equipe sobre o procedimento.&lt;/li&gt;
 &lt;li&gt;Verifique a luz do laringoscópio e a firmeza de sua lâmina.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;preparo-das-medicações&#34;&gt;Preparo das medicações&lt;/h3&gt;
-&lt;p&gt;Monte seringas com:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Soro.&lt;/li&gt;
-&lt;li&gt;Indutor de sedoanalgesia.&lt;/li&gt;
-&lt;li&gt;Bloqueador neuromuscular.&lt;/li&gt;
-&lt;li&gt;Analgésico.&lt;/li&gt;
-&lt;li&gt;Hipnótico.&lt;/li&gt;
-&lt;li&gt;Solução de adrenalina 1ml com 19ml de soro.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;preparo-e-escolha-das-medicações&#34;&gt;Preparo e escolha das medicações&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Hipinótico&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Midazolam&lt;/td&gt;
+          &lt;td&gt;0.1-0.3mg/Kg&lt;/td&gt;
+          &lt;td&gt;Boa amnésia retrógrada.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Diazepam&lt;/td&gt;
+          &lt;td&gt;0.3-0.5mg/Kg&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Efeito mais duradouro que midazolam.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tiopental&lt;/td&gt;
+          &lt;td&gt;2-4mg/Kg lento&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Uso em traumatismo craniano e convulsões. &lt;b&gt;Não usar em crise de asma.&lt;/b&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Analgésico&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Fentanil&lt;/td&gt;
+          &lt;td&gt;1 a 4mcg/Kg lento&lt;/td&gt;
+          &lt;td&gt;Ampolas de 50mcg/mL. Em bolo.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Morfina&lt;/td&gt;
+          &lt;td&gt;0.05 a 0.2mg/Kg&lt;/td&gt;
+          &lt;td&gt;Ampolas de 10mg/mL. Em bolo.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Coadjuvante&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Adrenalina&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Misturar ampola de 1ml/Kg em 19ml de soro.&lt;br&gt;Cada mililitro terá 0.5mg.&lt;br&gt; Considerar diluir em 9ml para menor volume em pediatria.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Bloqueador neuromuscular&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rocurônio&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;abordagem-do-paciente&#34;&gt;Abordagem do paciente&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Explicar ao paciente que o procedimento é necessário e suas justificativas.&lt;/li&gt;
 &lt;li&gt;Esclareça que haverá analgesia e sedação.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;avalie-a-fisiologia-do-paciente&#34;&gt;Avalie a fisiologia do paciente&lt;/h2&gt;
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/paciente-intubacao.png&#34;&gt;
-      &lt;figcaption&gt;&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Pacientes obesos ou muito grandes, com limitações de posição ou dispositivos podem exigir adaptações, coxins maiores ou técnicas não ortodoxas.&lt;/li&gt;
 &lt;li&gt;Avalie a via aérea do paciente.&lt;/li&gt;
@@ -8722,14 +8869,17 @@ table{
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;escolha-do-tubo&#34;&gt;Escolha do tubo&lt;/h3&gt;
-&lt;p&gt;Para homens de até 1.8m, considere tubo 7. Mulheres de até 1.7m, tubo 6. O julgamento do tamanho do tubo é subjetivo.&lt;/p&gt;
-&lt;h4 id=&#34;tamanho-de-cânula-em-pediatria&#34;&gt;Tamanho de cânula em pediatria:&lt;/h4&gt;
-&lt;p&gt;$$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
+&lt;h2 id=&#34;calculadora-de-tubo1&#34;&gt;Calculadora de tubo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;Criei a calculadora a seguir para ser extremamente flexível e rápida, evitando consultas desncessárias no momento do procedimento. &lt;strong&gt;Use pontos, não vírgulas&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=calculadoras&gt;
-&lt;label for=idadeTuboPed&gt;Idade&lt;/label&gt;
+&lt;select id=sexo&gt;
+   &lt;option value=1&gt;Masculino&lt;/option&gt;
+   &lt;option value=0&gt;Feminino&lt;/option&gt;
+&lt;/select&gt;
 &lt;br&gt;
-&lt;input id=idadeTuboPed type=number&gt;&lt;/input&gt;
+&lt;input id=idadeTuboPed placeholder=&#34;idade (anos)&#34;type=number&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;input id=altura placeholder=&#34;altura (m)&#34; pattern=&#34;[^,]*&#34; type=number&gt;&lt;/input&gt;
 &lt;br&gt;
 &lt;input type=checkbox id=comCuff&gt;Com cuff&lt;/input&gt;
 &lt;br&gt;
@@ -8737,6 +8887,56 @@ table{
 &lt;p id=resultadoTuboPed&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=../../calcTuboPed.js&gt;&lt;/script&gt;
+&lt;h2 id=&#34;ventilação-mecânica-inicial2&#34;&gt;Ventilação mecânica inicial&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;modo-volume&#34;&gt;Modo volume&lt;/h3&gt;
+&lt;p&gt;Calcule a massa ideal estimada do paciente e o consequente volume corrente indicado. Use a calculdora abaixo.&lt;/p&gt;
+&lt;p&gt;Depois, ajuste uma pressão expiratória final positiva (PEEP) de 5cmH&lt;sub&gt;2&lt;/sub&gt;O e uma fração de oxigênio em 100% e a titule até conseguir uma saturação de O&lt;sub&gt;2&lt;/sub&gt; periférica de 96%.&lt;/p&gt;
+&lt;p&gt;Considere ajustes de PEEP a depender da patologia de base.&lt;/p&gt;
+&lt;div class=calculadoras&gt;
+    &lt;h2&gt;Volume corrente inicial indicado&lt;/h2&gt;
+    &lt;input type=number id=alturaVol placeholder=&#34;altura (cm)&#34;&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;select id=sexoVol&gt;
+        &lt;option value=&#34;true&#34; selected&gt;Masculino&lt;/option&gt;
+        &lt;option value=&#34;false&#34;&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=pesoIdeal()&gt;Calcular&lt;/button&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;p id=resultadoPesoIdeal&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function pesoIdeal() {
+        let constante = 45.5;
+        let homem = document.getElementById(&#34;sexoVol&#34;).value === &#34;true&#34;;
+        if (homem) {
+            constante = 50;
+            console.log(homem);
+        };
+        let altura = parseInt(document.getElementById(&#34;alturaVol&#34;).value);
+        let resultado1 = 6*(constante + 0.91*(altura - 152.4));
+        let resultado2 = resultado1*8/6;
+        console.log(resultado1+&#34;  &#34;+resultado2)
+        document.getElementById(&#34;resultadoPesoIdeal&#34;).innerText = &#34;Use entre &#34;+resultado1.toFixed(2)+&#34; a &#34;+resultado2.toFixed(2)+&#34;mL de volume corrente inicial.&#34;;
+    }
+&lt;/script&gt;
+&lt;h3 id=&#34;modo-pressão&#34;&gt;Modo pressão&lt;/h3&gt;
+&lt;p&gt;O modo pressão facilita a vida com relação a segurança.&lt;/p&gt;
+&lt;h4 id=&#34;adulto&#34;&gt;Adulto&lt;/h4&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h4 id=&#34;pediatria&#34;&gt;Pediatria&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;PEEP de 5 a 6cmH&lt;sub&gt;2&lt;/sub&gt;O;&lt;/li&gt;
+&lt;li&gt;P&lt;sub&gt;ins&lt;/sub&gt; de 15 a 25cmH&lt;sub&gt;2&lt;/sub&gt;O;&lt;/li&gt;
+&lt;li&gt;Frequência respiratória de 25 a 35irpm; e&lt;/li&gt;
+&lt;li&gt;FiO&lt;sub&gt;2&lt;/sub&gt; de 100%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Titule a FiO&lt;sub&gt;2&lt;/sub&gt; para o menor valor possível até saturação periférica de O&lt;sub&gt;2&lt;/sub&gt; de 96%.&lt;/p&gt;
+&lt;h2 id=&#34;sedação-contínua&#34;&gt;Sedação contínua&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;!--
 Cânula = 3,5 + idade / 4
 Até 1 ano: 3 / até 2 anos: 3,5
@@ -8778,6 +8978,20 @@ O - Obstrução da Cânula
 P - Pneumotórax 
 E - Equipamento falho
 --&gt;
+&lt;h2 id=&#34;meu-simulador-de-ventilação-mecânica&#34;&gt;Meu simulador de ventilação mecânica&lt;/h2&gt;
+&lt;p&gt;&lt;img src=../../pix/medicina/sim_vent.png&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Estou montando um &lt;a href=&#34;../../ventilador-mec/&#34;&gt;simulador de ventilador mecânica em JavaScript&lt;/a&gt;, um protótipo embrião. Se tem interesse em participar, contacte-me.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Os cálculos para cânula em pediatria é: $ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $. Já no contexto adulto, a regra geral é que homens e mulheres de até 1.8m recebam tubo 7 ou 6 respectivamente e pessoas maiores o tubo 8.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Ferreira1 JC, Vianna2 AOA, Pinheiro3 BV, Maia4 IS, 5 , Baldisserotto6 SV, et al. &lt;strong&gt;Joint statement on evidence-based practices in mechanical ventilation: suggestions from two Brazilian medical societies&lt;/strong&gt;. J Bras Pneumol. 2025;51(1):e20240255&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -8880,11 +9094,12 @@ E - Equipamento falho
 	
 	<item>
 		<title>Calculadoras de superfície corporal</title>
-		<link>https://www.aesclepius.com.br/superficie-corporal/</link>
+		<link>https://www.aesclepius.com.br/antropometria/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/superficie-corporal/</guid>
-		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
+		<guid>https://www.aesclepius.com.br/antropometria/</guid>
+		<description>&lt;h2 id=&#34;superfície-corporal&#34;&gt;Superfície corporal&lt;/h2&gt;
+&lt;h3 id=&#34;estimativa-de-costeff&#34;&gt;Estimativa de Costeff&lt;/h3&gt;
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
 &lt;p&gt;$$
@@ -8899,7 +9114,7 @@ $$&lt;/p&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
+&lt;h3 id=&#34;queimados&#34;&gt;Queimados&lt;/h3&gt;
 &lt;p&gt;Veja &lt;a href=&#34;../../medicina/queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;script&gt;
     function bsa(){
@@ -8924,6 +9139,37 @@ $$&lt;/p&gt;
     }
 &lt;/script&gt;
 &lt;br&gt;
+&lt;h2 id=&#34;peso-real-estimado&#34;&gt;Peso real estimado&lt;/h2&gt;
+&lt;p&gt;Apesar do cacoete médico, &amp;ldquo;peso real&amp;rdquo; se refere a massa ideal estimada do paciente.&lt;/p&gt;
+&lt;div class=calculadoras&gt;
+    &lt;h2&gt;Massa ideal estimada&lt;/h2&gt;
+    &lt;input type=number id=altura placeholder=&#34;altura (cm)&#34;&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;select id=sexo&gt;
+        &lt;option value=&#34;true&#34; selected&gt;Masculino&lt;/option&gt;
+        &lt;option value=&#34;false&#34;&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=pesoIdeal()&gt;Calcular&lt;/button&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;p id=resultadoPesoIdeal&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function pesoIdeal() {
+        let constante = 45.5;
+        let homem = document.getElementById(&#34;sexo&#34;).value === &#34;true&#34;;
+        if (homem) {
+            constante = 50;
+            console.log(homem);
+        };
+        let altura = parseInt(document.getElementById(&#34;altura&#34;).value);
+        let resultado = (constante + 0.91*(altura - 152.4));
+        document.getElementById(&#34;resultadoPesoIdeal&#34;).innerText = resultado.toFixed(2)+&#34;Kg&#34;;
+    }
+&lt;/script&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
@@ -8946,6 +9192,11 @@ $$&lt;/p&gt;
 
 
 &lt;img class=&#34;fundo-only-big&#34; src=&#34;../../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
+
+&lt;style&gt;
+    h2 {
+    }
+&lt;/style&gt;
 
 &lt;h2 id=&#34;calculadora-de-manutenção-hidroeletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidroeletrolítica de Holliday-Segar&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;/p&gt;
@@ -9000,8 +9251,6 @@ $$&lt;/p&gt;
     &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
     &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;
     &lt;option value=&#34;fosft2meqml&#34;&gt;Fosfato de Potássio a 2mEq/mL&lt;/option&gt;
-    &lt;!--&lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;  conferir se 10 --&gt;
- &lt;!--    &lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; conferir se 5 --&gt;
 &lt;/select&gt;&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Glicose&lt;/h2&gt;
@@ -9050,7 +9299,9 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;li&gt;GS/Rh&lt;/li&gt;
 &lt;li&gt;Coombs indireto&lt;/li&gt;
 &lt;li&gt;Glicemia jejum&lt;/li&gt;
+&lt;li&gt;Rastreio de doença trofoblástica&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- marcador de mola p-57 (se positivo, é parcial; se negativo, é completa)--&gt;
 &lt;h3 id=&#34;segundo-trimestre&#34;&gt;Segundo trimestre&lt;/h3&gt;
 &lt;h3 id=&#34;terceiro-trimestre&#34;&gt;Terceiro trimestre&lt;/h3&gt;
 &lt;h3 id=&#34;puerpério&#34;&gt;Puerpério&lt;/h3&gt;
