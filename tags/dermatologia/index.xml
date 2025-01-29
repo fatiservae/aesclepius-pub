@@ -7037,7 +7037,11 @@ oedema.&lt;/p&gt;
     }
 &lt;/style&gt;
 &lt;div class=modulos&gt;
+<<<<<<< HEAD
 &lt;div class=&#34;calculadoras&#34; id=&#34;dados-clinicos&#34;&gt;
+=======
+&lt;div class=&#34;modulo sticker&#34; id=&#34;dados-clinicos&#34;&gt;
+>>>>>>> refs/remotes/origin/main
     &lt;h2&gt;Paciente&lt;/h2&gt;
     &lt;label for=&#34;nome&#34;&gt;Nome&lt;/label&gt;
     &lt;br&gt;
@@ -7057,7 +7061,11 @@ oedema.&lt;/p&gt;
     &lt;!-- Adicione mais opções conforme necessário --&gt;
     &lt;/select&gt;
 &lt;/div&gt;
+<<<<<<< HEAD
 &lt;div class=&#34;calculadoras&#34; id=&#34;ventilador&#34;&gt;
+=======
+&lt;div class=&#34;modulo sticker&#34; id=&#34;ventilador&#34;&gt;
+>>>>>>> refs/remotes/origin/main
     &lt;h2&gt;Ventilador&lt;/h2&gt;
     &lt;label for=&#34;volTidal&#34;&gt;Volume Tidal(ml)&lt;/label&gt;
     &lt;br&gt;
@@ -7067,7 +7075,11 @@ oedema.&lt;/p&gt;
     &lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;fr&#34; value=&#34;20&#34; min=&#34;0&#34; max=&#34;100&#34; step=&#34;1&#34;&gt;
 &lt;/div&gt;
+<<<<<<< HEAD
 &lt;div class=&#34;calculadoras&#34; id=&#34;gasometria&#34;&gt;
+=======
+&lt;div class=&#34;modulo sticker&#34; id=&#34;gasometria&#34;&gt;
+>>>>>>> refs/remotes/origin/main
     &lt;h2&gt;Gasometria&lt;/h2&gt;
 &lt;!-- PH
 &lt;input type=&#34;number&#34; id=&#34;ph&#34; max=7.6 min=7.11 name=&#34;ph&#34; step=&#34;0.01&#34; value=7.31&gt; 
@@ -8730,12 +8742,25 @@ table{
 		
 		<guid>https://www.aesclepius.com.br/intubacao/</guid>
 		<description>&lt;h2 id=&#34;verificação-do-material&#34;&gt;Verificação do material&lt;/h2&gt;
+<<<<<<< HEAD
+=======
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/material-intubacao.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+>>>>>>> refs/remotes/origin/main
 &lt;ul&gt;
 &lt;li&gt;Observar as condições do balão ventilatório.&lt;/li&gt;
 &lt;li&gt;Certificar-se que a fonte de oxigênio está operante.&lt;/li&gt;
 &lt;li&gt;Ligar monitores e ter certeza da ciência da equipe sobre o procedimento.&lt;/li&gt;
 &lt;li&gt;Verifique a luz do laringoscópio e a firmeza de sua lâmina.&lt;/li&gt;
 &lt;/ul&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;preparo-e-escolha-das-medicações&#34;&gt;Preparo e escolha das medicações&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -8830,12 +8855,36 @@ table{
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+=======
+&lt;h3 id=&#34;preparo-das-medicações&#34;&gt;Preparo das medicações&lt;/h3&gt;
+&lt;p&gt;Monte seringas com:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Soro.&lt;/li&gt;
+&lt;li&gt;Indutor de sedoanalgesia.&lt;/li&gt;
+&lt;li&gt;Bloqueador neuromuscular.&lt;/li&gt;
+&lt;li&gt;Analgésico.&lt;/li&gt;
+&lt;li&gt;Hipnótico.&lt;/li&gt;
+&lt;li&gt;Solução de adrenalina 1ml com 19ml de soro.&lt;/li&gt;
+&lt;/ol&gt;
+>>>>>>> refs/remotes/origin/main
 &lt;h2 id=&#34;abordagem-do-paciente&#34;&gt;Abordagem do paciente&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Explicar ao paciente que o procedimento é necessário e suas justificativas.&lt;/li&gt;
 &lt;li&gt;Esclareça que haverá analgesia e sedação.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;avalie-a-fisiologia-do-paciente&#34;&gt;Avalie a fisiologia do paciente&lt;/h2&gt;
+<<<<<<< HEAD
+=======
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/paciente-intubacao.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+>>>>>>> refs/remotes/origin/main
 &lt;ul&gt;
 &lt;li&gt;Pacientes obesos ou muito grandes, com limitações de posição ou dispositivos podem exigir adaptações, coxins maiores ou técnicas não ortodoxas.&lt;/li&gt;
 &lt;li&gt;Avalie a via aérea do paciente.&lt;/li&gt;
@@ -8869,6 +8918,7 @@ table{
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;calculadora-de-tubo1&#34;&gt;Calculadora de tubo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;p&gt;Criei a calculadora a seguir para ser extremamente flexível e rápida, evitando consultas desncessárias no momento do procedimento. &lt;strong&gt;Use pontos, não vírgulas&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=calculadoras&gt;
@@ -8880,6 +8930,16 @@ table{
 &lt;input id=idadeTuboPed placeholder=&#34;idade (anos)&#34;type=number&gt;&lt;/input&gt;
 &lt;br&gt;
 &lt;input id=altura placeholder=&#34;altura (m)&#34; pattern=&#34;[^,]*&#34; type=number&gt;&lt;/input&gt;
+=======
+&lt;h3 id=&#34;escolha-do-tubo&#34;&gt;Escolha do tubo&lt;/h3&gt;
+&lt;p&gt;Para homens de até 1.8m, considere tubo 7. Mulheres de até 1.7m, tubo 6. O julgamento do tamanho do tubo é subjetivo.&lt;/p&gt;
+&lt;h4 id=&#34;tamanho-de-cânula-em-pediatria&#34;&gt;Tamanho de cânula em pediatria:&lt;/h4&gt;
+&lt;p&gt;$$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
+&lt;div class=calculadoras&gt;
+&lt;label for=idadeTuboPed&gt;Idade&lt;/label&gt;
+&lt;br&gt;
+&lt;input id=idadeTuboPed type=number&gt;&lt;/input&gt;
+>>>>>>> refs/remotes/origin/main
 &lt;br&gt;
 &lt;input type=checkbox id=comCuff&gt;Com cuff&lt;/input&gt;
 &lt;br&gt;
@@ -8887,6 +8947,7 @@ table{
 &lt;p id=resultadoTuboPed&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=../../calcTuboPed.js&gt;&lt;/script&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;ventilação-mecânica-inicial2&#34;&gt;Ventilação mecânica inicial&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;modo-volume&#34;&gt;Modo volume&lt;/h3&gt;
 &lt;p&gt;Calcule a massa ideal estimada do paciente e o consequente volume corrente indicado. Use a calculdora abaixo.&lt;/p&gt;
@@ -8937,6 +8998,8 @@ table{
 &lt;p&gt;Titule a FiO&lt;sub&gt;2&lt;/sub&gt; para o menor valor possível até saturação periférica de O&lt;sub&gt;2&lt;/sub&gt; de 96%.&lt;/p&gt;
 &lt;h2 id=&#34;sedação-contínua&#34;&gt;Sedação contínua&lt;/h2&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
+=======
+>>>>>>> refs/remotes/origin/main
 &lt;!--
 Cânula = 3,5 + idade / 4
 Até 1 ano: 3 / até 2 anos: 3,5
@@ -8978,6 +9041,7 @@ O - Obstrução da Cânula
 P - Pneumotórax 
 E - Equipamento falho
 --&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;meu-simulador-de-ventilação-mecânica&#34;&gt;Meu simulador de ventilação mecânica&lt;/h2&gt;
 &lt;p&gt;&lt;img src=../../pix/medicina/sim_vent.png&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;p&gt;Estou montando um &lt;a href=&#34;../../ventilador-mec/&#34;&gt;simulador de ventilador mecânica em JavaScript&lt;/a&gt;, um protótipo embrião. Se tem interesse em participar, contacte-me.&lt;/p&gt;
@@ -8992,6 +9056,8 @@ E - Equipamento falho
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
+=======
+>>>>>>> refs/remotes/origin/main
 </description>
 	</item>
 	
@@ -9094,12 +9160,20 @@ E - Equipamento falho
 	
 	<item>
 		<title>Calculadoras de superfície corporal</title>
+<<<<<<< HEAD
 		<link>https://www.aesclepius.com.br/antropometria/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/antropometria/</guid>
 		<description>&lt;h2 id=&#34;superfície-corporal&#34;&gt;Superfície corporal&lt;/h2&gt;
 &lt;h3 id=&#34;estimativa-de-costeff&#34;&gt;Estimativa de Costeff&lt;/h3&gt;
+=======
+		<link>https://www.aesclepius.com.br/superficie-corporal/</link>
+		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/superficie-corporal/</guid>
+		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
+>>>>>>> refs/remotes/origin/main
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
 &lt;p&gt;$$
@@ -9114,7 +9188,11 @@ $$&lt;/p&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
 &lt;/div&gt;
+<<<<<<< HEAD
 &lt;h3 id=&#34;queimados&#34;&gt;Queimados&lt;/h3&gt;
+=======
+&lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
+>>>>>>> refs/remotes/origin/main
 &lt;p&gt;Veja &lt;a href=&#34;../../medicina/queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;script&gt;
     function bsa(){
@@ -9139,6 +9217,7 @@ $$&lt;/p&gt;
     }
 &lt;/script&gt;
 &lt;br&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;peso-real-estimado&#34;&gt;Peso real estimado&lt;/h2&gt;
 &lt;p&gt;Apesar do cacoete médico, &amp;ldquo;peso real&amp;rdquo; se refere a massa ideal estimada do paciente.&lt;/p&gt;
 &lt;div class=calculadoras&gt;
@@ -9170,6 +9249,8 @@ $$&lt;/p&gt;
         document.getElementById(&#34;resultadoPesoIdeal&#34;).innerText = resultado.toFixed(2)+&#34;Kg&#34;;
     }
 &lt;/script&gt;
+=======
+>>>>>>> refs/remotes/origin/main
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
