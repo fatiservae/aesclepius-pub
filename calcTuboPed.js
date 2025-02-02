@@ -1,22 +1,36 @@
 function calcularTuboPed() {
-  let idade = document.getElementById("idadeTuboPed").value;
-  let tuboPed;
+  let idade = parseInt(document.getElementById("idadeTuboPed").value);
+  let altura = parseFloat(document.getElementById("altura").value);
+  let sexo = parseInt(document.getElementById("sexo").value);
+  let tubo;
   let fatorTubo = 4;
 
-  if (document.getElementById("comCuff").checked) {
+  if (document.getElementById("comCuff").checked ||
+        idade > 10) {
       fatorTubo = 3.5;
   } 
 
   if (idade <= 1) {
-      tuboPed = 3;
-  } else {
-      tuboPed = idade/4 + fatorTubo;
+      tubo = 3;
+  } else if (idade <= 10){
+      tubo = idade/4 + fatorTubo;
+  } else if (idade > 10) {
+      if (altura <= 1.6){
+            tubo = 6;
+        } else if (altura <= 1.8){
+        if (sexo) {
+            tubo = 7;
+        }else {
+            tubo = 6;
+        }
+      } else if (altura > 1.8){
+         tubo = 8;
+      }
   }
 
-  let fixacaoTuboPed = tuboPed*3;
-  document.getElementById("resultadoTuboPed").innerHTML = "Tubo no. "+tuboPed.toFixed(0)+"<br>Inserir o tubo "+fixacaoTuboPed+"cm";
+  let fixacaoTuboPed = tubo*3;
+  document.getElementById("resultadoTuboPed").innerHTML = "Considere usar o tubo no. "+tubo.toFixed(0)+"<br>Inserir o tubo aproximadamente "+fixacaoTuboPed+"cm";
   
-  if (idade > 10) {
-      document.getElementById("resultadoTuboPed").innerHTML += "<br>Observe que a idade é incompatível com a pediatria!";
-  } 
+console.log(tubo)
 }
+

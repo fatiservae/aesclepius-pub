@@ -477,6 +477,26 @@ code {
   content: "🩺💉 ";
 }
 
+#tag_medicina\ legal::before {
+  content: "⚖️⚕️ ";
+}
+
+#tag_intensiva::before {
+  content: "🫀💉 ";
+}
+
+#tag_nutrologia::before {
+  content: "🍽️ ";
+}
+
+#tag_dieta::before {
+  content: "🍉 ";
+}
+
+#tag_geriatria::before {
+  content: "👴 ";
+}
+
 #tag_hematologia::before {
   content: "🩸 ";
 }
@@ -1186,6 +1206,10 @@ td {
   border-right: var(--stdBorder);
 }
 
+#TableOfContents {
+  margin-bottom: 10vw;
+}
+
 #TableOfContents li::marker {
   content: none;
 }
@@ -1318,7 +1342,7 @@ h6::before {
 }
 
 .scalidraw svg {
-  max-height: 80vw;
+  max-height: 50vw;
   margin-left: var(--margem);
   margin-bottom: 0%;
   padding: 0%;
@@ -1394,6 +1418,10 @@ hr {
   body {
     font-size: 95%;
     margin: 2ch calc(15% - 50px);
+  }
+
+  .scalidraw svg {
+    max-height: 65vw;
   }
 }
 

@@ -7,26 +7,50 @@
 <meta name="robots" content="index, follow">
 <head>
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]
+    });
+  });
+</script>
+<style>
+.katex{
+  text-align: start !important ;
+  width: fit-content;
+  max-width: 80%;
+  background: none;
+}
+@media only screen and (max-width: 800px){
+  .katex{
+    max-width: 95vw;
+    font-size: 90%;
+  }
+}
+</style>
+
   
   
-  <title>LLMedica: inteligência artificial para medicina | Aesclepius</title>
+  
+  <title>Calculadoras de superfície corporal | Aesclepius</title>
   <link rel="canonical" href="https://www.aesclepius.com.br/">
-  <link rel='alternate' type='application/rss+xml' title="Aesclepius RSS" href='../../index.xml'>
-  <link rel='stylesheet' type='text/css' href='../../style.css'>
-  <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Gestão de Prontuário Médico com IA Treinada em Medicina
-Este projeto visa integrar uma Inteligência Artificial baseada em LLM (Large Language Model) treinada especificamente em medicina para auxiliar na gestão de prontuários médicos.
-Descrição
-O objetivo principal desta solução é utilizar a inteligência artificial para:
-
-Analisar e compreender informações contidas nos prontuários médicos.
-Auxiliar profissionais de saúde na interpretação e tomada de decisões com base nas informações encontradas.
-Oferecer insights e sugestões baseadas no contexto médico para melhorar a gestão dos prontuários.
-Alertar sobre possíveis erros de condutas ou prescrições.
-Melhor compreensão holística do paciente.
-
-Funcionalidades
-O projeto buscará as seguintes funcionalidades:">
+  <link rel='alternate' type='application/rss+xml' title="Aesclepius RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.webp">
+  <meta name="description" content="Superfície corporal
+Estimativa de Costeff
+Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.
+Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.
+$$
+ASC = {{ 4m &#43; 7 } \over { m &#43; 90 }}
+$$">
+  <meta name="keywords" content="projetos, medicina, calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -48,12 +72,12 @@ O projeto buscará as seguintes funcionalidades:">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 
 <nav class=barra>
-  <a href="../../index.html"><span class="material-icons">home</span></a>
-  <a href="../../files/"><span class="material-icons">inventory_2</span></a>
-  <a href="../../banco-de-questoes/"><span class="material-icons">school</span></a>
-  <a href="../../dicionario/"><span class="material-icons">menu_book</span></a>
-  <a href="../../bulario/"><span class="material-icons">medication</span></a>
-  <a href="../../tags/calculadoras/"><span class="material-icons">calculate</span></a>
+  <a href="../index.html"><span class="material-icons">home</span></a>
+  <a href="../files/"><span class="material-icons">inventory_2</span></a>
+  <a href="../banco-de-questoes/"><span class="material-icons">school</span></a>
+  <a href="../dicionario/"><span class="material-icons">menu_book</span></a>
+  <a href="../bulario/"><span class="material-icons">medication</span></a>
+  <a href="../tags/calculadoras/"><span class="material-icons">calculate</span></a>
   <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
     
       <script>const noglobalsearch = false </script>
@@ -61,7 +85,8 @@ O projeto buscará as seguintes funcionalidades:">
       <input type="text" id="globalsearch" placeholder="    busca..."></input>
     </div>
     <ul id="artlist">
-      <li data-tags=""><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">insuficiencia respiratoria</a></li>
+      <li data-tags="[calculadoras emergências]"><a href="https://www.aesclepius.com.br/diluicoes/">Diluições e preparos</a></li>
+      <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
       <li data-tags="[geriatria pediatria nutrologia dieta]"><a href="https://www.aesclepius.com.br/suplementacao/">Prescrição de suplementos dietéticos</a></li>
       <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.aesclepius.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
       <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.aesclepius.com.br/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
@@ -79,23 +104,23 @@ O projeto buscará as seguintes funcionalidades:">
       <li data-tags="[emergências medicina]"><a href="https://www.aesclepius.com.br/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
       <li data-tags="[medicina infectologia ciência história]"><a href="https://www.aesclepius.com.br/antibioticos/">Antibioticoterapia</a></li>
       <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/autismo/">Bases fisiopatológicas do autismo</a></li>
-      <li data-tags="[medicina penal direito perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
+      <li data-tags="[medicina penal direito perícias medicina legal]"><a href="https://www.aesclepius.com.br/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
       <li data-tags="[sociologia medicina]"><a href="https://www.aesclepius.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
       <li data-tags="[medicina ginecologia emergência]"><a href="https://www.aesclepius.com.br/sangramento-uterino-anormal/">Sangramento uterino anormal</a></li>
       <li data-tags="[medicina farmacologia]"><a href="https://www.aesclepius.com.br/adiccao/">Adicção: os impactos de diversas drogas</a></li>
       <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.aesclepius.com.br/receituario/">Documento em papel timbrado</a></li>
       <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/febre-reumatica/">Febre reumática</a></li>
-      <li data-tags=""><a href="https://www.aesclepius.com.br/medicina-legal/docs/">Documentos em medicina legal</a></li>
-      <li data-tags=""><a href="https://www.aesclepius.com.br/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
+      <li data-tags="[medicina legal perícias medicina direito]"><a href="https://www.aesclepius.com.br/medicina-legal/docs/">Documentos em medicina legal</a></li>
+      <li data-tags="[medicina legal perícias medicina ginecologia]"><a href="https://www.aesclepius.com.br/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
       <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatopatias/">Hepatopatias</a></li>
       <li data-tags="[hematologia emergências dermatologia pediatria]"><a href="https://www.aesclepius.com.br/purpuras/">Púrpuras e lesões hemáticas</a></li>
-      <li data-tags="[medicina perícias penal]"><a href="https://www.aesclepius.com.br/autopsias/">Autópsias</a></li>
-      <li data-tags="[direito medicina penal]"><a href="https://www.aesclepius.com.br/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
-      <li data-tags="[medicina direito penal ciência]"><a href="https://www.aesclepius.com.br/medicina-legal/morte-legal/">Tanatologia forense</a></li>
+      <li data-tags="[medicina perícias penal]"><a href="https://www.aesclepius.com.br/medicina-legal/autopsias/">Autópsias</a></li>
+      <li data-tags="[medicina legal cirurgia medicina penal direito]"><a href="https://www.aesclepius.com.br/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
+      <li data-tags="[medicina legal direito perícias medicina]"><a href="https://www.aesclepius.com.br/medicina-legal/morte-legal/">Tanatologia forense</a></li>
       <li data-tags="[direito medicina perícias penal]"><a href="https://www.aesclepius.com.br/aborto/">Aborto e infanticídio no Brasil</a></li>
-      <li data-tags="[medicina direito penal perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
-      <li data-tags="[medicina perícias direito]"><a href="https://www.aesclepius.com.br/medicina-legal/embriaguez/">Visão toxicológica e legal da embriaguez</a></li>
-      <li data-tags="[medicina direito penal perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/asfixias/">A morte por asfixias</a></li>
+      <li data-tags="[medicina legal medicina direito penal perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
+      <li data-tags="[medicina legal medicina perícias direito]"><a href="https://www.aesclepius.com.br/medicina-legal/embriaguez/">Visão toxicológica e legal da embriaguez</a></li>
+      <li data-tags="[medicina legal medicina direito penal perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/asfixias/">A morte por asfixias</a></li>
       <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.aesclepius.com.br/anemias/">Anemias: investigação e tratamento</a></li>
       <li data-tags="[medicina infectologia]"><a href="https://www.aesclepius.com.br/gastrite/">Gastrite e úlceras gástricas</a></li>
       <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.aesclepius.com.br/cetoacidose/">Cetoacidose diabética</a></li>
@@ -111,15 +136,15 @@ O projeto buscará as seguintes funcionalidades:">
       <li data-tags="[emergências medicina anestesia]"><a href="https://www.aesclepius.com.br/intubacao/">Intubação orotraqueal</a></li>
       <li data-tags="[medicina apresentações]"><a href="https://www.aesclepius.com.br/apresentacoes/">Minhas apresentações</a></li>
       <li data-tags="[Medicina Resumos]"><a href="https://www.aesclepius.com.br/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
-      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.aesclepius.com.br/superficie-corporal/">Calculadoras de superfície corporal</a></li>
+      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.aesclepius.com.br/antropometria/">Calculadoras de superfície corporal</a></li>
       <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.aesclepius.com.br/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
       <li data-tags="[obstetrícia medicina resumos guias pediatria]"><a href="https://www.aesclepius.com.br/gestacao/">Concepção, gestação, pré-natal e pós-parto</a></li>
       <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.aesclepius.com.br/hanseniase/">Hanseníase</a></li>
-      <li data-tags="[Medicina Emergência]"><a href="https://www.aesclepius.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
+      <li data-tags="[Intensiva Medicina Emergência]"><a href="https://www.aesclepius.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
       <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/taquicardias/">Taquiarritimias: visão geral</a></li>
       <li data-tags="[Medicina Dor]"><a href="https://www.aesclepius.com.br/analgesias/">Analgesias</a></li>
       <li data-tags=""><a href="https://www.aesclepius.com.br/files/">Arquivos</a></li>
-      <li data-tags=""><a href="https://www.aesclepius.com.br/medical_ai/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/ia-medica/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
       <li data-tags="[medicina projetos farmacologia]"><a href="https://www.aesclepius.com.br/bulario/">Bulário</a></li>
       <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.aesclepius.com.br/vacinas/">Imunológicos e vacinas</a></li>
       <li data-tags="[medicina projetos ciência]"><a href="https://www.aesclepius.com.br/dicionario/">Dicionário</a></li>
@@ -134,7 +159,7 @@ O projeto buscará as seguintes funcionalidades:">
       <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.aesclepius.com.br/wells-tep/">Tromboembolismo pulmonar</a></li>
       <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.aesclepius.com.br/sites-uteis/">Websites e páginas úteis</a></li>
       </ul>
-    <script src=../../baseof-search.js></script>
+    <script src=../baseof-search.js></script>
 </nav>
 </head>
 <body>
@@ -143,60 +168,100 @@ O projeto buscará as seguintes funcionalidades:">
 
 
     
-  <script src=../../baseof-tema.js></script>
+  <script src=../baseof-tema.js></script>
   
   
   
   
-    <h2 id="gestão-de-prontuário-médico-com-ia-treinada-em-medicina">Gestão de Prontuário Médico com IA Treinada em Medicina</h2>
-<p>Este projeto visa integrar uma Inteligência Artificial baseada em LLM (Large Language Model) treinada especificamente em medicina para auxiliar na gestão de prontuários médicos.</p>
-<h2 id="descrição">Descrição</h2>
-<p>O objetivo principal desta solução é utilizar a inteligência artificial para:</p>
-<ul>
-<li>Analisar e compreender informações contidas nos prontuários médicos.</li>
-<li>Auxiliar profissionais de saúde na interpretação e tomada de decisões com base nas informações encontradas.</li>
-<li>Oferecer insights e sugestões baseadas no contexto médico para melhorar a gestão dos prontuários.</li>
-<li>Alertar sobre possíveis erros de condutas ou prescrições.</li>
-<li>Melhor compreensão holística do paciente.</li>
-</ul>
-<h2 id="funcionalidades">Funcionalidades</h2>
-<p>O projeto buscará as seguintes funcionalidades:</p>
-<ul>
-<li>Análise e interpretação de textos médicos.</li>
-<li>Construção de um tipo de arquivo independente para cada paciente, grupo de pacientes, enfermaria, unidade de saúde, hospital etc.</li>
-<li>Identificação de padrões, tendências e informações relevantes nos prontuários.</li>
-<li>Recomendações contextuais baseadas em informações médicas.</li>
-<li>Interação livre com o profissional de saúde, nunca assumindo o controle sobre as condutas mas sempre disponível.</li>
-</ul>
-<h2 id="alvo-tecnológico">Alvo tecnológico</h2>
-<ul>
-<li>Linguagem de Programação: priorizar a construção de softwares em linguagens modernas e seguras como Rust, implementando bindings para os modelos open-source mais utilizados.</li>
-<li>Modelos de IA: LLMs de código livre e treino em databases médicas diversas, bem como literaturas¹.</li>
-</ul>
-<h2 id="metas">Metas</h2>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Repositório básico da ideia.</li>
-<li><input disabled="" type="checkbox"> Síntese de evidências que favoreçam o uso de IA neste contexto.</li>
-<li><input disabled="" type="checkbox"> Pesquisa de público alvo comercial e não-comercial.</li>
-<li><input disabled="" type="checkbox"> Implementar demo.</li>
-<li><input disabled="" type="checkbox"> Lançar codebase.</li>
-<li><input disabled="" type="checkbox"> Instituir teste realístico em centro de saúde não-comercial ou comercial.</li>
-<li><input disabled="" type="checkbox"> Lançar beta.</li>
-<li><input disabled="" type="checkbox"> Instituir a startup/enterprise empresarial.</li>
-<li><input disabled="" type="checkbox"> Fundar a marca.</li>
-<li><input disabled="" type="checkbox"> Venda comercial do suporte e da integração.</li>
-</ul>
+    <h2 id="superfície-corporal">Superfície corporal</h2>
+<h3 id="estimativa-de-costeff">Estimativa de Costeff</h3>
+<p>Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.</p>
+<p>Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.</p>
+<p>$$
+ASC = {{ 4m + 7 } \over { m + 90 }}
+$$</p>
+<p>A perda hídrica <strong>insensível</strong> estimada¹ é de 300-400mL/m²/dia.</p>
+<p>Considere também a perda <strong>sensível</strong> de diurese, evacuação e sangramentos (<a href="../medicina/cockcroft-gault/">calcule a TFG via Cockcroft-Gault</a>).</p>
+<div class="calculadoras">
+<label for="massa">Massa do paciente</label>
+<br>
+<input placeholder="Kg" type="number" id="massa"/>
+<p id="resultado"></p>
+<p><button onClick="bsa()">Calcular</button></p>
+</div>
+<h3 id="queimados">Queimados</h3>
+<p>Veja <a href="../medicina/queimados/">grandes queimados</a>.</p>
+<script>
+    function bsa(){
+        const massa = parseFloat(document.getElementById("massa").value);
+        if (isNaN(massa)) {
+            document.getElementById("resultado").innerText = "Insira valor da massa!";
+            return
+        }
+        console.log(massa)
+
+        let numerador = (massa * 4) + 7;
+        let denominador = massa + 90;
+        
+        console.log("Numerador:", numerador);
+        console.log("Denominador:", denominador);
+        
+        let resultado = numerador / denominador;
+        console.log("Resultado:", resultado);
+
+        let resultadoMm = resultado * 10000;
+        document.getElementById("resultado").innerText = resultado.toFixed(2)+"m² de área corporal estimada.\nEm milímetros são "+resultadoMm.toFixed(2)+"mm².";
+    }
+</script>
+<br>
+<h2 id="peso-real-estimado">Peso real estimado</h2>
+<p>Apesar do cacoete médico, &ldquo;peso real&rdquo; se refere a massa ideal estimada do paciente.</p>
+<div class=calculadoras>
+    <h2>Massa ideal estimada</h2>
+    <input type=number id=altura placeholder="altura (cm)"></input>
+    <br>
+    <br>
+    <select id=sexo>
+        <option value="true" selected>Masculino</option>
+        <option value="false">Feminino</option>
+    </select>
+    <br>
+    <br>
+    <button onclick=pesoIdeal()>Calcular</button>
+    <br>
+    <br>
+    <p id=resultadoPesoIdeal></p>
+</div>
+<script>
+    function pesoIdeal() {
+        let constante = 45.5;
+        let homem = document.getElementById("sexo").value === "true";
+        if (homem) {
+            constante = 50;
+            console.log(homem);
+        };
+        let altura = parseInt(document.getElementById("altura").value);
+        let resultado = (constante + 0.91*(altura - 152.4));
+        document.getElementById("resultadoPesoIdeal").innerText = resultado.toFixed(2)+"Kg";
+    }
+</script>
 <hr>
+<h2 id="notas">Notas</h2>
 <ol>
-<li>As referências bibliográficas precisarão de consultoria jurídica/autoral para implementação.</li>
+<li>Esta estimativa foi feita para pacientes de 10kg ou mais.</li>
+</ol>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Costeff H. <strong>A simple empirical formula for calculating approximate surface area in children</strong>. Arch Dis Child. 1966 Dec;41(220):681-3. doi: 10.1136/adc.41.220.681. PMID: 5927924; PMCID: PMC2019700.</li>
 </ol>
 
   
   
-    
-
-
-
+    <br>
+<div style="" class=taglist>
+  <a id="tag_projetos" href="https://www.aesclepius.com.br/tags/projetos">projetos</a> &middot; 
+  <a id="tag_medicina" href="https://www.aesclepius.com.br/tags/medicina">medicina</a> &middot; 
+  <a id="tag_calculadoras" href="https://www.aesclepius.com.br/tags/calculadoras">calculadoras</a></div>
   
     
       <br>
