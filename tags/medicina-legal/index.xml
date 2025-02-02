@@ -1,17 +1,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Aesclepius</title>
-	<link>https://www.aesclepius.com.br/medical_ai/</link>
-	<description>Recent content in medical_ais on Aesclepius</description>
+	<link>https://www.aesclepius.com.br/tags/medicina-legal/</link>
+	<description>Recent content in medicina legal on Aesclepius</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 21 Jan 2024 09:07:53 -0300</lastBuildDate>
+	<lastBuildDate>Tue, 25 Jun 2024 14:17:16 -0300</lastBuildDate>
     
-        <atom:link href="https://www.aesclepius.com.br/medical_ai/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.aesclepius.com.br/tags/medicina-legal/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>insuficiencia respiratoria</title>
+		<title>Diluições e preparos</title>
+		<link>https://www.aesclepius.com.br/diluicoes/</link>
+		<pubDate>Wed, 29 Jan 2025 15:29:00 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/diluicoes/</guid>
+		<description>&lt;div class=calculadoras&gt;
+  &lt;h2&gt;Calculadora diluente&lt;/h2&gt;
+  &lt;select id=substancia&gt;
+    &lt;option value=glicose&gt;Glicose&lt;/option&gt;
+    &lt;option value=sodio&gt;Sódio&lt;/option&gt;
+    &lt;option value=potassio&gt;Potássio&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;select id=substancia&gt;
+    &lt;option value=perct&gt;Percentual&lt;/option&gt;
+    &lt;option value=mEq&gt;Miliequivalente por litro (mEq/L)&lt;/option&gt;
+    &lt;option value=mgl&gt;Miligrama por litro (mg/L)&lt;/option&gt;
+    &lt;option value=mgml&gt;Miligrama por mililitro (mg/mL)&lt;/option&gt;
+    &lt;option value=gl&gt;Grama por litro (g/L)&lt;/option&gt;
+    &lt;option value=gml&gt;Grama por mililitro (g/mL)&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;label for=concI&gt;Concentração inicial&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=number id=concI &gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;label for=concF&gt;Concentração desejada&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=number id=concF &gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;label for=volF&gt;Volume desejado&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=number id=volF &gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;button onclick=diluir()&gt;Diluir!&lt;/button&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;p id=resultadoDil&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script src=&#34;../../diluicoes.js&#34;&gt;&lt;/script&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Insuficiência respiratória</title>
 		<link>https://www.aesclepius.com.br/insuficiencia-respiratoria/</link>
 		<pubDate>Mon, 27 Jan 2025 10:34:02 -0300</pubDate>
 		
@@ -32,6 +80,20 @@
     AirwayCheckAgain --&gt;|Não| ConsiderarCannula
 &lt;/pre&gt;
 
+&lt;h3 id=&#34;bronquiolite-viral-aguda-1&#34;&gt;Bronquiolite viral aguda &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oxigenoterapia se satO&lt;sub&gt;2&lt;/sub&gt; menor que 90%;&lt;/li&gt;
+&lt;li&gt;Nebulização com soluçã́o salina hipertônica de 5 a 7%; e&lt;/li&gt;
+&lt;li&gt;Hidratação isotônica (~140mEq/L de Na).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Tratado de pediatria 2025.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -42,27 +104,75 @@
 		
 		<guid>https://www.aesclepius.com.br/suplementacao/</guid>
 		<description>&lt;h2 id=&#34;história&#34;&gt;História&lt;/h2&gt;
-&lt;p&gt;Os termos históricos referentes a vitaminas como &lt;em&gt;&amp;ldquo;complexo&amp;rdquo;&lt;/em&gt; e &lt;em&gt;&amp;ldquo;grupos&amp;rdquo;&lt;/em&gt; são um reflexo da forma de descoberta das substâncias essenciais.&lt;/p&gt;
-&lt;p&gt;Por exemplo, estudos dietéticos da década de 1930 perceberam a presença do retinol, substância que correspondeu a um prêmio Nobel que foi chamada de vitamina A e, por ser hidrossolúvel, foi posta em contraste com a riboflavina, uma outra substância identificada pela sua ausência no consumo de arroz polido, chamada então de vitamina B.&lt;/p&gt;
-&lt;p&gt;Assim, iniciou-se uma tradição de duas classificações das substâncias essenciais: por grupo (de descoberta, de fonte alimentar etc) e por solubilidade. Atualmente, &lt;strong&gt;estas classificações não são tão importantes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Os termos históricos referentes a vitaminas como &lt;em&gt;sistemas de letras&lt;/em&gt;, &lt;em&gt;&amp;ldquo;complexo&amp;rdquo;&lt;/em&gt; e &lt;em&gt;&amp;ldquo;grupos&amp;rdquo;&lt;/em&gt; são um reflexo da forma de descoberta das substâncias essenciais.&lt;/p&gt;
+&lt;p&gt;Por exemplo, estudos dietéticos da década de 1930 perceberam a presença do retinol, substância que correspondeu a um prêmio Nobel que foi chamada de vitamina A e, por ser a primeira, foi posta em contraste com a riboflavina, uma outra substância identificada pela sua ausência no consumo de arroz polido, chamada então de vitamina B por ser a segunda.&lt;/p&gt;
+&lt;p&gt;Assim, iniciou-se uma tradição de duas classificações das substâncias essenciais por grupos (de descoberta, de fonte alimentar etc) e por solubilidade. Atualmente, &lt;strong&gt;estas classificações não são tão importantes.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;vitaminas&#34;&gt;Vitaminas&lt;/h2&gt;
 &lt;h3 id=&#34;lipossolúveis&#34;&gt;Lipossolúveis&lt;/h3&gt;
-&lt;h3 id=&#34;hidrossolúveis&#34;&gt;Hidrossolúveis&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;Indicação formal&lt;/th&gt;
+          &lt;th&gt;Dose diária&lt;/th&gt;
           &lt;th&gt;Horário ideal&lt;/th&gt;
           &lt;th&gt;Justificativa&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;Riboflavina&lt;/td&gt;
-          &lt;td&gt;1.5mg/dia&lt;/td&gt;
+          &lt;td&gt;Acetato de retinol (A)&lt;/td&gt;
+          &lt;td&gt;800mcg&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Calciferol (D)&lt;/td&gt;
+          &lt;td&gt;15mcg&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Acetato DL-alfa-tocoferol (E)&lt;/td&gt;
+          &lt;td&gt;15mg&lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;hidrossolúveis&#34;&gt;Hidrossolúveis&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;Dose diária&lt;/th&gt;
+          &lt;th&gt;Horário ideal&lt;/th&gt;
+          &lt;th&gt;Justificativa&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Riboflavina (B2)&lt;/td&gt;
+          &lt;td&gt;1.5mg&lt;/td&gt;
           &lt;td&gt;Durante principal refeição&lt;/td&gt;
           &lt;td&gt;Absorção melhorada pelo processo digestivo ácido.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vitamina C&lt;/td&gt;
+          &lt;td&gt;100mg&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Cianocobalamina (B12)&lt;/td&gt;
+          &lt;td&gt;1.5mcg&lt;sup id=&#34;fnref3:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nicotinamida (B3)&lt;/td&gt;
+          &lt;td&gt;16mg&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -72,7 +182,7 @@
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;Indicação formal&lt;/th&gt;
+          &lt;th&gt;Dose diária&lt;/th&gt;
           &lt;th&gt;Horário ideal&lt;/th&gt;
           &lt;th&gt;Justificativa&lt;/th&gt;
       &lt;/tr&gt;
@@ -80,13 +190,13 @@
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;Zinco&lt;/td&gt;
-          &lt;td&gt;10mg/dia&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+          &lt;td&gt;10mg&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
           &lt;td&gt;Durante principal refeição, por absorção melhorada pelo processo digestivo ácido.&lt;/td&gt;
-          &lt;td&gt;Participa de diversos processos enzimáticos. Melhora produção de testosterona, apesar de impactar pouco na espermatogênese&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/td&gt;
+          &lt;td&gt;Participa de diversos processos enzimáticos. Melhora produção de testosterona, apesar de impactar pouco na espermatogênese&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;10mg/dia&lt;/td&gt;
+          &lt;td&gt;10mg&lt;/td&gt;
           &lt;td&gt;&lt;/td&gt;
           &lt;td&gt;.&lt;/td&gt;
       &lt;/tr&gt;
@@ -99,10 +209,16 @@
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;APA Style. Hall, John E., Hall, Michael E.. (2021). &lt;strong&gt;Guyton and Hall : Textbook of Medical Physiology 14th ed&lt;/strong&gt;. (14th ed.). China: Elsevier.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dan Benardot. &lt;strong&gt;Advanced Sports Nutrition 3rd edition&lt;/strong&gt;. Human Kinetics. ISBN: 978-1-4925-9309-6. 2021.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;Liu YL, Zhang MN, Tong GY, Sun SY, Zhu YH, Cao Y, Zhang J, Huang H, Niu B, Li H, Guo QH, Gao Y, Zhu DL, Li XY; Hypogonadotropic Hypogonadism Intervention Study (HHIS) Group. &lt;strong&gt;The effectiveness of zinc supplementation in men with isolated hypogonadotropic hypogonadism&lt;/strong&gt;. Asian J Androl. 2017 May-Jun;19(3):280-285. doi: 10.4103/1008-682X.189621. PMID: 27768007; PMCID: PMC5427781.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Formulação do Centrum A-Z, disponível em forma de bula.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;APA Style. Hall, John E., Hall, Michael E.. (2021). &lt;strong&gt;Guyton and Hall : Textbook of Medical Physiology 14th ed&lt;/strong&gt;. (14th ed.). China: Elsevier.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Liu YL, Zhang MN, Tong GY, Sun SY, Zhu YH, Cao Y, Zhang J, Huang H, Niu B, Li H, Guo QH, Gao Y, Zhu DL, Li XY; Hypogonadotropic Hypogonadism Intervention Study (HHIS) Group. &lt;strong&gt;The effectiveness of zinc supplementation in men with isolated hypogonadotropic hypogonadism&lt;/strong&gt;. Asian J Androl. 2017 May-Jun;19(3):280-285. doi: 10.4103/1008-682X.189621. PMID: 27768007; PMCID: PMC5427781.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -467,7 +583,7 @@ obstc -- decidido&lt;br&gt;observar --&gt; fim;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/maisel-nomogram.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/maisel-nomogram.png&#34;&gt;
       &lt;figcaption&gt;Nomograma de Maisel&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -574,8 +690,8 @@ Secundária: parou de menstruar.&lt;/p&gt;
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/ciclo_menstrual.jpg&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/ciclo_menstrual.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -585,8 +701,8 @@ Secundária: parou de menstruar.&lt;/p&gt;
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/eixo-fem.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/eixo-fem.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/eixo-fem.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/eixo-fem.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -654,8 +770,8 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/causas.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/causas.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/causas.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/causas.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -665,8 +781,8 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/gentico.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/gentico.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/gentico.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/gentico.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -676,8 +792,8 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/flux.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/flux.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/flux.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/flux.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -763,8 +879,8 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/sec.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/sec.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/sec.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/sec.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -832,8 +948,8 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/rot.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/rot.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/rot.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/rot.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -964,7 +1080,7 @@ K --&gt; L[Colposcopia em 60 dias];
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
       &lt;figcaption&gt;Exemplo de suspensório caseiro para alívio de dor exacerbada pelo efeito gravitacional&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1028,7 +1144,7 @@ K --&gt; L[Colposcopia em 60 dias];
 &lt;button onclick=calcularHASBLED()&gt;Calcule!&lt;/button&gt;
 &lt;p id=resultadoHASBLED&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;script src=../hasbled.js&gt;&lt;/script&gt;
+&lt;script src=../../hasbled.js&gt;&lt;/script&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -1095,7 +1211,7 @@ K --&gt; L[Colposcopia em 60 dias];
 		
 		<guid>https://www.aesclepius.com.br/doenca-renal/</guid>
 		<description>&lt;h2 id=&#34;calculadora-de-tfg&#34;&gt;Calculadora de TFG&lt;/h2&gt;
-&lt;script src=&#34;../tfg.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../tfg.js&#34;&gt;&lt;/script&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;number&#34; placeholder=&#34;anos&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
@@ -1380,8 +1496,8 @@ quinta --&gt; 9(Ceftarolina);
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Organização Pan-Americana da Saúde&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/autism-opas-epidemiology.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/autism-opas-epidemiology.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/autism-opas-epidemiology.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/autism-opas-epidemiology.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -1391,8 +1507,8 @@ quinta --&gt; 9(Ceftarolina);
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;TACA - The Autism Community in Action&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -1453,7 +1569,7 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/eliminated-synapses.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/eliminated-synapses.png&#34;&gt;
       &lt;figcaption&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1464,7 +1580,7 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/mentalizing-areas.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/mentalizing-areas.png&#34;&gt;
       &lt;figcaption&gt;Áreas envolvidas no processo de mentalização&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1485,8 +1601,8 @@ quinta --&gt; 9(Ceftarolina);
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Teste de mentalização mais elaborado&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/mentalizing-fishing.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/mentalizing-fishing.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/mentalizing-fishing.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/mentalizing-fishing.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -1496,8 +1612,8 @@ quinta --&gt; 9(Ceftarolina);
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Experimento Sally-Anne&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/sally-anne.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/sally-anne.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/sally-anne.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/sally-anne.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -1556,7 +1672,7 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/valproic-acid-autism.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/valproic-acid-autism.png&#34;&gt;
       &lt;figcaption&gt;&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -1600,7 +1716,7 @@ quinta --&gt; 9(Ceftarolina);
 		<pubDate>Tue, 25 Jun 2024 14:17:16 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/medicina-legal/cronotanatognose/</guid>
-		<description>&lt;p&gt;Para toda análise tanatológica, veja &lt;em&gt;&lt;a href=&#34;../medicina/medicina-legal/morte-legal&#34;&gt;A morte e a lei: tanatologia forense&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+		<description>&lt;p&gt;Para toda análise tanatológica, veja &lt;a href=&#34;../../medicina-legal/morte-legal&#34;&gt;tanatologia forense&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;cronologia-dos-eventos-perimortem&#34;&gt;Cronologia dos eventos perimortem&lt;/h2&gt;
 &lt;h3 id=&#34;morte---0h&#34;&gt;Morte - 0h&lt;/h3&gt;
 &lt;ul&gt;
@@ -1926,8 +2042,8 @@ quinta --&gt; 9(Ceftarolina);
   
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
     &lt;div class=&#34;slide&#34;&gt;
-      &lt;a href=&#34;../pix/medicina/sua-agudo.png&#34;&gt;
-        &lt;img src=&#34;../pix/medicina/sua-agudo.png&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/medicina/sua-agudo.png&#34;&gt;
+        &lt;img src=&#34;../../pix/medicina/sua-agudo.png&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
   
@@ -1937,8 +2053,8 @@ quinta --&gt; 9(Ceftarolina);
   
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
     &lt;div class=&#34;slide&#34;&gt;
-      &lt;a href=&#34;../pix/medicina/sua-cronico.png&#34;&gt;
-        &lt;img src=&#34;../pix/medicina/sua-cronico.png&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/medicina/sua-cronico.png&#34;&gt;
+        &lt;img src=&#34;../../pix/medicina/sua-cronico.png&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
   
@@ -2295,7 +2411,7 @@ Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
     &lt;br&gt;
     &lt;button onclick=&#34;generatePDF()&#34;&gt;Gerar PDF&lt;/button&gt;
 &lt;/div&gt;
-&lt;script src=&#34;../receituario.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../receituario.js&#34;&gt;&lt;/script&gt;
 
 </description>
 	</item>
@@ -2306,7 +2422,7 @@ Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
 		<pubDate>Fri, 07 Jun 2024 07:56:45 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/febre-reumatica/</guid>
-		<description>&lt;script src=&#34;../febre-reumatica.js&#34;&gt;&lt;/script&gt;
+		<description>&lt;script src=&#34;../../febre-reumatica.js&#34;&gt;&lt;/script&gt;
 &lt;div class=calculadoras&gt;
     &lt;h2&gt;Calculdora de profilaxia de Centor&lt;/h2&gt;
     &lt;label for=idade&gt;Idade&lt;/label&gt;
@@ -2486,7 +2602,7 @@ Hemafrodita real - duas genitálias.&lt;/p&gt;
 Ectópicas: demais atos copulatórios.&lt;/p&gt;
 &lt;p&gt;Comprovar conjunção carnal:
 Rompimento do hímen
-DNA do esperma (espermatozoides). Veja &lt;a href=&#34;../medicina/medicina-legal/id-antropologica/&#34;&gt;identificação forense&lt;/a&gt;.
+DNA do esperma (espermatozoides). Veja &lt;a href=&#34;../../medicina/medicina-legal/id-antropologica/&#34;&gt;identificação forense&lt;/a&gt;.
 Fosfatase ácida acima de 300UI/ml
 PSA - Antígeno prostático específico ou glicoproteína P30
 DST
@@ -2546,7 +2662,7 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/himem-integro.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/himem-integro.png&#34;&gt;
       &lt;figcaption&gt;Exemplo de hímem íntegro.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -2565,7 +2681,7 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 		<pubDate>Wed, 08 May 2024 11:54:37 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/hepatopatias/</guid>
-		<description>&lt;script src=&#34;../hepatopatias.js&#34;&gt;&lt;/script&gt;
+		<description>&lt;script src=&#34;../../hepatopatias.js&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;hepatites-virais&#34;&gt;Hepatites Virais&lt;/h2&gt;
 &lt;h3 id=&#34;sistema-de-decisão-em-hepatite-b-1&#34;&gt;Sistema de decisão em hepatite B [1]&lt;/h3&gt;
 &lt;div class=calculadoras&gt;
@@ -2686,10 +2802,10 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 	
 	<item>
 		<title>Autópsias</title>
-		<link>https://www.aesclepius.com.br/autopsias/</link>
+		<link>https://www.aesclepius.com.br/medicina-legal/autopsias/</link>
 		<pubDate>Wed, 01 May 2024 22:00:06 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/autopsias/</guid>
+		<guid>https://www.aesclepius.com.br/medicina-legal/autopsias/</guid>
 		<description>&lt;h2 id=&#34;justificativa&#34;&gt;Justificativa&lt;/h2&gt;
 &lt;p&gt;A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico. Nas descritas situações ela é dita &lt;strong&gt;compulsória&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;No geral, o termo necropsia e autópsia são usadas de forma intercambiável, porém o exame deve se dividir em autópsia externa e interna, pelo menos. Desta forma, a autópsia é sempre necessária, porém nem sempre interna, como a própria legislação reza:&lt;/p&gt;
@@ -2840,6 +2956,8 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;li&gt;&lt;strong&gt;2ª Lei ou Lei da semelhança&lt;/strong&gt;: os instrumentos perfurantes de médio calibre, e.g. furador de gelo, produzem lesões semelhantes às produzidas por instrumentos perfuro-cortantes de dois gumes (punhal). Também chamada de lesão em botoeira.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Lei de Langer ou polimorfismo&lt;/strong&gt;: caso a lesão seja em local do corpo humano em que as fibras musculares atuem em mais de uma direção, as lesões terão aspecto estrelado, polimórfico (bizarras).&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;lesão-ou-ferida-de-lacassagne&#34;&gt;Lesão ou ferida de Lacassagne&lt;/h4&gt;
+&lt;p&gt;As vísceras podem apresentar uma lesão de maior proporção que o instrumento, uma vez que a flexibilidade dos tecidos proporcionam compressão e extensão. Também conhecida como ferida em acordeão, em referência ao aspecto sanfonado.&lt;/p&gt;
 &lt;h3 id=&#34;lesões-causadas-por-arma-de-fogo&#34;&gt;Lesões causadas por arma de fogo&lt;/h3&gt;
 &lt;p&gt;A balística se subdivide em balística interna, externa e terminal. A interna estuda os mecanismos de disparo de projétil, a externa se debruça sobre a viagem dos projéteis e a terminal ou de efeitos se preocupa com a interação com os alvos. &lt;strong&gt;A traumatologia se importa com a balística externa e principalmente a terminal&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;trajeto-e-trajetória&#34;&gt;Trajeto e trajetória&lt;/h4&gt;
@@ -2980,7 +3098,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 
 &lt;h3 id=&#34;queimaduras-e-geladuras&#34;&gt;Queimaduras e geladuras&lt;/h3&gt;
 &lt;p&gt;A gravidade das queimaduras focais se dá pela extensão. Há diversas classificações do chamado &lt;strong&gt;grande queimado&lt;/strong&gt;.Em geral, chama-se de grande queimado o paciente com mais de 20% de superfície corporal queimada.&lt;/p&gt;
-&lt;p&gt;Veja em &lt;a href=&#34;../medicina/queimados/&#34;&gt;queimados&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Veja em &lt;a href=&#34;../../medicina/queimados/&#34;&gt;queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;intermação&#34;&gt;Intermação&lt;/h3&gt;
 &lt;p&gt;O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.&lt;/p&gt;
 &lt;h3 id=&#34;insolação&#34;&gt;Insolação&lt;/h3&gt;
@@ -3035,13 +3153,15 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;p&gt;De toda forma, a morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.&lt;/p&gt;
 &lt;h3 id=&#34;agônica&#34;&gt;Agônica&lt;/h3&gt;
 &lt;p&gt;Se arrasta por dias ou mais.&lt;/p&gt;
-&lt;h2 id=&#34;docimasias&#34;&gt;Docimasias&lt;/h2&gt;
-&lt;p&gt;As docimasias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.&lt;/p&gt;
-&lt;h4 id=&#34;agônicas&#34;&gt;Agônicas&lt;/h4&gt;
+&lt;h2 id=&#34;docimásias&#34;&gt;Docimásias&lt;/h2&gt;
+&lt;p&gt;As docimásias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos. Algumas literaturas dividem entre&lt;/p&gt;
+&lt;h3 id=&#34;pulmonares&#34;&gt;Pulmonares&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;agônicas&#34;&gt;Agônicas&lt;/h3&gt;
 &lt;p&gt;Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.&lt;/p&gt;
 &lt;p&gt;Especificamente a docimasia hepática foi estudada por Lacassagne e Martin. Há, também, a técnica de Meissner, que investiga através de fixação e pigmentação o glicogênio presente em lâminas.&lt;/p&gt;
-&lt;h4 id=&#34;do-recém-nascido&#34;&gt;Do recém-nascido&lt;/h4&gt;
-&lt;p&gt;Veja em &lt;a href=&#34;../medicina/aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido&#34;&gt;aborto&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;do-recém-nascido&#34;&gt;Do recém-nascido&lt;/h3&gt;
+&lt;p&gt;Veja em &lt;a href=&#34;../../aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido&#34;&gt;aborto&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;prova-de-verderau&#34;&gt;Prova de Verderau&lt;/h3&gt;
 &lt;p&gt;Compara-se a relação existente entre hemácias e leucócitos. A reação leucocitária só ocorre nos vivos. Os valores dependem de referências e dos diversos estados da vítima.&lt;/p&gt;
 &lt;h2 id=&#34;_causa-mortis_-jurídica&#34;&gt;&lt;em&gt;Causa mortis&lt;/em&gt; jurídica&lt;/h2&gt;
@@ -3062,6 +3182,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Autruísta: o ego que comanda o impulso suicida é, na verdade, parte do grupo que pertence. O suicídio acontece no contexto específico da vivência do grupo, e.g. os &lt;em&gt;kamikazes&lt;/em&gt; japoneses que se jogam na morte para a causa da guerra.&lt;/li&gt;
 &lt;li&gt;Egoísta: o ego é parte do complexo do id e totalmente interno a pessoa, não tendo relação com o grupo que eventualmente pertença. Normalmente, observa-se a crise existencial como justificativa, e.g. sem razão para continuar vivendo.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- pesquisar sobre a curva vital --&gt; 
 &lt;h3 id=&#34;acidente&#34;&gt;Acidente&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;a-constatação-documental-da-morte&#34;&gt;A constatação documental da morte&lt;/h2&gt;
@@ -3080,7 +3201,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;p&gt;O IML opera sob a ótica de serviço público primariamente inserido na área da segurança pública, sendo a maioria dos institutos brasileiros integrantes de polícia judiciária.&lt;/p&gt;
 &lt;p&gt;Na morte violenta, a necropsia feita no IML é realizada por um médico legista oficial, servidor público de carreira ou doutra forma oficializado e, na falta deste, por dois peritos &lt;em&gt;ad hoc&lt;/em&gt; nomeados judicialmente.&lt;/p&gt;
 &lt;h3 id=&#34;morte-fetal-natural&#34;&gt;Morte fetal natural&lt;/h3&gt;
-&lt;p&gt;Há um arbitrário contraste conceitual entre a morte fetal natural e o &lt;a href=&#34;../medicina/aborto/&#34;&gt;aborto&lt;/a&gt;. Neste último, a alçada documental e investigativa é do IML, naquele é o &lt;strong&gt;médico assistente da mãe&lt;/strong&gt; quem deve emitir a DO e, caso necessário e aprovado pela família, as causas podem ser melhor esclarecidas pelo SVO ou patologia hospitalar especializada.&lt;/p&gt;
+&lt;p&gt;Há um arbitrário contraste conceitual entre a morte fetal natural e o &lt;a href=&#34;../../medicina/aborto/&#34;&gt;aborto&lt;/a&gt;. Neste último, a alçada documental e investigativa é do IML, naquele é o &lt;strong&gt;médico assistente da mãe&lt;/strong&gt; quem deve emitir a DO e, caso necessário e aprovado pela família, as causas podem ser melhor esclarecidas pelo SVO ou patologia hospitalar especializada.&lt;/p&gt;
 &lt;p&gt;Considera-se morte fetal natural se:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;O feto tem &lt;strong&gt;mais de 20 semanas&lt;/strong&gt;;&lt;/li&gt;
@@ -3119,9 +3240,8 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h4 id=&#34;fenômenos-conservativos&#34;&gt;Fenômenos conservativos&lt;/h4&gt;
 &lt;h5 id=&#34;saponificação-ou-adipocera&#34;&gt;Saponificação ou adipocera&lt;/h5&gt;
 &lt;p&gt;Os sais podem esterificar os compostos lipídicos do corpo, tornando-os saponificados, condição esta que prolonga a conservação de boa parte dos tecidos. O cadáver é quebradiço e de complexa manipulação. Alguns tecidos podem coalescer.&lt;/p&gt;
-&lt;p&gt;Parâmetro de Thouret?&lt;/p&gt;
+&lt;p&gt;Este achado também é chamado de parâmetro de Thouret.&lt;/p&gt;
 &lt;h5 id=&#34;mumificação&#34;&gt;Mumificação&lt;/h5&gt;
-&lt;p&gt;sinal de brakeman?&lt;/p&gt;
 &lt;h5 id=&#34;calcificação&#34;&gt;Calcificação&lt;/h5&gt;
 &lt;p&gt;A litotransformação é mais comum em cadáveres gravídicos em que o feto se torna petrificado, ou etmologicamente falando um &lt;em&gt;litopédio&lt;/em&gt;.&lt;/p&gt;
 &lt;h5 id=&#34;corificação-ou-coreificação&#34;&gt;Corificação ou coreificação&lt;/h5&gt;
@@ -3141,11 +3261,11 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h6 id=&#34;asséptica&#34;&gt;Asséptica&lt;/h6&gt;
 &lt;h6 id=&#34;séptica&#34;&gt;Séptica&lt;/h6&gt;
 &lt;h2 id=&#34;cronotanagnose&#34;&gt;Cronotanagnose&lt;/h2&gt;
-&lt;p&gt;Veja em &lt;a href=&#34;../medicina/medicina-legal/cronotanatognose&#34;&gt;cronotanatognose&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Veja em &lt;a href=&#34;../../medicina/medicina-legal/cronotanatognose&#34;&gt;cronotanatognose&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;entomologia&#34;&gt;Entomologia&lt;/h2&gt;
 &lt;p&gt;A cronotanatognose baseada em entomologia forense é mais precisa para o tempo mínimo da morte do que para o tempo máximo da morte.&lt;/p&gt;
 &lt;h2 id=&#34;outras-provas-de-cessação-da-vida&#34;&gt;Outras provas de cessação da vida&lt;/h2&gt;
-&lt;p&gt;São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por &lt;em&gt;&amp;ldquo;prova de morte&amp;rdquo;&lt;/em&gt; no &lt;a href=&#34;../dicionario&#34;&gt;dicionário&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por &lt;em&gt;&amp;ldquo;prova de morte&amp;rdquo;&lt;/em&gt; no &lt;a href=&#34;../../dicionario&#34;&gt;dicionário&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I A morte agônica é precedida de doença grave, com perda da consciência, e de estados pré-comatoso e comatoso prolongados.
 II Sobrevivência é o período de tempo transcorrido desde o instante em que o indivíduo recebe a lesão mortal até que faleça.
 III Comoriência é a morte simultânea, ao mesmo tempo, de duas ou mais pessoas que foram partícipes do mesmo evento.
@@ -3572,7 +3692,7 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/suchey-brooks.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/suchey-brooks.png&#34;&gt;
       &lt;figcaption&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -3582,7 +3702,7 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/condyle-animated.gif&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/condyle-animated.gif&#34;&gt;
       &lt;figcaption&gt;Côndilos em destaque&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -3603,6 +3723,10 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Cephalometric_analysis#Cephalometric_landmarks&#34;&gt;Análise cefalométrica na Wikipedia&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;craniômetro-de-galvão&#34;&gt;Craniômetro de Galvão&lt;/h4&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;método-geométrico-de-matheios&#34;&gt;Método geométrico de Matheios&lt;/h3&gt;
+&lt;p&gt;Consiste em traçar divisões em fotografias de suspeitos para averiguar os traços permanentes, comuns em pessoas de idade madura. Os trabalhos de validação do método de Matheios são fracos, segundo França.&lt;/p&gt;
+&lt;h3 id=&#34;método-radiológico-de-levinsohn&#34;&gt;Método radiológico de Levinsohn&lt;/h3&gt;
+&lt;p&gt;Este processo tem seu substrato na radiografia do metacarpo e do metatarso com as consequentes medidas das imagens ósseas.&lt;/p&gt;
 &lt;h2 id=&#34;sistema-datiloscópico-de-vucetich&#34;&gt;Sistema datiloscópico de Vucetich&lt;/h2&gt;
 &lt;p&gt;O argentino Vucetich propôs um sistema lógico para obtenção de identidade humana a partir dos desenhos formados pela rugosidade padrão da pele das mãos[1].&lt;/p&gt;
 &lt;h3 id=&#34;tipos-fundamentais&#34;&gt;Tipos fundamentais&lt;/h3&gt;
@@ -6210,8 +6334,8 @@ Arcada é mutável.&lt;/p&gt;
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gráfico original proposto por Jellinek&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/jellinek.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/jellinek.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/jellinek.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/jellinek.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -6221,8 +6345,8 @@ Arcada é mutável.&lt;/p&gt;
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Curva da addicção revisada por Glatt&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/glatt.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/glatt.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/glatt.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/glatt.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -6290,7 +6414,7 @@ Arcada é mutável.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Muitos continuam defendendo a dosagem bioquímica do álcool, principalmente no sangue, como o parâmetro mais prático, mais eficaz e mais confiável para se determinar uma embriaguez. E até adiantam que, salvo algumas variações, essas cifras estariam entre 0,6 e 2,0 g/1.000 ml. Todavia, entendemos que mais importante do que determinar uma taxa de álcool no sangue, na urina ou no ar expirado é caracterizar as manifestações clínicas de uma embriaguez[8].&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Nesse sentido, a proposta diagnóstica forense para a embriaguez depende de dados estatísticos, num &lt;a href=&#34;../medicina/estatistica-diagnostica&#34;&gt;modelo diagnóstico bayesiano&lt;/a&gt; em que cada sintoma e sinal compõem um somatório para a probabilidade final de embriaguez. Rubenzer elaborou bem esta filosofia em seu artigo &amp;ldquo;&lt;em&gt;Judging intoxication&lt;/em&gt;&amp;rdquo; de 2010, inclusive propondo valores numéricos de relação entre os sintomas e o valor sérico da alcoolemia.&lt;/p&gt;
+&lt;p&gt;Nesse sentido, a proposta diagnóstica forense para a embriaguez depende de dados estatísticos, num &lt;a href=&#34;../../medicina/estatistica-diagnostica&#34;&gt;modelo diagnóstico bayesiano&lt;/a&gt; em que cada sintoma e sinal compõem um somatório para a probabilidade final de embriaguez. Rubenzer elaborou bem esta filosofia em seu artigo &amp;ldquo;&lt;em&gt;Judging intoxication&lt;/em&gt;&amp;rdquo; de 2010, inclusive propondo valores numéricos de relação entre os sintomas e o valor sérico da alcoolemia.&lt;/p&gt;
 &lt;p&gt;Para fins penais, a embriaguez alcoólica é considerada uma &lt;mark&gt;causa externa&lt;/mark&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;detecção-da-alcoolemia&#34;&gt;Detecção da alcoolemia&lt;/h3&gt;
 &lt;p&gt;A detecção de alcoolemia é necessária no Brasil pelos mandamentos legais terem preservado limites numéricos como definidores de crime. Para tanto, os métodos colorimétricos e cromatográficos são o &lt;strong&gt;padrão ouro&lt;/strong&gt; e, também por previsão legal, aceita-se a medição do alcoól exalado &amp;mdash; &lt;em&gt;vulgo bafômetro&lt;/em&gt;.&lt;/p&gt;
@@ -6566,7 +6690,7 @@ Acelera a morte
 &lt;p&gt;Os sintomas comuns incluem a fadiga, fraqueza, palidez, taquicardia e tonturas.&lt;/p&gt;
 &lt;p&gt;A busca pelo sangramento crônico, como o algoritmo PALMCOEIN para mulheres, é o tratamento. A correção imediata é feita pela administração de ferro suplementar na forma preferencialmente oral.&lt;/p&gt;
 &lt;h3 id=&#34;por-deficiência-de-cobalamina-e-ácido-fólico&#34;&gt;Por deficiência de cobalamina e ácido fólico&lt;/h3&gt;
-&lt;p&gt;A cobalamina é o nome genérico a todas formas ativas de vitamina B12. A falta desta e do ácido fólico causa anemias desregulatórias da produção de eritrócitos pelos eritroblastos ainda na medula, resultando em megaloblastia. O volume corpuscular considerado alto é alvo de debate até hoje e recomendo o texto do professor Paulo Cesar Naoum da UNESP: &lt;a href=&#34;../files/Medicina/Qual-o-verdadeiro-valor-do-VCM-Professor-Paulo-Cesar.pdf&#34;&gt;qual o verdadeiro valor do VCM?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A cobalamina é o nome genérico a todas formas ativas de vitamina B12. A falta desta e do ácido fólico causa anemias desregulatórias da produção de eritrócitos pelos eritroblastos ainda na medula, resultando em megaloblastia. O volume corpuscular considerado alto é alvo de debate até hoje e recomendo o texto do professor Paulo Cesar Naoum da UNESP: &lt;a href=&#34;../../files/Medicina/Qual-o-verdadeiro-valor-do-VCM-Professor-Paulo-Cesar.pdf&#34;&gt;qual o verdadeiro valor do VCM?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;O tratamento geralmente envolve administrar a B12 diretamente via intramuscular e o ácido fólico como suplemento alimentar.&lt;/p&gt;
 &lt;h4 id=&#34;privação-dietética&#34;&gt;Privação dietética&lt;/h4&gt;
 &lt;p&gt;Por privação alimentar do ácido fólico ou da cobalamina, como em dietas veganas, muito restritivas ou doenças absortivas e/ou perda da função intestinal, e.g. íleo.&lt;/p&gt;
@@ -7037,7 +7161,7 @@ oedema.&lt;/p&gt;
     }
 &lt;/style&gt;
 &lt;div class=modulos&gt;
-&lt;div class=&#34;modulo sticker&#34; id=&#34;dados-clinicos&#34;&gt;
+&lt;div class=&#34;calculadoras&#34; id=&#34;dados-clinicos&#34;&gt;
     &lt;h2&gt;Paciente&lt;/h2&gt;
     &lt;label for=&#34;nome&#34;&gt;Nome&lt;/label&gt;
     &lt;br&gt;
@@ -7057,7 +7181,7 @@ oedema.&lt;/p&gt;
     &lt;!-- Adicione mais opções conforme necessário --&gt;
     &lt;/select&gt;
 &lt;/div&gt;
-&lt;div class=&#34;modulo sticker&#34; id=&#34;ventilador&#34;&gt;
+&lt;div class=&#34;calculadoras&#34; id=&#34;ventilador&#34;&gt;
     &lt;h2&gt;Ventilador&lt;/h2&gt;
     &lt;label for=&#34;volTidal&#34;&gt;Volume Tidal(ml)&lt;/label&gt;
     &lt;br&gt;
@@ -7067,7 +7191,7 @@ oedema.&lt;/p&gt;
     &lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;fr&#34; value=&#34;20&#34; min=&#34;0&#34; max=&#34;100&#34; step=&#34;1&#34;&gt;
 &lt;/div&gt;
-&lt;div class=&#34;modulo sticker&#34; id=&#34;gasometria&#34;&gt;
+&lt;div class=&#34;calculadoras&#34; id=&#34;gasometria&#34;&gt;
     &lt;h2&gt;Gasometria&lt;/h2&gt;
 &lt;!-- PH
 &lt;input type=&#34;number&#34; id=&#34;ph&#34; max=7.6 min=7.11 name=&#34;ph&#34; step=&#34;0.01&#34; value=7.31&gt; 
@@ -7099,7 +7223,7 @@ oedema.&lt;/p&gt;
 &lt;p&gt;&lt;canvas id=&#34;volume&#34;&gt;&lt;/canvas&gt;
 &lt;canvas id=&#34;pressao&#34;&gt;&lt;/canvas&gt;
 &lt;canvas id=&#34;fluxo&#34;&gt;&lt;/canvas&gt;&lt;/p&gt;
-&lt;script src=&#34;../medicina/simulador-ventilador/ventilador.js&#34;&gt;   
+&lt;script src=&#34;../../medicina/simulador-ventilador/ventilador.js&#34;&gt;   
 &lt;/script&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
@@ -7155,7 +7279,7 @@ oedema.&lt;/p&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;perfis&#34;&gt;Perfis&lt;/h2&gt;
-&lt;p&gt;A classificação atualmente proposta pela Diretriz 2018 é descritiva. As letrinhas ABCL/ABCD é um &lt;a href=&#34;../medicina/abaixo-a-medicina/#tara-taxon%C3%B4mica&#34;&gt;cacoete médico risível&lt;/a&gt;. &lt;strong&gt;Nã́o tem essa de paciente tipo C. É paciente frio e úmido!&lt;/strong&gt; Porém, como se trata de uma besteira em voga, é preciso saber:&lt;/p&gt;
+&lt;p&gt;A classificação atualmente proposta pela Diretriz 2018 é descritiva. As letrinhas ABCL/ABCD é um &lt;a href=&#34;../../medicina/abaixo-a-medicina/#tara-taxon%C3%B4mica&#34;&gt;cacoete médico risível&lt;/a&gt;. &lt;strong&gt;Nã́o tem essa de paciente tipo C. É paciente frio e úmido!&lt;/strong&gt; Porém, como se trata de uma besteira em voga, é preciso saber:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -7210,8 +7334,8 @@ oedema.&lt;/p&gt;
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ICC crônica agudizada&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/icc-agudizada.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/icc-agudizada.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/icc-agudizada.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/icc-agudizada.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -7221,8 +7345,8 @@ oedema.&lt;/p&gt;
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ICC aguda nova&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/icc-aguda-nova.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/icc-aguda-nova.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/icc-aguda-nova.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/icc-aguda-nova.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -7306,7 +7430,7 @@ oedema.&lt;/p&gt;
     &lt;br&gt;
     &lt;button onclick=adhere()&gt;Calcular&lt;/button&gt;
 &lt;/div&gt;
-&lt;script src=../adhere.js&gt;&lt;/script&gt;
+&lt;script src=../../adhere.js&gt;&lt;/script&gt;
 &lt;h2 id=&#34;conduta-concomitante-e-alta&#34;&gt;Conduta concomitante e alta&lt;/h2&gt;
 &lt;p&gt;Considere:&lt;/p&gt;
 &lt;ol&gt;
@@ -7553,7 +7677,7 @@ oedema.&lt;/p&gt;
 		
 		<guid>https://www.aesclepius.com.br/eletrocardiograma/</guid>
 		<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;Este é um compêndio e exemplos de eletrocardiogramas de condições incomuns.&lt;/p&gt;
+&lt;p&gt;Este é um compêndio de eletrocardiogramas de condições incomuns, de acordo melhores manuais&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; e outras referências.&lt;/p&gt;
 &lt;!--
 ## O eletrocardiograma normal adulto
 ## O eletrocardiograma normal pediátrico 
@@ -7565,7 +7689,7 @@ oedema.&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/taqui-supra-paroxistica.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/taqui-supra-paroxistica.jpg&#34;&gt;
       &lt;figcaption&gt;Registro oportuno do fim de taquicardia supraventricular paroxística.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7576,7 +7700,7 @@ oedema.&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/ashman.jpeg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/ashman.jpeg&#34;&gt;
       &lt;figcaption&gt;Exemplo real de paciente com fibrilação atrial. Note a morfologia de BRD&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7606,7 +7730,7 @@ t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
       &lt;figcaption&gt;ECG típico com ondas F de base elétrica perdida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7615,6 +7739,7 @@ t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 
 &lt;li&gt;Ritmo pode ser irregular ou regular;&lt;/li&gt;
 &lt;li&gt;Possíveis ondas $F$ de base isoelétrica perdida. O mais comum é que a polaridade dessa onda seja negativa em DII, DIII e aVF; e&lt;/li&gt;
 &lt;li&gt;A frequência ventricular costuma ser metade ou outra fração inteira da frequência atrial.&lt;/li&gt;
+&lt;li&gt;Se ondas $F$ ou serrilhado em todas derivações, pense em interferência elétrica!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 5(Presença de ondas &lt;i&gt;F&lt;/i&gt; em II, III e aVF&lt;br&gt;possivelmente negativas.&lt;br&gt;Base isoelétrica perdida.) --&gt; ff(Flutter atrial); 
@@ -7643,7 +7768,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
       &lt;figcaption&gt;Observe as diferentes ondas P precedendo diferentes QRSs&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7668,8 +7793,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Grau 1&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/ecg/bavt1.jpg&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/ecg/bavt1.jpg&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/bavt1.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/bavt1.jpg&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -7679,8 +7804,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Grau 1&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/ecg/bavt1-2.jpg&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/ecg/bavt1-2.jpg&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/bavt1-2.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/bavt1-2.jpg&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -7740,7 +7865,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
       &lt;figcaption&gt;Grau 2 Mobitz I&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7755,7 +7880,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
       &lt;figcaption&gt;Grau 2 Mobitz II&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7779,7 +7904,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/bavt3.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt3.jpg&#34;&gt;
       &lt;figcaption&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7804,7 +7929,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/bdas-brd.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bdas-brd.jpg&#34;&gt;
       &lt;figcaption&gt;Bloqueio anterosuperior com eixo desviado e vários critérios preenchidos. Há, também, um claro bloqueio de ramo direito&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7815,7 +7940,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/juncional.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/juncional.jpg&#34;&gt;
       &lt;figcaption&gt;Note em precordiais V2 a V4 esboços de ondas P perdidas. Entretanto, este traçado não consegue fechar um bloqueio de 3 grau, com ritmo assumido pelo nó atrioventricular. A frequência gira em torno dos 35 a 40bpm.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7830,7 +7955,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
       &lt;figcaption&gt;Destaque para onda delta no início do QRS&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7846,16 +7971,30 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
       &lt;figcaption&gt;ECG típico em SWPW&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
 
-&lt;h2 id=&#34;sobrecarga-ventricular&#34;&gt;Sobrecarga ventricular&lt;/h2&gt;
+&lt;h2 id=&#34;sobrecarga-atrial&#34;&gt;Sobrecarga atrial&lt;/h2&gt;
 &lt;h3 id=&#34;esquerda&#34;&gt;Esquerda&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Índice de Sokolov-Lyon: se a soma de S em V1 com R de V5 ou V6 somam mais de 35mm ou 40mm se paciente atleta ou muito jovem.&lt;/li&gt;
-&lt;li&gt;Se R de aVL ou S de V3 somam 28mm em homens e 20mm em mulheres.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Índice de Morris:&lt;/strong&gt; feito pelo produto da duração da fase negativa da onda $P$ pela sua amplitude. É positivo e indica sobrecarga atrial esquerda quando esse produto supera 40msmm ou 4msmV. Estudos indicam que $V1$ costuma apresentar artefatos comuns que provocam muitos falsos positivos&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/morris.jpeg&#34;&gt;
+      &lt;figcaption&gt;ECG com Morris de 16msmV ou 160msmm em V2. Note que em V1 o índice pode ser ainda maior por se tratar de provável artefato.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;sobrecarga-ventricular&#34;&gt;Sobrecarga ventricular&lt;/h2&gt;
+&lt;h3 id=&#34;esquerda-1&#34;&gt;Esquerda&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Índice de Sokolov-Lyon:&lt;/strong&gt; se a soma de S em V1 com R de V5 ou V6 somam mais de 35mm ou 40mm se paciente atleta ou muito jovem.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Índice de Corenll:&lt;/strong&gt; Se R de aVL ou S de V3 somam 28mm em homens e 20mm em mulheres.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;direita&#34;&gt;Direita&lt;/h3&gt;
 &lt;ul&gt;
@@ -7882,8 +8021,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ECG de sobrecarga de câmaras esquerdas com onda de Osborn&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -7893,8 +8032,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/ecg/ondas-osborn.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/ecg/ondas-osborn.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/ondas-osborn.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/ondas-osborn.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -7965,7 +8104,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/wellens.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/wellens.jpg&#34;&gt;
       &lt;figcaption&gt; &lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -7979,7 +8118,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;/ul&gt;
 &lt;h3 id=&#34;padrão-winter&#34;&gt;Padrão Winter&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
-&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;Um infarto transmural de parede inferior sem configuração tradicional de infarto com supra.&lt;/p&gt;
 &lt;p&gt;Além disso, o comprometimento de circunflexa e outros infartos difusos também podem apresentar correlação com o padrão.&lt;/p&gt;
 &lt;ul&gt;
@@ -7991,7 +8130,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/aslanger.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/aslanger.jpg&#34;&gt;
       &lt;figcaption&gt;Aslanger típico.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8012,8 +8151,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/ecg/circunferencial.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/ecg/circunferencial.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/ecg/circunferencial.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/ecg/circunferencial.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -8023,8 +8162,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Isquemia circunferencial provavelmente em início, note o padrão de supra ascendente &amp;#34;feliz&amp;#34; em aVR.&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/ecg/supra-avr.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/ecg/supra-avr.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/ecg/supra-avr.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/ecg/supra-avr.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -8034,8 +8173,8 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -8092,7 +8231,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
       &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para baixo.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8104,7 +8243,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
       &lt;figcaption&gt;Eletrocardiograma de mulher jovem sem sintomas e comorbidades mostrando V1 e V2 com T invertida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8114,7 +8253,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
       &lt;figcaption&gt;Espículas pequenas precedendo QRSs efetivos.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8125,7 +8264,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/ecg/crochetage.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/crochetage.jpg&#34;&gt;
       &lt;figcaption&gt;Topo de onda R entalhada em aVF em paciente com comunicação iteratrial conhecida.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8135,18 +8274,20 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;br&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/li&gt;
-&lt;li&gt;Cavalcanti, Eduardo et al. &lt;strong&gt;Manual de Eletrocardiografia Cardiopapers&lt;/strong&gt;. Atheneu, 2017. [S. l]. Brasil. ISBN-13: 978-8538807926.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;imagens&#34;&gt;Imagens&lt;/h2&gt;
-&lt;p&gt;Acervo próprio.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;Aslanger EK, Smith SW. Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”. J Electrocardiol. 2020 Nov 18&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Cavalcanti, Eduardo et al. &lt;strong&gt;Manual de Eletrocardiografia Cardiopapers&lt;/strong&gt;. Atheneu, 2017. [S. l]. Brasil. ISBN-13: 978-8538807926.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Maria Uggen Rasmussen, Andreas Fabricius-Bjerre, Preman Kumarathurai, Bjørn Strøier Larsen, Helena Domínguez, Jørgen K. Kanters, Ahmad Sajadieh. &lt;strong&gt;Common source of miscalculation and misclassification of P-wave negativity and P-wave terminal force in lead V1&lt;/strong&gt;. Journal of Electrocardiology, Volume 53, 2019, Pages 85-88, ISSN 0022-0736, &lt;a href=&#34;https://doi.org/10.1016/j.jelectrocard.2019.01.088&#34;&gt;https://doi.org/10.1016/j.jelectrocard.2019.01.088&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Aslanger EK, Smith SW. &lt;strong&gt;Response to: “A new electrocardiographic pattern indicating inferior myocardial infarction”&lt;/strong&gt;. J Electrocardiol. 2020 Nov 18.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -8470,7 +8611,7 @@ $$&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/fagan-nomogram.jpg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/fagan-nomogram.jpg&#34;&gt;
       &lt;figcaption&gt; &lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -8516,7 +8657,7 @@ $$&lt;/p&gt;
         &lt;p id=probPosT&gt;0&lt;/p&gt;
     &lt;/div&gt;
     &lt;button id=calc onclick=&#34;calcPosT()&#34;&gt;Calcular!&lt;/button&gt;
-    &lt;script src=../diagnostico.js&gt;&lt;/script&gt;
+    &lt;script src=../../diagnostico.js&gt;&lt;/script&gt;
 &lt;/div&gt;
     &lt;br&gt;
     &lt;br&gt;
@@ -8730,46 +8871,112 @@ table{
 		
 		<guid>https://www.aesclepius.com.br/intubacao/</guid>
 		<description>&lt;h2 id=&#34;verificação-do-material&#34;&gt;Verificação do material&lt;/h2&gt;
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/material-intubacao.png&#34;&gt;
-      &lt;figcaption&gt;&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Observar as condições do balão ventilatório.&lt;/li&gt;
 &lt;li&gt;Certificar-se que a fonte de oxigênio está operante.&lt;/li&gt;
 &lt;li&gt;Ligar monitores e ter certeza da ciência da equipe sobre o procedimento.&lt;/li&gt;
 &lt;li&gt;Verifique a luz do laringoscópio e a firmeza de sua lâmina.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;preparo-das-medicações&#34;&gt;Preparo das medicações&lt;/h3&gt;
-&lt;p&gt;Monte seringas com:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Soro.&lt;/li&gt;
-&lt;li&gt;Indutor de sedoanalgesia.&lt;/li&gt;
-&lt;li&gt;Bloqueador neuromuscular.&lt;/li&gt;
-&lt;li&gt;Analgésico.&lt;/li&gt;
-&lt;li&gt;Hipnótico.&lt;/li&gt;
-&lt;li&gt;Solução de adrenalina 1ml com 19ml de soro.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;preparo-e-escolha-das-medicações&#34;&gt;Preparo e escolha das medicações&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Hipinótico&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Midazolam&lt;/td&gt;
+          &lt;td&gt;0.1-0.3mg/Kg&lt;/td&gt;
+          &lt;td&gt;Boa amnésia retrógrada.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Diazepam&lt;/td&gt;
+          &lt;td&gt;0.3-0.5mg/Kg&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Efeito mais duradouro que midazolam.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tiopental&lt;/td&gt;
+          &lt;td&gt;2-4mg/Kg lento&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Uso em traumatismo craniano e convulsões. &lt;b&gt;Não usar em crise de asma.&lt;/b&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Analgésico&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Fentanil&lt;/td&gt;
+          &lt;td&gt;1 a 4mcg/Kg lento&lt;/td&gt;
+          &lt;td&gt;Ampolas de 50mcg/mL. Em bolo.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Morfina&lt;/td&gt;
+          &lt;td&gt;0.05 a 0.2mg/Kg&lt;/td&gt;
+          &lt;td&gt;Ampolas de 10mg/mL. Em bolo.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Coadjuvante&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Adrenalina&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Misturar ampola de 1ml/Kg em 19ml de soro.&lt;br&gt;Cada mililitro terá 0.5mg.&lt;br&gt; Considerar diluir em 9ml para menor volume em pediatria.&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Bloqueador neuromuscular&lt;/th&gt;
+          &lt;th&gt;Dose&lt;/th&gt;
+          &lt;th&gt;Preparo&lt;/th&gt;
+          &lt;th&gt;Observações&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rocurônio&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;abordagem-do-paciente&#34;&gt;Abordagem do paciente&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Explicar ao paciente que o procedimento é necessário e suas justificativas.&lt;/li&gt;
 &lt;li&gt;Esclareça que haverá analgesia e sedação.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;avalie-a-fisiologia-do-paciente&#34;&gt;Avalie a fisiologia do paciente&lt;/h2&gt;
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/paciente-intubacao.png&#34;&gt;
-      &lt;figcaption&gt;&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Pacientes obesos ou muito grandes, com limitações de posição ou dispositivos podem exigir adaptações, coxins maiores ou técnicas não ortodoxas.&lt;/li&gt;
 &lt;li&gt;Avalie a via aérea do paciente.&lt;/li&gt;
@@ -8803,21 +9010,74 @@ table{
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;escolha-do-tubo&#34;&gt;Escolha do tubo&lt;/h3&gt;
-&lt;p&gt;Para homens de até 1.8m, considere tubo 7. Mulheres de até 1.7m, tubo 6. O julgamento do tamanho do tubo é subjetivo.&lt;/p&gt;
-&lt;h4 id=&#34;tamanho-de-cânula-em-pediatria&#34;&gt;Tamanho de cânula em pediatria:&lt;/h4&gt;
-&lt;p&gt;$$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
+&lt;h2 id=&#34;calculadora-de-tubo1&#34;&gt;Calculadora de tubo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;Criei a calculadora a seguir para ser extremamente flexível e rápida, evitando consultas desncessárias no momento do procedimento. &lt;strong&gt;Use pontos, não vírgulas&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=calculadoras&gt;
-&lt;label for=idadeTuboPed&gt;Idade&lt;/label&gt;
+&lt;select id=sexo&gt;
+   &lt;option value=1&gt;Masculino&lt;/option&gt;
+   &lt;option value=0&gt;Feminino&lt;/option&gt;
+&lt;/select&gt;
 &lt;br&gt;
-&lt;input id=idadeTuboPed type=number&gt;&lt;/input&gt;
+&lt;input id=idadeTuboPed placeholder=&#34;idade (anos)&#34;type=number&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;input id=altura placeholder=&#34;altura (m)&#34; pattern=&#34;[^,]*&#34; type=number&gt;&lt;/input&gt;
 &lt;br&gt;
 &lt;input type=checkbox id=comCuff&gt;Com cuff&lt;/input&gt;
 &lt;br&gt;
 &lt;button onclick=calcularTuboPed()&gt;Calcular&lt;/button&gt;
 &lt;p id=resultadoTuboPed&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;script src=../calcTuboPed.js&gt;&lt;/script&gt;
+&lt;script src=../../calcTuboPed.js&gt;&lt;/script&gt;
+&lt;h2 id=&#34;ventilação-mecânica-inicial2&#34;&gt;Ventilação mecânica inicial&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;modo-volume&#34;&gt;Modo volume&lt;/h3&gt;
+&lt;p&gt;Calcule a massa ideal estimada do paciente e o consequente volume corrente indicado. Use a calculdora abaixo.&lt;/p&gt;
+&lt;p&gt;Depois, ajuste uma pressão expiratória final positiva (PEEP) de 5cmH&lt;sub&gt;2&lt;/sub&gt;O e uma fração de oxigênio em 100% e a titule até conseguir uma saturação de O&lt;sub&gt;2&lt;/sub&gt; periférica de 96%.&lt;/p&gt;
+&lt;p&gt;Considere ajustes de PEEP a depender da patologia de base.&lt;/p&gt;
+&lt;div class=calculadoras&gt;
+    &lt;h2&gt;Volume corrente inicial indicado&lt;/h2&gt;
+    &lt;input type=number id=alturaVol placeholder=&#34;altura (cm)&#34;&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;select id=sexoVol&gt;
+        &lt;option value=&#34;true&#34; selected&gt;Masculino&lt;/option&gt;
+        &lt;option value=&#34;false&#34;&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=pesoIdeal()&gt;Calcular&lt;/button&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;p id=resultadoPesoIdeal&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function pesoIdeal() {
+        let constante = 45.5;
+        let homem = document.getElementById(&#34;sexoVol&#34;).value === &#34;true&#34;;
+        if (homem) {
+            constante = 50;
+            console.log(homem);
+        };
+        let altura = parseInt(document.getElementById(&#34;alturaVol&#34;).value);
+        let resultado1 = 6*(constante + 0.91*(altura - 152.4));
+        let resultado2 = resultado1*8/6;
+        console.log(resultado1+&#34;  &#34;+resultado2)
+        document.getElementById(&#34;resultadoPesoIdeal&#34;).innerText = &#34;Use entre &#34;+resultado1.toFixed(2)+&#34; a &#34;+resultado2.toFixed(2)+&#34;mL de volume corrente inicial.&#34;;
+    }
+&lt;/script&gt;
+&lt;h3 id=&#34;modo-pressão&#34;&gt;Modo pressão&lt;/h3&gt;
+&lt;p&gt;O modo pressão facilita a vida com relação a segurança.&lt;/p&gt;
+&lt;h4 id=&#34;adulto&#34;&gt;Adulto&lt;/h4&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h4 id=&#34;pediatria&#34;&gt;Pediatria&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;PEEP de 5 a 6cmH&lt;sub&gt;2&lt;/sub&gt;O;&lt;/li&gt;
+&lt;li&gt;P&lt;sub&gt;ins&lt;/sub&gt; de 15 a 25cmH&lt;sub&gt;2&lt;/sub&gt;O;&lt;/li&gt;
+&lt;li&gt;Frequência respiratória de 25 a 35irpm; e&lt;/li&gt;
+&lt;li&gt;FiO&lt;sub&gt;2&lt;/sub&gt; de 100%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Titule a FiO&lt;sub&gt;2&lt;/sub&gt; para o menor valor possível até saturação periférica de O&lt;sub&gt;2&lt;/sub&gt; de 96%.&lt;/p&gt;
+&lt;h2 id=&#34;sedação-contínua&#34;&gt;Sedação contínua&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;!--
 Cânula = 3,5 + idade / 4
 Até 1 ano: 3 / até 2 anos: 3,5
@@ -8859,6 +9119,20 @@ O - Obstrução da Cânula
 P - Pneumotórax 
 E - Equipamento falho
 --&gt;
+&lt;h2 id=&#34;meu-simulador-de-ventilação-mecânica&#34;&gt;Meu simulador de ventilação mecânica&lt;/h2&gt;
+&lt;p&gt;&lt;img src=../../pix/medicina/sim_vent.png&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Estou montando um &lt;a href=&#34;../../ventilador-mec/&#34;&gt;simulador de ventilador mecânica em JavaScript&lt;/a&gt;, um protótipo embrião. Se tem interesse em participar, contacte-me.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Os cálculos para cânula em pediatria é: $ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $. Já no contexto adulto, a regra geral é que homens e mulheres de até 1.8m recebam tubo 7 ou 6 respectivamente e pessoas maiores o tubo 8.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Ferreira1 JC, Vianna2 AOA, Pinheiro3 BV, Maia4 IS, 5 , Baldisserotto6 SV, et al. &lt;strong&gt;Joint statement on evidence-based practices in mechanical ventilation: suggestions from two Brazilian medical societies&lt;/strong&gt;. J Bras Pneumol. 2025;51(1):e20240255&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -8872,28 +9146,28 @@ E - Equipamento falho
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/projector.png&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/projector.png&#34;&gt;
       &lt;figcaption&gt;&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
 
-&lt;p&gt;Os arquivos devem ser acessados preferencialmente no formato original &lt;a href=&#34;../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;, pois contém vídeos e outros conteúdos interativos impossíveis em PDF.&lt;/p&gt;
+&lt;p&gt;Os arquivos devem ser acessados preferencialmente no formato original &lt;a href=&#34;../../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;, pois contém vídeos e outros conteúdos interativos impossíveis em PDF.&lt;/p&gt;
 &lt;h2 id=&#34;aula-sobre-dor-torácica&#34;&gt;Aula sobre dor torácica&lt;/h2&gt;
 &lt;p&gt;Apresentei esta aula no Hospital de Sobradinho - DF em outubro de 2023.&lt;/p&gt;
-&lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em StultusVisio disponível &lt;a href=&#34;../medicina/aulas/DorToracicaDispneia.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Versão em PDF &lt;a href=&#34;../files/Medicina/JeffersonT-Dor-Toracica.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em StultusVisio disponível &lt;a href=&#34;../../medicina/aulas/DorToracicaDispneia.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Dor-Toracica.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;aula-sobre-o-artigo-appendiceal-neoplasms-secondary-analysis-of-the-coda-trial&#34;&gt;Aula sobre o artigo Appendiceal neoplasms: secondary analysis of the CODA trial&lt;/h2&gt;
 &lt;p&gt;Apresentei este artigo em janeiro de 2024 no Hospital Regional da Asa Norte de Brasília-DF.&lt;/p&gt;
-&lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em StultusVisio disponível &lt;a href=&#34;../neoplasia-apendice/neoapendice.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Versão em PDF &lt;a href=&#34;../files/Medicina/JeffersonT-Apresentacao-Neoplasia-Apendice.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em StultusVisio disponível &lt;a href=&#34;../../neoplasia-apendice/neoapendice.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Apresentacao-Neoplasia-Apendice.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;caso-clínico-abcesso-hepático&#34;&gt;Caso clínico: abcesso hepático&lt;/h2&gt;
 &lt;p&gt;Apresentado em 08/02/24 no Hospital Regional da Asa Norte em Brasília.&lt;/p&gt;
-&lt;p&gt;Acesse &lt;a href=&#34;../medicina/casos-clinicos/abcesso-hep-dss.html&#34;&gt;aqui&lt;/a&gt; a versão em StultusVisio.&lt;/p&gt;
-&lt;p&gt;Versão em PDF &lt;a href=&#34;../files/Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;../../medicina/casos-clinicos/abcesso-hep-dss.html&#34;&gt;aqui&lt;/a&gt; a versão em StultusVisio.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;caso-clínico-lesão-de-vértebra-lombar-l2&#34;&gt;Caso clínico: lesão de vértebra lombar L2&lt;/h2&gt;
 &lt;p&gt;Apresentado em 22/02/24 no Hospital de BASE de Brasília.&lt;/p&gt;
-&lt;p&gt;Acesse &lt;a href=&#34;../medicina/casos-clinicos/caso-base-explosao-l2.html&#34;&gt;aqui&lt;/a&gt; a versão em StultusVisio.&lt;/p&gt;
-&lt;p&gt;Versão em PDF &lt;a href=&#34;../files/Medicina/JeffersonT-Caso-Clinico-explosao-l2.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;../../medicina/casos-clinicos/caso-base-explosao-l2.html&#34;&gt;aqui&lt;/a&gt; a versão em StultusVisio.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Caso-Clinico-explosao-l2.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -8905,7 +9179,7 @@ E - Equipamento falho
 		<guid>https://www.aesclepius.com.br/hidratacao/</guid>
 		<description>
 
-&lt;img class=&#34;fundo-only-big&#34; src=&#34;../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
+&lt;img class=&#34;fundo-only-big&#34; src=&#34;../../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
 
 &lt;h2 id=&#34;as-três-hidratações&#34;&gt;As três hidratações&lt;/h2&gt;
 &lt;p&gt;Existem três hidratações, por assim se dizer:&lt;/p&gt;
@@ -8929,7 +9203,7 @@ E - Equipamento falho
 &lt;p&gt;O corpo humano necessita de cerca de 100ml de água para cada 100kcal processadas. Isto significa que, ao hidratar um paciente, devemos também nutri-lo e vice-versa.&lt;/p&gt;
 &lt;p&gt;Porém, esta situação traz consigo aspectos osmolares em relação aos eletrólitos. Tendo em vista que a mera hidratação e fornecimento de glicose pura vão diluir os eletrólitos corporais, podemos terminar em situações graves, e.g. hipocalemia.&lt;/p&gt;
 &lt;p&gt;Para isto, fórmulas foram desenvolvidas, notadamente a fórmula de Holliday-Segar e suas variações.&lt;/p&gt;
-&lt;p&gt;Acesse &lt;a href=&#34;../medicina/holliday/&#34;&gt;aqui&lt;/a&gt; a calculadora de Holliday-Segar que eu fiz.&lt;/p&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;../../medicina/holliday/&#34;&gt;aqui&lt;/a&gt; a calculadora de Holliday-Segar que eu fiz.&lt;/p&gt;
 &lt;h2 id=&#34;reposição-hídrica&#34;&gt;Reposição hídrica&lt;/h2&gt;
 &lt;p&gt;Normalmente feita através de soros de reidratação oral, de oferta livre, a pelo menos 1L/dia. Espera se a ingesta mínima baseada em guideline de 2L/dia pro adulto. Porém estes valores são contestados atualmente.&lt;/p&gt;
 &lt;p&gt;Na prática, pode se optar por soros caseiros, preparados com açúcar e sal, mas estes devem ser evitados sempre que soros industrializados forem disponíveis.&lt;/p&gt;
@@ -8961,18 +9235,19 @@ E - Equipamento falho
 	
 	<item>
 		<title>Calculadoras de superfície corporal</title>
-		<link>https://www.aesclepius.com.br/superficie-corporal/</link>
+		<link>https://www.aesclepius.com.br/antropometria/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/superficie-corporal/</guid>
-		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
+		<guid>https://www.aesclepius.com.br/antropometria/</guid>
+		<description>&lt;h2 id=&#34;superfície-corporal&#34;&gt;Superfície corporal&lt;/h2&gt;
+&lt;h3 id=&#34;estimativa-de-costeff&#34;&gt;Estimativa de Costeff&lt;/h3&gt;
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
 &lt;p&gt;$$
 ASC = {{ 4m + 7 } \over { m + 90 }}
 $$&lt;/p&gt;
 &lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada¹ é de 300-400mL/m²/dia.&lt;/p&gt;
-&lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../../medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
 &lt;label for=&#34;massa&#34;&gt;Massa do paciente&lt;/label&gt;
 &lt;br&gt;
@@ -8980,8 +9255,8 @@ $$&lt;/p&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
-&lt;p&gt;Veja &lt;a href=&#34;../medicina/queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;queimados&#34;&gt;Queimados&lt;/h3&gt;
+&lt;p&gt;Veja &lt;a href=&#34;../../medicina/queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;script&gt;
     function bsa(){
         const massa = parseFloat(document.getElementById(&#34;massa&#34;).value);
@@ -9005,6 +9280,37 @@ $$&lt;/p&gt;
     }
 &lt;/script&gt;
 &lt;br&gt;
+&lt;h2 id=&#34;peso-real-estimado&#34;&gt;Peso real estimado&lt;/h2&gt;
+&lt;p&gt;Apesar do cacoete médico, &amp;ldquo;peso real&amp;rdquo; se refere a massa ideal estimada do paciente.&lt;/p&gt;
+&lt;div class=calculadoras&gt;
+    &lt;h2&gt;Massa ideal estimada&lt;/h2&gt;
+    &lt;input type=number id=altura placeholder=&#34;altura (cm)&#34;&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;select id=sexo&gt;
+        &lt;option value=&#34;true&#34; selected&gt;Masculino&lt;/option&gt;
+        &lt;option value=&#34;false&#34;&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=pesoIdeal()&gt;Calcular&lt;/button&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;p id=resultadoPesoIdeal&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function pesoIdeal() {
+        let constante = 45.5;
+        let homem = document.getElementById(&#34;sexo&#34;).value === &#34;true&#34;;
+        if (homem) {
+            constante = 50;
+            console.log(homem);
+        };
+        let altura = parseInt(document.getElementById(&#34;altura&#34;).value);
+        let resultado = (constante + 0.91*(altura - 152.4));
+        document.getElementById(&#34;resultadoPesoIdeal&#34;).innerText = resultado.toFixed(2)+&#34;Kg&#34;;
+    }
+&lt;/script&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
@@ -9026,7 +9332,7 @@ $$&lt;/p&gt;
 		<description>&lt;!-- &lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!&lt;/span&gt; --&gt;
 
 
-&lt;img class=&#34;fundo-only-big&#34; src=&#34;../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
+&lt;img class=&#34;fundo-only-big&#34; src=&#34;../../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
 
 &lt;style&gt;
     h2 {
@@ -9039,7 +9345,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Esta calculadora aceita valores decimais nas unidades indicadas.&lt;/p&gt;
 &lt;p&gt;Use pontos e não vírgulas.&lt;/p&gt;
 &lt;p&gt;Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.&lt;/p&gt;
-&lt;p&gt;Veja &lt;a href=&#34;../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidratação venosa em geral.
+&lt;p&gt;Veja &lt;a href=&#34;../../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidratação venosa em geral.
 &lt;br&gt;&lt;/p&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
 &lt;h2&gt;Fluido&lt;/h2&gt;
@@ -9112,7 +9418,7 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 – Não prescreva potássio ao paciente anúrico!
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;script src=&#34;../holliday.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../holliday.js&#34;&gt;&lt;/script&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -9161,8 +9467,8 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Altura uterina por idade gestacional&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/altura-uterina-ig.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/altura-uterina-ig.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/altura-uterina-ig.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/altura-uterina-ig.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -9172,8 +9478,8 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Tamanho do útero por idade gestacional&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/ig-tamanho-utero.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/ig-tamanho-utero.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/ig-tamanho-utero.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/ig-tamanho-utero.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -9268,7 +9574,7 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
     &lt;button onclick=&#34;naegele()&#34;&gt;Calcular&lt;/button&gt;
     &lt;br&gt;
     &lt;p id=&#34;resultadoNaegele&#34;&gt;&lt;/p&gt;
-    &lt;script src=&#34;../naegele.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;../../naegele.js&#34;&gt;&lt;/script&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;alto-risco-gestacional&#34;&gt;Alto risco gestacional&lt;/h2&gt;
 &lt;h3 id=&#34;biológicos&#34;&gt;Biológicos&lt;/h3&gt;
@@ -9352,8 +9658,8 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gestante com viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -9363,8 +9669,8 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gestante sem viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -9374,8 +9680,8 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Puérpera com viabilidade financeira&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -9385,8 +9691,8 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Puérpera sem viabilidade financeira&lt;/p&gt;&lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
 
@@ -9447,12 +9753,12 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;/ul&gt;
 &lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../medicina/doenca-renal&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
+&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../../medicina/doenca-renal&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Eclâmpsia&lt;/strong&gt; é a ocorrência de &lt;mark&gt;convulsões&lt;/mark&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
 &lt;h4 id=&#34;conduta-1&#34;&gt;Conduta&lt;/h4&gt;
 &lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;cuidados&#34;&gt;Cuidados&lt;/h5&gt;
 &lt;p&gt;O reflexo patelar desaparece com 10mEq/L de sulfato e ocorre parada cardíaca com 12mEq/L.&lt;/p&gt;
 &lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
@@ -9517,7 +9823,7 @@ Tratamento: Necessita de intervenção, como psicoterapia e/ou medicamentos anti
 &lt;h4 id=&#34;fatores-de-risco&#34;&gt;Fatores de risco&lt;/h4&gt;
 &lt;p&gt;Asfixia (Apgar &amp;lt; 6 no 5º minuto), história familiar, infecção TORCHS, hiperbilirrubinemia, sepse e meningite, hemorragia intraventricular, drogas ototóxicas, peso nascimento &amp;lt; 1500g e ventilação mecânica &amp;gt; 5 dias.&lt;/p&gt;
 &lt;h3 id=&#34;teste-da-linguinha&#34;&gt;Teste da linguinha&lt;/h3&gt;
-&lt;p&gt;Utilizar o Bristol Tongue Assessment Tool disponível na Nota Técnica 35/2018 do Ministério da Saúde &lt;a href=&#34;../files/Medicina/Pediatria/NT35-2018-MS-Anquiloglossia.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Utilizar o Bristol Tongue Assessment Tool disponível na Nota Técnica 35/2018 do Ministério da Saúde &lt;a href=&#34;../../files/Medicina/Pediatria/NT35-2018-MS-Anquiloglossia.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;teste-do-olhinho&#34;&gt;Teste do olhinho&lt;/h3&gt;
 &lt;p&gt;De baixo custo, consiste em observar a uniformidade e bilateralidade do reflexo vermelho do fundo de olho. Quaisquer alterações grosseiras do teste devem ser indicativo de exame oftalmológico com dilatação pupilar.&lt;/p&gt;
 &lt;hr&gt;
@@ -9699,7 +10005,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
       &lt;figcaption&gt;Forma clássica&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -9710,7 +10016,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
       &lt;figcaption&gt;Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -9904,7 +10210,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;h4 id=&#34;dosagens&#34;&gt;Dosagens&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;2-10 mcg/min que é bem variável na literatura.&lt;/li&gt;
-&lt;li&gt;Em doses mais baixas prevalece ação beta nas mais altas a ação alfa&lt;sup&gt;1&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Em doses mais baixas prevalece ação beta nas mais altas a ação alfa&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;prescrição-sugerida-2&#34;&gt;Prescrição sugerida&lt;/h4&gt;
 &lt;ul&gt;
@@ -10026,7 +10332,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;li&gt;Emergências hipertensivas.
 -AÇÃO DIRETA NA MUSCULATURA ARTERIOLAR, DIMINUINDO A RESISTÊNCIA VASCULAR PERIFÉRICA.
 -VASODILATADOR ARTERIAL E VENOSO&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Efeitos adversos&lt;/strong&gt;: intoxicação por cianeto cursando com acidose metabólica, hipoxemia, bradicardia, convulsões. Também podem ocorrer náuseas, vômitos e roubo de fluxo coronariano&lt;sup&gt;2&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efeitos adversos&lt;/strong&gt;: intoxicação por cianeto cursando com acidose metabólica, hipoxemia, bradicardia, convulsões. Também podem ocorrer náuseas, vômitos e roubo de fluxo coronariano&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;dosagens-5&#34;&gt;Dosagens&lt;/h4&gt;
 &lt;ul&gt;
@@ -10090,11 +10396,11 @@ V -- Ausentes --&gt; CDD(Não-cardiogênico) --&gt; Z;
 &lt;/pre&gt;
 
 &lt;h2 id=&#34;análise-de-artigos&#34;&gt;Análise de artigos&lt;/h2&gt;
-&lt;h3 id=&#34;dez-dicas-sobre-vasopressores-1&#34;&gt;Dez dicas sobre vasopressores [1]&lt;/h3&gt;
+&lt;h3 id=&#34;dez-dicas-sobre-vasopressores-3&#34;&gt;Dez dicas sobre vasopressores &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;1-set-goals-of-mean-or-diastolic-blood-pressures&#34;&gt;1. Set goals of mean or diastolic blood pressures&lt;/h4&gt;
 &lt;h4 id=&#34;2-individualize-the-arterial-pressure-targets-goals&#34;&gt;2. Individualize the arterial pressure targets goals&lt;/h4&gt;
 &lt;p&gt;Tente definir um alvo de pressão arterial média para o paciente e revisá-lo e redefini-lo a cada 6/8h.
-Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A hipertensão arterial sistêmica prévia não justifica maiores médias.&lt;/p&gt;
 &lt;p&gt;Permita maiores médias pressóricas para manter perfusão periférica e diurese.&lt;/p&gt;
@@ -10117,7 +10423,7 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 &lt;h4 id=&#34;8-there-is-no-maximal-dose-of-vasopressors&#34;&gt;8. There is no maximal dose of vasopressors&lt;/h4&gt;
 &lt;p&gt;Limitar o uso de doses altas de vasopressores pode resultar em menor sucesso de sobrevida.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;É um erro associar maior morbidade às altas doses de drovas vasoativas. Na verdade, trata-se de um &lt;a href=&#34;../vieses/#vi%C3%A9s-de-confus%C3%A3o-das-vari%C3%A1veis&#34;&gt;viés de confusão entre variáveis&lt;/a&gt; porque os pacientes mais graves usam maiores doses.&lt;/p&gt;
+&lt;p&gt;É um erro associar maior morbidade às altas doses de drovas vasoativas. Na verdade, trata-se de um &lt;a href=&#34;../../vieses/#vi%C3%A9s-de-confus%C3%A3o-das-vari%C3%A1veis&#34;&gt;viés de confusão entre variáveis&lt;/a&gt; porque os pacientes mais graves usam maiores doses.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;9-enteral-tube-feeding-can-be-initiated-while-under-vasopressors&#34;&gt;9. Enteral tube feeding can be initiated while under vasopressors&lt;/h4&gt;
 &lt;p&gt;A vigência de terapia vasoativa não justifica atraso na passagem de sonda entérica.&lt;/p&gt;
@@ -10186,20 +10492,68 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
           &lt;td&gt;- Hypotension (causes greater vasodilation than DOB)&lt;br&gt;- Tachyarrhythmias &lt;br&gt;- Torsades de pointes&lt;/td&gt;
           &lt;td&gt;- Useful inotrope in patients with signiﬁcant pulmonary vascular resistance&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Azul de metileno&lt;/td&gt;
+          &lt;td&gt;0.25-1.2mg/kg/h&lt;/td&gt;
+          &lt;td&gt;GABA-A&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Angiotensina II&lt;/td&gt;
+          &lt;td&gt;Bolo de 2mg/Kg e 5-200ng/kg/min&lt;/td&gt;
+          &lt;td&gt;Receptor de angiotensina II&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Desmopressina&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;V2&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Diabetes insipidus, sangramentos&amp;hellip;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ornipressina&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;V1&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Vasoconstrictor na miomectomia&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Selepressina&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;V1&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;color:red;bakcground:black&#34;&gt;NÃO APROVADA PARA USO CLÍNICO&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Choque séptico&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Terlipressina&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;V1&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;Hipertensão portal, varizes esofágicas e choque séptico&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt;Adaptado de MERGOUM et. al.[2].&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt;Adaptado de MERGOUM et. al.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Ações beta de receptores adrenérgicos: cronotropismo e inotropismo.&lt;/li&gt;
-&lt;li&gt;O uso de nitroprussiato em síndromes coronarianas agudas promove dilatação das coronárias sadias e da periferia, diminuindo a disponibilidade para a coronária obstruída, causando piora no quadro isquêmico.&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Ações beta de receptores adrenérgicos: cronotropismo e inotropismo.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;O uso de nitroprussiato em síndromes coronarianas agudas promove dilatação das coronárias sadias e da periferia, diminuindo a disponibilidade para a coronária obstruída, causando piora no quadro isquêmico.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Legrand, M., Zarbock, A. &lt;strong&gt;Ten tips to optimize vasopressors use in the critically ill patient with hypotension&lt;/strong&gt;. Intensive Care Med 48, 736–739 (2022). &lt;a href=&#34;https://doi.org/10.1007/s00134-022-06708-y&#34;&gt;https://doi.org/10.1007/s00134-022-06708-y&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Mergoum AM, Rhone AR, Larson NJ, Dries DJ, Blondeau B, Rogers FB. &lt;strong&gt;A Guide to the Use of Vasopressors and Inotropes for Patients in Shock&lt;/strong&gt;. J Intensive Care Med. 2024 Apr 13:8850666241246230. doi: 10.1177/08850666241246230. Epub ahead of print. PMID: 38613381.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Legrand, M., Zarbock, A. &lt;strong&gt;Ten tips to optimize vasopressors use in the critically ill patient with hypotension&lt;/strong&gt;. Intensive Care Med 48, 736–739 (2022). &lt;a href=&#34;https://doi.org/10.1007/s00134-022-06708-y&#34;&gt;https://doi.org/10.1007/s00134-022-06708-y&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mergoum AM, Rhone AR, Larson NJ, Dries DJ, Blondeau B, Rogers FB. &lt;strong&gt;A Guide to the Use of Vasopressors and Inotropes for Patients in Shock&lt;/strong&gt;. J Intensive Care Med. 2024 Apr 13:8850666241246230. doi: 10.1177/08850666241246230. Epub ahead of print. PMID: 38613381.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -10229,7 +10583,7 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 &lt;h2 id=&#34;alternativas&#34;&gt;Alternativas&lt;/h2&gt;
 &lt;p&gt;Verapamil 5mg/IV e associação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.&lt;/p&gt;
 &lt;h2 id=&#34;massagem-carotídea&#34;&gt;Massagem carotídea&lt;/h2&gt;
-&lt;p&gt;Em detalhes &lt;a href=&#34;../medicina/massagem-carotidea/index.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Em detalhes &lt;a href=&#34;../../medicina/massagem-carotidea/index.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;pill-in-the-pocket&#34;&gt;Pill-in-the-pocket⁴&lt;/h2&gt;
 &lt;p&gt;Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA é possível adotar a seguinte estratégia:&lt;/p&gt;
 &lt;ol&gt;
@@ -10267,7 +10621,7 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../pix/medicina/dr-stupid.webp&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/dr-stupid.webp&#34;&gt;
       &lt;figcaption&gt;É só uma picadinha!&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
@@ -10310,17 +10664,17 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 		
 		<guid>https://www.aesclepius.com.br/files/</guid>
 		<description>&lt;p&gt;&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;ex. pediatria&#34;&gt;&lt;/input&gt;&lt;/p&gt;
-&lt;script src=&#34;../files.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../files.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;files&#34;&gt;&lt;/ul&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>LLMedica: inteligência artificial para medicina</title>
-		<link>https://www.aesclepius.com.br/medical_ai/llmedica/</link>
+		<link>https://www.aesclepius.com.br/ia-medica/llmedica/</link>
 		<pubDate>Sat, 23 Dec 2023 20:04:39 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/medical_ai/llmedica/</guid>
+		<guid>https://www.aesclepius.com.br/ia-medica/llmedica/</guid>
 		<description>&lt;h2 id=&#34;gestão-de-prontuário-médico-com-ia-treinada-em-medicina&#34;&gt;Gestão de Prontuário Médico com IA Treinada em Medicina&lt;/h2&gt;
 &lt;p&gt;Este projeto visa integrar uma Inteligência Artificial baseada em LLM (Large Language Model) treinada especificamente em medicina para auxiliar na gestão de prontuários médicos.&lt;/p&gt;
 &lt;h2 id=&#34;descrição&#34;&gt;Descrição&lt;/h2&gt;
@@ -10422,7 +10776,7 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div id=&#34;resultado&#34;&gt;&lt;/div&gt;
-&lt;script src=&#34;../bulario.js&#34;&gt;
+&lt;script src=&#34;../../bulario.js&#34;&gt;
 &lt;/script&gt;
 
 
@@ -10490,7 +10844,7 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		
 		<guid>https://www.aesclepius.com.br/dicionario/</guid>
 		<description>&lt;p&gt;&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;procure aqui&#34;&gt;&lt;/input&gt;&lt;/p&gt;
-&lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../dicionario.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;search-output&#34;&gt;&lt;/ul&gt;
 </description>
 	</item>
@@ -10714,7 +11068,7 @@ $$&lt;/p&gt;
   &lt;p id=&#34;resultado&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script src=&#34;../queimados.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../queimados.js&#34;&gt;&lt;/script&gt;
 
 &lt;br&gt;
 &lt;br&gt;
@@ -10912,7 +11266,7 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
     &lt;/div&gt;
     &lt;br&gt;
 &lt;/div&gt;
-&lt;script src=../addrs.js&gt;&lt;/script&gt;
+&lt;script src=../../addrs.js&gt;&lt;/script&gt;
 &lt;h2 id=&#34;tipos-de-infarto&#34;&gt;Tipos de infarto&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -10977,7 +11331,7 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
     &lt;button onclick=grace()&gt;Calcular&lt;/button&gt;
   &lt;p id=&#34;resultadoGRACE&#34;&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;script src=../grace.js&gt;&lt;/script&gt;
+&lt;script src=../../grace.js&gt;&lt;/script&gt;
 
 melhora dor
 ecg supra menor 50%
@@ -11006,8 +11360,8 @@ angio primaria
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;TINOCA vs MINOCA&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/tinoca.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/tinoca.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/tinoca.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/tinoca.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -11017,8 +11371,8 @@ angio primaria
     
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxo da análise de troponina&lt;/p&gt;&lt;/div&gt;
       &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../pix/medicina/fluxo-troponina.png&#34;&gt;
-          &lt;img src=&#34;../pix/medicina/fluxo-troponina.png&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/medicina/fluxo-troponina.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/fluxo-troponina.png&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -11109,7 +11463,7 @@ n{{Nitrato&lt;br&gt;em S.O.S}} &lt;--&gt; 1;
 &lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura aterial, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após longo período de carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../vieses/&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../../vieses/&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;A culpa de tais artigos atingirem o grande público recai sobre as bancas avaliadoras e a nossa fantástica fábrica de publicações. Assuma, você só escreveu aquele artigo na faculdade pra somar pontos na residência, né? 🤣&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Quod erat demonstrandum&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
@@ -11161,7 +11515,7 @@ n{{Nitrato&lt;br&gt;em S.O.S}} &lt;--&gt; 1;
   &lt;button style=&#34;margin-left: 5vw; margin-right: auto; margin-top: 5px;&#34; onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;script src=&#34;../bancoquestoes.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../bancoquestoes.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
 function fechardialogo() {
   let aviso = document.getElementById(&#34;aviso&#34;);
@@ -11401,7 +11755,7 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;h3 id=&#34;delta-delta&#34;&gt;Delta delta&lt;/h3&gt;
 &lt;p&gt;Como sei que mais de um processo (alcalose ou acidose) não ocorrem simultâneamente num contexto de gap aniônico alargado?&lt;/p&gt;
-&lt;p&gt;Esta dúvida raramente fará sentido clínico, uma vez que o exame de gasometria é um teste complementar e &lt;a href=&#34;../medicina/estatistica-diagnostica&#34;&gt;deve ser solicitado já com uma hipótese diagnóstica prévia&lt;/a&gt; reforçando ou enfraquecendo-a.&lt;/p&gt;
+&lt;p&gt;Esta dúvida raramente fará sentido clínico, uma vez que o exame de gasometria é um teste complementar e &lt;a href=&#34;../../medicina/estatistica-diagnostica&#34;&gt;deve ser solicitado já com uma hipótese diagnóstica prévia&lt;/a&gt; reforçando ou enfraquecendo-a.&lt;/p&gt;
 &lt;p&gt;Mas em casos obscuros, a seguinte lógica deve ser aplicada:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
@@ -11517,7 +11871,7 @@ function updateResult() {
 &lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
 &lt;/input&gt;
 &lt;/div&gt;
-&lt;script src=&#34;../sites-uteis.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../sites-uteis.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;search-output&#34;&gt;
 &lt;/ul&gt;
 </description>
