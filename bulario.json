@@ -1,6 +1,135 @@
 [
 	{
 		"nome": [
+			"omeprazol magnésico",
+			"Losec Mups"
+		],
+		"class": [
+			"inibidores de bomba de próton"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"dia"
+				],
+				"dosagem": [
+					20,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose pediátrica. O comprimido pode ser diluído para facilitar posologia."
+			}
+		]
+	},
+	{
+		"nome": [
+			"dipropionato de beclometasona",
+			"Clenil"
+		],
+		"class": [
+			"corticoides",
+			"corticoide inalatório"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"dia"
+				],
+				"dosagem": [
+					500,
+					1
+				],
+				"via": "inalatória",
+				"instrucao": "dose habitual pediátrica diária na asma, geralmente apresentada a 250mg/jato."
+			}
+		]
+	},
+	{
+		"nome": [
+			"predinisolona"
+		],
+		"class": [
+			"corticoides"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"kg"
+				],
+				"via": "oral",
+				"instrucao": "dose para quadros de exacerbação de asma leve, após falha de broncodilatadores por mais de 48h.",
+				"dosagem": [
+					"1 a 2",
+					1
+				]
+			}
+		]
+	},
+	{
+		"nome": [
+			"doxiciclina"
+		],
+		"class": [
+			"antibióticos",
+			"antiprotozoários"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"dia"
+				],
+				"dosagem": [
+					200,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose do primeiro dia. A partir de 24h, reduzir pela metade. A dose diária pode ser feita <i>bis in die</i> ou única."
+			},
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					4.4,
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose do primeiro dia. A partir de 24h, reduzir pela metade. A dose diária pode ser feita <i>bis in die</i> ou única."
+			}
+		]
+	},
+	{
+		"nome": [
+			"polietilenoglicol",
+			"PEG 4000"
+		],
+		"class": [
+			"laxantes osmóticos"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"kg"
+				],
+				"dosagem": [
+					4,
+					1
+				],
+				"via": "oral",
+				"instrucao": "usado na desimpactação concomitante a investigação de causa, inclusive em pediatria."
+			}
+		]
+	},
+	{
+		"nome": [
 			"deltrametrina"
 		],
 		"class": [
@@ -371,6 +500,7 @@
 			}
 		],
 		"obs": [
+			"Administrar as doses diárias de forma única ou fracionada após refeições.",
 			"O tratamento pode perdurar por até doze meses."
 		]
 	},
@@ -1467,7 +1597,7 @@
 	},
 	{
 		"nome": [
-			"pegabalina"
+			"pregabalina"
 		],
 		"class": [
 			"gabaérgicos",
@@ -1533,7 +1663,8 @@
 			}
 		],
 		"obs": [
-			"Clomipramina está indicada como padrão ouro para tratamento de transtorno obcessivo compulsivo."
+			"Clomipramina está indicada como padrão ouro para tratamento de transtorno obcessivo compulsivo.",
+			"Também é usada em pediatria no tratamento de enuresee noturna."
 		]
 	},
 	{
@@ -1887,11 +2018,34 @@
 					"mg",
 					"h"
 				],
+				"via": "intravenosa",
 				"dosagem": [
-					8,
+					1,
 					1
 				],
-				"via": "oral"
+				"instrucao": "dose usual de infusão contínua."
+			},
+			{
+				"unidades": [
+					"mg"
+				],
+				"dosagem": [
+					8
+				],
+				"via": "oral",
+				"instrucao": "dose adulta antiemética que pode ser repetida."
+			},
+			{
+				"unidades": [
+					"mg",
+					"fita"
+				],
+				"dosagem": [
+					4,
+					1
+				],
+				"via": "oral",
+				"instrucao": "a fita de ondansetrona pode ser cortada para fracionar dose em pediatria."
 			}
 		]
 	},
@@ -2476,12 +2630,12 @@
 					"dia"
 				],
 				"dosagem": [
-					40,
+					"40 a 50",
 					1,
 					1
 				],
 				"via": "oral",
-				"instrucao": "dose padrão chamada de \"dose alta\"."
+				"instrucao": "dose padrão pediátrica para maioria das condições de trato respiratório e dose de erradicação do <i>H. pylori</i>."
 			}
 		]
 	},
@@ -3517,6 +3671,11 @@
 			"ferripolimaltose",
 			"Noripurum"
 		],
+		"class": [
+			"suplementos",
+			"minerais",
+			"ferro"
+		],
 		"posologias": [
 			{
 				"unidades": [
@@ -3527,6 +3686,20 @@
 				],
 				"via": "intravenosa",
 				"instrucao": "ajustado de acordo com o nível de hemoglobina."
+			},
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					1,
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose pediátrica a partir dos seis meses se não há comorbidades."
 			}
 		]
 	},

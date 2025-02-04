@@ -1445,3 +1445,12 @@ hr {
   height: 500px;
   max-height: 50vw;
 }
+
+.mermaid .labelBkg {
+  background: transparent !important;
+  box-shadow: none !important;
+  /* Remove o gradiente residual */
+  --bg-gradient: transparent !important;
+  /* Força a opacidade total */
+  opacity: 1 !important;
+}

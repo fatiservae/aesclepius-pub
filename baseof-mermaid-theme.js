@@ -14,9 +14,10 @@ import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.mi
       'primaryTextColor': fontColor,
       'primaryBorderColor': borderColor,
       'lineColor': borderColor,
-      'secondaryColor': backgroundColor
+      'edgeLabelBackground': 'transparent'
     }
   });
+
 // } else {
 //   mermaid.initialize({ 
 //     'theme': 'base',
