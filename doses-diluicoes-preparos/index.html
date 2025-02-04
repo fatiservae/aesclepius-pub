@@ -9,7 +9,7 @@
   
   
   
-  <title>Diluições e preparos | Aesclepius</title>
+  <title>Calculadoras de doses, diluições e preparos | Aesclepius</title>
   <link rel="canonical" href="https://www.aesclepius.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Aesclepius RSS" href='../index.xml'>
   <link rel='stylesheet' type='text/css' href='../style.css'>
@@ -52,8 +52,47 @@
   
   
 
-">
-  <meta name="keywords" content="calculadoras, emergências">
+
+
+
+
+  Dose por massa corporal diária
+  
+  Intervalo entre doses
+  
+  
+    4h
+    6h
+    8h
+    10h
+    12h
+  
+  
+  
+  Massa corporal
+  
+  
+  
+  
+  Dose por Kg desejada
+  
+  
+  
+  
+  Apresentação
+  
+  
+  
+  
+  Volume da apresentação
+  
+  
+  
+  
+  Calcular!
+  
+  ">
+  <meta name="keywords" content="pediatria, farmacologia, calculadoras, emergências">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -88,7 +127,7 @@
       <input type="text" id="globalsearch" placeholder="    busca..."></input>
     </div>
     <ul id="artlist">
-      <li data-tags="[calculadoras emergências]"><a href="https://www.aesclepius.com.br/diluicoes/">Diluições e preparos</a></li>
+      <li data-tags="[pediatria farmacologia calculadoras emergências]"><a href="https://www.aesclepius.com.br/doses-diluicoes-preparos/">Calculadoras de doses, diluições e preparos</a></li>
       <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
       <li data-tags="[geriatria pediatria nutrologia dieta]"><a href="https://www.aesclepius.com.br/suplementacao/">Prescrição de suplementos dietéticos</a></li>
       <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.aesclepius.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
@@ -216,12 +255,55 @@
   <br>
   <p id=resultadoDil></p>
 </div>
-<script src="../diluicoes.js"></script>
+<br>
+<br>
+<br>
+<div class=calculadoras>
+  <h2>Dose por massa corporal diária</h2>
+  <br>
+  <label for=intervalo>Intervalo entre doses</label>
+  <br>
+  <select id=intervalo>
+    <option value=4>4h</option>
+    <option value=6>6h</option>
+    <option value=8>8h</option>
+    <option value=10>10h</option>
+    <option value=12>12h</option>
+  </select>
+  <br>
+  <br>
+  <label for=massaDose>Massa corporal</label>
+  <br>
+  <input type=number id=massaDose placeholder="Kg"></input>
+  <br>
+  <br>
+  <label for=dose>Dose por Kg desejada</label>
+  <br>
+  <input type=number id=dose placeholder="mg"></input>
+  <br>
+  <br>
+  <label for=apresentacaoQtd>Apresentação</label>
+  <br>
+  <input type=number id=apresentacaoQtd placeholder=mg></input>
+  <br>
+  <br>
+  <label for=apresentacaoVol>Volume da apresentação</label>
+  <br>
+  <input type=number placeholder=ml id=apresentacaoVol></input>
+  <br>
+  <br>
+  <button onclick=dosar()>Calcular!</button>
+  <br>
+  <p id=resultadoDosar></p>
+</div>
+<script src="../doses-diluicoes-preparos.js"></script>
 
   
   
     <br>
 <div style="" class=taglist>
+  <a id="tag_pediatria" href="https://www.aesclepius.com.br/tags/pediatria">pediatria</a> &middot; 
+  <a id="tag_farmacologia" href="https://www.aesclepius.com.br/tags/farmacologia">farmacologia</a> &middot; 
   <a id="tag_calculadoras" href="https://www.aesclepius.com.br/tags/calculadoras">calculadoras</a> &middot; 
   <a id="tag_emergências" href="https://www.aesclepius.com.br/tags/emerg%C3%AAncias">emergências</a></div>
   
