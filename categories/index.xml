@@ -104,7 +104,17 @@
 		<pubDate>Mon, 27 Jan 2025 10:34:02 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/insuficiencia-respiratoria/</guid>
-		<description>&lt;h2 id=&#34;pediatria&#34;&gt;Pediatria&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+&lt;p&gt;Tipo I ou hipoxêmica: quando a paO2 &amp;lt; 60mmHg.&lt;/p&gt;
+&lt;p&gt;A fisiologia respiratória pode ser desarranjada de duas maneiras:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Incapacidade de movimentar a massa de ar necessária para diluição do CO2 na atmosfera e/ou promover a saturação da hemoglobina passante pelo capilar;&lt;/li&gt;
+&lt;li&gt;Redução da permeabilidade gasosa da membrana alveolar.
+Na prevalência do primeiro mecanismo, diz-se da insuficiência respiratória hipercápnica ou do tipo II. Trata-se, sempre, de hipoventilação. Na prevalência do segundo mecanismo, diz-se da insuficiência respiratória hipoxêmica ou do tipo I.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Na insuficiência hipoxêmica, a larga oferta de O2 da atmosfera é impedida de alcançar a corrente sanguínea pelo espessamento da membrana basal alveolar, pelo excesso de líquido no lúmem alveolar, pela inflamação parenquimatosa e edema ou por quaisquer outras causas de diminuição da permeabilidade membranar.&lt;/p&gt;
+&lt;p&gt;Na insuficiência hipercápnica, o ar rico em CO2 contido no pulmão ao fim de um ciclo inspiratório e do tempo de troca é impedido de ser diluído na atmosfera pela incapacidade musculatória torácica (seja pela fadiga muscular, seja por comprometimento neurológico, i.e. Guillain Barré),&lt;/p&gt;
+&lt;h2 id=&#34;pediatria&#34;&gt;Pediatria&lt;/h2&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
     ImpressaoInicial(&#34;Impressão inicial: Consciência, Cor, Respiração&#34;) --&gt; |Algum presente?| SalaEmergencia
     SalaEmergencia(&#34;Sala de emergência: Chamar ajuda, Monitorização&#34;) --&gt; A
@@ -138,7 +148,7 @@
 	</item>
 	
 	<item>
-		<title>Prescrição de suplementos dietéticos</title>
+		<title>Vitaminas e suplementos dietéticos</title>
 		<link>https://www.aesclepius.com.br/suplementacao/</link>
 		<pubDate>Sat, 25 Jan 2025 07:05:38 -0300</pubDate>
 		
@@ -434,6 +444,8 @@
 		<description>&lt;h2 id=&#34;o-que-é-sepse&#34;&gt;O que é sepse&lt;/h2&gt;
 &lt;h2 id=&#34;choque-séptico&#34;&gt;Choque séptico&lt;/h2&gt;
 &lt;h3 id=&#34;diagnóstico&#34;&gt;Diagnóstico&lt;/h3&gt;
+&lt;p&gt;qSOFA = FR &amp;gt;= 22irpm; rebaixamento de consciência; PA &amp;lt;= 100mmHg. Se preencher pelo menos dois, provável sepse.
+SIRS = temp &amp;gt; 38.3°C ou &amp;lt; 36°; FC &amp;gt; 90bpm; FR &amp;gt; 20irpm ou paCO2 &amp;lt; 32mmHg; Leucocitose.&lt;/p&gt;
 &lt;h4 id=&#34;procalcitonina&#34;&gt;Procalcitonina&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Inferior a 0,5 ng/mL
@@ -493,11 +505,12 @@
 	
 	<item>
 		<title>Traumatismo craniencefálico</title>
-		<link>https://www.aesclepius.com.br/tce/</link>
+		<link>https://www.aesclepius.com.br/traumantismo-cranioencefalcio/</link>
 		<pubDate>Tue, 12 Nov 2024 07:55:39 -0300</pubDate>
 		
-		<guid>https://www.aesclepius.com.br/tce/</guid>
-		<description>&lt;h2 id=&#34;conduta-pediátrica1&#34;&gt;Conduta pediátrica[1]&lt;/h2&gt;
+		<guid>https://www.aesclepius.com.br/traumantismo-cranioencefalcio/</guid>
+		<description>&lt;!-- TODO: adicionar artigo The Mantle --&gt;
+&lt;h2 id=&#34;conduta-pediátrica1&#34;&gt;Conduta pediátrica[1]&lt;/h2&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 a(Glasgow menor que 15&lt;br&gt;Alteração de consciência&lt;br&gt;Fratura palpável) -- sim --&gt; tc(Realizar tomografia);
 a --&gt; c(Hematoma subgaleal não frontal&lt;br&gt;Perda de consciência por mais de 5s&lt;br&gt;Mecanismo de trauma grave&lt;sup&gt;1&lt;/sup&gt;&lt;br&gt;Comportamento alterado&lt;sup&gt;2&lt;/sup&gt;);
@@ -6452,8 +6465,7 @@ Arcada é mutável.&lt;/p&gt;
 &lt;p&gt;O álcool é um depressor do SNC. Porém, a embriaguez é um fenômeno complexo e deve ser enxergado como um contínuo de fases que dependem da velocidade do consumo, da ingesta alimentar, do humor basal, da capacidade metabólica, do sexo, da idade e das comorbidades do embriagado.&lt;/p&gt;
 &lt;p&gt;Apesar dos efeitos depressores, o uso de etanol pode provocar uma hiperexcitabilidade adaptativa nos neurônios afetados, resultando notadamente em tremores, insônia pós-embriaguez etc.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Muitos continuam defendendo a dosagem bioquímica do álcool, principalmente no sangue, como o parâmetro mais prático, mais eficaz e mais confiável para se determinar uma embriaguez. E até adiantam que, salvo algumas variações, essas cifras estariam entre 0,6 e 2,0 g/1.000 ml. Todavia, entendemos que mais importante do que determinar uma taxa de álcool no sangue, na urina ou no ar expirado é caracterizar as manifestações clínicas de uma embriaguez[8].&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Muitos continuam defendendo a dosagem bioquímica do álcool, principalmente no sangue, como o parâmetro mais prático, mais eficaz e mais confiável para se determinar uma embriaguez. E até adiantam que, salvo algumas variações, essas cifras estariam entre 0,6 e 2,0 g/1.000 ml. Todavia, entendemos que mais importante do que determinar uma taxa de álcool no sangue, na urina ou no ar expirado é caracterizar as manifestações clínicas de uma embriaguez[8].&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Nesse sentido, a proposta diagnóstica forense para a embriaguez depende de dados estatísticos, num &lt;a href=&#34;../medicina/estatistica-diagnostica&#34;&gt;modelo diagnóstico bayesiano&lt;/a&gt; em que cada sintoma e sinal compõem um somatório para a probabilidade final de embriaguez. Rubenzer elaborou bem esta filosofia em seu artigo &amp;ldquo;&lt;em&gt;Judging intoxication&lt;/em&gt;&amp;rdquo; de 2010, inclusive propondo valores numéricos de relação entre os sintomas e o valor sérico da alcoolemia.&lt;/p&gt;
 &lt;p&gt;Para fins penais, a embriaguez alcoólica é considerada uma &lt;mark&gt;causa externa&lt;/mark&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;detecção-da-alcoolemia&#34;&gt;Detecção da alcoolemia&lt;/h3&gt;
@@ -6983,25 +6995,32 @@ Obs: esquemas com metronidazol podem ser prescritos com 400mg 8/8 horas quando a
 		<pubDate>Sun, 14 Apr 2024 17:25:02 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/cetoacidose/</guid>
-		<description>&lt;p&gt;Estes são compilados recentes de publicações que reorientam a conduta na cetoacidose diabética.
+		<description>&lt;h2 id=&#34;diagnóstico&#34;&gt;Diagnóstico&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;p&gt;Se K &amp;gt; 5, faz insulina direto.&lt;/p&gt;
+&lt;p&gt;Se K &amp;lt; 5, faz insulina com glicose 25mEq/L de soro NaCl a 0.9%.&lt;/p&gt;
+&lt;h2 id=&#34;publicações&#34;&gt;Publicações&lt;/h2&gt;
+&lt;p&gt;Estes são compilados recentes de publicações que reorientam a conduta na cetoacidose diabética.
 Para preservar a intenção e a informação trazida nos artigos, mantive os textos originais.&lt;/p&gt;
-&lt;h2 id=&#34;seven-myths-about-diabetic-ketoacidosis-1&#34;&gt;Seven myths about diabetic ketoacidosis [1]&lt;/h2&gt;
-&lt;h3 id=&#34;myth-1-dka-is-a-state-of-extreme-hypovolemia-with-a-need-for-large-volume-resuscitation-eg-100-mlkg&#34;&gt;Myth 1: DKA is a state of extreme hypovolemia with a need for large volume resuscitation (e.g. 100 mL/Kg)&lt;/h3&gt;
+&lt;h3 id=&#34;seven-myths-about-diabetic-ketoacidosis-1&#34;&gt;Seven myths about diabetic ketoacidosis &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;myth-1-dka-is-a-state-of-extreme-hypovolemia-with-a-need-for-large-volume-resuscitation-eg-100-mlkg&#34;&gt;Myth 1: DKA is a state of extreme hypovolemia with a need for large volume resuscitation (e.g. 100 mL/Kg)&lt;/h4&gt;
 &lt;p&gt;Although substantial renal losses can occur due to hyperglycemia, especially over a longer duration, true hypovolemia usually ensues when patients are unable to drink due to nausea and vomiting. The body usually compensates for osmotic diuresis through increased oral intake through activation of physiologically effective circulating volume operators such as increased thirst and other neuro-hormone pathways. Some patients may not be hypovolemic, e.g. patients undergoing chronic dialysis or those with euglycemic DKA, where fluid losses are smaller.&lt;/p&gt;
-&lt;h3 id=&#34;myth-2-nacl-09-should-be-the-standard-of-care-for-volume-repletion-in-dka&#34;&gt;Myth 2: NaCl 0.9% should be the standard of care for volume repletion in DKA&lt;/h3&gt;
+&lt;h4 id=&#34;myth-2-nacl-09-should-be-the-standard-of-care-for-volume-repletion-in-dka&#34;&gt;Myth 2: NaCl 0.9% should be the standard of care for volume repletion in DKA&lt;/h4&gt;
 &lt;p&gt;NaCl 0.9% causes iatrogenic hyperchloremic acidosis and does not prevent cerebral oedema. Buffered crystalloids such as Plasmalyte-148® or Hartmann’s solution will hasten pH correction but with no difference in anion-gap closure. Potassium replacement may however need to be given separately.&lt;/p&gt;
-&lt;h3 id=&#34;myth-3-weight-fixed-fluid-infusion-rates-are-necessary-for-the-treatment-of-dka&#34;&gt;Myth 3: Weight-fixed fluid infusion rates are necessary for the treatment of DKA&lt;/h3&gt;
+&lt;h4 id=&#34;myth-3-weight-fixed-fluid-infusion-rates-are-necessary-for-the-treatment-of-dka&#34;&gt;Myth 3: Weight-fixed fluid infusion rates are necessary for the treatment of DKA&lt;/h4&gt;
 &lt;p&gt;A lower rate of fluid infusion leads to less hyperchloremic acidosis, reduces the risk of fluid overload, and does not affect overall DKA correction rates. Treatment should be personalized to patient needs.&lt;/p&gt;
-&lt;h3 id=&#34;myth-4-glucose-corrected-serum-sodium-follows-a-linear-relationship&#34;&gt;Myth 4: Glucose-corrected serum sodium follows a linear relationship&lt;/h3&gt;
+&lt;h4 id=&#34;myth-4-glucose-corrected-serum-sodium-follows-a-linear-relationship&#34;&gt;Myth 4: Glucose-corrected serum sodium follows a linear relationship&lt;/h4&gt;
 &lt;p&gt;A non-linear relationship for glucose-corrected serum sodium is most likely. The clinical significance of glucose-corrected serum sodium is usually low since fluid tonicity does not influence the rate of clinically significant cerebral
 oedema.&lt;/p&gt;
-&lt;h3 id=&#34;myth-5-hyperchloremic-acidosis-in-dka-is-the-sole-consequence-of-iatrogenesis&#34;&gt;Myth 5: Hyperchloremic acidosis in DKA is the sole consequence of iatrogenesis&lt;/h3&gt;
+&lt;h4 id=&#34;myth-5-hyperchloremic-acidosis-in-dka-is-the-sole-consequence-of-iatrogenesis&#34;&gt;Myth 5: Hyperchloremic acidosis in DKA is the sole consequence of iatrogenesis&lt;/h4&gt;
 &lt;p&gt;Hyperchloremic acidosis is not only a function of large volumes of salt-containing solutions, but also of the severity and duration of DKA before treatment is started. In DKA, renal reabsorption of chloride is increased to allow renal excretion of ketoacids, especially β-hydroxybutyrate.&lt;/p&gt;
-&lt;h3 id=&#34;myth-6-dka-should-be-treated-only-with-intravenous-insulin&#34;&gt;Myth 6: DKA should be treated only with intravenous insulin&lt;/h3&gt;
+&lt;h4 id=&#34;myth-6-dka-should-be-treated-only-with-intravenous-insulin&#34;&gt;Myth 6: DKA should be treated only with intravenous insulin&lt;/h4&gt;
 &lt;p&gt;In patients who are not very sick, an ultra-rapid subcutaneous insulin regimen (hourly dose of 0.1 U/Kg) may shorten time to DKA treatment and avoid the need for intravenous insulin. With current very long-acting insulins, it is advisable to use only small doses (usually 0.2 U/Kg) in patients with severe DKA at the onset of treatment. This allows a smoother transition from an IV to a SC insulin regimen.&lt;/p&gt;
-&lt;h3 id=&#34;myth-7-dka-correction-criteria-include-glucose-levels-and-ketonemia&#34;&gt;Myth 7: DKA correction criteria include glucose levels and ketonemia&lt;/h3&gt;
+&lt;h4 id=&#34;myth-7-dka-correction-criteria-include-glucose-levels-and-ketonemia&#34;&gt;Myth 7: DKA correction criteria include glucose levels and ketonemia&lt;/h4&gt;
 &lt;p&gt;pH &amp;gt; 7.30 and bicarbonate &amp;gt; 15 mEq/L are the usual minimum criteria for DKA correction. Full correction of hyperglycemia does not ensure DKA reversal, neither is it necessary. Although point-of-care ketonemia may hasten the diagnosis of DKA, its use as a routine treatment target has not been compared to standard approaches. Optimal monitoring and rate of reduction have not been identified.&lt;/p&gt;
-&lt;h2 id=&#34;keypoint-of-care-in-ketoacidosis2&#34;&gt;Keypoint of care in ketoacidosis[2]&lt;/h2&gt;
+&lt;h3 id=&#34;keypoint-of-care-in-ketoacidosis2&#34;&gt;Keypoint of care in ketoacidosis&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Diagnosis of diabetic ketoacidosis (DKA) is based on the biochemical triad of ketonaemia, hyperglycaemia, and acidaemia.&lt;/li&gt;
 &lt;li&gt;Cornerstones of management are: fluid and potassium replacement; weight-based fixed rate intravenous insulin infusion (FRIII); and close biochemical monitoring of capillary ketones, serum electrolytes, venous pH and capillary glucose.&lt;/li&gt;
@@ -7009,12 +7028,17 @@ oedema.&lt;/p&gt;
 &lt;li&gt;The patient’s long acting analogue insulin should be continued alongside the FRIII to prevent rebound hyperglycaemia when intravenous treatment is stopped.&lt;/li&gt;
 &lt;li&gt;DKA is preventable; patient education and support must be integral to type 1 diabetes mellitus care.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;BESEN, Bruno AMP; RANZANI, Otavio T.; SINGER, Mervyn. &lt;strong&gt;Management of diabetic ketoacidosis&lt;/strong&gt;. Intensive Care Medicine, v. 49, n. 1, p. 95-98, 2023.&lt;/li&gt;
-&lt;li&gt;EVANS, Kate. &lt;strong&gt;Diabetic ketoacidosis: update on management&lt;/strong&gt;. Clinical Medicine, v. 19, n. 5, p. 396, 2019.&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;BESEN, Bruno AMP; RANZANI, Otavio T.; SINGER, Mervyn. &lt;strong&gt;Management of diabetic ketoacidosis&lt;/strong&gt;. Intensive Care Medicine, v. 49, n. 1, p. 95-98, 2023.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;EVANS, Kate. &lt;strong&gt;Diabetic ketoacidosis: update on management&lt;/strong&gt;. Clinical Medicine, v. 19, n. 5, p. 396, 2019.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -7440,14 +7464,12 @@ oedema.&lt;/p&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&#34;terapia-inotrópica&#34;&gt;Terapia inotrópica&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Após retorno da estabilidade hemodinâmica e início do tratamento da causa, desmame dobutamina de forma extremamente lenta e cautelosa.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Após retorno da estabilidade hemodinâmica e início do tratamento da causa, desmame dobutamina de forma extremamente lenta e cautelosa.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;terapia-diurética&#34;&gt;Terapia diurética&lt;/h3&gt;
 &lt;h3 id=&#34;vasodilatação&#34;&gt;Vasodilatação&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Vasodilate o paciente o máximo tolerável pela estabilidade hemodinâmica.&lt;/p&gt;
-&lt;p&gt;Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;calculadora-de-score-adhere-2&#34;&gt;Calculadora de score ADHERE [2]&lt;/h3&gt;
 &lt;p&gt;Ao internar o paciente com insuficiência cardíaca, estime sua mortalidade para ajuste de condutas, expectativas e orientações. O &lt;em&gt;score&lt;/em&gt; validado é o Acute Decompensated Heart Failure National Registry (ADHERE).&lt;/p&gt;
 &lt;div class=calculadoras&gt;
@@ -7711,12 +7733,151 @@ oedema.&lt;/p&gt;
 	</item>
 	
 	<item>
+		<title>Doenças exantematicas</title>
+		<link>https://www.aesclepius.com.br/exantematicas/</link>
+		<pubDate>Sat, 23 Mar 2024 13:02:36 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/exantematicas/</guid>
+		<description>&lt;h2 id=&#34;calculadora-diferencial&#34;&gt;Calculadora diferencial&lt;/h2&gt;
+&lt;div class=calculadoras&gt;
+  &lt;h2&gt;Pródromos&lt;/h2&gt;
+    &lt;input type=checkbox id=febreProdromo&gt;Febre&lt;/input&gt;
+    &lt;input type=checkbox id=tosse&gt;Tosse&lt;/input&gt;
+    &lt;input type=checkbox id=coriza&gt;Coriza&lt;/input&gt;
+    &lt;input type=checkbox id=fotofobia&gt;Fotofobia&lt;/input&gt;
+    &lt;input type=checkbox id=conjuntivite&gt;Conjuntivite&lt;/input&gt;
+    &lt;input type=checkbox id=otite&gt;Otite&lt;/input&gt;
+    &lt;input type=checkbox id= value=&gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;h2&gt;Sintomas atuais&lt;/h2&gt;
+  &lt;select&gt;
+    &lt;option id=febreAgora value=febreAgora&gt;Febre no exantema&lt;/option&gt;
+    &lt;option id=tosse value=tosse&gt;Tosse&lt;/option&gt;
+    &lt;option id=coriza value=coriza&gt;Coriza&lt;/option&gt;
+    &lt;option id=fotofobia value=fotofobia&gt;Fotofobia&lt;/option&gt;
+    &lt;option id=conjuntivite value=conjuntivite&gt;Conjuntivite&lt;/option&gt;
+    &lt;option id=fotofobia value=fotofobia&gt;Fotofobia&lt;/option&gt;
+    &lt;option id=otite value=otite&gt;Otite&lt;/option&gt;
+    &lt;option id= value=&gt;&lt;/option&gt; 
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;h2&gt;Doenças prévias&lt;/h2&gt;
+  &lt;select&gt;
+    &lt;option id=sarampo value=sarampo&gt;Sarampo&lt;/option&gt;
+    &lt;option id= value=&gt;&lt;/option&gt;
+    &lt;option id= value=&gt;&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;h2&gt;Vacinas&lt;/h2&gt;
+  &lt;select id=vacinas&gt;
+    &lt;option id=sarampo value=sarampo&gt;Sarampo&lt;/option&gt;
+    &lt;option id= value=&gt;&lt;/option&gt;
+    &lt;option id= value=&gt;&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;h2&gt;Laboratório&lt;/h2&gt;
+    &lt;input type=checkbox id=plaquetopenia&gt;Plaquetopenia&lt;/input&gt;
+  &lt;br&gt;
+  &lt;button onclick=diferenciar()&gt;Diferenciar!&lt;/button&gt;
+  &lt;br&gt;
+  &lt;p id=resultadoExant&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+Sarampo: paramixoviridae; transmissão por aerossóis, 4 a 6 dias antes do exantema; pródromo de febre, tosse, coriza e conjutivite intensa com fotofobia.
+rubéola ou sarampo alemão, ruvirus, togaviridae, gotículas, manchas de forchheimer, benigna, cursa com artrite, plaquetopenia
+&lt;!--
+Fazer um carousel de imagens comparativas
+Timeline pra excluir lesões  com base na HDA
+--&gt;
+&lt;style&gt;
+  thead {
+    position: sticky;
+  }
+&lt;/style&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Doença&lt;/th&gt;
+      &lt;th&gt;Incubação (dias)&lt;/th&gt;
+      &lt;th colspan=2&gt;Pródromos&lt;/th&gt;
+      &lt;th colspan=2&gt;Exantema&lt;/th&gt;
+      &lt;th&gt;Febre&lt;/th&gt;
+      &lt;th&gt;Leucocitose&lt;/th&gt;
+      &lt;th&gt;Sinal patognomônico&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;input id=kawazaki type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
+      &lt;td&gt;Kawazaki&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;eritematopapular polimorfo principalmente no tronco&lt;/td&gt;
+      &lt;td&gt;sempre, pelo menos 5 dias&lt;/td&gt;
+      &lt;td&gt;inicia com desvio e abranda em seguida, mantendo-se alta&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--patognomonico--&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;input id=rubeola type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
+      &lt;td&gt;Rubéola&lt;/td&gt;
+      &lt;td&gt;14 a 21&lt;/td&gt; &lt;!--incubacao--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--prodromos--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--prodromos--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--exantema--&gt;
+      &lt;td&gt;máculas não descamativas e progressão craniocaudal&lt;/td&gt;&lt;!--exantema --&gt;
+      &lt;td&gt;sempre, pelo menos 5 dias&lt;/td&gt;
+      &lt;td&gt;inicia com desvio e abranda em seguida, mantendo-se alta&lt;/td&gt; &lt;!--leuco--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--patognomonico--&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;input id=variola type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
+      &lt;td&gt;Varíola&lt;/td&gt;
+      &lt;td&gt;8 a 17&lt;/td&gt; &lt;!--incubacao--&gt;
+      &lt;td&gt;2 a 4 dias&lt;/td&gt;&lt;!--prodromos--&gt;
+      &lt;td&gt;Cefaleias, febre, artralgia e mialgias.&lt;/td&gt;&lt;!--prodromos--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--exantema--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--exantema --&gt;
+      &lt;td&gt;sempre, pelo menos 5 dias&lt;/td&gt;
+      &lt;td&gt;inicia com desvio e abranda em seguida, mantendo-se alta&lt;/td&gt; &lt;!--leuco--&gt;
+      &lt;td&gt;&lt;/td&gt;&lt;!--patognomonico--&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;input id=escarlatina type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
+      &lt;td&gt;Escarlatina&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;Sinais de Koplik&lt;/td&gt;&lt;!--patognomonico--&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;button class=left onclick=&#34;diferencial()&#34;&gt;Gerar diferenciais&lt;/button&gt;
+&lt;script src=&#34;../exantematicas.js&#34;&gt;&lt;/script&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Eletrocardiograma</title>
 		<link>https://www.aesclepius.com.br/eletrocardiograma/</link>
 		<pubDate>Fri, 22 Mar 2024 16:15:54 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/eletrocardiograma/</guid>
-		<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+		<description>&lt;meta name=&#34;description&#34;
+  content=&#34;Tudo sobre eletrocardiograma com ilustrações, exemplos e fluxogramas de conduta!&#34;&gt;
+&lt;meta name=&#34;keywords&#34;
+  content=&#34;eletrocardiograma, ecg, eletro, infarto, conduta iam, síndrome coronariana aguda, sca com supra, supradesnivelamento, fibrilação atrial, bloqueio de ramo esquerdo, bloqueio de ramo direito, artigos de saúde, conteúdo médico, educação médica, doenças, tratamentos, prevenção, pesquisas médicas, blog de saúde&#34;&gt;
+&lt;meta name=&#34;keywords&#34;
+  content=&#34;fluxogramas, conduta, diagnóstico, cardiologia, calculadoras médicas, artigos médicos, saúde, bem-estar, medicina, especialistas em saúde, consulta online, doenças, tratamentos, diagnóstico médico, telemedicina&#34;&gt;
+&lt;meta name=&#34;robots&#34; content=&#34;index, follow&#34;&gt;
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Este é um compêndio de eletrocardiogramas de condições incomuns, de acordo melhores manuais&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; e outras referências.&lt;/p&gt;
 &lt;!--
 ## O eletrocardiograma normal adulto
@@ -7834,7 +7995,10 @@ oedema.&lt;/p&gt;
 fa -- hemodinamicamente&lt;br&gt;instável --&gt; cve(&lt;span&gt;1. Internação;&lt;br&gt;2. Cardioversão elétrica imediata:&lt;br&gt;200J iniciais&lt;br&gt;ou&lt;br&gt;Bifásico 200J&lt;br&gt;ou&lt;br&gt;Pás anteroposteriorizadas&lt;/span&gt;);
 fa -- hemodinamicamente&lt;br&gt;estável --&gt; t(Tempo de sintomas) -- menor que 48h&lt;br&gt;ou&lt;br&gt;paciente já anticoagulado --&gt; 3(Cardioversão elétrica ou química);
 t -- menor que 7 dias --&gt; 4(Ainda compensa&lt;br&gt;tentar cardioversão&lt;br&gt;química);
-t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 6(&lt;span&gt;1. Anticoagular;&lt;br&gt;2. Jejum;&lt;br&gt;3. Sedação;&lt;br&gt;4. Cardioversão elétrica.&lt;/span&gt;); 
+t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 6(&lt;span&gt;1. Anticoagular;&lt;br&gt;2. Jejum;&lt;br&gt;3. Sedação;&lt;br&gt;4. Cardioversão elétrica.&lt;/span&gt;);
+3 --&gt; alta(Na alta:&lt;br&gt;Anticoagular todos pacientes, exceto se CHADSVASC zero!);
+4 --&gt; alta;
+6 --&gt; alta;
 &lt;/pre&gt;
 
 &lt;h4 id=&#34;cardioversão-química&#34;&gt;Cardioversão química&lt;/h4&gt;
@@ -8439,9 +8603,6 @@ V(Estatinas, Betabloqueadores, IECA/ARA II, Reabilitação cardíaca);
 
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;hr&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -10443,6 +10604,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;h4 id=&#34;prescrição-sugerida-4&#34;&gt;Prescrição sugerida&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;2 ampolas e 250mL de soro glicosado, inicar a 5mL/h.&lt;/li&gt;
+&lt;li&gt;Monitorar o tempo de enchimento capilar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;milrinona&#34;&gt;Milrinona&lt;/h3&gt;
 &lt;h4 id=&#34;apresentações-1&#34;&gt;Apresentações&lt;/h4&gt;
@@ -10574,33 +10736,28 @@ V -- Ausentes --&gt; CDD(Não-cardiogênico) --&gt; Z;
 Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A hipertensão arterial sistêmica prévia não justifica maiores médias.&lt;/p&gt;
-&lt;p&gt;Permita maiores médias pressóricas para manter perfusão periférica e diurese.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Permita maiores médias pressóricas para manter perfusão periférica e diurese.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;3-vasopressors-induce-an-endogenous-fluid-recruitment-and-may-limit-positive-fluid-balance&#34;&gt;3. Vasopressors induce an endogenous fluid recruitment and may limit positive fluid balance&lt;/h4&gt;
 &lt;p&gt;A vasoconstricção periférica mobiliza fluidos para circulação central, provocando sobrecarga adicional a dos fluidos exógenos.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Realize desafio de fluidos monitorando o paciente antes da administração continuada.&lt;/p&gt;
-&lt;p&gt;A exceção é para hipotensão grave, com pressão arterial média menores que 55mmHg.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;A exceção é para hipotensão grave, com pressão arterial média menores que 55mmHg.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;4-reassess-fluid-status-and-cardiac-output-after-initiation-of-vasopressors&#34;&gt;4. Reassess fluid status and cardiac output after initiation of vasopressors&lt;/h4&gt;
 &lt;p&gt;As drogas vasoativas podem preciptar eventos oclusivos de coronárias e artéria mesentérica, portanto reavalie o paciente após administração.&lt;/p&gt;
 &lt;h4 id=&#34;5-consider-agents-with-a-different-mechanism-of-action-as-a-second-line-agent&#34;&gt;5. Consider agents with a different mechanism of action as a second line agent&lt;/h4&gt;
 &lt;h4 id=&#34;6-consider-adding-hydrocortisone-in-patients-on-high-doses-of-vasopressors&#34;&gt;6. Consider adding hydrocortisone in patients on high doses of vasopressors&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Estudos mostram que hidrocortisona e fludrocortisona diminuem a necessidade de altas doses de vasopressores.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Estudos mostram que hidrocortisona e fludrocortisona diminuem a necessidade de altas doses de vasopressores.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;7-vasopressin-in-patients-with-right-ventricular-failure&#34;&gt;7. Vasopressin in patients with right ventricular failure&lt;/h4&gt;
 &lt;p&gt;O leito vascular pulmonar não apresenta receptores V1 e, assim, não provocam aumento de resistência vascular pulmonar, o que é benéfico para falência ventricular direita.&lt;/p&gt;
 &lt;h4 id=&#34;8-there-is-no-maximal-dose-of-vasopressors&#34;&gt;8. There is no maximal dose of vasopressors&lt;/h4&gt;
 &lt;p&gt;Limitar o uso de doses altas de vasopressores pode resultar em menor sucesso de sobrevida.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;É um erro associar maior morbidade às altas doses de drovas vasoativas. Na verdade, trata-se de um &lt;a href=&#34;../vieses/#vi%C3%A9s-de-confus%C3%A3o-das-vari%C3%A1veis&#34;&gt;viés de confusão entre variáveis&lt;/a&gt; porque os pacientes mais graves usam maiores doses.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;É um erro associar maior morbidade às altas doses de drovas vasoativas. Na verdade, trata-se de um &lt;a href=&#34;../vieses/#vi%C3%A9s-de-confus%C3%A3o-das-vari%C3%A1veis&#34;&gt;viés de confusão entre variáveis&lt;/a&gt; porque os pacientes mais graves usam maiores doses.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;9-enteral-tube-feeding-can-be-initiated-while-under-vasopressors&#34;&gt;9. Enteral tube feeding can be initiated while under vasopressors&lt;/h4&gt;
 &lt;p&gt;A vigência de terapia vasoativa não justifica atraso na passagem de sonda entérica.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;A melhora da circulação enteral é um aspecto positivo e favorece a indicação de dieta por sondas entéricas.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;A melhora da circulação enteral é um aspecto positivo e favorece a indicação de dieta por sondas entéricas.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;10-vasopressors-can-be-safely-administered-through-a-peripheral-catheter&#34;&gt;10. Vasopressors can be safely administered through a peripheral catheter&lt;/h4&gt;
 &lt;p&gt;A falta de acesso vascular central não impede prescrição de droga vasoativa.&lt;/p&gt;
 &lt;table&gt;
@@ -11847,7 +12004,7 @@ function updateResult() {
 	</item>
 	
 	<item>
-		<title>Gasometria arterial</title>
+		<title>Distúrbios do pH e gasometria arterial</title>
 		<link>https://www.aesclepius.com.br/gasometria-arterial/</link>
 		<pubDate>Tue, 07 Nov 2023 20:55:26 -0300</pubDate>
 		
@@ -11905,7 +12062,12 @@ $$&lt;/p&gt;
 &lt;p&gt;Ao analisarmos os passos 4 e 5, será necessário conhecer as respostas fisiológicas a cada cenário, chamada de &lt;strong&gt;compensação esperada&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Após, deve se proceder a elucidação do mecanismo de acidose ou de alcalose e se, porventura, ambos concorrem, num processo conhecido como &lt;strong&gt;misto&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;compensação-esperada&#34;&gt;Compensação esperada&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; EM CONSTRUÇÃO &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Na acidose metabólica:&lt;/p&gt;
+&lt;p&gt;O  esperado é dado pela proporção de 10 pontos de HCO&lt;sub&gt;3&lt;/sub&gt; para cada 4 pontos em pCO&lt;sub&gt;2&lt;/sub&gt;.&lt;/p&gt;
+&lt;p&gt;Já na alcalose metábolica, é esperado:&lt;/p&gt;
+&lt;p&gt;$$
+pCO_{2} = HCO_{3}^{-} + 15
+$$&lt;/p&gt;
 &lt;h3 id=&#34;ânion-gap&#34;&gt;Ânion gap&lt;/h3&gt;
 &lt;p&gt;Nos casos de acidemia por acidose metabólica, o bicarbonato pode ter sido diminuído pela presença de outros ânions, visto que há um equilibrío eletrostático no sangue. Matematicamente:&lt;/p&gt;
 &lt;p&gt;$$

@@ -1,0 +1,169 @@
+{
+  "antibiotics": [
+    {
+      "name": "Penicillin",
+      "class": "Beta-lactam",
+      "coverage": ["Gram-positive", "Anaerobes"]
+    },
+    {
+      "name": "Amoxicillin",
+      "class": "Beta-lactam (Aminopenicillin)",
+      "coverage": ["Gram-positive", "Gram-negative"]
+    },
+    {
+      "name": "Amoxicillin/Clavulanate",
+      "class": "Beta-lactam (Penicillin with beta-lactamase inhibitor)",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes"]
+    },
+    {
+      "name": "Ampicillin",
+      "class": "Beta-lactam (Aminopenicillin)",
+      "coverage": ["Gram-positive", "Gram-negative"]
+    },
+    {
+      "name": "Ampicillin/Sulbactam",
+      "class": "Beta-lactam (Penicillin with beta-lactamase inhibitor)",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes"]
+    },
+    {
+      "name": "Piperacillin/Tazobactam",
+      "class": "Beta-lactam (Ureidopenicillin with beta-lactamase inhibitor)",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes", "Pseudomonas"]
+    },
+    {
+      "name": "Cefazolin",
+      "class": "Beta-lactam (First-generation cephalosporin)",
+      "coverage": ["Gram-positive", "Some Gram-negative"]
+    },
+    {
+      "name": "Cefuroxime",
+      "class": "Beta-lactam (Second-generation cephalosporin)",
+      "coverage": ["Gram-positive", "Gram-negative"]
+    },
+    {
+      "name": "Cefoxitin",
+      "class": "Beta-lactam (Second-generation cephalosporin)",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes"]
+    },
+    {
+      "name": "Ceftriaxone",
+      "class": "Beta-lactam (Third-generation cephalosporin)",
+      "coverage": ["Gram-positive", "Gram-negative"]
+    },
+    {
+      "name": "Ceftazidime",
+      "class": "Beta-lactam (Third-generation cephalosporin)",
+      "coverage": ["Gram-negative", "Pseudomonas"]
+    },
+    {
+      "name": "Cefepime",
+      "class": "Beta-lactam (Fourth-generation cephalosporin)",
+      "coverage": ["Gram-positive", "Gram-negative", "Pseudomonas"]
+    },
+    {
+      "name": "Ceftaroline",
+      "class": "Beta-lactam (Fifth-generation cephalosporin)",
+      "coverage": ["Gram-positive", "MRSA", "Gram-negative"]
+    },
+    {
+      "name": "Meropenem",
+      "class": "Carbapenem",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes", "ESBL-producing bacteria", "Pseudomonas"]
+    },
+    {
+      "name": "Imipenem/Cilastatin",
+      "class": "Carbapenem",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes", "ESBL-producing bacteria", "Pseudomonas"]
+    },
+    {
+      "name": "Ertapenem",
+      "class": "Carbapenem",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes", "ESBL-producing bacteria"]
+    },
+    {
+      "name": "Tigecycline",
+      "class": "Glycylcycline",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes", "MRSA", "VRE", "ESBL-producing bacteria"]
+    },
+    {
+      "name": "Clindamycin",
+      "class": "Lincosamide",
+      "coverage": ["Gram-positive", "Anaerobes", "MRSA"]
+    },
+    {
+      "name": "Vancomycin",
+      "class": "Glycopeptide",
+      "coverage": ["Gram-positive", "MRSA", "Enterococcus", "C. difficile (oral)"]
+    },
+    {
+      "name": "Teicoplanin",
+      "class": "Glycopeptide",
+      "coverage": ["Gram-positive", "MRSA", "Enterococcus"]
+    },
+    {
+      "name": "Daptomycin",
+      "class": "Lipopeptide",
+      "coverage": ["Gram-positive", "MRSA", "VRE"]
+    },
+    {
+      "name": "Linezolid",
+      "class": "Oxazolidinone",
+      "coverage": ["Gram-positive", "MRSA", "VRE"]
+    },
+    {
+      "name": "Ciprofloxacin",
+      "class": "Fluoroquinolone",
+      "coverage": ["Gram-negative", "Pseudomonas"]
+    },
+    {
+      "name": "Levofloxacin",
+      "class": "Fluoroquinolone",
+      "coverage": ["Gram-positive", "Gram-negative", "Pseudomonas"]
+    },
+    {
+      "name": "Moxifloxacin",
+      "class": "Fluoroquinolone",
+      "coverage": ["Gram-positive", "Gram-negative", "Anaerobes"]
+    },
+    {
+      "name": "Gentamicin",
+      "class": "Aminoglycoside",
+      "coverage": ["Gram-negative", "Pseudomonas"]
+    },
+    {
+      "name": "Amikacin",
+      "class": "Aminoglycoside",
+      "coverage": ["Gram-negative", "Pseudomonas"]
+    },
+    {
+      "name": "Polymyxin B",
+      "class": "Polymyxin",
+      "coverage": ["Gram-negative", "Pseudomonas", "Acinetobacter", "KPC"]
+    },
+    {
+      "name": "Colistin",
+      "class": "Polymyxin",
+      "coverage": ["Gram-negative", "Pseudomonas", "Acinetobacter", "KPC"]
+    },
+    {
+      "name": "Sulfamethoxazole/Trimethoprim",
+      "class": "Sulfonamide",
+      "coverage": ["Gram-positive", "Gram-negative", "MRSA"]
+    },
+    {
+      "name": "Nitrofurantoin",
+      "class": "Nitrofuran",
+      "coverage": ["Gram-positive", "Gram-negative", "UTI-specific pathogens"]
+    },
+    {
+      "name": "Fosfomycin",
+      "class": "Phosphonic acid derivative",
+      "coverage": ["Gram-positive", "Gram-negative", "ESBL-producing bacteria", "UTI-specific pathogens"]
+    },
+    {
+      "name": "Metronidazole",
+      "class": "Nitroimidazole",
+      "coverage": ["Anaerobes", "Protozoa", "C. difficile"]
+    }
+  ]
+}
