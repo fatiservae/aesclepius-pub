@@ -8247,8 +8247,31 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
   &lt;/div&gt;
 
 &lt;h2 id=&#34;bloqueios-de-ramos&#34;&gt;Bloqueios de ramos&lt;/h2&gt;
+&lt;p&gt;Patients have an LBBB when the QRS duration exceeds
+120 ms (Figure 13.7); the QRS complex is largely nega-
+tive in leads V1–V3 and positive in leads I, aVl, V5, and
+V6. The LBBB is associated with STE with upright
+T waves in leads V1 through V3 and ST segment depres-
+sion with inverted T waves in the lateral leads I, aVl, V5, and V6&lt;/p&gt;
 &lt;h3 id=&#34;esquerdo&#34;&gt;Esquerdo&lt;/h3&gt;
-&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;p&gt;Necessário:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$QRS$ com duração ≥ 120ms;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Achados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$QRS$ predominantemente negativo em $V1-V3$ e positivo em $I$, $aVL$, $V5-6$;&lt;/li&gt;
+&lt;li&gt;Supradesnivelamento de $\overline{ST}$ de $V1-3$ e infradesnivelamento de $\overline{ST}$ com $T$ invertida em $I$, $aVL$ e $V5-6$.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bloquei-ramo-esq-com-fa.jpg&#34;&gt;
+      &lt;figcaption&gt;Bloqueio de ramo na vigência duma fibrilação atrial&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
 &lt;h3 id=&#34;direito&#34;&gt;Direito&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;ondas-delta&#34;&gt;Ondas delta&lt;/h2&gt;
