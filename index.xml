@@ -742,24 +742,26 @@ Secundária: parou de menstruar.&lt;/p&gt;
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/ciclo_menstrual.jpg&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
 
 
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/eixo-fem.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/eixo-fem.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/eixo-fem.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -822,35 +824,38 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/causas.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/causas.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/causas.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
 
 
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/gentico.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/gentico.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-
-
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/gentico.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/flux.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/flux.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
 
+
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/flux.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -931,13 +936,14 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/sec.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/sec.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/sec.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -1000,13 +1006,14 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/rot.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/rot.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/rot.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -1548,24 +1555,26 @@ quinta --&gt; 9(Ceftarolina);
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Organização Pan-Americana da Saúde&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/autism-opas-epidemiology.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/autism-opas-epidemiology.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Organização Pan-Americana da Saúde&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/autism-opas-epidemiology.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;TACA - The Autism Community in Action&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;TACA - The Autism Community in Action&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
@@ -1653,24 +1662,26 @@ quinta --&gt; 9(Ceftarolina);
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Teste de mentalização mais elaborado&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/mentalizing-fishing.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/mentalizing-fishing.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Teste de mentalização mais elaborado&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/mentalizing-fishing.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Experimento Sally-Anne&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/sally-anne.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/sally-anne.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Experimento Sally-Anne&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/sally-anne.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
@@ -2094,24 +2105,26 @@ quinta --&gt; 9(Ceftarolina);
   
   
   
-    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-    &lt;div class=&#34;slide&#34;&gt;
-      &lt;a href=&#34;./pix/medicina/sua-agudo.png&#34;&gt;
-        &lt;img src=&#34;./pix/medicina/sua-agudo.png&#34;&gt;&lt;/img&gt;
-      &lt;/a&gt;
-    &lt;/div&gt;
-  
+  &lt;div class=&#34;legend&#34;&gt;
+    &lt;p&gt; &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    
+    &lt;img src=&#34;./pix/medicina/sua-agudo.png&#34;&gt;&lt;/img&gt;
+    
+  &lt;/div&gt;
 
   
   
   
-    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-    &lt;div class=&#34;slide&#34;&gt;
-      &lt;a href=&#34;./pix/medicina/sua-cronico.png&#34;&gt;
-        &lt;img src=&#34;./pix/medicina/sua-cronico.png&#34;&gt;&lt;/img&gt;
-      &lt;/a&gt;
-    &lt;/div&gt;
-  
+  &lt;div class=&#34;legend&#34;&gt;
+    &lt;p&gt; &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    
+    &lt;img src=&#34;./pix/medicina/sua-cronico.png&#34;&gt;&lt;/img&gt;
+    
+  &lt;/div&gt;
 
 
   
@@ -6386,24 +6399,26 @@ Arcada é mutável.&lt;/p&gt;
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gráfico original proposto por Jellinek&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/jellinek.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/jellinek.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Gráfico original proposto por Jellinek&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/jellinek.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Curva da addicção revisada por Glatt&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/glatt.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/glatt.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Curva da addicção revisada por Glatt&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/glatt.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
@@ -7397,24 +7412,26 @@ oedema.&lt;/p&gt;
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ICC crônica agudizada&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/icc-agudizada.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/icc-agudizada.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;ICC crônica agudizada&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/icc-agudizada.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ICC aguda nova&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/icc-aguda-nova.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/icc-aguda-nova.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;ICC aguda nova&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/icc-aguda-nova.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
@@ -8073,24 +8090,26 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Grau 1&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/ecg/bavt1.jpg&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/ecg/bavt1.jpg&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;Grau 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/ecg/bavt1.jpg&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
 
 
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Grau 1&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/ecg/bavt1-2.jpg&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/ecg/bavt1-2.jpg&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;Grau 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/ecg/bavt1-2.jpg&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -8254,7 +8273,7 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
   &lt;div id=&#34;img-div&#34;&gt;
     &lt;img class=mediaframe src=&#34;./pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
-      &lt;figcaption&gt;ECG típico em SWPW&lt;/figcaption&gt;
+      &lt;figcaption&gt;ECG típico em síndrome Wolff-Parkinson-White&lt;/figcaption&gt;
     &lt;/img&gt;
   &lt;/div&gt;
 
@@ -8301,24 +8320,26 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ECG de sobrecarga de câmaras esquerdas com onda de Osborn&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;ECG de sobrecarga de câmaras esquerdas com onda de Osborn&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
 
 
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/ecg/ondas-osborn.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/ecg/ondas-osborn.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/ecg/ondas-osborn.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -8451,35 +8472,38 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/ecg/circunferencial.jpg&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/ecg/circunferencial.jpg&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt; &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/ecg/circunferencial.jpg&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Isquemia circunferencial provavelmente em início, note o padrão de supra ascendente &amp;#34;feliz&amp;#34; em aVR.&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/ecg/supra-avr.jpg&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/ecg/supra-avr.jpg&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Isquemia circunferencial provavelmente em início, note o padrão de supra ascendente &amp;#34;feliz&amp;#34; em aVR.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/ecg/supra-avr.jpg&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt; &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
@@ -9798,24 +9822,26 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Altura uterina por idade gestacional&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/altura-uterina-ig.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/altura-uterina-ig.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Altura uterina por idade gestacional&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/altura-uterina-ig.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Tamanho do útero por idade gestacional&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/ig-tamanho-utero.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/ig-tamanho-utero.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Tamanho do útero por idade gestacional&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/ig-tamanho-utero.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
@@ -9989,46 +10015,50 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 
 
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gestante com viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;Gestante com viabilidade finananceira&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
 
 
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gestante sem viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-
-
-
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Puérpera com viabilidade financeira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;Gestante sem viabilidade finananceira&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
 
 
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;Puérpera com viabilidade financeira&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Puérpera sem viabilidade financeira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;./pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;./pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
 
+
+
+&lt;div class=&#34;legend&#34;&gt;
+  &lt;p&gt;Puérpera sem viabilidade financeira&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
+  
+  &lt;img src=&#34;./pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+  
+&lt;/div&gt;
 
 
   
@@ -11687,24 +11717,26 @@ angio primaria
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;TINOCA vs MINOCA&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/tinoca.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/tinoca.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;TINOCA vs MINOCA&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/tinoca.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
     
     
     
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxo da análise de troponina&lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;./pix/medicina/fluxo-troponina.png&#34;&gt;
-          &lt;img src=&#34;./pix/medicina/fluxo-troponina.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
+    &lt;div class=&#34;legend&#34;&gt;
+      &lt;p&gt;Fluxo da análise de troponina&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;slide&#34;&gt;
+      
+      &lt;img src=&#34;./pix/medicina/fluxo-troponina.png&#34;&gt;&lt;/img&gt;
+      
+    &lt;/div&gt;
 
 
   
