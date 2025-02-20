@@ -11,6 +11,116 @@
 	
 	
 	<item>
+		<title>Asma</title>
+		<link>https://www.aesclepius.com.br/asma/</link>
+		<pubDate>Thu, 20 Feb 2025 09:13:01 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/asma/</guid>
+		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+&lt;p&gt;A primeira sibilância da criança é chamado de &lt;strong&gt;episódio de sibilância&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Até os cinco anos de idade, o diagnóstico de asma é difícil. Aceita-se boa probabilidade pré-teste de espirometria se:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Os sibilos se iniciam por exercício físico, riso, choro, sustos etc;&lt;/li&gt;
+&lt;li&gt;Ocorrem na ausência de outros sinais de infecção respiratória;&lt;/li&gt;
+&lt;li&gt;Há história de outras atopias como eczema, rinite etc;&lt;/li&gt;
+&lt;li&gt;Há história familiar forte, como pais asmáticos, irmão mais velho com diagnóstico precoce fechado; e&lt;/li&gt;
+&lt;li&gt;Foi iniciado manejo empírico com corticoide inalatório e/ou broncodilatador por dois ou três meses e houve melhora &lt;strong&gt;indiscutível&lt;/strong&gt; dos episódios.
+Fora estes casos, o diagnóstico deve ser reservado para a idade de seis anos incompletos com espirometria e avaliação do pneumologista.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exacerbação&#34;&gt;Exacerbação&lt;/h2&gt;
+&lt;h3 id=&#34;avaliação-da-gravidade&#34;&gt;Avaliação da gravidade&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Sintomas&lt;/th&gt;
+          &lt;th&gt;Leve&lt;/th&gt;
+          &lt;th&gt;Severa*&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Alteração no nível de consciência?&lt;/td&gt;
+          &lt;td&gt;Não&lt;/td&gt;
+          &lt;td&gt;Agitada, confusa ou sonolenta&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Oximetria na chegada&lt;/td&gt;
+          &lt;td&gt;&amp;gt; 95%&lt;/td&gt;
+          &lt;td&gt;&amp;lt; 92%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Fala&lt;/td&gt;
+          &lt;td&gt;Frases&lt;/td&gt;
+          &lt;td&gt;Palavras&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pulso&lt;/td&gt;
+          &lt;td&gt;&amp;lt; 100 bpm&lt;/td&gt;
+          &lt;td&gt;&amp;gt; 180 bpm (0-3 anos) &lt;br&gt; &amp;gt; 150 bpm (4-7 anos)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Frequência respiratória&lt;/td&gt;
+          &lt;td&gt;&amp;lt; 40 irpm&lt;/td&gt;
+          &lt;td&gt;&amp;gt; 40 irpm&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Cianose central&lt;/td&gt;
+          &lt;td&gt;Ausente&lt;/td&gt;
+          &lt;td&gt;Presente&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Intensidade dos sibilos&lt;/td&gt;
+          &lt;td&gt;Variável&lt;/td&gt;
+          &lt;td&gt;Tórax silencioso&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;sup&gt;*&lt;/sup&gt; &lt;mark&gt;Exacerbação severa:&lt;/mark&gt;&lt;/strong&gt; basta que qualquer um dos itens da coluna &lt;strong&gt;Severa&lt;/strong&gt; na tabela acima ou &lt;strong&gt;história de exacerbação grave anterior com anafilaxia ou necessidade de UTI/intubação&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;manejo&#34;&gt;Manejo&lt;/h3&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Leve ou moderada) --&gt; 2(Salbutamol 100mcg: 2 jatos; ou&lt;br&gt;Salbutamol 2.5mcg: nebulização.&lt;br&gt;Repetir a cada 20min na primeira hora.&lt;br&gt;Ajustar oxigênio até saturação de O&lt;sub&gt;2&lt;/sub&gt; de 94-98%.);
+8(Grave) -- Iniciar corticoide&lt;br&gt;se ainda não feito --&gt; 5;
+2 -- Monitore por 2h!&lt;br&gt;Considere ipratrópio 1 ou 2 jatos --&gt; 3(Recorrência: 2 ou 3 jatos extras de salbutamol por hora;&lt;br&gt;Predinisolona&lt;sup&gt;1&lt;/sup&gt; 2mg/Kg);
+3 -- Melhora! --&gt; 4(&lt;b&gt;Alta com&lt;br&gt;orientações&lt;/b&gt;);
+3 -- Piora! --&gt; 5(Idade);
+5 -- Até 5 anos --&gt; z(Realizar até 6 jatos de salbutamol;&lt;br&gt;Ajuste oxigênio para saturar 94-98%;&lt;br&gt;Brometo de ipratrópio 250mcg nebulizado) --&gt; y(Considere dobrar dose de ipratrópio);
+5 -- Acima de 5 anos --&gt; n(Realizar até 10 jatos de salbutamol;&lt;br&gt;Ajuste oxigênio para saturar 93-95%;&lt;br&gt;Brometo de ipratrópio 500mcg nebulizado);
+y --&gt; 6(Box ou transferência);
+n --&gt; 6;
+3 -- Urgência ou&lt;br&gt;Anafilaxia!--&gt; 7(Intubação orotraqueal;&lt;br&gt;Considere epinefrina 0.01mg/kg via intramuscular&lt;br&gt;no vasto lateral da coxa) --&gt; 6;
+6 --&gt; 11(Terapia intensiva)
+&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; &lt;mark&gt;Predinisolona:&lt;/mark&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Via oral.
+Máximo de 20mg para até dois anos, 30mg para até cinco anos e 40mg se acima de cinco anos. Adultos, 50mg.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt; &lt;mark&gt;Ipratróprio:&lt;/mark&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;pode ser feito em jatos durante 1h como alternativa a nebulização, sendo 4 jatos a cada 20min para menores de seis anos e até 8 jatos a cada 20min para maiores.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt; &lt;mark&gt;Epinefrina/adrenalina prática:&lt;/mark&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;0,1ml IM até 10kg;&lt;/p&gt;
+&lt;p&gt;0,2ml IM entre 10 a 20kg;&lt;/p&gt;
+&lt;p&gt;0,3ml IM acima de 20kg.&lt;/p&gt;
+&lt;p&gt;Dose máxima (0,3ml IM)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;alta&#34;&gt;Alta&lt;/h3&gt;
+&lt;p&gt;A alta está condicionada ao desmame completo da oxigenoterapia, total independência do paciente para uso da prescrição domiciliar, domínio dos inaladores, ausência de sibilância e melhora radiográfica&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;A prescrição de alta deve conter um plano de terapia continuada e um plano de alívio pré-hospitalar.&lt;/p&gt;
+&lt;p&gt;Sugestão:&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Caso a radiografia tenha sido feita durante a internação, com indicação ou inadivertida.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Calculadoras de doses, diluições e preparos</title>
 		<link>https://www.aesclepius.com.br/doses-diluicoes-preparos/</link>
 		<pubDate>Wed, 29 Jan 2025 15:29:00 -0300</pubDate>
@@ -636,12 +746,11 @@ obstc -- decidido&lt;br&gt;observar --&gt; fim;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/maisel-nomogram.png&#34;&gt;
-      &lt;figcaption&gt;Nomograma de Maisel&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/maisel-nomogram.png&#34;&gt;
+  &lt;figcaption&gt;Nomograma de Maisel&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;Exame físico abdominal para investigar visceromegalias.&lt;/p&gt;
 &lt;p&gt;Fototerapia.&lt;/p&gt;
 &lt;p&gt;Na ocasião da alta, orientar sobre as zonas 3 em diante de Kramer.&lt;/p&gt;
@@ -1140,12 +1249,11 @@ K --&gt; L[Colposcopia em 60 dias];
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
-      &lt;figcaption&gt;Exemplo de suspensório caseiro para alívio de dor exacerbada pelo efeito gravitacional&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/testiculo-suspensorio.jpg&#34;&gt;
+  &lt;figcaption&gt;Exemplo de suspensório caseiro para alívio de dor exacerbada pelo efeito gravitacional&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -1631,23 +1739,21 @@ quinta --&gt; 9(Ceftarolina);
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/eliminated-synapses.png&#34;&gt;
-      &lt;figcaption&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/eliminated-synapses.png&#34;&gt;
+  &lt;figcaption&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;Mais tarde, foi possível conhecer que, na verdade, o neurodesenvolvimento do autista cursa ao contrário do desenvolvimento de pessoas normais. Primeiro, &lt;strong&gt;todo o SNC&lt;/strong&gt; é afetado por excesso de matéria cinzenta e branca, além de claro aumento de densidade das sinapses. Segundo, &lt;strong&gt;o período de neurodesenvolvimento&lt;/strong&gt; é bastante aumentado, chegando a extremos como a amígdala que pode se manter em desenvolvimento exagerado até os 18 anos.&lt;/p&gt;
 &lt;h3 id=&#34;teoria-da-mente&#34;&gt;Teoria da mente&lt;/h3&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/mentalizing-areas.png&#34;&gt;
-      &lt;figcaption&gt;Áreas envolvidas no processo de mentalização&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/mentalizing-areas.png&#34;&gt;
+  &lt;figcaption&gt;Áreas envolvidas no processo de mentalização&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;A &lt;mark&gt;mentalização&lt;/mark&gt; é um conceito neuropsíquico que pode ser definido como a capacidade de atribuir comportamento, presumir ações e entender atitudes de outrem como se fossem suas. Trata-se de uma excelente capacidade humana que provavelmente contribui bastante para a evolução do homem moderno.&lt;/p&gt;
 &lt;p&gt;As redes neurais envolvidas na mentalização, bem como a região temporoparietal conhecida por ser ativada durante o contato visual mútuo e monitorização de movimento está hipoativa apesar de hipertrofiada em pessoas que reprovam o teste de Sally-Anne[1].&lt;/p&gt;
 
@@ -1736,12 +1842,11 @@ quinta --&gt; 9(Ceftarolina);
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/valproic-acid-autism.png&#34;&gt;
-      &lt;figcaption&gt;&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/valproic-acid-autism.png&#34;&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h4 id=&#34;idade-avançada-dos-pais&#34;&gt;Idade avançada dos pais&lt;/h4&gt;
 &lt;p&gt;A idade materna &amp;mdash; e paterna em menor grau &amp;mdash; são fatores de risco bem estabelecidos para o TEA da prole. O mecanismo mais aceito até o momento é a excessiva metilação de diferentes regiões do DNA das células reprodutoras.&lt;/p&gt;
 &lt;h3 id=&#34;bases-genéticas&#34;&gt;Bases genéticas&lt;/h3&gt;
@@ -2728,12 +2833,11 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/himem-integro.png&#34;&gt;
-      &lt;figcaption&gt;Exemplo de hímem íntegro.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/himem-integro.png&#34;&gt;
+  &lt;figcaption&gt;Exemplo de hímem íntegro.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;CRISTAIS DE FLORENCE (iodatada); CRISTAIS DE BARBÉRIO (solução de ácido píprico); CRISTAIS DE BAECHI E CRISTAIS DE BOKARIUS. Locais escuros: LÂMPADA DE WOODS (verde-azulada), indica probabilidade. Reação de Corin-Stocks, exame microscópico com reagente, reação de certeza.Fonte: Medicina Legal, Paulo Furtado e Pedro Henrique Neves, 2ª Ed., revista, atualizada e ampliada, Juspodivm, pg. 241 a 245.&lt;/p&gt;
 &lt;h3 id=&#34;ruptura-himenal&#34;&gt;Ruptura himenal&lt;/h3&gt;
 &lt;p&gt;Quanto a penetração, a lesão himenal produzida pode revelar a posição sexual na qual, durante o ato, os corpos se dispunham.&lt;/p&gt;
@@ -3758,22 +3862,20 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/suchey-brooks.png&#34;&gt;
-      &lt;figcaption&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/suchey-brooks.png&#34;&gt;
+  &lt;figcaption&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;índice-de-badouin-ou-razão-condiliana&#34;&gt;Índice de Badouin ou razão condiliana&lt;/h3&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/condyle-animated.gif&#34;&gt;
-      &lt;figcaption&gt;Côndilos em destaque&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/condyle-animated.gif&#34;&gt;
+  &lt;figcaption&gt;Côndilos em destaque&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;Badouin propôs um método de determinação dos sexos que considerou absoluta por sua grande acurácia, mas hoje sabidamente não certeira como se pensava. Trata-se de um cáculo, assim proposto:&lt;/p&gt;
 &lt;p&gt;$$
 I_{B} = (L_{c}/C_{c})100 \%
@@ -7984,23 +8086,21 @@ Timeline pra excluir lesões  com base na HDA
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/taqui-supra-paroxistica.jpg&#34;&gt;
-      &lt;figcaption&gt;Registro oportuno do fim de taquicardia supraventricular paroxística.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/taqui-supra-paroxistica.jpg&#34;&gt;
+  &lt;figcaption&gt;Registro oportuno do fim de taquicardia supraventricular paroxística.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;fenômeno-de-ashman&#34;&gt;Fenômeno de Ashman&lt;/h3&gt;
 &lt;p&gt;$QRS$s alargados, com morfologia de BRD que aparecem com $\overline{RR}$ curto se comparado ao prévio. Pode se apresentar em quaisquer arritmias, porém é mais comum na fibrilação atrial.&lt;/p&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/ashman.jpeg&#34;&gt;
-      &lt;figcaption&gt;Exemplo real de paciente com fibrilação atrial. Note a morfologia de BRD&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/ashman.jpeg&#34;&gt;
+  &lt;figcaption&gt;Exemplo real de paciente com fibrilação atrial. Note a morfologia de BRD&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;fibrilação-atrial&#34;&gt;Fibrilação atrial&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;$QRS$ estreito;&lt;/li&gt;
@@ -8028,12 +8128,11 @@ t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
-      &lt;figcaption&gt;ECG típico com ondas F de base elétrica perdida.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
+  &lt;figcaption&gt;ECG típico com ondas F de base elétrica perdida.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Ritmo pode ser irregular ou regular;&lt;/li&gt;
 &lt;li&gt;Possíveis ondas $F$ de base isoelétrica perdida. O mais comum é que a polaridade dessa onda seja negativa em DII, DIII e aVF; e&lt;/li&gt;
@@ -8066,12 +8165,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
-      &lt;figcaption&gt;Observe as diferentes ondas P precedendo diferentes QRSs&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/extrassistoles-supraventriculares.jpg&#34;&gt;
+  &lt;figcaption&gt;Observe as diferentes ondas P precedendo diferentes QRSs&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;bloqueio-atrioventricular&#34;&gt;Bloqueio atrioventricular&lt;/h2&gt;
 &lt;h3 id=&#34;de-grau-1&#34;&gt;De grau 1&lt;/h3&gt;
 &lt;ul&gt;
@@ -8165,12 +8263,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
-      &lt;figcaption&gt;Grau 2 Mobitz I&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
+  &lt;figcaption&gt;Grau 2 Mobitz I&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;de-grau-2---mobitz-ii&#34;&gt;De grau 2 - Mobitz II&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Há perda de ondas P&amp;rsquo;s sem progressivo alargamento de $\overline{PR}$, ou seja, sem Wenckebach.&lt;/li&gt;
@@ -8180,12 +8277,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
-      &lt;figcaption&gt;Grau 2 Mobitz II&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
+  &lt;figcaption&gt;Grau 2 Mobitz II&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;Causas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Anterior MI (due to septal infarction with necrosis of the bundle branches)&lt;/li&gt;
@@ -8204,12 +8300,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bavt3.jpg&#34;&gt;
-      &lt;figcaption&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/bavt3.jpg&#34;&gt;
+  &lt;figcaption&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;bloqueio-divisional-anterosuperior&#34;&gt;Bloqueio divisional anterosuperior&lt;/h2&gt;
 &lt;p&gt;O bloqueio escondido! Geralmente assintomático, a única suspeita será o eixo desviado. Quando apresenta clínica, são sintomas indeterminados como síncopes.&lt;/p&gt;
 &lt;p&gt;Critério obrigatório:&lt;/p&gt;
@@ -8229,38 +8324,57 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/bdas-brd.jpg&#34;&gt;
-      &lt;figcaption&gt;Bloqueio anterosuperior com eixo desviado e vários critérios preenchidos. Há, também, um claro bloqueio de ramo direito&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/bdas-brd.jpg&#34;&gt;
+  &lt;figcaption&gt;Bloqueio anterosuperior com eixo desviado e vários critérios preenchidos. Há, também, um claro bloqueio de ramo direito&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;ritmo-juncional&#34;&gt;Ritmo juncional&lt;/h2&gt;
 &lt;p&gt;Na ausência de ritmo predominante do nó sinoatrial, pode ocorrer do nó atrioventricular, &lt;strong&gt;da região de junção entre câmaras superiores e inferiores&lt;/strong&gt;, assumir a regulagem cardíaca, com uma frequência caracteristicamente baixa de mais ou menos 40 a 60bpm, débito cardíaco existente mas reduzido e sintomas gerais de baixo débito. Na verdade, pode ser confundido com bloqueio grau 3. O manejo pode ser feito como bradicardia instável, com uso de atropina em bomba, adrenalina ou marca-passo.&lt;/p&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/juncional.jpg&#34;&gt;
-      &lt;figcaption&gt;Note em precordiais V2 a V4 esboços de ondas P perdidas. Entretanto, este traçado não consegue fechar um bloqueio de 3 grau, com ritmo assumido pelo nó atrioventricular. A frequência gira em torno dos 35 a 40bpm.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/juncional.jpg&#34;&gt;
+  &lt;figcaption&gt;Note em precordiais V2 a V4 esboços de ondas P perdidas. Entretanto, este traçado não consegue fechar um bloqueio de 3 grau, com ritmo assumido pelo nó atrioventricular. A frequência gira em torno dos 35 a 40bpm.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;bloqueios-de-ramos&#34;&gt;Bloqueios de ramos&lt;/h2&gt;
+&lt;p&gt;Patients have an LBBB when the QRS duration exceeds
+120 ms (Figure 13.7); the QRS complex is largely nega-
+tive in leads V1–V3 and positive in leads I, aVl, V5, and
+V6. The LBBB is associated with STE with upright
+T waves in leads V1 through V3 and ST segment depres-
+sion with inverted T waves in the lateral leads I, aVl, V5, and V6&lt;/p&gt;
 &lt;h3 id=&#34;esquerdo&#34;&gt;Esquerdo&lt;/h3&gt;
-&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;p&gt;Necessário:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$QRS$ com duração ≥ 120ms;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Achados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$QRS$ predominantemente negativo em $V1-V3$ e positivo em $I$, $aVL$, $V5-6$;&lt;/li&gt;
+&lt;li&gt;Supradesnivelamento de $\overline{ST}$ de $V1-3$ e infradesnivelamento de $\overline{ST}$ com $T$ invertida em $I$, $aVL$ e $V5-6$.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/bloquei-ramo-esq-com-fa.jpg&#34;&gt;
+  &lt;figcaption&gt;Bloqueio de ramo na vigência duma fibrilação atrial&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;direito&#34;&gt;Direito&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;ondas-delta&#34;&gt;Ondas delta&lt;/h2&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
-      &lt;figcaption&gt;Destaque para onda delta no início do QRS&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
+  &lt;figcaption&gt;Destaque para onda delta no início do QRS&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;wolff-parkinson-white&#34;&gt;Wolff Parkinson White&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;PR encurtado;&lt;/li&gt;
@@ -8271,12 +8385,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
-      &lt;figcaption&gt;ECG típico em síndrome Wolff-Parkinson-White&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
+  &lt;figcaption&gt;ECG típico em síndrome Wolff-Parkinson-White&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;sobrecarga-atrial&#34;&gt;Sobrecarga atrial&lt;/h2&gt;
 &lt;h3 id=&#34;esquerda&#34;&gt;Esquerda&lt;/h3&gt;
 &lt;ul&gt;
@@ -8285,12 +8398,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/morris.jpeg&#34;&gt;
-      &lt;figcaption&gt;ECG com Morris de 16msmV ou 160msmm em V2. Note que em V1 o índice pode ser ainda maior por se tratar de provável artefato.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/morris.jpeg&#34;&gt;
+  &lt;figcaption&gt;ECG com Morris de 16msmV ou 160msmm em V2. Note que em V1 o índice pode ser ainda maior por se tratar de provável artefato.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;sobrecarga-ventricular&#34;&gt;Sobrecarga ventricular&lt;/h2&gt;
 &lt;h3 id=&#34;esquerda-1&#34;&gt;Esquerda&lt;/h3&gt;
 &lt;ul&gt;
@@ -8415,23 +8527,21 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/barcelona-ii.jpeg&#34;&gt;
-      &lt;figcaption&gt;Registro de derivação II preenchendo critério de Barcelona com infra de 1mm discordante da polaridade de QRS que não alcança 7mm. Note o bloqueio de ramo esquerdo.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/barcelona-ii.jpeg&#34;&gt;
+  &lt;figcaption&gt;Registro de derivação II preenchendo critério de Barcelona com infra de 1mm discordante da polaridade de QRS que não alcança 7mm. Note o bloqueio de ramo esquerdo.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;padrão-wellens&#34;&gt;Padrão Wellens&lt;/h3&gt;
 &lt;p&gt;Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.&lt;/p&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/wellens.jpg&#34;&gt;
-      &lt;figcaption&gt; &lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/wellens.jpg&#34;&gt;
+  &lt;figcaption&gt; &lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Ondas T bifásicas ou simétricas e invertidas em $V2$ e $V3$. Pode ou não haver em V1, V4, V5 e V6.&lt;/li&gt;
 &lt;li&gt;Ausência de ondas Q patológicas.&lt;/li&gt;
@@ -8452,12 +8562,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/aslanger.jpg&#34;&gt;
-      &lt;figcaption&gt;Aslanger típico.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/aslanger.jpg&#34;&gt;
+  &lt;figcaption&gt;Aslanger típico.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;isquemia-circunferencial&#34;&gt;Isquemia circunferencial&lt;/h3&gt;
 &lt;p&gt;Supradesnivelamento de $\overline{ST}$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
 
@@ -8556,12 +8665,11 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
-      &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para cima.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-&lt;/p&gt;
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/supra-bom.jpg&#34;&gt;
+  &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para cima.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;&lt;/p&gt;
 &lt;h2 id=&#34;conduta-na-isquemia-miocárdica&#34;&gt;Conduta na isquemia miocárdica&lt;/h2&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 A(Paciente com dor torácica suspeita de SCA) --&gt; B{Realizar ECG em ≤10 minutos};
@@ -8599,33 +8707,30 @@ V(Estatinas, Betabloqueadores, IECA/ARA II, Reabilitação cardíaca);
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
-      &lt;figcaption&gt;Eletrocardiograma de mulher jovem sem sintomas e comorbidades mostrando V1 e V2 com T invertida.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
+  &lt;figcaption&gt;Eletrocardiograma de mulher jovem sem sintomas e comorbidades mostrando V1 e V2 com T invertida.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;marca-passo&#34;&gt;Marca-passo&lt;/h3&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
-      &lt;figcaption&gt;Espículas pequenas precedendo QRSs efetivos.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/marcapasso.jpg&#34;&gt;
+  &lt;figcaption&gt;Espículas pequenas precedendo QRSs efetivos.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;sinal-de-crochetage&#34;&gt;Sinal de Crochetage&lt;/h3&gt;
 &lt;p&gt;Indica comunicação entre átrios e trata-se de um entalhe no topo das ondas $R$ de derivações inferiores.&lt;/p&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/ecg/crochetage.jpg&#34;&gt;
-      &lt;figcaption&gt;Topo de onda R entalhada em aVF em paciente com comunicação iteratrial conhecida.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/ecg/crochetage.jpg&#34;&gt;
+  &lt;figcaption&gt;Topo de onda R entalhada em aVF em paciente com comunicação iteratrial conhecida.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -8967,12 +9072,11 @@ $$&lt;/p&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/fagan-nomogram.jpg&#34;&gt;
-      &lt;figcaption&gt; &lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/fagan-nomogram.jpg&#34;&gt;
+  &lt;figcaption&gt; &lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Pre-_and_post-test_probability&#34;&gt;Leia mais sobre&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;calculadora-para-teste-positivo&#34;&gt;Calculadora para teste positivo&lt;/h2&gt;
 &lt;p&gt;Calcule a probabilidade de doença após exame positivo.&lt;/p&gt;
@@ -9502,12 +9606,11 @@ E - Equipamento falho
 		<description>
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/projector.png&#34;&gt;
-      &lt;figcaption&gt;&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/projector.png&#34;&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;Os arquivos devem ser acessados preferencialmente no formato original &lt;a href=&#34;../../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;, pois contém vídeos e outros conteúdos interativos impossíveis em PDF.&lt;/p&gt;
 &lt;h2 id=&#34;aula-sobre-dor-torácica&#34;&gt;Aula sobre dor torácica&lt;/h2&gt;
 &lt;p&gt;Apresentei esta aula no Hospital de Sobradinho - DF em outubro de 2023.&lt;/p&gt;
@@ -10367,23 +10470,21 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
-      &lt;figcaption&gt;Forma clássica&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
+  &lt;figcaption&gt;Forma clássica&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;resposta-imune-fraca&#34;&gt;Resposta imune fraca&lt;/h2&gt;
 &lt;p&gt;A resposta de predomínio Th2 ou a ausência de resposta imune permite a exacerbada replicação bacilar, levando a infiltração disseminada e sintomatologia mais rica. Pode afetar quaisquer tecidos, notadamente os de origem ectodérmica: a pele e o sistema nervoso. Curiosamente, o SNC costuma ser poupado.&lt;/p&gt;
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
-      &lt;figcaption&gt;Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
+  &lt;figcaption&gt;Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;classificação-da-oms&#34;&gt;Classificação da OMS&lt;/h2&gt;
 &lt;p&gt;A OMS visa uma classificação mais operacional, sem a preocupação imunohistológica.&lt;/p&gt;
 &lt;p&gt;A importância é epidemiológica, já que o convívio com multibacilares deve aumentar a probabilidade diagnóstica &lt;strong&gt;sempre&lt;/strong&gt;.&lt;/p&gt;
@@ -10979,12 +11080,11 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img class=mediaframe src=&#34;../../pix/medicina/dr-stupid.webp&#34;&gt;
-      &lt;figcaption&gt;É só uma picadinha!&lt;/figcaption&gt;
-    &lt;/img&gt;
-  &lt;/div&gt;
-
+&lt;div class=&#34;mediaframe&#34;&gt;
+  &lt;img src=&#34;../../pix/medicina/dr-stupid.webp&#34;&gt;
+  &lt;figcaption&gt;É só uma picadinha!&lt;/figcaption&gt;
+  &lt;/img&gt;
+&lt;/div&gt;
 &lt;p&gt;Entre as pessoas leigas há um consenso: &lt;strong&gt;médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Será?!&lt;/p&gt;
 &lt;p&gt;Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.&lt;/p&gt;
