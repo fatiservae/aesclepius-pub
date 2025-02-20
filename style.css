@@ -350,7 +350,7 @@ mark::after {
   left: -2px;
   bottom: 0;
   z-index: -1;
-  transform: rotate(-4deg);
+  transform: rotate(-3deg);
 }
 
 input {
@@ -1036,17 +1036,6 @@ figcaption {
   font-style: italic;
 }
 
-#img-div {
-  padding: 0px;
-  margin: 0px;
-}
-
-#img-div p {
-  margin: 0px;
-  padding: 0px;
-  font-size: 88%;
-}
-
 .fundo-only-big {
   position: fixed;
   width: 15em;
@@ -1225,6 +1214,7 @@ td {
 
 pre,
 blockquote {
+  font-size: 80%;
   width: fit-content;
   padding: 2ch;
   padding-left: 1ch;
@@ -1342,7 +1332,7 @@ h6::before {
 }
 
 .scalidraw svg {
-  max-height: 50vw;
+  max-height: 45vh;
   margin-left: var(--margem);
   margin-bottom: 0%;
   padding: 0%;
@@ -1442,8 +1432,19 @@ hr {
 }
 
 .mediaframe {
-  height: 500px;
-  max-height: 50vw;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 3ch;
+}
+
+.mediaframe img {
+  max-height: 50vh;
+}
+
+.mediaframe figcaption {
+  text-align: center;
+  font-size: 80%;
 }
 
 .mermaid .labelBkg {
