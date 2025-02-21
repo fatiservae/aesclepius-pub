@@ -1,5 +1,5 @@
 const rootStyles = getComputedStyle(document.documentElement);
-const backgroundColor = rootStyles.getPropertyValue("--backgroundColor").trim();
+//const backgroundColor = rootStyles.getPropertyValue("--backgroundColor").trim();
 const borderColor = rootStyles.getPropertyValue("--headingsColor").trim();
 const fontColor = rootStyles.getPropertyValue("--fontColor").trim();
 
