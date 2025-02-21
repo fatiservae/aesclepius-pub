@@ -24,30 +24,6 @@
 	},
 	{
 		"nome": [
-			"dipropionato de beclometasona",
-			"Clenil"
-		],
-		"class": [
-			"corticoides",
-			"corticoide inalatório"
-		],
-		"posologias": [
-			{
-				"unidades": [
-					"mg",
-					"dia"
-				],
-				"dosagem": [
-					500,
-					1
-				],
-				"via": "inalatória",
-				"instrucao": "dose habitual pediátrica diária na asma, geralmente apresentada a 250mg/jato."
-			}
-		]
-	},
-	{
-		"nome": [
 			"predinisolona"
 		],
 		"class": [
@@ -2774,14 +2750,27 @@
 					60,
 					1
 				],
-				"via": "inalatória",
+				"via": "intranasal",
 				"instrucao": "para a apresentação de 30mcg/jato, aplicar dois jatos a noite em cada narina."
+			},
+			{
+				"unidades": [
+					"mcg",
+					"dia"
+				],
+				"dosagem": [
+					"200-400",
+					1
+				],
+				"via": "inalatória",
+				"instrucao": "dose habitual pediátrica e adulta de prescrição de alta na exacerbação de asma, com aplicação <i>bis in die</i>."
 			}
 		]
 	},
 	{
 		"nome": [
-			"beclometasona"
+			"dipropionato de beclometasona",
+			"Clenil"
 		],
 		"class": [
 			"corticoesteroides"
@@ -2796,8 +2785,20 @@
 					60,
 					1
 				],
-				"via": "inalatória",
+				"via": "intranasal",
 				"instrucao": "se não possível budesonida. Aplicar dois jatos de 30mcg a noite em cada narina."
+			},
+			{
+				"unidades": [
+					"mcg",
+					"dia"
+				],
+				"dosagem": [
+					"200-400",
+					1
+				],
+				"via": "inalatória",
+				"instrucao": "dose habitual pediátrica e adulta de prescrição de alta na exacerbação de asma, com aplicação <i>bis in die</i>."
 			}
 		]
 	},

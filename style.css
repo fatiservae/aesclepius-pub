@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "neosans";
+  src: url("/neosans.otf");
+}
+
 :root {
   /*
   */
@@ -14,8 +19,8 @@
   --borderRadius: 8px;
   --stdBorder: 1px solid var(--fontColor);
   color: var(--fontColor);
-  font-family: 'Fira sans';
-  font-weight: 400;
+  font-family: 'neosans';
+  /* font-weight: 400; */
   font-size: 1.1rem;
   background-color: var(--backgroundColor);
 }
@@ -175,6 +180,8 @@ a:hover {
 
 #artlist {
   width: 100%;
+  background: var(--vidro);
+  border-radius: var(--borderRadius);
 }
 
 #artlist li {
@@ -1127,6 +1134,10 @@ pre.mermaid {
   background: none;
 }
 
+.mermaid p {
+  font-family: "neosans";
+}
+
 .mermaid svg {
   align: center
 }
@@ -1214,12 +1225,12 @@ td {
 
 pre,
 blockquote {
+  text-align: center;
   font-size: 80%;
   width: fit-content;
-  padding: 2ch;
-  padding-left: 1ch;
-  margin: 2ch;
-  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 6ch;
   border-left: 1px solid var(--headingsColor);
   background: var(--vidro);
   border-radius: var(--borderRadius);
@@ -1288,6 +1299,7 @@ h3,
 h4,
 h5,
 h6 {
+  margin-top: 10vh;
   font-size: 100%;
   font-weight: 400;
 }
