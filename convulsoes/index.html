@@ -52,12 +52,12 @@ Estado de mal epilético pelo Purple Book[1]
       
       
           III
-          Refratário¹
+          Refratário1
           &gt; 60min ou falha das fases I/II
       
       
           IV
-          Super-refratário²
+          Super-refratário2
           -
       
   
@@ -68,9 +68,9 @@ Persiste apesar do tratamento anestésico por mais de 24h.
 
 graph TD;
 inicio(Reconhecimento do EME) -- Adolescente ou adultode 13 a 40kg e idosos --&gt; ate40kg(Midazolam 5mg IM repetir se necessárioOUDiazepam 10mgrepetir até 2x);
-inicio -- Adolescente ou adultoacima de 40kg --&gt; adulto(Midazolam 10mg IMrepetir se necessárioOUDiazepam IV 10mgrepetir até 2x);
+inicio -- Adolescente ou adultoacima de 40kg --&gt; adulto(Midazolam 10mg IMOUDiazepam IV 10mg);
 inicio -- Crianças --&gt; crianca(Midazolam 0.2mg/Kg IMrepetir se necessárioOUDiazepam 0.5mg/Kgrepetir até 2x);
-adulto --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6hFenobarbital 20mg/Kg - manutenção em 12h);
+adulto --&gt; rep(Repetições:Diazepam uma vezMidazolam duas vezes.) --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6hOUFenobarbital 20mg/Kg - manutenção em 12h);
 ate40kg --&gt; fim;
 crianca --&gt; fim;
 fim -- Sedação em UTI --&gt; sedacao(Quetamina, midazolam, propofol e tiopental contínuos);
@@ -154,6 +154,7 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
       <input type="text" id="globalsearch" placeholder="    busca..."></input>
     </div>
     <ul id="artlist">
+      <li data-tags="[endocrinologia calculadoras esporte]"><a href="https://www.aesclepius.com.br/testosterona/">Testosterona</a></li>
       <li data-tags="[pediatria emergências pneumologia]"><a href="https://www.aesclepius.com.br/asma/">Asma</a></li>
       <li data-tags="[pediatria farmacologia calculadoras emergências]"><a href="https://www.aesclepius.com.br/doses-diluicoes-preparos/">Calculadoras de doses, diluições e preparos</a></li>
       <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
@@ -292,12 +293,12 @@ E -- Persistência -->Z
       </tr>
       <tr>
           <td>III</td>
-          <td>Refratário¹</td>
+          <td>Refratário<sup>1</sup></td>
           <td>&gt; 60min ou falha das fases I/II</td>
       </tr>
       <tr>
           <td>IV</td>
-          <td>Super-refratário²</td>
+          <td>Super-refratário<sup>2</sup></td>
           <td>-</td>
       </tr>
   </tbody>
@@ -308,9 +309,9 @@ E -- Persistência -->Z
 </ol>
 <pre class="mermaid">graph TD;
 inicio(Reconhecimento do EME) -- Adolescente ou adulto<br>de 13 a 40kg <br>e idosos --> ate40kg(Midazolam 5mg IM<br> repetir se necessário<br>OU<br>Diazepam 10mg<br>repetir até 2x);
-inicio -- Adolescente ou adulto<br>acima de 40kg --> adulto(Midazolam 10mg IM<br>repetir se necessário<br>OU<br>Diazepam IV 10mg<br>repetir até 2x);
+inicio -- Adolescente ou adulto<br>acima de 40kg --> adulto(Midazolam 10mg IM<br>OU<br>Diazepam IV 10mg);
 inicio -- Crianças --> crianca(Midazolam 0.2mg/Kg IM<br>repetir se necessário<br>OU<br>Diazepam 0.5mg/Kg<br>repetir até 2x);
-adulto --> fim(Fenitoína 20mg/Kg - manutenção em 6h<br>Fenobarbital 20mg/Kg - manutenção em 12h);
+adulto --> rep(Repetições:<br>Diazepam uma vez<br>Midazolam duas vezes.) --> fim(Fenitoína 20mg/Kg - manutenção em 6h<br><b>OU</b><br>Fenobarbital 20mg/Kg - manutenção em 12h);
 ate40kg --> fim;
 crianca --> fim;
 fim -- Sedação em UTI --> sedacao(Quetamina, midazolam, propofol e tiopental contínuos);
