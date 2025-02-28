@@ -1,6 +1,71 @@
 [
 	{
 		"nome": [
+			"sulfametoxazol e trimetoprima",
+			"Bactrim"
+		],
+		"class": [
+			"antibióticos",
+			"inibidores de síntese fólica"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					"40+8",
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose habitual pediátrica para tratamento de infecção de trato urinário como segunda opção."
+			}
+		]
+	},
+	{
+		"nome": [
+			"penicilina G cristalina",
+			"Aricilina"
+		],
+		"class": [
+			"penicilinas",
+			"antibióticos"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"UI",
+					"Kg",
+					"dia"
+				],
+				"dosagem": [
+					200,
+					1,
+					1
+				],
+				"via": "intravenosa",
+				"instrucao": "dose pediátrica para tratamento de pneumonia complicada, dividida quatro ou seis vezes ao dia."
+			}
+		],
+		"obs": [
+			"Na pneumonia complicada de pacientes menores de três meses, associar gentamicina 7.5mg/Kg/dia uma vez ao dia."
+		]
+	},
+	{
+		"nome": [
+			"ácido nalidíxico",
+			"Wintomylon"
+		],
+		"class": [
+			"antibióticos",
+			"quinolonas"
+		]
+	},
+	{
+		"nome": [
 			"omeprazol magnésico",
 			"Losec Mups"
 		],
@@ -2234,7 +2299,8 @@
 		],
 		"class": [
 			"antibióticos",
-			"fluoroquinolonas"
+			"fluoroquinolonas",
+			"antipseudomonas"
 		],
 		"posologias": [
 			{
@@ -2469,7 +2535,8 @@
 	},
 	{
 		"nome": [
-			"azitromicina"
+			"azitromicina",
+			"Astro"
 		],
 		"class": [
 			"antibióticos",
@@ -2486,13 +2553,31 @@
 					1
 				],
 				"via": "oral",
-				"instrucao": "dose usual para três dias de terapia."
+				"instrucao": "dose adulta usual para três dias de terapia."
+			},
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					12,
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose pediátrica para cinco dias de terapêutica habitual em pneumonia por germe atípico."
 			}
+		],
+		"obs": [
+			"Adolescentes com mais de 50kg é possível aplicar dose adulta diária."
 		]
 	},
 	{
 		"nome": [
-			"claritromicina"
+			"claritromicina",
+			"Klaricid"
 		],
 		"class": [
 			"antibióticos",
@@ -2509,7 +2594,21 @@
 					12
 				],
 				"via": "oral",
-				"instrucao": "dose usual para sete a catorze dias de terapia."
+				"instrucao": "dose usual diária para sete a catorze dias de terapia."
+			},
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					15,
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose pediátrica diária habitual em pneumonia por germe atípico."
 			}
 		],
 		"obs": [
@@ -2545,7 +2644,8 @@
 	},
 	{
 		"nome": [
-			"cefalexina"
+			"cefalexina",
+			"Keflex"
 		],
 		"class": [
 			"antibióticos",
@@ -2563,6 +2663,20 @@
 				],
 				"via": "oral",
 				"instrucao": "dose usual para sete a dez dias de terapia."
+			},
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					"50-70",
+					1,
+					1
+				],
+				"via": "",
+				"instrucao": "dose pediátrica habitual terapêutica da infecção de trato urinário e parotidites."
 			}
 		]
 	},
@@ -2585,7 +2699,7 @@
 					8
 				],
 				"via": "oral",
-				"instrucao": "dose usual para sete a dez dias de terapia."
+				"instrucao": "dose usual para sete a dez dias de terapia para pacientes com dez anos ou mais."
 			},
 			{
 				"unidades": [
@@ -2597,7 +2711,7 @@
 					12
 				],
 				"via": "oral",
-				"instrucao": "dose alternativa para sete a dez dias de terapia."
+				"instrucao": "dose alternativa para sete a dez dias de terapia para pacientes com dez anos ou mais."
 			},
 			{
 				"unidades": [
@@ -2606,13 +2720,16 @@
 					"dia"
 				],
 				"dosagem": [
-					"40 a 50",
+					50,
 					1,
 					1
 				],
 				"via": "oral",
 				"instrucao": "dose padrão pediátrica para maioria das condições de trato respiratório e dose de erradicação do <i>H. pylori</i>."
 			}
+		],
+		"obs": [
+			"Em pediatria, sempre preferir a dose por quilograma de massa corporal."
 		]
 	},
 	{
@@ -2637,6 +2754,20 @@
 				],
 				"via": "oral",
 				"instrucao": "dose usual para sete a quinze dias de terapia."
+			},
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					"50+12.5",
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "dose habitual para pneumonia com microorganismo resistente à amoxicilina em pediatria."
 			}
 		]
 	},
@@ -3976,7 +4107,7 @@
 		],
 		"class": [
 			"antibióticos",
-			"cefalosporinas de 2° geração",
+			"cefalosporinas de segunda geração",
 			"betalactâmicos"
 		],
 		"posologias": [
@@ -4003,6 +4134,33 @@
 				],
 				"via": "VO",
 				"instrucao": "em forma de comprimido, sachê ou suspensão."
+			}
+		]
+	},
+	{
+		"nome": [
+			"cefuroxima",
+			"Keroxime"
+		],
+		"class": [
+			"betalactâmicos",
+			"antibióticos",
+			"cefalosporinas"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"kg",
+					"dia"
+				],
+				"dosagem": [
+					30,
+					1,
+					1
+				],
+				"via": "intravenosa",
+				"instrucao": "dose comumente aplicada na pediatria em pneumonia complicada ou com perfil de resistência a penicilinases."
 			}
 		]
 	},

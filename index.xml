@@ -5,10 +5,181 @@
 	<description>Recent content on Aesclepius</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 20 Feb 2025 09:13:01 -0300</lastBuildDate>
+	<lastBuildDate>Wed, 26 Feb 2025 16:11:43 -0300</lastBuildDate>
     
         <atom:link href="https://www.aesclepius.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Testosterona</title>
+		<link>https://www.aesclepius.com.br/testosterona/</link>
+		<pubDate>Wed, 26 Feb 2025 16:11:43 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/testosterona/</guid>
+		<description>&lt;h2 id=&#34;calculadora&#34;&gt;Calculadora&lt;/h2&gt;
+&lt;div class=calculadoras&gt;
+  &lt;h2&gt;Calculadora de testosterona livre&lt;/h2&gt;
+  &lt;label for=albumina&gt;Albumina&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=number id=albumina placeholder=&#34;g/dL&#34;&gt;&lt;/input&gt;
+&lt;p&gt;&lt;label for=testosterona&gt;Testosterona&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=number id=testosterona placeholder=&#34;nmol/L&#34;&gt;&lt;/input&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label for=shgb&gt;Globulina ligante a hormônio sexual (SHGB)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=number id=shgb placeholder=&#34;nmol/L&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;button onclick=testo()&gt;Calcular!&lt;/button&gt;
+&lt;br&gt;&lt;/p&gt;
+  &lt;p id=resultadoTesto&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function testo(){
+  let testosterona = document.getElementById(&#34;testosterona&#34;).value;
+  let shgb = document.getElementById(&#34;shgb&#34;).value;
+  let albumina = document.getElementById(&#34;albumina&#34;).value;
+
+  let freeT = 0.0;
+
+  let kat = 3.6 * 10000;
+  let kt = 10 * 100000000;
+
+  a = kat + kt + (kat*kt)*(shgb + albumina - testosterona);
+
+  b = 1 + kt*shgb + kat*albumina - (kat + kt)*testosterona;
+
+  freeT = ((Math.sqrt(2*b*b + 4*a*testosterona) - b)/2*a)*((2.88*1.6*0.003448)/10000000000000);
+
+  console.log(((2.88*1.6*0.003448)/10000000000000));
+
+  if (!freeT == 0 || !isNaN(freeT)) {
+    document.getElementById(&#34;resultadoTesto&#34;).innerHTML = &#34;Testosterona livre estimada pela fórmula de Vermeulen em &#34;+freeT.toFixed(2)+&#34;mol/L&#34;;
+  } else {
+    document.getElementById(&#34;resultadoTesto&#34;).innerHTML = &#34;Verifique valores informados!&#34;;
+  }
+}
+  // Free Testosterone (mol/L) = [-b + sqrt (b 2 +4a x T)]
+  // Where:
+  // a = kat + kt + (kat x kt) x (SHBG + Albumin – T)
+  // b = 1 + kt x SHBG + kat x Albumin – (kat + kt) x T
+  // kat = 3.6 x 104 L/mol; kt = 10 x 108 L/mol
+  // T = testosterone in nmol/L; SHBG – in nmol/L; Albumin – in mg/dL;
+  // Free Testosterone from mol/L to nmol/L, multiply by: 2.88 x 10-13 x 1.6 x 0.003448
+&lt;/script&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;valores-normais&#34;&gt;Valores normais&lt;/h2&gt;
+&lt;h3 id=&#34;testosterona-livre&#34;&gt;Testosterona livre&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Age&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Adult male &lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Adult female&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20 – &amp;lt;25&lt;/td&gt;
+&lt;td&gt;5.25-20.7&lt;/td&gt;
+&lt;td&gt;0.06-1.08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25 – &amp;lt;30&lt;/td&gt;
+&lt;td&gt;5.05-19.8&lt;/td&gt;
+&lt;td&gt;0.06-1.06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30 – &amp;lt;35&lt;/td&gt;
+&lt;td&gt;4.85-19.0&lt;/td&gt;
+&lt;td&gt;0.06-1.03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;35 – &amp;lt;40&lt;/td&gt;
+&lt;td&gt;4.65-18.1&lt;/td&gt;
+&lt;td&gt;0.06-1.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;40 – &amp;lt;45&lt;/td&gt;
+&lt;td&gt;4.46-17.1&lt;/td&gt;
+&lt;td&gt;0.06-0.98&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;45 – &amp;lt;50&lt;/td&gt;
+&lt;td&gt;4.26-16.4&lt;/td&gt;
+&lt;td&gt;0.06-0.95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50 – &amp;lt;55&lt;/td&gt;
+&lt;td&gt;4.06-15.6&lt;/td&gt;
+&lt;td&gt;0.06-0.92&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;55 – &amp;lt;60&lt;/td&gt;
+&lt;td&gt;3.87-14.7&lt;/td&gt;
+&lt;td&gt;0.06-0.90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;60 – &amp;lt;65&lt;/td&gt;
+&lt;td&gt;3.67-13.9&lt;/td&gt;
+&lt;td&gt;0.06-0.87&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;65 – &amp;lt;70&lt;/td&gt;
+&lt;td&gt;3.47-13.0&lt;/td&gt;
+&lt;td&gt;0.06-0.84&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;70 – &amp;lt;75&lt;/td&gt;
+&lt;td&gt;3.28-12.2&lt;/td&gt;
+&lt;td&gt;0.06-0.82&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;75 – &amp;lt;80&lt;/td&gt;
+&lt;td&gt;3.08-11.3&lt;/td&gt;
+&lt;td&gt;0.06-0.79&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;80 – &amp;lt;85&lt;/td&gt;
+&lt;td&gt;2.88-10.5&lt;/td&gt;
+&lt;td&gt;0.06-0.76&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;85 – &amp;lt;90&lt;/td&gt;
+&lt;td&gt;2.69-9.61&lt;/td&gt;
+&lt;td&gt;0.06-0.73&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;testosterona-biodisponível&#34;&gt;Testosterona biodisponível&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Age&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Adult male&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20 – &amp;lt;30&lt;/td&gt;
+&lt;td&gt;83-257&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30 – &amp;lt;40&lt;/td&gt;
+&lt;td&gt;72-235&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;40 – &amp;lt;50&lt;/td&gt;
+&lt;td&gt;61-213&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50 – &amp;lt;60&lt;/td&gt;
+&lt;td&gt;50-190&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;60 – &amp;lt;70&lt;/td&gt;
+&lt;td&gt;40-168&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Asma</title>
@@ -181,16 +352,16 @@ Máximo de 20mg para até dois anos, 30mg para até cinco anos e 40mg se acima d
 &lt;br&gt;
 &lt;br&gt;
 &lt;div class=calculadoras&gt;
-  &lt;h2&gt;Dose por massa corporal diária&lt;/h2&gt;
+  &lt;h2&gt;Dose por massa corporal diária&lt;br&gt;Drogas diluídas&lt;/h2&gt;
   &lt;br&gt;
   &lt;label for=intervalo&gt;Intervalo entre doses&lt;/label&gt;
   &lt;br&gt;
   &lt;select id=intervalo&gt;
-    &lt;option value=4&gt;4h&lt;/option&gt;
-    &lt;option value=6&gt;6h&lt;/option&gt;
-    &lt;option value=8&gt;8h&lt;/option&gt;
-    &lt;option value=10&gt;10h&lt;/option&gt;
-    &lt;option value=12&gt;12h&lt;/option&gt;
+    &lt;option value=4&gt;seis vezes ao dia&lt;/option&gt;
+    &lt;option value=6&gt;quatro vezes ao dia&lt;/option&gt;
+    &lt;option value=8&gt;&lt;i&gt;ter in die&lt;/i&gt;&lt;/option&gt;
+    &lt;option value=12&gt;&lt;i&gt;bis in die&lt;/i&gt;&lt;/option&gt;
+    &lt;option value=24&gt;uma vez ao dia&lt;/option&gt;
   &lt;/select&gt;
   &lt;br&gt;
   &lt;br&gt;
@@ -254,7 +425,7 @@ Na prevalência do primeiro mecanismo, diz-se da insuficiência respiratória hi
     AirwayCheckAgain --&gt;|Não| ConsiderarCannula
 &lt;/pre&gt;
 
-&lt;h3 id=&#34;bronquiolite-viral-aguda-1&#34;&gt;Bronquiolite viral aguda &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;bronquiolite-viral-aguda&#34;&gt;Bronquiolite viral aguda &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Oxigenoterapia se satO&lt;sub&gt;2&lt;/sub&gt; menor que 90%;&lt;/li&gt;
 &lt;li&gt;Nebulização com soluçã́o salina hipertônica de 5 a 7%; e&lt;/li&gt;
@@ -1616,7 +1787,7 @@ function calculaIdade(){
 &lt;p&gt;Avaliar reposição pelo mec subir 8 mecs por dia&lt;/p&gt;
 &lt;p&gt;Repor sódio quando abaixo de 120 ou em hiponatremia se o paciente estiver com sensório alterado&lt;/p&gt;
 &lt;h2 id=&#34;magnésio&#34;&gt;Magnésio&lt;/h2&gt;
-&lt;h3 id=&#34;hipomagnesemiasup1sup&#34;&gt;Hipomagnesemia&lt;sup&gt;1&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;hipomagnesemia1&#34;&gt;Hipomagnesemia&lt;sup&gt;1&lt;/sup&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Abaixo de 1.7mg/dL&lt;/li&gt;
 &lt;/ul&gt;
@@ -1965,7 +2136,7 @@ quinta --&gt; 9(Ceftarolina);
 &lt;/ul&gt;
 &lt;h3 id=&#34;36h-ou-1-e-12-dia&#34;&gt;36h ou 1 e 1/2 dia&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;O nível de potássio do humor vítreo é de grande auxílio para se calcular a hora da morte&lt;sup&gt;1?&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;O nível de potássio do humor vítreo estará aumentado&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;48h-ou-2-dias&#34;&gt;48h ou 2 dias&lt;/h3&gt;
 &lt;ul&gt;
@@ -2021,6 +2192,14 @@ quinta --&gt; 9(Ceftarolina);
 &lt;li&gt;Oitava onda de legionários consumindo todos vestígios não ósseos, e.g. Ptinus bruneus (Coleoptera).&lt;/li&gt;
 &lt;li&gt;Marcada e inequívoca esqueletização.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Esta afirmação segue duvidosa, uma vez que os estudos mostram limitação na detecção do potássio do humo vítreo.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
@@ -2072,7 +2251,7 @@ quinta --&gt; 9(Ceftarolina);
 &lt;li&gt;&lt;strong&gt;Metrorragia:&lt;/strong&gt; o sangramento uterino fora do período menstrual habitual da mulher.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Menometrorragia:&lt;/strong&gt; a concorrência das definições anteriores.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;diagnósticos1&#34;&gt;Diagnósticos&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;diagnósticos&#34;&gt;Diagnósticos&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;sangramentos-uterinos-anormais&#34;&gt;Sangramentos uterinos anormais&lt;/h3&gt;
 &lt;p&gt;Todo e qualquer sangramento fora do habitualmente relatado pela paciente ou que tenha impacto na sua saúde física, emocional ou social.&lt;/p&gt;
 &lt;p&gt;Antigamente, havia distinção etiológica hormonal entre os conceitos de sangramento anormal disfuncional e não disfuncional&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Esta distinção caiu por terra em 2017&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -3120,7 +3299,7 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;p&gt;Os projéteis e os agentes vulnerantes penetrantes na pele podem livrar-se de entrar nas quatro cavidades do corpo humano, sejam elas a abdominal, a torácica, craniana e raquiana. Nesses casos, a ferida é dita &lt;em&gt;em sedenho&lt;/em&gt;, fenômeno comumente ocorrido em casos de &amp;ldquo;&lt;em&gt;bala giratória&lt;/em&gt;&amp;rdquo;, quando o projétil faz trajetos curvos livrando as cavidades.&lt;/p&gt;
 &lt;h4 id=&#34;chuleio&#34;&gt;Chuleio&lt;/h4&gt;
 &lt;p&gt;Um mesmo projétil pode transfixas diversas partes do corpo, tornando o caminho um trajeto em costura de mais de um tecido, chamado &lt;strong&gt;chuleio&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;lesões-_intra_-e-_postmortem_&#34;&gt;Lesões &lt;em&gt;intra&lt;/em&gt; e &lt;em&gt;postmortem&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;lesões-intra-e-postmortem&#34;&gt;Lesões &lt;em&gt;intra&lt;/em&gt; e &lt;em&gt;postmortem&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Tourdes afirmava que numa janela de 12h, estando 6h antes e 6h após a morte, as lesões não podem ser dirimidas quanto a ocorrência &lt;em&gt;intra&lt;/em&gt; ou &lt;em&gt;postmortem&lt;/em&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;prova-de-verderau&#34;&gt;Prova de Verderau&lt;/h4&gt;
 &lt;p&gt;Consiste em comparar a relação existente entre as hemácias e leucócitos da lesão suspeita, tomando como parâmetro esses elementos figurados do sangue de outra região qualquer do corpo. Se a relação dos glóbulos brancos e vermelhos se equivale nas duas contagens, diz-se que a lesão foi produzida &lt;mark&gt;após a morte&lt;/mark&gt;. Se a primeira contagem é superior à segunda, conclui-se pelo diagnóstico de uma lesão &lt;mark&gt;in vitam&lt;/mark&gt;.&lt;/p&gt;
@@ -3193,7 +3372,7 @@ $$&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Sinal do tronco de cone de Bonnet ou cone truncado de Pousold&lt;/strong&gt;: o osso atingido por projétil que o atravessa apresenta um canal cônico, mostrando menor diâmetro na entrada e maior na saída. Portanto, em trajetos ósseos com duas lâminas sequenciais atravessadas existirão duas lesões cônicas.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Os três primeiros sinais acima decorrem da passagem do projétil pela pele, ou seja, são efeitos &lt;mark&gt;primários&lt;/mark&gt; do tiro. Aparecem somente nas lesões de entrada, porém, sua ausência não indica que o orifício é de saída, como ocorre nos casos em que o tiro é dado com um anteparo, eg. travesseiro, não haverá orla de enxugo, uma vez que o projétil vai ser limpo antes de atingir a vítima.&lt;/p&gt;
-&lt;h4 id=&#34;disparos-a-curta-distância-e-_à-queima-roupa_&#34;&gt;Disparos a curta distância e &lt;em&gt;à queima roupa&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;disparos-a-curta-distância-e-à-queima-roupa&#34;&gt;Disparos a curta distância e &lt;em&gt;à queima roupa&lt;/em&gt;&lt;/h4&gt;
 &lt;p&gt;A distância do disparo é da ordem do cone de explosão ou da faixa de expansão dos gases.&lt;/p&gt;
 &lt;p&gt;A doutrina está em progressivo abandono do termo &lt;em&gt;à queima roupa&lt;/em&gt;. França ainda traz que, em se tratando de disparos à cerca de 10cm, este seria um termo adequado.&lt;/p&gt;
 &lt;p&gt;O tiro a queima roupa ocorre com efeitos primários e secundários além do possível chamuscamento. Já o tiro de curta distância tem efeitos primários e secundários, sem chamuscamento.&lt;/p&gt;
@@ -3348,7 +3527,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;p&gt;Veja em &lt;a href=&#34;./aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido&#34;&gt;aborto&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;prova-de-verderau&#34;&gt;Prova de Verderau&lt;/h3&gt;
 &lt;p&gt;Compara-se a relação existente entre hemácias e leucócitos. A reação leucocitária só ocorre nos vivos. Os valores dependem de referências e dos diversos estados da vítima.&lt;/p&gt;
-&lt;h2 id=&#34;_causa-mortis_-jurídica&#34;&gt;&lt;em&gt;Causa mortis&lt;/em&gt; jurídica&lt;/h2&gt;
+&lt;h2 id=&#34;causa-mortis-jurídica&#34;&gt;&lt;em&gt;Causa mortis&lt;/em&gt; jurídica&lt;/h2&gt;
 &lt;p&gt;Juridicamente, a morte pode ser natural ou violenta.&lt;/p&gt;
 &lt;p&gt;A morte é considerada &lt;mark&gt;suspeita&lt;/mark&gt; sempre que houver a possibilidade de não ter sido natural a sua causa. É aquela que decorre de causa duvidosa. A morte &lt;mark&gt;natural&lt;/mark&gt; ou, ainda, a morte por antecedentes patológicos, pode ter origem tanto em eventos congênitos, quanto em patologias adquiridas.&lt;/p&gt;
 &lt;p&gt;A morte &lt;mark&gt;violenta&lt;/mark&gt;, por sua vez, é aquela oriunda de causa externa.&lt;/p&gt;
@@ -7135,7 +7314,7 @@ Obs: esquemas com metronidazol podem ser prescritos com 400mg 8/8 horas quando a
 &lt;h2 id=&#34;publicações&#34;&gt;Publicações&lt;/h2&gt;
 &lt;p&gt;Estes são compilados recentes de publicações que reorientam a conduta na cetoacidose diabética.
 Para preservar a intenção e a informação trazida nos artigos, mantive os textos originais.&lt;/p&gt;
-&lt;h3 id=&#34;seven-myths-about-diabetic-ketoacidosis-1&#34;&gt;Seven myths about diabetic ketoacidosis &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;seven-myths-about-diabetic-ketoacidosis&#34;&gt;Seven myths about diabetic ketoacidosis &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;myth-1-dka-is-a-state-of-extreme-hypovolemia-with-a-need-for-large-volume-resuscitation-eg-100-mlkg&#34;&gt;Myth 1: DKA is a state of extreme hypovolemia with a need for large volume resuscitation (e.g. 100 mL/Kg)&lt;/h4&gt;
 &lt;p&gt;Although substantial renal losses can occur due to hyperglycemia, especially over a longer duration, true hypovolemia usually ensues when patients are unable to drink due to nausea and vomiting. The body usually compensates for osmotic diuresis through increased oral intake through activation of physiologically effective circulating volume operators such as increased thirst and other neuro-hormone pathways. Some patients may not be hypovolemic, e.g. patients undergoing chronic dialysis or those with euglycemic DKA, where fluid losses are smaller.&lt;/p&gt;
 &lt;h4 id=&#34;myth-2-nacl-09-should-be-the-standard-of-care-for-volume-repletion-in-dka&#34;&gt;Myth 2: NaCl 0.9% should be the standard of care for volume repletion in DKA&lt;/h4&gt;
@@ -7151,7 +7330,7 @@ oedema.&lt;/p&gt;
 &lt;p&gt;In patients who are not very sick, an ultra-rapid subcutaneous insulin regimen (hourly dose of 0.1 U/Kg) may shorten time to DKA treatment and avoid the need for intravenous insulin. With current very long-acting insulins, it is advisable to use only small doses (usually 0.2 U/Kg) in patients with severe DKA at the onset of treatment. This allows a smoother transition from an IV to a SC insulin regimen.&lt;/p&gt;
 &lt;h4 id=&#34;myth-7-dka-correction-criteria-include-glucose-levels-and-ketonemia&#34;&gt;Myth 7: DKA correction criteria include glucose levels and ketonemia&lt;/h4&gt;
 &lt;p&gt;pH &amp;gt; 7.30 and bicarbonate &amp;gt; 15 mEq/L are the usual minimum criteria for DKA correction. Full correction of hyperglycemia does not ensure DKA reversal, neither is it necessary. Although point-of-care ketonemia may hasten the diagnosis of DKA, its use as a routine treatment target has not been compared to standard approaches. Optimal monitoring and rate of reduction have not been identified.&lt;/p&gt;
-&lt;h3 id=&#34;keypoint-of-care-in-ketoacidosis2&#34;&gt;Keypoint of care in ketoacidosis&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;keypoint-of-care-in-ketoacidosis&#34;&gt;Keypoint of care in ketoacidosis&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Diagnosis of diabetic ketoacidosis (DKA) is based on the biochemical triad of ketonaemia, hyperglycaemia, and acidaemia.&lt;/li&gt;
 &lt;li&gt;Cornerstones of management are: fluid and potassium replacement; weight-based fixed rate intravenous insulin infusion (FRIII); and close biochemical monitoring of capillary ketones, serum electrolytes, venous pH and capillary glucose.&lt;/li&gt;
@@ -7639,7 +7818,7 @@ oedema.&lt;/p&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Hipertensão arterial sistêmica, tromboembolismo pulmonar, isquemia miocárdica, disfunção tireoidiana, diabetes descompensado, infecções, insuficiência renal, gravidez, depressão etc.&lt;/li&gt;
-&lt;li&gt;Para esclarecimento diagnóstico &lt;strong&gt;se houver dúvida&lt;/strong&gt; e para estratificação prognóstica no acompanhamento ambulatorial com o cardiologista.&lt;/li&gt;
+&lt;li&gt;Para esclarecimento diagnóstico &lt;strong&gt;se houver dúvida&lt;/strong&gt; e para estratificação prognóstica no acompanhamento ambulatorial com o cardiologista. O pepitídeo natiurético baixo tem alto valor preditivo negativo.&lt;/li&gt;
 &lt;li&gt;Avaliar a necessidade de radiografar para fins documentais do índice cardiotorácico e das condições de alta.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
@@ -8566,7 +8745,7 @@ sion with inverted T waves in the lateral leads I, aVl, V5, and V6&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;padrão-winter&#34;&gt;Padrão Winter&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
-&lt;h3 id=&#34;padrão-aslanger-1&#34;&gt;Padrão Aslanger &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;padrão-aslanger&#34;&gt;Padrão Aslanger &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;Um infarto transmural de parede inferior sem configuração tradicional de infarto com supra.&lt;/p&gt;
 &lt;p&gt;Além disso, o comprometimento de circunflexa e outros infartos difusos também podem apresentar correlação com o padrão.&lt;/p&gt;
 &lt;ul&gt;
@@ -9497,7 +9676,7 @@ table{
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;calculadora-de-tubo1&#34;&gt;Calculadora de tubo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;calculadora-de-tubo&#34;&gt;Calculadora de tubo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;p&gt;Criei a calculadora a seguir para ser extremamente flexível e rápida, evitando consultas desncessárias no momento do procedimento. &lt;strong&gt;Use pontos, não vírgulas&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=calculadoras&gt;
 &lt;select id=sexo&gt;
@@ -9515,7 +9694,7 @@ table{
 &lt;p id=resultadoTuboPed&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=./calcTuboPed.js&gt;&lt;/script&gt;
-&lt;h2 id=&#34;ventilação-mecânica-inicial2&#34;&gt;Ventilação mecânica inicial&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;ventilação-mecânica-inicial&#34;&gt;Ventilação mecânica inicial&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;modo-volume&#34;&gt;Modo volume&lt;/h3&gt;
 &lt;p&gt;Calcule a massa ideal estimada do paciente e o consequente volume corrente indicado. Use a calculdora abaixo.&lt;/p&gt;
 &lt;p&gt;Depois, ajuste uma pressão expiratória final positiva (PEEP) de 5cmH&lt;sub&gt;2&lt;/sub&gt;O e uma fração de oxigênio em 100% e a titule até conseguir uma saturação de O&lt;sub&gt;2&lt;/sub&gt; periférica de 96%.&lt;/p&gt;
@@ -10811,7 +10990,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;li&gt;Ataque de 2mg, de 4/4h por 48 horas.&lt;/li&gt;
 &lt;li&gt;Manutenção de 1 mg de 4/4 horas por mais 24 a 72 horas.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;nitroprussiato-de-sódio-----nipride&#34;&gt;Nitroprussiato de sódio &amp;mdash; Nipride&lt;/h3&gt;
+&lt;h3 id=&#34;nitroprussiato-de-sódio--nipride&#34;&gt;Nitroprussiato de sódio &amp;mdash; Nipride&lt;/h3&gt;
 &lt;h4 id=&#34;apresentação-4&#34;&gt;Apresentação&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Nitroprussiato de sódio 50mg/2mL.&lt;/li&gt;
@@ -10835,7 +11014,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;ul&gt;
 &lt;li&gt;1 ampola e 250 mL de soro glicosado, iniciar a 5 mL/h.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;nitroglicerina-----tridil&#34;&gt;Nitroglicerina &amp;mdash; Tridil&lt;/h3&gt;
+&lt;h3 id=&#34;nitroglicerina--tridil&#34;&gt;Nitroglicerina &amp;mdash; Tridil&lt;/h3&gt;
 &lt;h4 id=&#34;indicações-8&#34;&gt;Indicações&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Emergências hipertensivas.&lt;/li&gt;
@@ -10887,7 +11066,7 @@ V -- Ausentes --&gt; CDD(Não-cardiogênico) --&gt; Z;
 &lt;/pre&gt;
 
 &lt;h2 id=&#34;análise-de-artigos&#34;&gt;Análise de artigos&lt;/h2&gt;
-&lt;h3 id=&#34;dez-dicas-sobre-vasopressores-3&#34;&gt;Dez dicas sobre vasopressores &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;dez-dicas-sobre-vasopressores&#34;&gt;Dez dicas sobre vasopressores &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;1-set-goals-of-mean-or-diastolic-blood-pressures&#34;&gt;1. Set goals of mean or diastolic blood pressures&lt;/h4&gt;
 &lt;h4 id=&#34;2-individualize-the-arterial-pressure-targets-goals&#34;&gt;2. Individualize the arterial pressure targets goals&lt;/h4&gt;
 &lt;p&gt;Tente definir um alvo de pressão arterial média para o paciente e revisá-lo e redefini-lo a cada 6/8h.
@@ -11629,12 +11808,12 @@ E -- Persistência --&gt;Z
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;III&lt;/td&gt;
-          &lt;td&gt;Refratário¹&lt;/td&gt;
+          &lt;td&gt;Refratário&lt;sup&gt;1&lt;/sup&gt;&lt;/td&gt;
           &lt;td&gt;&amp;gt; 60min ou falha das fases I/II&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;IV&lt;/td&gt;
-          &lt;td&gt;Super-refratário²&lt;/td&gt;
+          &lt;td&gt;Super-refratário&lt;sup&gt;2&lt;/sup&gt;&lt;/td&gt;
           &lt;td&gt;-&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -11645,9 +11824,9 @@ E -- Persistência --&gt;Z
 &lt;/ol&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 inicio(Reconhecimento do EME) -- Adolescente ou adulto&lt;br&gt;de 13 a 40kg &lt;br&gt;e idosos --&gt; ate40kg(Midazolam 5mg IM&lt;br&gt; repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 10mg&lt;br&gt;repetir até 2x);
-inicio -- Adolescente ou adulto&lt;br&gt;acima de 40kg --&gt; adulto(Midazolam 10mg IM&lt;br&gt;repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam IV 10mg&lt;br&gt;repetir até 2x);
+inicio -- Adolescente ou adulto&lt;br&gt;acima de 40kg --&gt; adulto(Midazolam 10mg IM&lt;br&gt;OU&lt;br&gt;Diazepam IV 10mg);
 inicio -- Crianças --&gt; crianca(Midazolam 0.2mg/Kg IM&lt;br&gt;repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 0.5mg/Kg&lt;br&gt;repetir até 2x);
-adulto --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6h&lt;br&gt;Fenobarbital 20mg/Kg - manutenção em 12h);
+adulto --&gt; rep(Repetições:&lt;br&gt;Diazepam uma vez&lt;br&gt;Midazolam duas vezes.) --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6h&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;Fenobarbital 20mg/Kg - manutenção em 12h);
 ate40kg --&gt; fim;
 crianca --&gt; fim;
 fim -- Sedação em UTI --&gt; sedacao(Quetamina, midazolam, propofol e tiopental contínuos);

@@ -15,6 +15,7 @@
   /* Manter --fonte para compatibildiade dos temas antigos e SVGs */
   --fonte: var(--fontColor);
   --vidro: rgba(6, 6, 4, .2);
+  --vidro2: rgba(6, 6, 4, .1);
   --borders: 1px solid var(--fontColor);
   --borderRadius: 8px;
   --stdBorder: 1px solid var(--fontColor);
@@ -189,7 +190,8 @@ a:hover {
 }
 
 .calculadoras {
-  padding: 3ch;
+  background: var(--vidro2);
+  padding: 1ch;
   width: fit-content;
   max-width: 70%;
   border: 1px solid var(--borderColor);
@@ -482,6 +484,10 @@ code {
 
 #tag_medicina::before {
   content: "🩺💉 ";
+}
+
+#tag_esporte::before {
+  content: "🏆💪 ";
 }
 
 #tag_medicina\ legal::before {

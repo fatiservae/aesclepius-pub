@@ -44,8 +44,9 @@ function dosar() {
   }
 
   let total = (massa * dose * apresentacaoVol)/(apresentacaoQtd);
-  intervalo = 24/intervalo;
-  let doseIntervalo = total/intervalo;
+  let divisor = 24/intervalo;
+  // intervalo = 24/intervalo;
+  let doseIntervalo = total/divisor;
 
-  resultadoDosar.innerHTML = "A dose total diária é de "+total.toFixed(2)+"ml. <br>Devem ser administrados "+doseIntervalo.toFixed(2)+"ml a cada "+intervalo+"h";
+  resultadoDosar.innerHTML = "A dose total diária é de "+total.toFixed(2)+"ml. <br>Devem ser administrados "+doseIntervalo.toFixed(2)+"ml a cada "+intervalo+"h.";
 }
