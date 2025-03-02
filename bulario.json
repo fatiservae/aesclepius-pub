@@ -340,7 +340,20 @@
 				],
 				"via": "subcutânea",
 				"instrucao": "ataque em crises de cefaleia. Pode ser repetido na primeira ou segunda hora."
+			},
+			{
+				"unidades": [
+					"mg"
+				],
+				"dosagem": [
+					"3-6"
+				],
+				"via": "oral",
+				"instrucao": "dose única infantil e adolescente para migrânea aguda."
 			}
+		],
+		"obs": [
+			"Evitar em pacientes que façam uso de vasoconstrictores."
 		]
 	},
 	{
@@ -1463,7 +1476,7 @@
 		],
 		"obs": [
 			"Indicada para o tratamento de transtorno depressivo pré-menstrual.",
-			"pode ser usada na gestação e lactação, evitando-se no primeiro trimestre.",
+			"Pode ser usada na gestação e lactação, evitando-se no primeiro trimestre.",
 			"Na primeira semana pode provocar amolecimento transitório das fezes."
 		]
 	},
@@ -3064,6 +3077,7 @@
 			}
 		],
 		"obs": [
+			"Pode ser usada na gestação.",
 			"antidepressivo com menor ganho de peso associado."
 		]
 	},
