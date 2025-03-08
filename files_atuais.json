@@ -40,6 +40,14 @@
     "path": "Aulas e apresentações"
   },
   {
+    "name": "Dengue-Guidelines-WHO-2009.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "1.52 MB",
+    "path": "Medicina"
+  },
+  {
     "name": "portaria-conjunta-01-MS-dor-cronica-2024.pdf",
     "subjects": [
       "Medicina",
@@ -713,6 +721,15 @@
     "path": "Medicina/Pediatria"
   },
   {
+    "name": "rotinas-assistenciais-HMIB-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "7.44 MB",
+    "path": "Medicina/Pediatria"
+  },
+  {
     "name": "Protocolo-clinico-e-diretrizes-terapeuticas-epilepsia-2018.pdf",
     "subjects": [
       "Medicina"
@@ -758,6 +775,14 @@
       "Medicina"
     ],
     "size": "107.17 KB",
+    "path": "Medicina"
+  },
+  {
+    "name": "dengue_classificacao_risco_manejo_paciente.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "429.39 KB",
     "path": "Medicina"
   }
 ]
