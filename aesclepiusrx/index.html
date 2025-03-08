@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 <head>
-    <!-- change this to your project name -->
-    <title>AesclepiusRx | PrescritorPro</title>
+  <!-- change this to your project name -->
+  <title>Asclepius Rx | Jefferson T.</title>
 
-    <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
-    
+  <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
+  
 <script type="module">
 import init, * as bindings from '/aesclepiusrx/aesclepiusrx.js';
 const wasm = await init({ module_or_path: '/aesclepiusrx/aesclepiusrx_bg.wasm' });
@@ -22,156 +22,136 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-    <!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option -->
-    <base data-trunk href="./"/>
+  <!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option -->
+  <base href="/aesclepiusrx/" />
 
-    <script>var cacheName = 'egui-template-pwa';
-var filesToCache = [
-  './',
-  './index.html',
-  './eframe_template.js',
-  './eframe_template_bg.wasm',
-];
+  <link rel="icon" href="/aesclepiusrx/favicon.ico" integrity="sha384&#x2D;OLBgp1GsljhM2TJ&#x2B;sbHjaiH9txEUvgdDTAzHv2P24donTt6&#x2F;529l&#x2B;9Ua0vFImLlb"/>
 
-/* Start the service worker and cache all of the app's content */
-self.addEventListener('install', function (e) {
-  e.waitUntil(
-    caches.open(cacheName).then(function (cache) {
-      return cache.addAll(filesToCache);
-    })
-  );
-});
 
-/* Serve cached content when offline */
-self.addEventListener('fetch', function (e) {
-  e.respondWith(
-    caches.match(e.request).then(function (response) {
-      return response || fetch(e.request);
-    })
-  );
-});</script>
-    
-    <link rel="icon" href="/aesclepiusrx/assets/icon-1024.png" integrity="sha384&#x2D;7O5UNuPK163YXkIfO1WUspzsC5zhaEh5winF&#x2F;1o&#x2F;BTghr2kYGHnDeyTIrWG23yI0"/>
-    <link rel="icon" href="/aesclepiusrx/assets/icon-256.png" integrity="sha384&#x2D;8hu05dypxru9nHd3WpWymk3FzukJKbu7i&#x2F;edzvpJYeW5HSkk9Ji1KBtkUx2ZrXhZ"/>
-    <link rel="icon" href="/aesclepiusrx/assets/icon_ios_touch_192.png" integrity="sha384&#x2D;VFGVgnsT4btX13V23by0XdYUERf16&#x2B;5uQLlOaofcbOHsPyXyFNc&#x2F;&#x2B;HDDoZGoXKSo"/>
-    <link rel="icon" href="/aesclepiusrx/assets/maskable_icon_x512.png" integrity="sha384&#x2D;OdgOiFvCGglqhj99H1v0MBwyoS6yDF1vt8i&#x2F;kuDxPgGQAAEaL1KnRAcTBf8lZoql"/>
+  
+  
+  
+  
+  
+  
 
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="assets/icon_ios_touch_192.png">
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#404040">
 
-    <style>
-        html {
-            /* Remove touch delay: */
-            touch-action: manipulation;
-        }
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icon_ios_touch_192.png">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#404040">
 
-        body {
-            /* Light mode background color for what is not covered by the egui canvas,
+  <style>
+    html {
+      /* Remove touch delay: */
+      touch-action: manipulation;
+    }
+
+    body {
+      /* Light mode background color for what is not covered by the egui canvas,
             or where the egui canvas is translucent. */
-            background: #909090;
-        }
+      background: #909090;
+    }
 
-        @media (prefers-color-scheme: dark) {
-            body {
-                /* Dark mode background color for what is not covered by the egui canvas,
+    @media (prefers-color-scheme: dark) {
+      body {
+        /* Dark mode background color for what is not covered by the egui canvas,
                 or where the egui canvas is translucent. */
-                background: #404040;
-            }
-        }
+        background: #404040;
+      }
+    }
 
-        /* Allow canvas to fill entire web page: */
-        html,
-        body {
-            overflow: hidden;
-            margin: 0 !important;
-            padding: 0 !important;
-            height: 100%;
-            width: 100%;
-        }
+    /* Allow canvas to fill entire web page: */
+    html,
+    body {
+      overflow: hidden;
+      margin: 0 !important;
+      padding: 0 !important;
+      height: 100%;
+      width: 100%;
+    }
 
-        /* Make canvas fill entire document: */
-        canvas {
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
+    /* Make canvas fill entire document: */
+    canvas {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
 
-        .centered {
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #f0f0f0;
-            font-size: 24px;
-            font-family: Ubuntu-Light, Helvetica, sans-serif;
-            text-align: center;
-        }
+    .centered {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #f0f0f0;
+      font-size: 24px;
+      font-family: Ubuntu-Light, Helvetica, sans-serif;
+      text-align: center;
+    }
 
-        /* ---------------------------------------------- */
-        /* Loading animation from https://loading.io/css/ */
-        .lds-dual-ring {
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-        }
+    /* ---------------------------------------------- */
+    /* Loading animation from https://loading.io/css/ */
+    .lds-dual-ring {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+    }
 
-        .lds-dual-ring:after {
-            content: " ";
-            display: block;
-            width: 24px;
-            height: 24px;
-            margin: 0px;
-            border-radius: 50%;
-            border: 3px solid #fff;
-            border-color: #fff transparent #fff transparent;
-            animation: lds-dual-ring 1.2s linear infinite;
-        }
+    .lds-dual-ring:after {
+      content: " ";
+      display: block;
+      width: 24px;
+      height: 24px;
+      margin: 0px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      border-color: #fff transparent #fff transparent;
+      animation: lds-dual-ring 1.2s linear infinite;
+    }
 
-        @keyframes lds-dual-ring {
-            0% {
-                transform: rotate(0deg);
-            }
+    @keyframes lds-dual-ring {
+      0% {
+        transform: rotate(0deg);
+      }
 
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-    </style>
-<link rel="modulepreload" href="/aesclepiusrx/aesclepiusrx.js" crossorigin="anonymous" integrity="sha384-CcXXF6e9NvnTYftB+MZI+nTRlb528mf7yw6AeAFuw6FWnzSeFK/f8RaGv0LJ8pqV"><link rel="preload" href="/aesclepiusrx/aesclepiusrx_bg.wasm" crossorigin="anonymous" integrity="sha384-xJasJkcdToW9umNmqjLtLcocxK9Ovgj36TWPeprWP5wrC5IVVeAeB91K0Cdkkyic" as="fetch" type="application/wasm"></head>
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+<link rel="modulepreload" href="/aesclepiusrx/aesclepiusrx.js" crossorigin="anonymous" integrity="sha384-nzgl0uZY/FAgYTx7EVuRaVBLv7fe29ZHsxjQQ58otje5TlcrkGeIUA/eKLwZmSu1"><link rel="preload" href="/aesclepiusrx/aesclepiusrx_bg.wasm" crossorigin="anonymous" integrity="sha384-efZVHqIFe5nyI2jj1w2HZnbyYoZylqd5FnUroXZaOBKc3EhFDa1365/UT+1MZHMQ" as="fetch" type="application/wasm"></head>
 
 <body>
-    <!-- The WASM code will resize the canvas dynamically -->
-    <!-- the id is hardcoded in main.rs . so, make sure both match. -->
-    <canvas id="the_canvas_id"></canvas>
+  <!-- The WASM code will resize the canvas dynamically -->
+  <!-- the id is hardcoded in main.rs . so, make sure both match. -->
+  <canvas id="the_canvas_id"></canvas>
 
-    <!-- the loading spinner will be removed in main.rs -->
-    <div class="centered" id="loading_text">
-        <p style="font-size:16px">
-            Loading…
-        </p>
-        <div class="lds-dual-ring"></div>
-    </div>
+  <!-- the loading spinner will be removed in main.rs -->
+  <div class="centered" id="loading_text">
+    <p style="font-size:16px">
+      Loading…
+    </p>
+    <div class="lds-dual-ring"></div>
+  </div>
 
-    <!--Register Service Worker. this will cache the wasm / js scripts for offline use (for PWA functionality). -->
-    <!-- Force refresh (Ctrl + F5) to load the latest files instead of cached files  -->
-    <script>
-        // We disable caching during development so that we always view the latest version.
-        if ('serviceWorker' in navigator && window.location.hash !== "#dev") {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('sw.js');
-            });
-        }
-    </script>
+  <!--Register Service Worker. this will cache the wasm / js scripts for offline use (for PWA functionality). -->
+  <!-- Force refresh (Ctrl + F5) to load the latest files instead of cached files  -->
+  <script>
+    // We disable caching during development so that we always view the latest version.
+    if ('serviceWorker' in navigator && window.location.hash !== "#dev") {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
 </body>
 
 </html>
