@@ -11843,8 +11843,8 @@ E -- Persistência --&gt;Z
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 inicio(Reconhecimento do EME) -- Adolescente ou adulto&lt;br&gt;de 13 a 40kg &lt;br&gt;e idosos --&gt; ate40kg(Midazolam 5mg IM&lt;br&gt; repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 10mg&lt;br&gt;repetir até 2x);
 inicio -- Adolescente ou adulto&lt;br&gt;acima de 40kg --&gt; adulto(Midazolam 10mg IM&lt;br&gt;OU&lt;br&gt;Diazepam IV 10mg);
-inicio -- Crianças --&gt; crianca(Midazolam 0.2mg/Kg IM&lt;br&gt;repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 0.5mg/Kg&lt;br&gt;repetir até 2x);
-adulto --&gt; rep(Repetições:&lt;br&gt;Diazepam uma vez&lt;br&gt;Midazolam duas vezes.) --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6h&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;Fenobarbital 20mg/Kg - manutenção em 12h);
+inicio -- Crianças --&gt; crianca(Midazolam 0.2mg/Kg IM&lt;br&gt;repetir em 5min se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 0.5mg/Kg&lt;br&gt;repetir até 2x);
+adulto --&gt; rep(Repetições em 5min:&lt;br&gt;Diazepam uma vez&lt;br&gt;Midazolam duas vezes.) --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6h&lt;br&gt;&lt;b&gt;OU&lt;/b&gt;&lt;br&gt;Fenobarbital 20mg/Kg - manutenção em 12h);
 ate40kg --&gt; fim;
 crianca --&gt; fim;
 fim -- Sedação em UTI --&gt; sedacao(Quetamina, midazolam, propofol e tiopental contínuos);
