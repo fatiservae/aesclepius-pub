@@ -712,6 +712,105 @@
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
+    "name": "abordagem-febril-geral-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "218.40 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "anafilaxia-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "172.40 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "bronquiolite-viral-aguda-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "233.97 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "cefaleias-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "136.18 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "complicacoes-anemia-falciforme-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "355.35 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "crise-asma-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "291.19 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "crise-vaso-oclusiva-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "239.47 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "dor-manejo-medicacoes-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "324.38 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "estado-mal-epiletico-convulsao-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "425.53 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "ficha-intubacao-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "108.30 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "ficha-ressuscitacao-parada-cardiorespiratoria-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "100.74 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
     "name": "macetes-prescricoes-pediatria.pdf",
     "subjects": [
       "Medicina",
@@ -721,12 +820,84 @@
     "path": "Medicina/Pediatria"
   },
   {
+    "name": "parada-ritmos-chocavel-ou-nao-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "347.51 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "pneumonia-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "163.38 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
     "name": "rotinas-assistenciais-HMIB-2022.pdf",
     "subjects": [
       "Medicina",
       "Pediatria"
     ],
     "size": "7.44 MB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "sedacao-pediatrica-tomografia-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "139.91 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "sepse-fluxograma-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "169.78 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "sequencia-rapida-intubacao-fluxo-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "197.23 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "sequencia-rapida-sedacao-intubacao-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "101.48 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "sindrome-toracica-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "181.85 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "taquicardia-supraventricular-com-sem-perfusao-hmib.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "324.38 KB",
     "path": "Medicina/Pediatria"
   },
   {

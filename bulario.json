@@ -1,6 +1,40 @@
 [
 	{
 		"nome": [
+			"levodropropizine",
+			"Percof"
+		],
+		"class": [
+			"antitussígenos",
+			"antihistamínicos"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"kg"
+				],
+				"dosagem": [
+					1,
+					1
+				],
+				"via": "oral",
+				"instrucao": "para crianças acima de 2 anos e até 12 anos, <i>ter in die</i>."
+			},
+			{
+				"unidades": [
+					"mg"
+				],
+				"dosagem": [
+					60
+				],
+				"via": "oral",
+				"instrucao": "para crianças maiores de 12 anos e adultos, <i>ter in die</i>."
+			}
+		]
+	},
+	{
+		"nome": [
 			"sulfametoxazol e trimetoprima",
 			"Bactrim"
 		],
