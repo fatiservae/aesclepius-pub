@@ -11421,6 +11421,7 @@ Calculadora &lt;a href=&#34;./medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt;
   #resultado div{
     font-weight: normal;
     width: fit-content;
+    max-width: 60vw;
     display: none;
     margin-bottom: 0.5em;
     border: var(--stdBorder);
@@ -11445,6 +11446,9 @@ Calculadora &lt;a href=&#34;./medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt;
   }
   #resultado div .nomeComercial{
     color: var(--corLinks);
+  }
+  div#divAtb {
+    display: block;
   }
   div#divAtb p{
     margin: 5px;
