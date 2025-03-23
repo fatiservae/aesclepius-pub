@@ -142,7 +142,6 @@ A cobalamina é o nome genérico a todas formas ativas de vitamina B12. A falta 
       <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.aesclepius.com.br/ventilador-mec/">Simulador de ventilador mecânico</a></li>
       <li data-tags="[calculadoras Medicina Emergência Cardiologia]"><a href="https://www.aesclepius.com.br/insuficiencia-cardiaca/">Insuficiência cardíaca</a></li>
       <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.aesclepius.com.br/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
-      <li data-tags="[dermatologia emergências Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/exantematicas/">Doenças exantematicas</a></li>
       <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.aesclepius.com.br/eletrocardiograma/">Eletrocardiograma</a></li>
       <li data-tags="[Medicina Projetos]"><a href="https://www.aesclepius.com.br/neoplasias/">Nomeclatura das neoplasias</a></li>
       <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/surdez/">Surdez aguda</a></li>
@@ -248,6 +247,18 @@ A cobalamina é o nome genérico a todas formas ativas de vitamina B12. A falta 
 Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativamente quando deficiente a subunidade beta, também chamada betatalassemia. Em todo caso, o volume corpuscular é aumentado ou próximo de normal, nunca microcítica.</p>
 <p>Os sintomas são os comuns de anemias, necessitando de transfusões frequentes e o tratamento definitivo é a transfusão de medula.</p>
 <h2 id="algoritmo-de-investigação">Algoritmo de investigação</h2>
+<pre class="mermaid">graph TD;
+1(Volume<br>corpuscular médio acima de 100fl) --> 2(Reticulócitos aumentados?) -- Não --> 3(Sangue periférico);
+3 --> 10(Avaliar tabela abaixo de diferencial morfológico);
+3 --> 5(Macrócitos ovais e<br>hipersegmentação de neutrófilos) -- Presente --> 6(Deficiência<br>de B12 ou folato);
+2 -- Sim --> 4(Hiperproliferativa:<br>Triar para<br>anemias hemolíticas e<br>sangramentos agudos.);
+5 -- Ausente --> 7(Hipotireoidismo, síndrome mielodisplásica<br>hepatopatias, medicamentos);
+</pre>
+
+<br>
+<br>
+<br>
+<br>
 <table>
        <tr>
            <th></th>
@@ -316,13 +327,6 @@ Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativ
            </td>
        </tr>
 </table>
-<pre class="mermaid">graph TD;
-1(Volume<br>corpuscular médio acima de 100fl) --> 2(Reticulócitos) -- Diminuídos --> 3(Sangue periférico);
-2 -- Aumentados --> 4(Triar para<br>anemias hemolíticas);
-3 --> 5(Macrócitos ovais e<br>hipersegmentação de neutrófilos) -- Presente --> 6(Deficiência<br>de B12 ou folato);
-5 -- Ausente --> 7(Hipotireoidismo, síndrome mielodisplásica<br>hepatopatias, medicamentos);
-</pre>
-
 <h2 id="tratamentos">Tratamentos</h2>
 <h3 id="calculadora-de-reposição-de-ferro">Calculadora de reposição de ferro</h3>
 <p>Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.</p>

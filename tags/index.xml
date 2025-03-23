@@ -7078,6 +7078,18 @@ Acelera a morte
 Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativamente quando deficiente a subunidade beta, também chamada betatalassemia. Em todo caso, o volume corpuscular é aumentado ou próximo de normal, nunca microcítica.&lt;/p&gt;
 &lt;p&gt;Os sintomas são os comuns de anemias, necessitando de transfusões frequentes e o tratamento definitivo é a transfusão de medula.&lt;/p&gt;
 &lt;h2 id=&#34;algoritmo-de-investigação&#34;&gt;Algoritmo de investigação&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Volume&lt;br&gt;corpuscular médio acima de 100fl) --&gt; 2(Reticulócitos aumentados?) -- Não --&gt; 3(Sangue periférico);
+3 --&gt; 10(Avaliar tabela abaixo de diferencial morfológico);
+3 --&gt; 5(Macrócitos ovais e&lt;br&gt;hipersegmentação de neutrófilos) -- Presente --&gt; 6(Deficiência&lt;br&gt;de B12 ou folato);
+2 -- Sim --&gt; 4(Hiperproliferativa:&lt;br&gt;Triar para&lt;br&gt;anemias hemolíticas e&lt;br&gt;sangramentos agudos.);
+5 -- Ausente --&gt; 7(Hipotireoidismo, síndrome mielodisplásica&lt;br&gt;hepatopatias, medicamentos);
+&lt;/pre&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;table&gt;
        &lt;tr&gt;
            &lt;th&gt;&lt;/th&gt;
@@ -7146,13 +7158,6 @@ Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativ
            &lt;/td&gt;
        &lt;/tr&gt;
 &lt;/table&gt;
-&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-1(Volume&lt;br&gt;corpuscular médio acima de 100fl) --&gt; 2(Reticulócitos) -- Diminuídos --&gt; 3(Sangue periférico);
-2 -- Aumentados --&gt; 4(Triar para&lt;br&gt;anemias hemolíticas);
-3 --&gt; 5(Macrócitos ovais e&lt;br&gt;hipersegmentação de neutrófilos) -- Presente --&gt; 6(Deficiência&lt;br&gt;de B12 ou folato);
-5 -- Ausente --&gt; 7(Hipotireoidismo, síndrome mielodisplásica&lt;br&gt;hepatopatias, medicamentos);
-&lt;/pre&gt;
-
 &lt;h2 id=&#34;tratamentos&#34;&gt;Tratamentos&lt;/h2&gt;
 &lt;h3 id=&#34;calculadora-de-reposição-de-ferro&#34;&gt;Calculadora de reposição de ferro&lt;/h3&gt;
 &lt;p&gt;Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.&lt;/p&gt;
@@ -8060,138 +8065,6 @@ oedema.&lt;/p&gt;
 &lt;li&gt;MOTES, Arunee. &lt;strong&gt;Monitoring sedation during mechanical ventilation&lt;/strong&gt;. The Southwest Respiratory and Critical Care Chronicles, v. 10, n. 45, p. 19-27, 2022.&lt;/li&gt;
 &lt;li&gt;Almojuela A, Hasen M, Zeiler FA. &lt;strong&gt;The Full Outline of UnResponsiveness (FOUR) Score and Its Use in Outcome Prediction: A Scoping Systematic Review of the Adult Literature&lt;/strong&gt;. Neurocrit Care. 2019 Aug;31(1):162-175. doi: 10.1007/s12028-018-0630-9. PMID: 30411302.&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Doenças exantematicas</title>
-		<link>https://www.aesclepius.com.br/exantematicas/</link>
-		<pubDate>Sat, 23 Mar 2024 13:02:36 -0300</pubDate>
-		
-		<guid>https://www.aesclepius.com.br/exantematicas/</guid>
-		<description>&lt;h2 id=&#34;calculadora-diferencial&#34;&gt;Calculadora diferencial&lt;/h2&gt;
-&lt;div class=calculadoras&gt;
-  &lt;h2&gt;Pródromos&lt;/h2&gt;
-    &lt;input type=checkbox id=febreProdromo&gt;Febre&lt;/input&gt;
-    &lt;input type=checkbox id=tosse&gt;Tosse&lt;/input&gt;
-    &lt;input type=checkbox id=coriza&gt;Coriza&lt;/input&gt;
-    &lt;input type=checkbox id=fotofobia&gt;Fotofobia&lt;/input&gt;
-    &lt;input type=checkbox id=conjuntivite&gt;Conjuntivite&lt;/input&gt;
-    &lt;input type=checkbox id=otite&gt;Otite&lt;/input&gt;
-    &lt;input type=checkbox id= value=&gt;&lt;/input&gt;
-  &lt;br&gt;
-  &lt;h2&gt;Sintomas atuais&lt;/h2&gt;
-  &lt;select&gt;
-    &lt;option id=febreAgora value=febreAgora&gt;Febre no exantema&lt;/option&gt;
-    &lt;option id=tosse value=tosse&gt;Tosse&lt;/option&gt;
-    &lt;option id=coriza value=coriza&gt;Coriza&lt;/option&gt;
-    &lt;option id=fotofobia value=fotofobia&gt;Fotofobia&lt;/option&gt;
-    &lt;option id=conjuntivite value=conjuntivite&gt;Conjuntivite&lt;/option&gt;
-    &lt;option id=fotofobia value=fotofobia&gt;Fotofobia&lt;/option&gt;
-    &lt;option id=otite value=otite&gt;Otite&lt;/option&gt;
-    &lt;option id= value=&gt;&lt;/option&gt; 
-  &lt;/select&gt;
-  &lt;br&gt;
-  &lt;h2&gt;Doenças prévias&lt;/h2&gt;
-  &lt;select&gt;
-    &lt;option id=sarampo value=sarampo&gt;Sarampo&lt;/option&gt;
-    &lt;option id= value=&gt;&lt;/option&gt;
-    &lt;option id= value=&gt;&lt;/option&gt;
-  &lt;/select&gt;
-  &lt;br&gt;
-  &lt;h2&gt;Vacinas&lt;/h2&gt;
-  &lt;select id=vacinas&gt;
-    &lt;option id=sarampo value=sarampo&gt;Sarampo&lt;/option&gt;
-    &lt;option id= value=&gt;&lt;/option&gt;
-    &lt;option id= value=&gt;&lt;/option&gt;
-  &lt;/select&gt;
-  &lt;br&gt;
-  &lt;h2&gt;Laboratório&lt;/h2&gt;
-    &lt;input type=checkbox id=plaquetopenia&gt;Plaquetopenia&lt;/input&gt;
-  &lt;br&gt;
-  &lt;button onclick=diferenciar()&gt;Diferenciar!&lt;/button&gt;
-  &lt;br&gt;
-  &lt;p id=resultadoExant&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;br&gt;
-Sarampo: paramixoviridae; transmissão por aerossóis, 4 a 6 dias antes do exantema; pródromo de febre, tosse, coriza e conjutivite intensa com fotofobia.
-rubéola ou sarampo alemão, ruvirus, togaviridae, gotículas, manchas de forchheimer, benigna, cursa com artrite, plaquetopenia
-&lt;!--
-Fazer um carousel de imagens comparativas
-Timeline pra excluir lesões  com base na HDA
---&gt;
-&lt;style&gt;
-  thead {
-    position: sticky;
-  }
-&lt;/style&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;Doença&lt;/th&gt;
-      &lt;th&gt;Incubação (dias)&lt;/th&gt;
-      &lt;th colspan=2&gt;Pródromos&lt;/th&gt;
-      &lt;th colspan=2&gt;Exantema&lt;/th&gt;
-      &lt;th&gt;Febre&lt;/th&gt;
-      &lt;th&gt;Leucocitose&lt;/th&gt;
-      &lt;th&gt;Sinal patognomônico&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;input id=kawazaki type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
-      &lt;td&gt;Kawazaki&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;eritematopapular polimorfo principalmente no tronco&lt;/td&gt;
-      &lt;td&gt;sempre, pelo menos 5 dias&lt;/td&gt;
-      &lt;td&gt;inicia com desvio e abranda em seguida, mantendo-se alta&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--patognomonico--&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;input id=rubeola type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
-      &lt;td&gt;Rubéola&lt;/td&gt;
-      &lt;td&gt;14 a 21&lt;/td&gt; &lt;!--incubacao--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--prodromos--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--prodromos--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--exantema--&gt;
-      &lt;td&gt;máculas não descamativas e progressão craniocaudal&lt;/td&gt;&lt;!--exantema --&gt;
-      &lt;td&gt;sempre, pelo menos 5 dias&lt;/td&gt;
-      &lt;td&gt;inicia com desvio e abranda em seguida, mantendo-se alta&lt;/td&gt; &lt;!--leuco--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--patognomonico--&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;input id=variola type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
-      &lt;td&gt;Varíola&lt;/td&gt;
-      &lt;td&gt;8 a 17&lt;/td&gt; &lt;!--incubacao--&gt;
-      &lt;td&gt;2 a 4 dias&lt;/td&gt;&lt;!--prodromos--&gt;
-      &lt;td&gt;Cefaleias, febre, artralgia e mialgias.&lt;/td&gt;&lt;!--prodromos--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--exantema--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--exantema --&gt;
-      &lt;td&gt;sempre, pelo menos 5 dias&lt;/td&gt;
-      &lt;td&gt;inicia com desvio e abranda em seguida, mantendo-se alta&lt;/td&gt; &lt;!--leuco--&gt;
-      &lt;td&gt;&lt;/td&gt;&lt;!--patognomonico--&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;input id=escarlatina type=checkbox&gt;&lt;/input&gt;&lt;/td&gt;
-      &lt;td&gt;Escarlatina&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;/td&gt;
-      &lt;td&gt;Sinais de Koplik&lt;/td&gt;&lt;!--patognomonico--&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;br&gt;
-&lt;button class=left onclick=&#34;diferencial()&#34;&gt;Gerar diferenciais&lt;/button&gt;
-&lt;script src=&#34;../exantematicas.js&#34;&gt;&lt;/script&gt;
 </description>
 	</item>
 	
