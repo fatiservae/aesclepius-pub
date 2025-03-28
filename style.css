@@ -486,6 +486,10 @@ code {
   content: "🩺💉 ";
 }
 
+#tag_oncologia::before {
+  content: "🎗️ ";
+}
+
 #tag_esporte::before {
   content: "🏆💪 ";
 }

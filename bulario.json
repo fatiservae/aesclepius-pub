@@ -1,6 +1,78 @@
 [
 	{
 		"nome": [
+			"benzidamina",
+			"Ciflogex"
+		],
+		"class": [
+			"anestésicos locais",
+			"antiinflamatórios"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"aplicações",
+					"dia"
+				],
+				"dosagem": [
+					3,
+					1
+				],
+				"via": "oral tópica",
+				"instrucao": "deixar absorver a pastilha lentamente na cavidade oral ou aplicar spray diretamente no palato superior ou na orofaringe posterior."
+			}
+		]
+	},
+	{
+		"nome": [
+			"bilastina",
+			"Alektos"
+		],
+		"class": [
+			"antihistamínicos",
+			"antialérgicos"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"mg",
+					"dia"
+				],
+				"dosagem": [
+					20,
+					1
+				],
+				"via": "oral"
+			}
+		]
+	},
+	{
+		"nome": [
+			"Hialuronidase com Betametasona",
+			"Postec"
+		],
+		"class": [
+			"corticoesteroides",
+			"enzimas",
+			"cremes genitais"
+		],
+		"posologias": [
+			{
+				"unidades": [
+					"aplicações",
+					"dia"
+				],
+				"dosagem": [
+					2,
+					1
+				],
+				"via": "tópica",
+				"instrucao": "aplicar e tracionar levemente o prepúcio por três semanas, com progressão da exposição da glande, evitando dor."
+			}
+		]
+	},
+	{
+		"nome": [
 			"levodropropizine",
 			"Percof"
 		],
@@ -1244,7 +1316,8 @@
 	{
 		"nome": [
 			"trometamol cetorolaco",
-			"Toragesic"
+			"Toragesic",
+			"Kelac"
 		],
 		"class": [
 			"analgésicos",

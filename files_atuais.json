@@ -252,6 +252,16 @@
     "path": "Medicina/Pediatria"
   },
   {
+    "name": "Manual_Uropediatria-Final.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "9.97 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
     "name": "anafilaxia-2016.pdf",
     "subjects": [
       "Medicina",
@@ -452,6 +462,16 @@
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
+    "name": "infeccoes_bacterianas-superficiais-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "4.73 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
     "name": "interpretacao-hemograma-mielograma-2021.pdf",
     "subjects": [
       "Medicina",
@@ -632,6 +652,16 @@
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
+    "name": "segmento-recem-nascido-alto-risco-2024.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "3.34 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
     "name": "sepse-neonatal-precoce-2020.pdf",
     "subjects": [
       "Medicina",
@@ -652,6 +682,16 @@
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
+    "name": "surviving-sepsis-2017-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.14 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
     "name": "teste-reflexo-vermelho-2018.pdf",
     "subjects": [
       "Medicina",
@@ -669,6 +709,16 @@
       "SBP-Sociedade-Brasileira-Pediatria"
     ],
     "size": "2.02 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "trauma-cranioencefalico.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "601.73 KB",
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
