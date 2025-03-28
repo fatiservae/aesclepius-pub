@@ -5,10 +5,28 @@
 	<description>Recent content in infectologia on Aesclepius</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Mon, 09 Dec 2024 21:12:44 -0300</lastBuildDate>
+	<lastBuildDate>Wed, 26 Mar 2025 22:53:30 -0300</lastBuildDate>
     
         <atom:link href="https://www.aesclepius.com.br/tags/infectologia/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Linfonodomegalias</title>
+		<link>https://www.aesclepius.com.br/linfonodomegalia/</link>
+		<pubDate>Wed, 26 Mar 2025 22:53:30 -0300</pubDate>
+		
+		<guid>https://www.aesclepius.com.br/linfonodomegalia/</guid>
+		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Linfonodos maiores que 1cm;&lt;br&gt;Quanto maior pior;&lt;br&gt;Acima dos 40 anos;&lt;br&gt;Aderidos ou profundos;&lt;br&gt;Supraclavicular; e&lt;br&gt;Cronicidade ou fatores de risco para neoplasias.) --&gt; 2(Fator explicativo&lt;br&gt;encontrado);
+2 --&gt; 3(Tratar doença de base);
+1 -- Generalizado --&gt; 5(Mononucleose;&lt;br&gt;Hepatite B;&lt;br&gt;HIV;&lt;br&gt;Dengue;&lt;br&gt;Rubéola;&lt;br&gt;Sífilis;&lt;br&gt;Citomegalovírus;&lt;br&gt;Toxoplasmose; etc);
+1 -- Localziado --&gt; 6(Examinar e solicitar imagem&lt;br&gt;do linfonodo e da região a montante&lt;br&gt;que drenam para o grupo);
+6 -- Observar&lt;br&gt;2 a 3 semanas --&gt; 7(Biopsar com aspiração&lt;br&gt;por agulha fina&lt;br&gt;caso persista.);
+1 -- Forte predisposição&lt;br&gt;a neoplasias --&gt; 8(Biopsar imediatamente.);
+&lt;/pre&gt;
+
+</description>
+	</item>
 	
 	<item>
 		<title>Testosterona</title>
@@ -1474,7 +1492,7 @@ K --&gt; L[Colposcopia em 60 dias];
 		<pubDate>Sat, 07 Sep 2024 22:25:03 -0300</pubDate>
 		
 		<guid>https://www.aesclepius.com.br/risco-sangramento/</guid>
-		<description>&lt;p&gt;O escore HAS-BLED foi sugerido em 2010 para pacientes com fibrilação atual na tentativa de predizer o risco de sangramento caso seja iniciada a anticoagulação. Foi validado em 2011.&lt;/p&gt;
+		<description>&lt;p&gt;O escore HAS-BLED foi sugerido em 2010&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; para pacientes com fibrilação atual na tentativa de predizer o risco de sangramento caso seja iniciada a anticoagulação. Foi validado em 2011&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;div class=calculadoras&gt;
 &lt;input type=checkbox&gt;Hipertensão&lt;/input&gt;
 &lt;br&gt;
@@ -1498,12 +1516,17 @@ K --&gt; L[Colposcopia em 60 dias];
 &lt;p id=resultadoHASBLED&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=../../hasbled.js&gt;&lt;/script&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Pisters R, Lane DA, Nieuwlaat R, de Vos CB, Crijns HJ, Lip GY. &lt;strong&gt;A novel user-friendly score (HAS-BLED) to assess 1-year risk of major bleeding in patients with atrial fibrillation: the Euro Heart Survey&lt;/strong&gt;. Chest. 2010 Nov;138(5):1093-100. doi: 10.1378/chest.10-0134. Epub 2010 Mar 18. PMID: 20299623.&lt;/li&gt;
-&lt;li&gt;Lip GY, Frison L, Halperin JL, Lane DA. &lt;strong&gt;Comparative validation of a novel risk score for predicting bleeding risk in anticoagulated patients with atrial fibrillation: the HAS-BLED (Hypertension, Abnormal Renal/Liver Function, Stroke, Bleeding History or Predisposition, Labile INR, Elderly, Drugs/Alcohol Concomitantly) score&lt;/strong&gt;. J Am Coll Cardiol. 2011 Jan 11;57(2):173-80. doi: 10.1016/j.jacc.2010.09.024. Epub 2010 Nov 24. PMID: 21111555.&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Pisters R, Lane DA, Nieuwlaat R, de Vos CB, Crijns HJ, Lip GY. &lt;strong&gt;A novel user-friendly score (HAS-BLED) to assess 1-year risk of major bleeding in patients with atrial fibrillation: the Euro Heart Survey&lt;/strong&gt;. Chest. 2010 Nov;138(5):1093-100. doi: 10.1378/chest.10-0134. Epub 2010 Mar 18. PMID: 20299623.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Lip GY, Frison L, Halperin JL, Lane DA. &lt;strong&gt;Comparative validation of a novel risk score for predicting bleeding risk in anticoagulated patients with atrial fibrillation: the HAS-BLED (Hypertension, Abnormal Renal/Liver Function, Stroke, Bleeding History or Predisposition, Labile INR, Elderly, Drugs/Alcohol Concomitantly) score&lt;/strong&gt;. J Am Coll Cardiol. 2011 Jan 11;57(2):173-80. doi: 10.1016/j.jacc.2010.09.024. Epub 2010 Nov 24. PMID: 21111555.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
 </description>
 	</item>
 	
