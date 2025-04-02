@@ -234,6 +234,15 @@
     "path": "Medicina/Neurologia"
   },
   {
+    "name": "Blackbook-pediatria-5ed-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "237.19 MB",
+    "path": "Medicina/Pediatria"
+  },
+  {
     "name": "Caderneta-crianca-menina-6ed-2023.pdf",
     "subjects": [
       "Medicina",
@@ -249,6 +258,15 @@
       "Pediatria"
     ],
     "size": "15.06 MB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "Guia-de-Prescricoes-Pediatria-MedConexao.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "741.79 KB",
     "path": "Medicina/Pediatria"
   },
   {
@@ -379,6 +397,16 @@
       "SBP-Sociedade-Brasileira-Pediatria"
     ],
     "size": "1.15 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "dor-abdominal-cronica-2019.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "1.10 MB",
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
@@ -885,6 +913,15 @@
       "Pediatria"
     ],
     "size": "163.38 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "rascunhos-evolucao.txt",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "362.00 bytes",
     "path": "Medicina/Pediatria"
   },
   {
