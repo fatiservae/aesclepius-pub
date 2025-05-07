@@ -1136,6 +1136,7 @@ button[id^="anterior"]:active {}
 
 pre {
   white-space: space;
+  padding: 2ch;
 }
 
 pre.mermaid {
@@ -1239,7 +1240,6 @@ blockquote {
   font-size: 80%;
   width: fit-content;
   margin: 0px;
-  padding: 0px;
   margin-left: 6ch;
   border-left: 1px solid var(--headingsColor);
   background: var(--vidro);

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="description"
+  content="Explore uma biblioteca de artigos médicos revisados, abordando temas como prevenção, diagnósticos, tratamentos e novas descobertas na medicina. Ideal para profissionais de saúde.">
+<meta name="keywords"
+  content="artigos de saúde, conteúdo médico, educação médica, doenças, tratamentos, prevenção, pesquisas médicas, blog de saúde">
+<meta name="keywords"
+  content="calculadoras médicas, artigos médicos, saúde, bem-estar, medicina, especialistas em saúde, consulta online, doenças, tratamentos, diagnóstico médico, telemedicina">
+<meta name="robots" content="index, follow">
+
+<head>
+  
+  
+  
+  <title>O prescritor inteligente AesclepiusRx | Aesclepius</title>
+  <link rel="canonical" href="https://www.aesclepius.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Aesclepius RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="AsclepiusRx
+O prescritor padrão de Asclepius!
+Acesse em https://aesclepius.com.br/aesclepiusrx.
+Sobre
+O projeto AesclepiusRx oferece uma forma de prescrição de medicações segura, eliminando a necessidade de cálculos por parte do médico.
+O desenvolvimento se baseia na definição de tipos sólidos em Rust, segurança na conversão de unidades e na comparação de valores. Exemplo simples:
+pub struct Idade {
+    tipo: IdadeTipo,
+    valor: i32,
+}
+enum IdadeTipo {
+    Meses,
+    Anos,
+}
+Exemplo mais complexo:
+#[derive(Clone, Debug, PartialEq, Eq, Copy)]
+pub enum Volume {
+    Ml(Float),
+    L(Float),
+    Dl(Float),
+}
+impl Volume {
+    /// entrega o valor em `mL`
+    fn valor(self) -&gt; f32 {
+        match self {
+            Volume::Ml(valor) =&gt;  valor.0,
+            Volume::L(valor) | Volume::Dl(valor) =&gt; valor.0 * 1000.0,
+            Volume::DL(valor) =&gt; valor.0 * 100.0,
+        }
+    }
+    /// escreve em `&amp;&#39;static str` a unidade do volume
+    fn unidade(self) -&gt; &amp;&#39;static str {
+        match self {
+            Volume::Ml(_) =&gt; &#34;mL&#34;,
+            Volume::L(_) =&gt; &#34;L&#34;,
+            Volume::Dl(_) =&gt; &#34;dL&#34;,
+        }
+    }
+    /// Devolve o tipo `Volume` em `mL`, independente do seu tipo original
+    pub fn normalizar(&amp;self) -&gt; Self {
+        match self {
+            Volume::Ml(valor) =&gt; Volume::Ml(Float(valor.0)),
+            Volume::L(valor) =&gt; Volume::Ml(Float(valor.0 * 1000.0)),
+            Volume::Dl(valor) =&gt; Volume::Ml(Float(valor.0 / 100.0)),
+        }
+    }
+}
+/// Permite uso idiomático do tipo
+impl std::fmt::Display for Volume {
+    fn fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) -&gt; std::fmt::Result {
+        match self {
+            Volume::Ml(valor) =&gt; write!(f, &#34;{}mL&#34;, valor),
+            Volume::L(valor) =&gt; write!(f, &#34;{}L&#34;, valor),
+            Volume::Dl(valor) =&gt; write!(f, &#34;{}dL&#34;, valor),
+        }
+    }
+}
+Note-se a segurança de tipos, o uso de unidades internacionais e o caráter idiomático.">
+  
+  <meta name="keywords" content="medicina , programação , projetos , rust">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+  
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+  <nav class=barra>
+    <a href="../../index.html"><span class="material-icons">home</span></a>
+    <a href="../../files/"><span class="material-icons">inventory_2</span></a>
+    <a href="../../banco-de-questoes/"><span class="material-icons">school</span></a>
+    <a href="../../dicionario/"><span class="material-icons">menu_book</span></a>
+    <a href="../../bulario/"><span class="material-icons">medication</span></a>
+    <a href="../../tags/calculadoras/"><span class="material-icons">calculate</span></a>
+    <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
+    
+    <script>const noglobalsearch = false </script>
+    <div class=divGlobalSearch>
+      <input type="text" id="globalsearch" placeholder="    busca..."></input>
+    </div>
+    <ul id="artlist">
+      <li data-tags="[medicina programação projetos rust]"><a href="https://www.aesclepius.com.br/medicina/aesclepiusrx/">O prescritor inteligente AesclepiusRx</a></li>
+      <li data-tags="[medicina infectologia pediatria oncologia]"><a href="https://www.aesclepius.com.br/linfonodomegalia/">Linfonodomegalias</a></li>
+      <li data-tags="[endocrinologia calculadoras esporte]"><a href="https://www.aesclepius.com.br/testosterona/">Testosterona</a></li>
+      <li data-tags="[pediatria emergências pneumologia]"><a href="https://www.aesclepius.com.br/asma/">Asma</a></li>
+      <li data-tags="[pediatria farmacologia calculadoras emergências]"><a href="https://www.aesclepius.com.br/doses-diluicoes-preparos/">Calculadoras de doses, diluições e preparos</a></li>
+      <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
+      <li data-tags="[geriatria pediatria nutrologia dieta]"><a href="https://www.aesclepius.com.br/suplementacao/">Vitaminas e suplementos dietéticos</a></li>
+      <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.aesclepius.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
+      <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.aesclepius.com.br/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
+      <li data-tags="[pneumologia infectologia resumos]"><a href="https://www.aesclepius.com.br/doencas-pulmonares/">Pneumopatias</a></li>
+      <li data-tags="[pediatria emergências trauma]"><a href="https://www.aesclepius.com.br/traumantismo-cranioencefalcio/">Traumatismo craniencefálico</a></li>
+      <li data-tags="[medicina emergências neurologia]"><a href="https://www.aesclepius.com.br/avc/">Acidente vascular cerebral</a></li>
+      <li data-tags="[pediatria medicina]"><a href="https://www.aesclepius.com.br/neonatologia/">Neonatologia e recém-nascidos</a></li>
+      <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.aesclepius.com.br/saude-mulher/">Saúde da mulher</a></li>
+      <li data-tags="[dor medicina urologia]"><a href="https://www.aesclepius.com.br/prostatopatias/">Testículo e prostatopatias</a></li>
+      <li data-tags="[medicina história política Brasil]"><a href="https://www.aesclepius.com.br/sus/">Sistema único de saúde do Brasil</a></li>
+      <li data-tags="[medicina calculadoras projetos]"><a href="https://www.aesclepius.com.br/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
+      <li data-tags="[cirurgia medicina]"><a href="https://www.aesclepius.com.br/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
+      <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.aesclepius.com.br/doenca-renal/">Nefropatias</a></li>
+      <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.aesclepius.com.br/calculadoras-fetais/">Calculadoras fetais</a></li>
+      <li data-tags="[emergências medicina]"><a href="https://www.aesclepius.com.br/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
+      <li data-tags="[medicina infectologia ciência história]"><a href="https://www.aesclepius.com.br/antibioticos/">Antibioticoterapia</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/autismo/">Bases fisiopatológicas do autismo</a></li>
+      <li data-tags="[medicina penal direito perícias medicina legal]"><a href="https://www.aesclepius.com.br/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
+      <li data-tags="[sociologia medicina]"><a href="https://www.aesclepius.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
+      <li data-tags="[medicina ginecologia emergência]"><a href="https://www.aesclepius.com.br/sangramento-uterino-anormal/">Sangramento uterino anormal</a></li>
+      <li data-tags="[medicina farmacologia]"><a href="https://www.aesclepius.com.br/adiccao/">Adicção: os impactos de diversas drogas</a></li>
+      <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.aesclepius.com.br/receituario/">Documento em papel timbrado</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/febre-reumatica/">Febre reumática</a></li>
+      <li data-tags="[medicina legal perícias medicina direito]"><a href="https://www.aesclepius.com.br/medicina-legal/docs/">Documentos em medicina legal</a></li>
+      <li data-tags="[medicina legal perícias medicina ginecologia]"><a href="https://www.aesclepius.com.br/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatopatias/">Hepatopatias</a></li>
+      <li data-tags="[hematologia emergências dermatologia pediatria]"><a href="https://www.aesclepius.com.br/purpuras/">Púrpuras e lesões hemáticas</a></li>
+      <li data-tags="[medicina perícias penal]"><a href="https://www.aesclepius.com.br/medicina-legal/autopsias/">Autópsias</a></li>
+      <li data-tags="[medicina legal cirurgia medicina penal direito]"><a href="https://www.aesclepius.com.br/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
+      <li data-tags="[medicina legal direito perícias medicina]"><a href="https://www.aesclepius.com.br/medicina-legal/morte-legal/">Tanatologia forense</a></li>
+      <li data-tags="[direito medicina perícias penal]"><a href="https://www.aesclepius.com.br/aborto/">Aborto e infanticídio no Brasil</a></li>
+      <li data-tags="[medicina legal medicina direito penal perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
+      <li data-tags="[medicina legal medicina perícias direito]"><a href="https://www.aesclepius.com.br/medicina-legal/embriaguez/">Visão toxicológica e legal da embriaguez</a></li>
+      <li data-tags="[medicina legal medicina direito penal perícias]"><a href="https://www.aesclepius.com.br/medicina-legal/asfixias/">A morte por asfixias</a></li>
+      <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.aesclepius.com.br/anemias/">Anemias: investigação e tratamento</a></li>
+      <li data-tags="[medicina infectologia]"><a href="https://www.aesclepius.com.br/gastrite/">Gastrite e úlceras gástricas</a></li>
+      <li data-tags="[medicina arboviroses infectologia]"><a href="https://www.aesclepius.com.br/dengue/">Dengue</a></li>
+      <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.aesclepius.com.br/cetoacidose/">Cetoacidose diabética</a></li>
+      <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.aesclepius.com.br/processo-morte/">Processo ativo de morte</a></li>
+      <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.aesclepius.com.br/ventilador-mec/">Simulador de ventilador mecânico</a></li>
+      <li data-tags="[calculadoras Medicina Emergência Cardiologia]"><a href="https://www.aesclepius.com.br/insuficiencia-cardiaca/">Insuficiência cardíaca</a></li>
+      <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.aesclepius.com.br/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
+      <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.aesclepius.com.br/eletrocardiograma/">Eletrocardiograma</a></li>
+      <li data-tags="[Medicina Projetos]"><a href="https://www.aesclepius.com.br/neoplasias/">Nomeclatura das neoplasias</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/surdez/">Surdez aguda</a></li>
+      <li data-tags="[Medicina Calculadoras Ciência]"><a href="https://www.aesclepius.com.br/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/colesterol/">Dislipidemias</a></li>
+      <li data-tags="[emergências medicina anestesia]"><a href="https://www.aesclepius.com.br/intubacao/">Intubação orotraqueal</a></li>
+      <li data-tags="[medicina apresentações]"><a href="https://www.aesclepius.com.br/apresentacoes/">Minhas apresentações</a></li>
+      <li data-tags="[Medicina Resumos]"><a href="https://www.aesclepius.com.br/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
+      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.aesclepius.com.br/antropometria/">Calculadoras de superfície corporal</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.aesclepius.com.br/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
+      <li data-tags="[obstetrícia medicina resumos guias pediatria]"><a href="https://www.aesclepius.com.br/gestacao/">Concepção, gestação, pré-natal e pós-parto</a></li>
+      <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.aesclepius.com.br/hanseniase/">Hanseníase</a></li>
+      <li data-tags="[Intensiva Medicina Emergência]"><a href="https://www.aesclepius.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/taquicardias/">Taquiarritimias: visão geral</a></li>
+      <li data-tags="[Medicina Dor]"><a href="https://www.aesclepius.com.br/analgesias/">Analgesias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/files/">Arquivos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/ia-medica/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+      <li data-tags="[medicina projetos farmacologia]"><a href="https://www.aesclepius.com.br/bulario/">Bulário</a></li>
+      <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.aesclepius.com.br/vacinas/">Imunológicos e vacinas</a></li>
+      <li data-tags="[medicina projetos ciência]"><a href="https://www.aesclepius.com.br/dicionario/">Dicionário</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/hemodinamica/">Hemodinâmica</a></li>
+      <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.aesclepius.com.br/queimados/">Calculadoras para pacientes queimados</a></li>
+      <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.aesclepius.com.br/convulsoes/">Convulsões e grande mal</a></li>
+      <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.aesclepius.com.br/dor-toracica/">Dor torácica</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
+      <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.aesclepius.com.br/banco-de-questoes/">Banco de questões</a></li>
+      <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.aesclepius.com.br/tokyo-guideline/">Colecistite aguda</a></li>
+      <li data-tags="[emergências Medicina Resumos Projetos Calculadoras]"><a href="https://www.aesclepius.com.br/gasometria-arterial/">Distúrbios do pH e gasometria arterial</a></li>
+      <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.aesclepius.com.br/wells-tep/">Tromboembolismo pulmonar</a></li>
+      <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.aesclepius.com.br/sites-uteis/">Websites e páginas úteis</a></li>
+      </ul>
+    <script src=../../baseof-search.js></script>
+  </nav>
+</head>
+
+<body>
+  <article>
+    
+    
+
+    
+    <script src=../../baseof-tema.js></script>
+    
+    
+
+    
+    <h1 id="asclepiusrx">AsclepiusRx</h1>
+<p>O prescritor padrão de Asclepius!</p>
+<p>Acesse em <a href="https://aesclepius.com.br/aesclepiusrx">https://aesclepius.com.br/aesclepiusrx</a>.</p>
+<h2 id="sobre">Sobre</h2>
+<p>O projeto AesclepiusRx oferece uma forma de prescrição de medicações segura, eliminando a necessidade de cálculos por parte do médico.</p>
+<p>O desenvolvimento se baseia na definição de tipos sólidos em Rust, segurança na conversão de unidades e na comparação de valores. Exemplo simples:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">Idade</span> {
+</span></span><span style="display:flex;"><span>    tipo: <span style="color:#a6e22e">IdadeTipo</span>,
+</span></span><span style="display:flex;"><span>    valor: <span style="color:#66d9ef">i32</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">enum</span> <span style="color:#a6e22e">IdadeTipo</span> {
+</span></span><span style="display:flex;"><span>    Meses,
+</span></span><span style="display:flex;"><span>    Anos,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Exemplo mais complexo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#75715e">#[derive(Clone, Debug, PartialEq, Eq, Copy)]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">enum</span> <span style="color:#a6e22e">Volume</span> {
+</span></span><span style="display:flex;"><span>    Ml(Float),
+</span></span><span style="display:flex;"><span>    L(Float),
+</span></span><span style="display:flex;"><span>    Dl(Float),
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">impl</span> Volume {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">/// entrega o valor em `mL`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span>    <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">valor</span>(self) -&gt; <span style="color:#66d9ef">f32</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">match</span> self {
+</span></span><span style="display:flex;"><span>            Volume::Ml(valor) <span style="color:#f92672">=&gt;</span>  valor.<span style="color:#ae81ff">0</span>,
+</span></span><span style="display:flex;"><span>            Volume::L(valor) <span style="color:#f92672">|</span> Volume::Dl(valor) <span style="color:#f92672">=&gt;</span> valor.<span style="color:#ae81ff">0</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000.0</span>,
+</span></span><span style="display:flex;"><span>            Volume::<span style="color:#66d9ef">DL</span>(valor) <span style="color:#f92672">=&gt;</span> valor.<span style="color:#ae81ff">0</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">100.0</span>,
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">/// escreve em `&amp;&#39;static str` a unidade do volume
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span>    <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">unidade</span>(self) -&gt; <span style="color:#66d9ef">&amp;</span>&#39;static <span style="color:#66d9ef">str</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">match</span> self {
+</span></span><span style="display:flex;"><span>            Volume::Ml(_) <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;mL&#34;</span>,
+</span></span><span style="display:flex;"><span>            Volume::L(_) <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;L&#34;</span>,
+</span></span><span style="display:flex;"><span>            Volume::Dl(_) <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;dL&#34;</span>,
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">/// Devolve o tipo `Volume` em `mL`, independente do seu tipo original
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span>    <span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">normalizar</span>(<span style="color:#f92672">&amp;</span>self) -&gt; <span style="color:#a6e22e">Self</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">match</span> self {
+</span></span><span style="display:flex;"><span>            Volume::Ml(valor) <span style="color:#f92672">=&gt;</span> Volume::Ml(Float(valor.<span style="color:#ae81ff">0</span>)),
+</span></span><span style="display:flex;"><span>            Volume::L(valor) <span style="color:#f92672">=&gt;</span> Volume::Ml(Float(valor.<span style="color:#ae81ff">0</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000.0</span>)),
+</span></span><span style="display:flex;"><span>            Volume::Dl(valor) <span style="color:#f92672">=&gt;</span> Volume::Ml(Float(valor.<span style="color:#ae81ff">0</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">100.0</span>)),
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">/// Permite uso idiomático do tipo
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#66d9ef">impl</span> std::fmt::Display <span style="color:#66d9ef">for</span> Volume {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">fmt</span>(<span style="color:#f92672">&amp;</span>self, f: <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">mut</span> std::fmt::Formatter<span style="color:#f92672">&lt;</span>&#39;_<span style="color:#f92672">&gt;</span>) -&gt; <span style="color:#a6e22e">std</span>::fmt::Result {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">match</span> self {
+</span></span><span style="display:flex;"><span>            Volume::Ml(valor) <span style="color:#f92672">=&gt;</span> write!(f, <span style="color:#e6db74">&#34;{}mL&#34;</span>, valor),
+</span></span><span style="display:flex;"><span>            Volume::L(valor) <span style="color:#f92672">=&gt;</span> write!(f, <span style="color:#e6db74">&#34;{}L&#34;</span>, valor),
+</span></span><span style="display:flex;"><span>            Volume::Dl(valor) <span style="color:#f92672">=&gt;</span> write!(f, <span style="color:#e6db74">&#34;{}dL&#34;</span>, valor),
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Note-se a segurança de tipos, o uso de unidades internacionais e o caráter idiomático.</p>
+<h2 id="desenvolvimento-e-contribuição">Desenvolvimento e contribuição</h2>
+<p>Se você é desenvolvedor web ou Rust interessado no projeto, entre em contato por <a href="https://t.me/fatiservae">Telegram</a>.</p>
+<p>Consulte <code>LICENCE.md</code> e <code>CONTRIBUTING.md</code> (em breve).</p>
+<h2 id="aviso-legal">Aviso legal</h2>
+<p><strong>Este software não substitui o julgamento médico sobre a administração, uso, suspensão, recomendação, aplicação, medida, comparação e dispensação de quaisquer drogas ou medicamentos.</strong></p>
+
+    
+    
+    <br>
+<div style="" class=taglist>
+  <a id="tag_medicina" href="https://www.aesclepius.com.br/tags/medicina">medicina</a> &middot; 
+  <a id="tag_programação" href="https://www.aesclepius.com.br/tags/programa%C3%A7%C3%A3o">programação</a> &middot; 
+  <a id="tag_projetos" href="https://www.aesclepius.com.br/tags/projetos">projetos</a> &middot; 
+  <a id="tag_rust" href="https://www.aesclepius.com.br/tags/rust">rust</a></div>
+    
+    
+    <br>
+    <a href='#' onClick="retornaTopo()"><b><span class="material-icons">vertical_align_top</span></b></a>
+    
+    <script>
+      function retornaTopo() {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </article>
+  <footer>
+    <hr>
+    <br>
+    <a href="https://www.jeffersontorres.com.br">Desenvolvido por Jefferson T. @2025 </a>
+    <br>
+    <br>
+    <br>
+    <p>Este <i>website</i> se destina a profissionais de saúde e pode conter mídias e informações sensíveis. Todo o
+      conteúdo deve ser entendido como informação geral médica para fins acadêmicos. O autor não se responsabiliza por
+      <b>nenhuma</b> forma de uso das informações disponibilizadas neste domínio <i>web</i>.
+    </p>
+  </footer>
+  
+</body>
+
+</html>
