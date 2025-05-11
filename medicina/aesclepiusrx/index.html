@@ -261,9 +261,9 @@ Note-se a segurança de tipos, o uso de unidades internacionais e o caráter idi
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#66d9ef">impl</span> std::fmt::Display <span style="color:#66d9ef">for</span> Volume {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">fmt</span>(<span style="color:#f92672">&amp;</span>self, f: <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">mut</span> std::fmt::Formatter<span style="color:#f92672">&lt;</span>&#39;_<span style="color:#f92672">&gt;</span>) -&gt; <span style="color:#a6e22e">std</span>::fmt::Result {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">match</span> self {
-</span></span><span style="display:flex;"><span>            Volume::Ml(valor) <span style="color:#f92672">=&gt;</span> write!(f, <span style="color:#e6db74">&#34;{}mL&#34;</span>, valor),
-</span></span><span style="display:flex;"><span>            Volume::L(valor) <span style="color:#f92672">=&gt;</span> write!(f, <span style="color:#e6db74">&#34;{}L&#34;</span>, valor),
-</span></span><span style="display:flex;"><span>            Volume::Dl(valor) <span style="color:#f92672">=&gt;</span> write!(f, <span style="color:#e6db74">&#34;{}dL&#34;</span>, valor),
+</span></span><span style="display:flex;"><span>            Volume::Ml(valor) <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">write!</span>(f, <span style="color:#e6db74">&#34;{}mL&#34;</span>, valor),
+</span></span><span style="display:flex;"><span>            Volume::L(valor) <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">write!</span>(f, <span style="color:#e6db74">&#34;{}L&#34;</span>, valor),
+</span></span><span style="display:flex;"><span>            Volume::Dl(valor) <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">write!</span>(f, <span style="color:#e6db74">&#34;{}dL&#34;</span>, valor),
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
