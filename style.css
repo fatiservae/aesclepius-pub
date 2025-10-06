@@ -1296,6 +1296,7 @@ h6 {
 }
 
 h1,
+h3,
 h2 {
   font-size: 110%;
   margin-top: 15vh;
@@ -1305,7 +1306,6 @@ h2:nth-of-type(1) {
   margin-top: 0px;
 }
 
-h3,
 h4,
 h5,
 h6 {
@@ -1477,3 +1477,80 @@ hr {
   /* Força a opacidade total */
   opacity: 1 !important;
 }
+
+
+
+
+
+@media print {
+  * {
+    font-family: monospace;
+    --borderColor: black;
+    --stdBorder: 1px solid black;
+    --borders: 1px solid black;
+  }
+
+  #metxt {
+    color: darkred;
+  }
+
+  table,
+  th,
+  tr,
+  td {
+    /* border: 1px solid black; */
+    /* border-collapse: collapse; */
+  }
+
+  table {}
+
+  p {
+    text-align: justify;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  body {}
+
+  p {
+    page-break-inside: avoid;
+  }
+
+  #TableOfContents,
+  #h2toc {
+    display: none;
+  }
+
+  #retornaTop {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    page-break-after: avoid;
+  }
+
+  #notas,
+  .me,
+  nav.barra,
+  .taglist,
+  footer,
+  .aoTopo,
+  .aoInicio {
+    display: none;
+  }
+
+  .page-break {
+    page-break-before: always; /* ou page-break-after */
+  }
+}
+
+
+
