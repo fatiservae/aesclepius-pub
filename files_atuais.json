@@ -198,12 +198,30 @@
     "path": "Medicina/Manuais médicos"
   },
   {
+    "name": "guia-animais-peconhentos-do-brasil-2024.pdf",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "9.62 MB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
     "name": "modelo-historia-clinica.txt",
     "subjects": [
       "Medicina",
       "Manuais médicos"
     ],
-    "size": "3.30 KB",
+    "size": "3.35 KB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
+    "name": "modelo-mantevida.txt",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "2.48 KB",
     "path": "Medicina/Manuais médicos"
   },
   {
@@ -259,6 +277,25 @@
     ],
     "size": "741.79 KB",
     "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "PALS-2021-fluxos.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "185.50 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "2020-manifestacoes-cutaneas-doencas-reumaticas.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "23.91 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
     "name": "Manual_Uropediatria-Final.pdf",
@@ -418,6 +455,26 @@
       "SBP-Sociedade-Brasileira-Pediatria"
     ],
     "size": "1.01 MB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "guia-pratico-diarreia-infecciosa-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "930.57 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "guia-pratico-lavagem-nasal.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "2.48 MB",
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
@@ -608,6 +665,16 @@
       "SBP-Sociedade-Brasileira-Pediatria"
     ],
     "size": "951.96 KB",
+    "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
+  },
+  {
+    "name": "pediatra-no-estresse-toxico-2017.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria",
+      "SBP-Sociedade-Brasileira-Pediatria"
+    ],
+    "size": "845.18 KB",
     "path": "Medicina/Pediatria/SBP-Sociedade-Brasileira-Pediatria"
   },
   {
@@ -916,6 +983,15 @@
     "path": "Medicina/Pediatria"
   },
   {
+    "name": "reanimacao_neonatal_extensivo_sanar_2020.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "288.40 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
     "name": "rotinas-assistenciais-HMIB-2022.pdf",
     "subjects": [
       "Medicina",
@@ -967,6 +1043,15 @@
       "Pediatria"
     ],
     "size": "181.85 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "solicitao-uti.txt",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "2.09 KB",
     "path": "Medicina/Pediatria"
   },
   {
