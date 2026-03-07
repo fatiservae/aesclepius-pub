@@ -12,8 +12,8 @@
   <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
   
 <script type="module">
-import init, * as bindings from '/aesclepiusrx/aesclepiusrx.js';
-const wasm = await init({ module_or_path: '/aesclepiusrx/aesclepiusrx_bg.wasm' });
+import init, * as bindings from '/aesclepiusrx-ad9e44b2baa690d2.js';
+const wasm = await init({ module_or_path: '/aesclepiusrx-ad9e44b2baa690d2_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -23,9 +23,9 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
   <!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option -->
-  <base href="/aesclepiusrx/" />
+  <base href="/" />
 
-  <link rel="icon" href="/aesclepiusrx/favicon.ico" integrity="sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"/>
+  <link rel="icon" href="/favicon-52c7c97fb3313296.ico" integrity="sha384-IjXsKtWVfsDwfjRcjTjyd4E9+r6fnuu6tzCBUOsn6nuotQJ9nOzmFF3Lx5YVuk6l"/>
 
 
   
@@ -127,7 +127,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
       }
     }
   </style>
-<link rel="modulepreload" href="/aesclepiusrx/aesclepiusrx.js" crossorigin="anonymous" integrity="sha384-zGKDrIVK+S7iSNXwfR5uuVNdAdwDXuXP28lOycHejfhewhT9yLvdqCQf+eLjSg4M"><link rel="preload" href="/aesclepiusrx/aesclepiusrx_bg.wasm" crossorigin="anonymous" integrity="sha384-bBE9XtP6ip5e8bsdA+1X5nvx7QYEAmnJgNz+10khm5djT6XGmrAPdA2kBbyVLGcC" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/aesclepiusrx-ad9e44b2baa690d2.js" crossorigin="anonymous" integrity="sha384-jK0bwz68pqYZX3jfpS7yKmEbR7qTR6MNo3V58q7uauaCq7QJjMun8Uy+Zma68PUh"><link rel="preload" href="/aesclepiusrx-ad9e44b2baa690d2_bg.wasm" crossorigin="anonymous" integrity="sha384-AQ96RnH0BG+o5Zhxi0ULVKuHaObmqsW17uRiDQIUi5KmiuhlM6WaGMmFEhDQigrm" as="fetch" type="application/wasm"></head>
 
 <body>
   <!-- The WASM code will resize the canvas dynamically -->
@@ -135,24 +135,155 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
   <canvas id="the_canvas_id"></canvas>
 
   <!-- the loading spinner will be removed in main.rs -->
-  <div class="centered" id="loading_text">
-    <p style="font-size:16px">
-      Loading…
-    </p>
-    <div class="lds-dual-ring"></div>
-  </div>
+  <!-- <div class="centered" id="loading_text"> -->
+    <!-- <p style="font-size:16px"> -->
+      <!-- Loading… -->
+    <!-- </p> -->
+    <!-- <div class="lds-dual-ring"></div> -->
+  <!-- </div> -->
 
   <!--Register Service Worker. this will cache the wasm / js scripts for offline use (for PWA functionality). -->
   <!-- Force refresh (Ctrl + F5) to load the latest files instead of cached files  -->
-  <script>
+  <script type="module">
     // We disable caching during development so that we always view the latest version.
-    if ('serviceWorker' in navigator && window.location.hash !== "#dev") {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.js');
-      });
+    <!-- if ('serviceWorker' in navigator && window.location.hash !== "#dev") { -->
+      <!-- window.addEventListener('load', function () { -->
+        <!-- navigator.serviceWorker.register('sw.js'); -->
+      <!-- }); -->
+    <!-- } -->
+
+  import init from "./aesclepiusrx.js";
+    init();  </script>
+<script>"use strict";
+
+(function () {
+
+    const address = '{{__TRUNK_ADDRESS__}}';
+    const base = '{{__TRUNK_WS_BASE__}}';
+    let protocol = '';
+    protocol =
+        protocol
+            ? protocol
+            : window.location.protocol === 'https:'
+                ? 'wss'
+                : 'ws';
+    const url = protocol + '://' + address + base + '.well-known/trunk/ws';
+
+    class Overlay {
+        constructor() {
+            // create an overlay
+            this._overlay = document.createElement("div");
+            const style = this._overlay.style;
+            style.height = "100vh";
+            style.width = "100vw";
+            style.position = "fixed";
+            style.top = "0";
+            style.left = "0";
+            style.backgroundColor = "rgba(222, 222, 222, 0.5)";
+            style.fontFamily = "sans-serif";
+            // not sure that's the right approach
+            style.zIndex = "1000000";
+            style.backdropFilter = "blur(1rem)";
+
+            const container = document.createElement("div");
+            // center it
+            container.style.position = "absolute";
+            container.style.top = "30%";
+            container.style.left = "15%";
+            container.style.maxWidth = "85%";
+
+            this._title = document.createElement("div");
+            this._title.innerText = "Build failure";
+            this._title.style.paddingBottom = "2rem";
+            this._title.style.fontSize = "2.5rem";
+
+            this._message = document.createElement("div");
+            this._message.style.whiteSpace = "pre-wrap";
+
+            const icon= document.createElement("div");
+            icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#dc3545" viewBox="0 0 16 16"><path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>';
+            this._title.prepend(icon);
+
+            container.append(this._title, this._message);
+            this._overlay.append(container);
+
+            this._inject();
+            window.setInterval(() => {
+                this._inject();
+            }, 250);
+        }
+
+        set reason(reason) {
+            this._message.textContent = reason;
+        }
+
+        _inject() {
+            if (!this._overlay.isConnected) {
+                // prepend it
+                document.body?.prepend(this._overlay);
+            }
+        }
+
     }
-  </script>
-</body>
+
+    class Client {
+        constructor(url) {
+            this.url = url;
+            this.poll_interval = 5000;
+            this._overlay = null;
+        }
+
+        start() {
+            const ws = new WebSocket(this.url);
+            ws.onmessage = (ev) => {
+                const msg = JSON.parse(ev.data);
+                switch (msg.type) {
+                    case "reload":
+                        this.reload();
+                        break;
+                    case "buildFailure":
+                        this.buildFailure(msg.data)
+                        break;
+                }
+            };
+            ws.onclose = () => this.onclose();
+        }
+
+        onclose() {
+            window.setTimeout(
+                () => {
+                    // when we successfully reconnect, we'll force a
+                    // reload (since we presumably lost connection to
+                    // trunk due to it being killed, so it will have
+                    // rebuilt on restart)
+                    const ws = new WebSocket(this.url);
+                    ws.onopen = () => window.location.reload();
+                    ws.onclose = () => this.onclose();
+                },
+                this.poll_interval);
+        }
+
+        reload() {
+            window.location.reload();
+        }
+
+        buildFailure({reason}) {
+            // also log the console
+            console.error("Build failed:", reason);
+
+            console.debug("Overlay", this._overlay);
+
+            if (!this._overlay) {
+                this._overlay = new Overlay();
+            }
+            this._overlay.reason = reason;
+        }
+    }
+
+    new Client(url).start();
+
+})()
+</script></body>
 
 </html>
 

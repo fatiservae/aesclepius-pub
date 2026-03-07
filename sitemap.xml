@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.aesclepius.com.br/</loc>
-    <lastmod>2025-11-11T09:52:38-03:00</lastmod>
+    <lastmod>2026-01-11T23:27:14-03:00</lastmod>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/piolho/</loc>
+    <lastmod>2026-01-11T23:27:14-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/tags/hematologia/</loc>
     <lastmod>2025-11-11T09:52:38-03:00</lastmod>
@@ -22,9 +25,6 @@
   </url><url>
     <loc>https://www.aesclepius.com.br/tipos_sanguineos/</loc>
     <lastmod>2025-11-11T09:52:38-03:00</lastmod>
-  </url><url>
-    <loc>https://www.aesclepius.com.br/pericias/</loc>
-    <lastmod>2025-09-28T07:09:07-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/medicina/</loc>
     <lastmod>2025-05-06T14:46:30-03:00</lastmod>
@@ -302,9 +302,6 @@
     <loc>https://www.aesclepius.com.br/tags/guias/</loc>
     <lastmod>2024-01-28T20:44:01-03:00</lastmod>
   </url><url>
-    <loc>https://www.aesclepius.com.br/ia-medica/</loc>
-    <lastmod>2024-01-21T09:07:53-03:00</lastmod>
-  </url><url>
     <loc>https://www.aesclepius.com.br/hanseniase/</loc>
     <lastmod>2024-01-07T14:43:03-03:00</lastmod>
   </url><url>
@@ -322,6 +319,9 @@
   </url><url>
     <loc>https://www.aesclepius.com.br/files/</loc>
     <lastmod>2023-12-23T20:13:59-03:00</lastmod>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/ia-medica/</loc>
+    <lastmod>2023-12-23T20:04:39-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/ia-medica/llmedica/</loc>
     <lastmod>2023-12-23T20:04:39-03:00</lastmod>
@@ -375,5 +375,7 @@
     <lastmod>1969-12-31T21:33:44-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/categories/</loc>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/pericias/</loc>
   </url>
 </urlset>
