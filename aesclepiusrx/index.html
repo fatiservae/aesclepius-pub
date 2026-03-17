@@ -12,8 +12,8 @@
   <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
   
 <script type="module">
-import init, * as bindings from '/aesclepiusrx/aesclepiusrx-a18b1055c2cb1772.js';
-const wasm = await init({ module_or_path: '/aesclepiusrx/aesclepiusrx-a18b1055c2cb1772_bg.wasm' });
+import init, * as bindings from '/aesclepiusrx/aesclepiusrx-1f5d020bd323244e.js';
+const wasm = await init({ module_or_path: '/aesclepiusrx/aesclepiusrx-1f5d020bd323244e_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -127,7 +127,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
       }
     }
   </style>
-<link rel="modulepreload" href="/aesclepiusrx/aesclepiusrx-a18b1055c2cb1772.js" crossorigin="anonymous" integrity="sha384-FRR/+z19+YlmWQS5IuiZEh5fYnASb8lXdYGpdSYUpMA4DuihGqS9QRb770HjnGzb"><link rel="preload" href="/aesclepiusrx/aesclepiusrx-a18b1055c2cb1772_bg.wasm" crossorigin="anonymous" integrity="sha384-n5w9x3miFWaTc0zLJID3t9F8YMCjdgLoxeJQUSpmVrCAy47jh276cr9I8F3uAH8G" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/aesclepiusrx/aesclepiusrx-1f5d020bd323244e.js" crossorigin="anonymous" integrity="sha384-8DfyzPVpf1EZDnnCSAwt8zKmOyqHld7FnIsftmCKJZJKm/cK/icBNRFy5jsF+PkJ"><link rel="preload" href="/aesclepiusrx/aesclepiusrx-1f5d020bd323244e_bg.wasm" crossorigin="anonymous" integrity="sha384-tG/BAsemF5U5TkDEAi9w4D9x7cqTphWwCiIvV7VWI3FkWXakh73BsBfxqPpwrKq6" as="fetch" type="application/wasm"></head>
 
 <body>
   <!-- The WASM code will resize the canvas dynamically -->
