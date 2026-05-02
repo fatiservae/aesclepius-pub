@@ -1233,6 +1233,11 @@ td {
   content: ">";
   font-style: bold;
 }
+table > caption {
+  text-align: left;
+  padding-top: 2ch;
+  caption-side: bottom; /* ou top */
+}
 
 pre,
 blockquote {
