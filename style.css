@@ -486,6 +486,9 @@ code {
   content: "🩺💉 ";
 }
 
+#tag_gastro::before {
+  content: "🍤 ";
+}
 #tag_oncologia::before {
   content: "🎗️ ";
 }
