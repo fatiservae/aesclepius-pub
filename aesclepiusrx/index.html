@@ -2,28 +2,51 @@
 <html>
 <!DOCTYPE html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<meta name="viewport"
+      content="width=device-width,
+               initial-scale=1,
+               maximum-scale=1,
+               minimum-scale=1,
+               user-scalable=no,
+               viewport-fit=cover">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" /> -->
   <meta charset="utf-8">
   <style>
-    html, body {
-      margin: 0;
-      height: 100%;
-    }
-    canvas {
-      width: 100vw;
-      height: 100vh;
-      display: block;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 🔥 importante */
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+  
+    <!-- html, body { -->
+      <!-- margin: 0; -->
+      <!-- height: 100%; -->
+    <!-- } -->
+    <!-- canvas { -->
+      <!-- width: 100vw; -->
+      <!-- height: 100vh; -->
+      <!-- display: block; -->
     }
   </style>
-<link rel="modulepreload" href="/aesclepiusrx/ui-41c082e09267d7cf.js" crossorigin="anonymous" integrity="sha384-CnhqM4YnSOx4whkO7xGsIcPDKveeGkiB0YPeIT3/W6gCh0G6hRqfY4WJ08ONRZ0G"><link rel="preload" href="/aesclepiusrx/ui-41c082e09267d7cf_bg.wasm" crossorigin="anonymous" integrity="sha384-fR34u+aNQs79EbD2OnFMqGMLtFmMGJkPWfYCHR0zrCTW4aK+8AC+5wPXP+zH/2mL" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/aesclepiusrx/ui-916b683e08f6e6a6.js" crossorigin="anonymous" integrity="sha384-uxgRJ7/o8Sa3M5AVUzVIm5QHM4WuTjQ/D5bOurQS40bhjCo0Mu3+Pv/DuPYAA3HG"><link rel="preload" href="/aesclepiusrx/ui-916b683e08f6e6a6_bg.wasm" crossorigin="anonymous" integrity="sha384-ejNqSlPJk7A010ycTTG+q7zPm/hFL1gg6eOulCSWtE/mTe8hQYk1QDwAsqu8NjzC" as="fetch" type="application/wasm"></head>
 <body>
   <canvas id="app"></canvas>
 
   <!-- <script data-trunk src="Cargo.toml"></script> -->
 
 <script type="module">
-import init, * as bindings from '/aesclepiusrx/ui-41c082e09267d7cf.js';
-const wasm = await init({ module_or_path: '/aesclepiusrx/ui-41c082e09267d7cf_bg.wasm' });
+import init, * as bindings from '/aesclepiusrx/ui-916b683e08f6e6a6.js';
+const wasm = await init({ module_or_path: '/aesclepiusrx/ui-916b683e08f6e6a6_bg.wasm' });
 
 
 window.wasmBindings = bindings;
