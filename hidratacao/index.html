@@ -13,6 +13,8 @@
   
   
   
+  <script type="module" src="../baseof-mermaid-theme.js"></script>
+  
   <title>Prescrição de hidratação: um resumo breve | Aesclepius</title>
   <link rel="canonical" href="https://www.aesclepius.com.br/">
   <link rel='stylesheet' type='text/css' href='../style.css'>
@@ -196,6 +198,15 @@ A ressuscitação volêmica é uma medida de urgência, conduta padrão para o d
 <li>A resposta à administração de fluidos costuma ser rápida e pueril. A melhora clínica depende muito mais da correção do distúrbio base.</li>
 <li>A pressão venosa central é o principal preditor de mau prognóstico¹ e deve estar sempre <strong>acima de 65mmHg</strong>.</li>
 </ul>
+<h2 id="fluxograma-pediátrico">Fluxograma pediátrico</h2>
+<pre class="mermaid">graph TD;
+A(Desidratação) -- Leve<br>com aceitação<br>via oral --> B[Quantizar:<br>- diarreias;<br>- vômitos;<br>- tempo do quadro.]
+B --> D
+A -- Grave e Moderada --> C[Expandir com 20ml/Kg]
+C -- Reestabelece<br>via oral --> D[Alta com prescrição<br>de soro via oral<br>50ml/kg*dia]
+C -- Sem aceitação<br>via oral --> E[Internar ou box-observação<br>calcular Holliday-Segar]
+</pre>
+
 <hr>
 <h2 id="notas">Notas</h2>
 <ol>
