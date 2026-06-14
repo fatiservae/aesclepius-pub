@@ -3,7 +3,12 @@
 <!DOCTYPE html>
 <head>
 
-<meta name="viewport"
+<link rel="icon"
+href='data:image/svg+xml,
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="sans" font-size="100" font-weight="bold"> R </text>
+<text x="80%" y="80%" text-anchor="middle" dominant-baseline="middle" font-family="sans" font-size="70" font-weight="bold"> x </text>
+</svg>'><meta name="viewport"
       content="width=device-width,
                initial-scale=1,
                maximum-scale=1,
@@ -38,11 +43,18 @@ canvas {
       <!-- display: block; -->
     }
   </style>
-<link rel="modulepreload" href="/aesclepiusrx/ui-5ccc9b63efeda262.js" crossorigin="anonymous" integrity="sha384-3WKZfF68iTKph/CPBP2YEXoNe8i+SdoUF9cUtmvDcGirP+LlXZcWJfsoYXvfH+b5"><link rel="preload" href="/aesclepiusrx/ui-5ccc9b63efeda262_bg.wasm" crossorigin="anonymous" integrity="sha384-w2zGx8LzlK4WAf+OVJVFjnGogRwTZk7wG0wkB29ACVSzInVAFUpU56rMkjkqTVPM" as="fetch" type="application/wasm"></head>
+
+   <!-- Open Graph -->
+    <meta property="og:title" content="AesclepiusRx">
+    <meta property="og:description" content="Assistente profissional de prescrições médicas">
+    <meta property="og:image" content="https://www.aesclepiusrx.com.br/pix/rx.png">
+    <meta property="og:url" content="https://www.aesclepiusrx.com.br">
+    <meta property="og:type" content="website">  
+<link rel="modulepreload" href="/aesclepiusrx/ui-7fd73fe2ee4884f1.js" crossorigin="anonymous" integrity="sha384-EyRodgGDmoI6ciLAXZRgrAoeiOWkj02IOo+5z2prOOfPFtfR3GlwXO4aukx2E8uW"><link rel="preload" href="/aesclepiusrx/ui-7fd73fe2ee4884f1_bg.wasm" crossorigin="anonymous" integrity="sha384-Ti0I8kVTehFeAsF4MoHt/KCKFU0ZV+e7aCS57YptSOPnC9MIHX2KqhXZYn86twD0" as="fetch" type="application/wasm"></head>
 <body>
 
 <script>
-const APP_VERSION = "0.1.1";
+const APP_VERSION = "0.1.2";
 
 if (localStorage.getItem("app_version") !== APP_VERSION) {
     localStorage.clear();
@@ -55,8 +67,8 @@ if (localStorage.getItem("app_version") !== APP_VERSION) {
   <!-- <script data-trunk src="Cargo.toml"></script> -->
 
 <script type="module">
-import init, * as bindings from '/aesclepiusrx/ui-5ccc9b63efeda262.js';
-const wasm = await init({ module_or_path: '/aesclepiusrx/ui-5ccc9b63efeda262_bg.wasm' });
+import init, * as bindings from '/aesclepiusrx/ui-7fd73fe2ee4884f1.js';
+const wasm = await init({ module_or_path: '/aesclepiusrx/ui-7fd73fe2ee4884f1_bg.wasm' });
 
 
 window.wasmBindings = bindings;
