@@ -55,18 +55,21 @@ canvas {
 
 <script>
 
-document.addEventListener("focusin", e => {
+
+document.addEventListener("focusin", (e) => {
     const el = e.target;
 
     if (el instanceof HTMLInputElement) {
         el.autocapitalize = "none";
+        el.setAttribute("autocapitalize", "none");
+
         el.autocorrect = "off";
-        el.spellcheck = false;
-    };
-    console.log(e.target);
+        el.setAttribute("autocorrect", "off");
+
+        el.inputMode = "email";
+        el.setAttribute("inputmode", "email");
+    }
 });
-
-
 const APP_VERSION = "0.1.2";
 
 if (localStorage.getItem("app_version") !== APP_VERSION) {
