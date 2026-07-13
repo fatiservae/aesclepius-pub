@@ -11,57 +11,17 @@
 
 <head>
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    renderMathInElement(document.body, {
-      delimiters: [
-        {left: "$$", right: "$$", display: true},
-        {left: "$", right: "$", display: false}
-      ]
-    });
-  });
-</script>
-<style>
-.katex{
-  text-align: start !important ;
-  width: fit-content;
-  max-width: 80%;
-  background: none;
-}
-@media only screen and (max-width: 800px){
-  .katex{
-    max-width: 95vw;
-    font-size: 90%;
-  }
-}
-</style>
-
   
   
-  
-  <title>Analgesias | Aesclepius</title>
+  <title>Doenças exantematicas | Aesclepius</title>
   <link rel="canonical" href="https://www.aesclepius.com.br/">
   <link rel='stylesheet' type='text/css' href='../style.css'>
   
   <link rel="icon" href="../favicon.webp">
-  <meta name="description" content="A maior falha da formação médica
-
-
-
-
+  <meta name="description" content="
+Arraste sintomas para o paciente.">
   
-  É só uma picadinha!
-  
-
-Entre as pessoas leigas há um consenso: médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.
-Será?!
-Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.
-A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-a-dia médico.">
-  
-  <meta name="keywords" content="Medicina , Dor">
+  <meta name="keywords" content="dermatologia , emergências , Medicina , Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -185,63 +145,102 @@ A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-
     <script src=../baseof-tema.js></script>
     
     
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#a-maior-falha-da-formação-médica">A maior falha da formação médica</a></li>
-    <li><a href="#benzetacil">Benzetacil</a></li>
-    <li><a href="#botões-anestésicos">Botões anestésicos</a></li>
-    <li><a href="#acesso-venoso-intraósseo">Acesso venoso intraósseo</a></li>
-    <li><a href="#-mais-em-breve">&hellip; mais em breve!</a></li>
-    <li><a href="#referências">Referências</a></li>
-  </ul>
-</nav>
-    
 
     
-    <h2 id="a-maior-falha-da-formação-médica">A maior falha da formação médica</h2>
+    <style>
+.boardpatient{
+    border:2px dashed #999;
+    border-radius: 8px;
+    margin:20px;
+    padding:10px;
+    max-width: 80%;
+    background-image: url("/pix/patient.webp");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.boardpool{
+    border:2px dashed #999;
+    border-radius: 8px;
+    margin:20px;
+    padding:10px;
+    max-width: 80%;
+    background-image: url("/pix/virus.webp");
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 14%;
+}
+.zone{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    min-height: 100px;
+}
+.tag{
+    max-height: 50px;
+    color: white;
+    background: rgba(25, 28, 100, 0.6);
+    display:inline-block;
+    color:white;
+    padding:8px 14px;
+    border: 2px black solid;
+    border-radius:18px;
+    cursor:grab;
+    touch-action:none;
+    user-select:none;
+}
+.diagnoses{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+.diagnosis{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 12px;
+    border-radius:8px;
+}
+.score{
+    font-weight:bold;
+    min-width:40px;
+    text-align:right;
+}
+.dragging{
+    opacity:.85;
+    cursor:grabbing;
+    z-index:9999;
+}
+#pool {
+}
+#patient { 
 
-
-
-<div class="mediaframe">
-  <img src="../pix/medicina/dr-stupid.webp">
-  <figcaption>É só uma picadinha!</figcaption>
-  </img>
+}
+</style>
+<p>Arraste sintomas para o paciente.</p>
+<div class=boardpool>
+<h2>Sintomas</h2>
+<div id="pool" class="zone"></div>
 </div>
-<p>Entre as pessoas leigas há um consenso: <strong>médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.</strong></p>
-<p>Será?!</p>
-<p>Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.</p>
-<p><strong>A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-a-dia médico</strong>.</p>
-<h2 id="benzetacil">Benzetacil</h2>
-<p>No preparo da diluição dos 2.4 milhões de UI de penincilina benzatina, substitua 0.5ml da água destilada por lidocaína a 2%³ ⁴.</p>
-<p>Aplique usando agulha 30x8 sem fricção local. Não seja a tia da vacinação, não faça &ldquo;morrinho&rdquo; de músculo nem aperte o sítio.</p>
-<p>Quanto mais lenta a injeção, menos intensa a dor da aplição, porém mais durável o desconforto.</p>
-<h2 id="botões-anestésicos">Botões anestésicos</h2>
-<p>A base Cochrane já recomenda o ajuste de pH dos anestésicos locais a algum tempo⁶. Porém, sua adoção é muito restrita a centros de excelência. Na verdade, a lidocaína e.g. é 1mil vezes mais ácida que o tecido subcutâneo⁷.</p>
-<p>O preparo ideal é de 1ml de $ HCO_{3}^- $ a 8.4% para cada 10ml de anestésico com vasopressor⁷.</p>
-<p>Porém, é possível ajustes intermediários sem cálculos complexos, tendo em vista que qualquer atenuação da acidez é melhor que nenhuma.</p>
-<h2 id="acesso-venoso-intraósseo">Acesso venoso intraósseo</h2>
-<p>Este procedimento pertence ao departamento da emergência e da medicina pré-hospitalar, portanto, seu problema maior não é a instalação imediata, na cena, e sim o correr do fluido nos minutos e horas que se seguem. Novamente, a lidocaína apresenta boa aplicação neste caso porque seu início de ação e duração são compatíveis com o <em>onset</em> associado ao acesso intraósseo.</p>
-<p>Prepare 40mg para adultos e 0.5mg/Kg para crianças de lidocaína em seringa separada.</p>
-<p>Faça lentamente antes da administração de fluidos, aguardando 2min se possível⁵.</p>
-<h2 id="-mais-em-breve">&hellip; mais em breve!</h2>
-<hr>
-<h2 id="referências">Referências</h2>
-<ol>
-<li>Amir J, Ginat S, Cohen YH, Marcus TE, Keller N, Varsano I. <strong>Lidocaine as a diluent for administration of benzathine penicillin</strong>. G. Pediatr Infect Dis J. 1998 Oct; 17 (10): 890-3. Disponível em: <a href="https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx">https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx</a></li>
-<li>Zeydi AE, Khezri HD. <strong>Can lidocaine be safely used to reduce pain caused by intramuscular penicillin injections? A short literature review</strong>. Oman Med J. 2012 Jul; 27(4): 337. Disponível em: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf</a></li>
-<li>Brasil. Sociedade Brasileira de Cardiologia. <strong>Diretrizes brasileiras para o diagnóstico, tratamento e prevenção da febre reumática.</strong> Arq Bras Cardiol 2009; 93(3 supl.4): 1-18. Disponível em: <a href="http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf">http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf</a></li>
-<li>Prefeitura Municipal de Campinas. Secretaria de Saúde. Departamento de Saúde. Departamento de Vigilância em Saúde. Nota técnica  Nº 001-2017 – SMS. <strong>Ref: Orientações para uso de penicilina benzatina associada a lidocaína 2% para gestantes com sífilis e seus parceiros</strong>. junho, 2017: 4p. Disponível em: <a href="http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf">http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf</a></li>
-<li>Ilicki J, Scholander J. <strong>Lidocaine can reduce the pain of intra-osseous fluid infusion</strong>. Crit Care. 2016 Jun 20;20(1):192. doi: 10.1186/s13054-016-1359-5. PMID: 27320792; PMCID: PMC4913427.</li>
-<li>CEPEDA, M. Soledad et al. <strong>Adjusting the pH of lidocaine for reducing pain on injection</strong>. Cochrane Database of Systematic Reviews, n. 12, 2010.</li>
-<li>Frank SG, Lalonde DH. <strong>How acidic is the lidocaine we are injecting, and how much bicarbonate should we add?</strong>. Can J Plast Surg. 2012 Summer;20(2):71-3. doi: 10.1177/229255031202000207. PMID: 23730153; PMCID: PMC3383550.</li>
-</ol>
+<div class=boardpatient>
+<h2>Paciente</h2>
+<div id="patient" class="zone">
+</div>
+</div>
+<h2>Probabilidade diagnóstica</h2>
+<div id="diagnoses" class="zone diagnoses">
+</div>
+<script src=../exantematicas.js>
+</script>
 
     
     
     <br>
 <div style="" class=taglist>
+  <a id="tag_dermatologia" href="https://www.aesclepius.com.br/tags/dermatologia">dermatologia</a> &middot; 
+  <a id="tag_emergências" href="https://www.aesclepius.com.br/tags/emerg%C3%AAncias">emergências</a> &middot; 
   <a id="tag_medicina" href="https://www.aesclepius.com.br/tags/medicina">medicina</a> &middot; 
-  <a id="tag_dor" href="https://www.aesclepius.com.br/tags/dor">dor</a></div>
+  <a id="tag_calculadoras" href="https://www.aesclepius.com.br/tags/calculadoras">calculadoras</a></div>
     
     
     <br>
