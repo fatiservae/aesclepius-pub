@@ -1,5 +1,14 @@
 const sintomas=[
-"Febre",
+"Amigdalite",
+"Língua em framboesa", 
+"Febre alta",
+"Febre baixa",
+"Centrífugo",
+"0 a 2 anos",
+"2 a 6 anos",
+"6 a 12 anos",
+"Idoso",
+"Maior de 12 anos",
 "Morbiliforme",
 "Linfonodomegalias",
 "Tosse",
@@ -9,8 +18,10 @@ const sintomas=[
 "Conjuntivite",
 "Vesículas",
 "Palmas",
-"Plantas"
+"Plantas",
+"Face"
 ];
+
 
 const pool=document.querySelector("#pool");
 const patient=document.querySelector("#patient");
@@ -29,10 +40,8 @@ for(const s of sintomas){
 }
 
 function installDrag(tag){
-
     let offsetX=0;
     let offsetY=0;
-
     let originalParent=null;
     let nextSibling=null;
 
@@ -110,19 +119,58 @@ calculateScores();
 
 const diseases = [
 {
+  name: "Escarlatina",
+  score: 0,
+  weights: {
+        "Amigdalite": 30,
+        "Língua em framboesa": 60, 
+  }
+},
+{
+  name: "Doença de Kawasaki",
+  score: 0,
+  weights: {
+        "Língua em framboesa": 50, 
+        "Amigdalite": 30,
+  }
+},
+{
+  name: "Mononucleose",
+  score: 0,
+  weights: {
+        "Amigdalite": 40,
+  }
+},
+{
+  name: "Infecção por adenovírus",
+  score: 0,
+  weights: {
+        "Conjuntivite": 30,
+        "Koplik": -90,
+  }
+},
+{
     name: "Sarampo",
     score: 0,
     weights: {
+        "Língua em framboesa": 0, 
+        "Centrífugo": 30,
+        "0 a 2 anos": 20,
+        "2 a 6 anos": 30,
+        "6 a 12 anos": 20,
+        "Idoso": 5,
+        "Maior de 12 anos": 20,
         "Morbiliforme": 30,
-        "Febre": 15,
+        "Febre alta": 10,
+        "Febre baixa": 10,
         "Linfonodomegalias": 20,
         "Tosse": 20,
         "Coriza": 20,
-        "Conjuntivite": 20,
+        "Conjuntivite": 30,
         "Koplik": 99,
-        "Maculopapular": 20,
-        "Face": 20,
-        "Cefalocaudal": 30,
+        "Maculopapular": 30,
+        "Face": 10,
+        "Cefalocaudal": -5,
         "Prurido": -10,
         "Palmas": -20,
         "Plantas": -20,
@@ -133,12 +181,21 @@ const diseases = [
     name: "Eritema infeccioso",
     score: 0,
     weights: {
-        "Morbiliforme": 30,
-        "Febre": 15,
+        "Língua em framboesa": 0, 
+        "Centrífugo": 10,
+        "0 a 2 anos": 30,
+        "2 a 6 anos": 10,
+        "6 a 12 anos": 2,
+        "Maior de 12 anos": 2,
+        "Idoso": -80,
+        "Centrífuga": 0,
+        "Febre alta": 20,
+        "Febre baixa": 5,
+        "Morbiliforme": 10,
         "Linfonodomegalias": 20,
-        "Tosse": 20,
+        "Tosse": 10,
         "Coriza": 20,
-        "Conjuntivite": 20,
+        "Conjuntivite": 10,
         "Koplik": -150,
         "Maculopapular": 50,
         "Face": 20,
@@ -153,11 +210,20 @@ const diseases = [
     name: "Rubéola",
     score: 0,
     weights: {
-        "Febre": 10,
+        "Língua em framboesa": 0, 
+        "0 a 2 anos": 30,
+        "2 a 6 anos": 10,
+        "6 a 12 anos": 2,
+        "Adulto jovem": 20,
+        "Idoso": 5,
+        "Maior de 12 anos": 2,
+        "Centrífuga": 0,
+        "Febre alta": 10,
+        "Febre baixa": 10,
         "Linfonodomegalias": 40,
-        "Tosse": 20,
+        "Tosse": 0,
         "Coriza": 20,
-        "Conjuntivite": 20,
+        "Conjuntivite": 5,
         "Koplik": -150,
         "Maculopapular": 20,
         "Face": 20,
@@ -165,6 +231,7 @@ const diseases = [
         "Prurido": -10,
         "Palmas": -20,
         "Plantas": -20,
+        "Centrífugo": 10,
         "Vesículas": -40
     }
 },
@@ -172,12 +239,21 @@ const diseases = [
     name: "Varicela",
     score: 0,
     weights: {
-        "Febre": 60,
+        "Língua em framboesa": 0, 
+        "0 a 2 anos": 0,
+        "2 a 6 anos": 10,
+        "6 a 12 anos": 2,
+        "Adulto jovem": 20,
+        "Idoso": 5,
+        "Maior de 12 anos": 20,
+        "Febre alta": 30,
+        "Febre baixa": 10,
         "Linfonodomegalias": 30,
-        "Tosse": 10,
-        "Coriza": 10,
-        "Conjuntivite": 40,
-        "Koplik": -150,
+        "Tosse": 5,
+        "Coriza": 0,
+        "Conjuntivite": 5,
+        "Koplik": -90,
+        "Centrífugo": 20,
         "Maculopapular": 20,
         "Face": 20,
         "Cefalocaudal": 30,
@@ -191,27 +267,47 @@ const diseases = [
 function calculateScores(){
 
     const patient = [];
+    let test = false;
 
     document
         .querySelectorAll("#patient .tag")
         .forEach(tag => patient.push(tag.textContent));
 
     for(const disease of diseases){
-
         disease.score = 0;
-
         for(const feature of patient){
-
             disease.score += disease.weights[feature] ?? 0;
 
-        }
 
+            //TODO: separar exantema do resto dos sintomas?
+            if (feature == "Face"
+              || feature == "Língua em framboesa" 
+              || feature == "Centrífugo"
+              || feature == "Morbiliforme"
+              || feature == "Koplik"
+              || feature == "Palmas"
+              || feature == "Plantas"
+              || feature == "Centrífugo") {
+              test = true
+            }
+        }
     }
 
     diseases.sort((a,b)=>b.score-a.score);
 
-    renderDiagnosis();
+    if (test==true) {
+      renderDiagnosis();
+    } else {
+      renderAlert("Selecione algum exantema")
+    }
 
+}
+
+function renderAlert(alert) {
+  
+    const div=document.querySelector("#diagnoses");
+    div.innerHTML=` <div class="diagnosis"> <span>${alert}</span></div>`;
+    
 }
 
 function renderDiagnosis(){
