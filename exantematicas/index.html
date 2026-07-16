@@ -19,7 +19,9 @@
   
   <link rel="icon" href="../favicon.webp">
   <meta name="description" content="
-Arraste sintomas para o paciente.">
+Exantemas enantemas típicos
+Morbiliforme
+Morbili é o nome clássico da rubéola. Trata-se de pequenas maculo-pápulas eritematosas de 3 a 10 mm, avermelhadas, lenticulares ou numulares, permeadas por pele sã, podendo confluir. É o exantema típico do sarampo, porém pode estar presente na rubéola, exantema súbito, nas enteroviroses, riquetsioses, dengue, leptospirose, toxoplasmose, hepatite viral, mononucleose, síndrome de Kawazaki e reações medicamentosas.">
   
   <meta name="keywords" content="dermatologia , emergências , Medicina , Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -148,23 +150,23 @@ Arraste sintomas para o paciente.">
 
     
     <style>
-.boardpatient{
-    border:2px dashed #999;
+h3 {
+   margin-top: 0px; 
+}
+.diagnoses, .boardpatient, .boardpool{
+    border: 2px dashed #999;
     border-radius: 8px;
-    margin:20px;
-    padding:10px;
-    max-width: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.boardpatient{
     background-image: url("/pix/patient.webp");
     background-size: 35vh;
     background-repeat: no-repeat;
     background-position: center;
 }
 .boardpool{
-    border:2px dashed #999;
-    border-radius: 8px;
-    margin:20px;
-    padding:10px;
-    max-width: 80%;
     background-image: url("/pix/virus.webp");
     background-repeat: no-repeat;
     background-position: center;  
@@ -189,6 +191,7 @@ Arraste sintomas para o paciente.">
     touch-action:none;
     user-select:none;
 }
+
 .diagnoses{
     display:flex;
     flex-direction:column;
@@ -217,18 +220,30 @@ Arraste sintomas para o paciente.">
 
 }
 </style>
-<p>Arraste sintomas para o paciente.</p>
+<h2 id="exantemas-enantemas-típicos">Exantemas enantemas típicos</h2>
+<h3 id="morbiliforme">Morbiliforme</h3>
+<p>Morbili é o nome clássico da rubéola. Trata-se de pequenas maculo-pápulas eritematosas de 3 a 10 mm, avermelhadas, lenticulares ou numulares, permeadas por pele sã, podendo confluir. É o exantema típico do sarampo, porém pode estar presente na rubéola, exantema súbito, nas enteroviroses, riquetsioses, dengue, leptospirose, toxoplasmose, hepatite viral, mononucleose, síndrome de Kawazaki e reações medicamentosas.</p>
+<h3 id="escarlatiniforme">Escarlatiniforme</h3>
+<p>Eritema difuso, puntiforme, vermelho vivo, sem solução de continuidade, poupando a região perioral e áspero com sensação de lixa. Pode ser denominado <em>micropapular</em>. É a erupção típica da escarlatina porém pode ser observada na rubéola, síndrome de Kawazaki, reações medicamentosas, miliária e em queimaduras solares.</p>
+<h3 id="urticariforme">Urticariforme</h3>
+<p>Erupção papuloeritematosa de contornos irregulares. Tem relevo elevado. É mais típico em algumas reações medicamentosas, alergias alimentares e em certas coxsackioses, mononucleose e malária.</p>
+<h3 id="purpúrico">Purpúrico</h3>
+<p>A púrpura é um achado cutâneo macular roxa, rubra ou vermelho-acinzentada de borda geralmente regular, pode coalescer e não desaparece à digitopressão. Pode ter tendência ao aparecimento em membros inferiores.</p>
+<h2 id="calculadora">Calculadora</h2>
+<div class=calculadoras>
+Arraste sintomas para o paciente.
 <div class=boardpool>
-<h2>Características do exantema e dos sintomas</h2>
+<h3>Características do exantema e dos sintomas</h3>
 <div id="pool" class="zone"></div>
 </div>
 <div class=boardpatient>
-<h2>Paciente</h2>
+<h3>Paciente</h3>
 <div id="patient" class="zone">
 </div>
 </div>
-<h2>Probabilidade diagnóstica</h2>
+<h3>Probabilidade diagnóstica</h3>
 <div id="diagnoses" class="zone diagnoses">
+</div>
 </div>
 <script src=../exantematicas.js>
 </script>
