@@ -348,7 +348,8 @@ const diseases = [
         "Prurido": 40,
         "Palmas": -20,
         "Plantas": -20,
-        "Vesículas": 30
+        "Vesículas": 30,
+        "Púrpura": -20,
     }
 }
 ];
