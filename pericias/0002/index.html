@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="description"
+  content="Explore uma biblioteca de artigos médicos revisados, abordando temas como prevenção, diagnósticos, tratamentos e novas descobertas na medicina. Ideal para profissionais de saúde.">
+<meta name="keywords"
+  content="artigos de saúde, conteúdo médico, educação médica, doenças, tratamentos, prevenção, pesquisas médicas, blog de saúde">
+<meta name="keywords"
+  content="calculadoras médicas, artigos médicos, saúde, bem-estar, medicina, especialistas em saúde, consulta online, doenças, tratamentos, diagnóstico médico, telemedicina">
+<meta name="robots" content="index, follow">
+<head>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+.laudo-print {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.laudo-print td,
+.laudo-print th,
+.laudo-print tr {
+    border: none;
+    padding: 0;
+}
+
+@media print {
+
+.laudo-print h2 {
+    color: #4a2c20 !important;
+}
+
+.laudo-print h3 {
+    color: #7a523d !important;
+}
+
+table.laudo-print {
+  max-width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2ch !important;
+}
+
+    .page-break {
+        break-before: page !important;
+        page-break-before: always !important;
+    }
+
+    @page {
+        size: A4;
+        margin-right: 0 !important;
+        margin-top: 3cm;
+        margin-bottom: 3cm;
+    }
+
+    .laudo-print {
+        width: 100% !important;
+        border: 0 !important;
+        border-collapse: collapse !important;
+        border-spacing: 0 !important;
+        outline: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .laudo-print tr,
+    .laudo-print td,
+    .laudo-print th {
+        margin-right: 0 !important;
+        border: 0 !important;
+        outline: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+    }
+
+    .laudo-print thead,
+    .laudo-print tbody,
+    .laudo-print tfoot {
+        margin-right: 0 !important;
+        margin-bottom: 3cm;
+        border: 0 !important;
+    }
+    .laudo-print thead{
+        margin-right: 0 !important;
+        margin-top: 3cm;
+    }
+    .laudo-header img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+    }
+
+    .laudo-header strong {
+        display: block;
+        font-size: 14pt;
+        font-weight: 600;
+    }
+
+    .laudo-header span {
+        display: block;
+        font-size: 9pt;
+        color: #666;
+    }
+
+    .laudo-footer {
+        padding-top: 8px;
+        margin-top: 20px;
+        border-top: 1px solid #ccc;
+        font-size: 8pt;
+        line-height: 1.4;
+        color: #666;
+    }
+
+    .laudo-footer strong {
+        font-weight: 500;
+        color: #444;
+    }
+
+    .no-print,
+    nav,
+    body > header:not(.laudo-header),
+    body > footer:not(.laudo-footer) {
+        display: none !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        background-image: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+ .laudo-print thead td {
+        padding-top: 1cm !important;
+        padding-bottom: 1cm !important;
+        padding-left: 0.2cm !important;
+        padding-right: 0 !important;
+    }
+
+    .laudo-print tfoot td {
+        padding-top: 1cm !important;
+        padding-bottom: 1cm !important;
+        padding-left: 0.2cm !important;
+        padding-right: 0 !important;
+    }
+
+    .laudo-print p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    table {
+      margin-right: 0 !important;
+    }
+
+   .laudo-print {
+        width: 100% !important;
+        table-layout: fixed !important;
+    }
+
+    .laudo-print td {
+        width: 100% !important;
+    }
+
+    .laudo-print article {
+        width: 100% !important;
+        max-width: none !important;
+    }    
+}
+@media screen {
+    .laudo-header,
+    .laudo-footer {
+        display: none;
+    }
+}
+</style>
+
+    <meta property="og:title" content="Aesclepius">
+    <meta property="og:description" content="Ferramentas médicas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aesclepius.com.br/pericias/0002/">
+    <meta property="og:image" content="https://www.aesclepius.com.br/favicon2.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.aesclepius.com.br/favicon2.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">    
+  
+  
+  
+  <title>0002 | Aesclepius</title>
+  <link rel="canonical" href="https://www.aesclepius.com.br/">
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  
+  <link rel="icon" href="../../favicon2.png">
+  <meta name="description" content="Preâmbulo
+Dr. Jefferson Torres da Silva, CRM-DF 33.612, médico, perito cadastrado no Tribunal de Justiça do Distrito Federal e Territórios, trazido aos autos na condição de assistente técnico da defesa de Marcelo de Souza Furtado constituída pelo seu defensor Igor Henrique Santos de Souza Rueda, conhece deste processo 0704932-45.2024.8.07.0012 que trata de questão cível com cerne no diagnóstico oportuno de moléstia sofrida pelo coautor Emanuel Santos da Cruz, sexo masculino, menor, com 3 anos de idade incompletos na data do ocorrido, neste parecer tratado doravante como paciente.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+  
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+  <nav class=barra>
+    <a href="../../index.html"><span class="material-icons">home</span></a>
+    <a href="../../files/"><span class="material-icons">inventory_2</span></a>
+    <a href="../../banco-de-questoes/"><span class="material-icons">school</span></a>
+    <a href="../../dicionario/"><span class="material-icons">menu_book</span></a>
+    <a href="../../bulario/"><span class="material-icons">medication</span></a>
+    <a href="../../tags/calculadoras/"><span class="material-icons">calculate</span></a>
+    <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
+    
+    <script>const noglobalsearch = false </script>
+    <div class=divGlobalSearch>
+      <input type="text" id="globalsearch" placeholder="    busca..."></input>
+    </div>
+    <ul id="artlist">
+      <li data-tags=""><a href="https://www.aesclepius.com.br/corticoterapias/">Corticoterapias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/infortunistica/">Infortunística e medicina laboral</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/piolho/">Pediculose, piolhos e sarna</a></li>
+      <li data-tags="[medicina hematologia pediatria obstetrícia]"><a href="https://www.aesclepius.com.br/tipos_sanguineos/">Tipos sanguíneos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/pericias/0002/">0002</a></li>
+      <li data-tags="[medicina infectologia pediatria oncologia]"><a href="https://www.aesclepius.com.br/linfonodomegalia/">Linfonodomegalias</a></li>
+      <li data-tags="[endocrinologia calculadoras esporte]"><a href="https://www.aesclepius.com.br/testosterona/">Testosterona</a></li>
+      <li data-tags="[pediatria emergências pneumologia]"><a href="https://www.aesclepius.com.br/asma/">Asma</a></li>
+      <li data-tags="[pediatria farmacologia calculadoras emergências]"><a href="https://www.aesclepius.com.br/doses-diluicoes-preparos/">Calculadoras de doses, diluições e preparos</a></li>
+      <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
+      <li data-tags="[geriatria pediatria nutrologia dieta]"><a href="https://www.aesclepius.com.br/suplementacao/">Vitaminas e suplementos dietéticos</a></li>
+      <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.aesclepius.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
+      <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.aesclepius.com.br/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
+      <li data-tags="[pneumologia infectologia resumos]"><a href="https://www.aesclepius.com.br/doencas-pulmonares/">Pneumopatias</a></li>
+      <li data-tags="[pediatria emergências trauma]"><a href="https://www.aesclepius.com.br/traumantismo-cranioencefalcio/">Traumatismo craniencefálico</a></li>
+      <li data-tags="[medicina emergências neurologia]"><a href="https://www.aesclepius.com.br/avc/">Acidente vascular cerebral</a></li>
+      <li data-tags="[pediatria medicina]"><a href="https://www.aesclepius.com.br/neonatologia/">Neonatologia e recém-nascidos</a></li>
+      <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.aesclepius.com.br/saude-mulher/">Saúde da mulher</a></li>
+      <li data-tags="[dor medicina urologia]"><a href="https://www.aesclepius.com.br/prostatopatias/">Testículo e prostatopatias</a></li>
+      <li data-tags="[medicina história política Brasil]"><a href="https://www.aesclepius.com.br/sus/">Sistema único de saúde do Brasil</a></li>
+      <li data-tags="[medicina calculadoras projetos]"><a href="https://www.aesclepius.com.br/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
+      <li data-tags="[cirurgia medicina]"><a href="https://www.aesclepius.com.br/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
+      <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.aesclepius.com.br/doenca-renal/">Nefropatias</a></li>
+      <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.aesclepius.com.br/calculadoras-fetais/">Calculadoras fetais</a></li>
+      <li data-tags="[emergências medicina]"><a href="https://www.aesclepius.com.br/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
+      <li data-tags="[medicina infectologia ciência história]"><a href="https://www.aesclepius.com.br/antibioticos/">Antibioticoterapia</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/autismo/">Bases fisiopatológicas do autismo</a></li>
+      <li data-tags="[sociologia medicina]"><a href="https://www.aesclepius.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
+      <li data-tags="[medicina ginecologia emergência]"><a href="https://www.aesclepius.com.br/sangramento-uterino-anormal/">Sangramento uterino anormal</a></li>
+      <li data-tags="[medicina farmacologia]"><a href="https://www.aesclepius.com.br/adiccao/">Adicção: os impactos de diversas drogas</a></li>
+      <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.aesclepius.com.br/receituario/">Documento em papel timbrado</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/febre-reumatica/">Febre reumática</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatopatias/">Hepatopatias</a></li>
+      <li data-tags="[hematologia emergências dermatologia pediatria]"><a href="https://www.aesclepius.com.br/purpuras/">Púrpuras e lesões hemáticas</a></li>
+      <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.aesclepius.com.br/anemias/">Anemias: investigação e tratamento</a></li>
+      <li data-tags="[medicina infectologia]"><a href="https://www.aesclepius.com.br/gastrite/">Gastrite e úlceras gástricas</a></li>
+      <li data-tags="[medicina arboviroses infectologia]"><a href="https://www.aesclepius.com.br/dengue/">Dengue</a></li>
+      <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.aesclepius.com.br/cetoacidose/">Cetoacidose diabética</a></li>
+      <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.aesclepius.com.br/processo-morte/">Processo ativo de morte</a></li>
+      <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.aesclepius.com.br/ventilador-mec/">Simulador de ventilador mecânico</a></li>
+      <li data-tags="[calculadoras Medicina Emergência Cardiologia]"><a href="https://www.aesclepius.com.br/insuficiencia-cardiaca/">Insuficiência cardíaca</a></li>
+      <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.aesclepius.com.br/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
+      <li data-tags="[dermatologia emergências Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/exantematicas/">Doenças exantematicas</a></li>
+      <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.aesclepius.com.br/eletrocardiograma/">Eletrocardiograma</a></li>
+      <li data-tags="[Medicina Projetos]"><a href="https://www.aesclepius.com.br/neoplasias/">Nomeclatura das neoplasias</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/surdez/">Surdez aguda</a></li>
+      <li data-tags="[Medicina Calculadoras Ciência]"><a href="https://www.aesclepius.com.br/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/colesterol/">Dislipidemias</a></li>
+      <li data-tags="[emergências medicina anestesia]"><a href="https://www.aesclepius.com.br/intubacao/">Intubação orotraqueal</a></li>
+      <li data-tags="[medicina apresentações]"><a href="https://www.aesclepius.com.br/apresentacoes/">Minhas apresentações</a></li>
+      <li data-tags="[Medicina Resumos]"><a href="https://www.aesclepius.com.br/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
+      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.aesclepius.com.br/antropometria/">Calculadoras de superfície corporal</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.aesclepius.com.br/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
+      <li data-tags="[obstetrícia medicina resumos guias pediatria]"><a href="https://www.aesclepius.com.br/gestacao/">Concepção, gestação, pré-natal e pós-parto</a></li>
+      <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.aesclepius.com.br/hanseniase/">Hanseníase</a></li>
+      <li data-tags="[Intensiva Medicina Emergência]"><a href="https://www.aesclepius.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/taquicardias/">Taquiarritimias: visão geral</a></li>
+      <li data-tags="[Medicina Dor]"><a href="https://www.aesclepius.com.br/analgesias/">Analgesias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/files/">Arquivos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/ia-medica/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+      <li data-tags="[medicina projetos farmacologia]"><a href="https://www.aesclepius.com.br/bulario/">Bulário</a></li>
+      <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.aesclepius.com.br/vacinas/">Imunológicos e vacinas</a></li>
+      <li data-tags="[medicina projetos ciência]"><a href="https://www.aesclepius.com.br/dicionario/">Dicionário</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/hemodinamica/">Hemodinâmica</a></li>
+      <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.aesclepius.com.br/queimados/">Calculadoras para pacientes queimados</a></li>
+      <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.aesclepius.com.br/convulsoes/">Convulsões e grande mal</a></li>
+      <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.aesclepius.com.br/dor-toracica/">Dor torácica</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
+      <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.aesclepius.com.br/banco-de-questoes/">Banco de questões</a></li>
+      <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.aesclepius.com.br/tokyo-guideline/">Colecistite aguda</a></li>
+      <li data-tags="[emergências Medicina Resumos Projetos Calculadoras]"><a href="https://www.aesclepius.com.br/gasometria-arterial/">Distúrbios do pH e gasometria arterial</a></li>
+      <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.aesclepius.com.br/wells-tep/">Tromboembolismo pulmonar</a></li>
+      <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.aesclepius.com.br/sites-uteis/">Websites e páginas úteis</a></li>
+      </ul>
+    <script src=../../baseof-search.js></script>
+  </nav>
+</head>
+
+<body>
+
+
+
+<table class="laudo-print">
+    <thead>
+        <tr>
+            <td>
+            <div style="display: flex; align-items: center; gap: 14px;">
+                <div class="laudo-header">
+                    <img src="../../favicon2.png" alt="Aesclepius">
+                </div>
+                    <div>
+                        <strong>AESCLEPIUS LTDA</strong><br>
+                        <span>Laudo Médico Pericial</span><br>
+                        <hr style="border: 1px solid darkgray; border-radius: 3px; width: 30vw;">
+                    </div>
+
+                    <div>
+                        <span style="font-family: Caveat; font-size: 200%;">Dr. Jefferson T.</span><br>
+                        <span>CRM-DF 33612</span><br>
+                    </div>
+                    
+            </div>
+            </td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>
+
+  <article>
+    
+    
+
+    
+    <script src=../../baseof-tema.js></script>
+    
+    
+
+    
+    <h2 id="preâmbulo">Preâmbulo</h2>
+<p>Dr. Jefferson Torres da Silva, CRM-DF 33.612, médico, perito cadastrado no Tribunal de Justiça do Distrito Federal e Territórios, trazido aos autos na condição de assistente técnico da defesa de Marcelo de Souza Furtado constituída pelo seu defensor Igor Henrique Santos de Souza Rueda, conhece deste processo 0704932-45.2024.8.07.0012 que trata de questão cível com cerne no diagnóstico oportuno de moléstia sofrida pelo coautor <strong>Emanuel Santos da Cruz</strong>, sexo masculino, menor, com 3 anos de idade incompletos na data do ocorrido, neste parecer tratado doravante como paciente.</p>
+<p>Tendo em vista o caráter <em>deducendi</em> desta perícia e valorizando o digno tempo do magistrado e das respeitosas partes, este parecer poupa-se da qualificação dos elementos e da discussão, bem como do uso excessivo de instrumentos meramente didáticos, analizando diretamente quesitos interpostos à primeira perita no processo e que foram redirigidos a mim pelo defensor do corréu em tela.</p>
+<div class="page-break"></div>
+<h2 id="respostas-aos-quesitos">Respostas aos quesitos</h2>
+<h3 id="1-o-prontuário-médico-e-os-documentos-apresentados-nos-autos-permitem-afirmar-com-base-na-literatura-médica-e-nas-evidências-do-caso-que-o-1º-coautor-já-apresentava-sinais-sugestivos-de-apendicite-aguda-nos-atendimentos-realizados-no-hospital-brasiliense-em-caso-positivo-quais-eram-esses-sinais">1. O prontuário médico e os documentos apresentados nos autos permitem afirmar, com base na literatura médica e nas evidências do caso, que o 1º coautor já apresentava sinais sugestivos de apendicite aguda nos atendimentos realizados no Hospital Brasiliense? Em caso positivo, quais eram esses sinais?</h3>
+<p>No atendimento realizado em 10/03/2024, conforme os registros apresentados, o paciente não apresentava sinais clínicos suficientemente sugestivos de apendicite aguda que permitissem estabelecer, naquele momento, essa hipótese diagnóstica como prioritária.</p>
+<p>Constavam febre, vômitos e diarreia, porém não há registro, nesse atendimento, de dor abdominal com características sugestivas de apendicite: dor localizada em fossa ilíaca direita, migração da dor, defesa ou descompressão dolorosa. Na verdade, os laudos periciais anteriormente trazidos ao processo também desconhecem que, neste primeiro momento no nosocômio questionado, havia sequer um quadro de abdome agudo. Explico: trata-se de entidade clássica médica a síndrome dolorosa abdominal que, quando repentinas, são chamadas abdome agudo por demandarem imediata abordagem. Podem recair em subclassificações utilizadas pela medicina para auxílio de rápida intervenção, como inflamatório, perfurativo, obstrutivo, vascular e hemorrágico. É básico de qualquer médico reconhecer os estados de abdome agudo, principalmente a apendicite, o mais comum dos exemplos, e seu registro em prontuário normalmente elencaria:</p>
+<ul>
+<li>Defesa do abdome ao exame, com o paciente antecipando, evitando ou até mesmo retirando-se das manobras do examinador;</li>
+<li>Clássico sinal de compreensão indolor e descompressão dolorosa da fossa ilíaca; e</li>
+<li>Má localização inicial da dor e progressiva migração ao sítio do flanco e fossa abdominal à direita.</li>
+</ul>
+<p>Nenhum desses sinais ou sintomas foram registrados em prontuários nem alegados pelas perícias prévias.</p>
+<p>Portanto, descarta-se, <strong>categoricamente</strong>, o abdome agudo naquele momento e, por consequência, <strong>o paciente não apresentava sinais sugestivos de apendicite no momento interrogado pelo quesito</strong>. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="page-break"></div>
+<h3 id="2-os-sintomas-relatados-e-registrados-nos-atendimentos-febre-vômitos-diarreia-dor-abdominal-distensão-abdominal-convulsão-febril-entre-outros-justificariam-segundo-as-boas-práticas-médicas-e-protocolos-assistenciais-a-realização-de-exames-de-imagem-ultrassonografia-tomografia-ou-raio-x-abdominal-para-investigação-de-apendicite">2. Os sintomas relatados e registrados nos atendimentos (febre, vômitos, diarreia, dor abdominal, distensão abdominal, convulsão febril, entre outros) justificariam, segundo as boas práticas médicas e protocolos assistenciais, a realização de exames de imagem (ultrassonografia, tomografia ou raio-X abdominal) para investigação de apendicite?</h3>
+<p>Os sintomas descritos podem integrar o diagnóstico diferencial de diversas doenças infecciosas e gastrointestinais, inclusive apendicite. Contudo, <strong>inexiste na literatura médica a indicação de exame de imagem automaticamente pela presença isolada de febre, vômitos ou diarreia</strong>. O médico é um profissional que opera essencialmente por base estatística das doenças e deve elaborar um diagnóstico somando elementos sintomáticos e sinalépticos do paciente, bem como utilizar-se da epidemiologia local para valorar ou desvalorar as hipóteses.</p>
+<p>Nas crianças com suspeita clínica de apendicite, a ultrassonografia é uma modalidade de imagem frequentemente utilizada quando a avaliação clínica não é suficiente. Seu pedido, quando diante de real apendicite clinicamente sugestiva, pode, na verdade, retardar o tratamento<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. A tomografia não deve ser utilizada indiscriminadamente, particularmente em crianças, em razão da exposição à radiação.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> A radiografia simples de abdome, por sua vez, possui papel limitado na investigação específica de apendicite, com o raríssimo sinal de apagamento do psoas, elemento histórico e arcaico já não mais cultivado na ciência médica.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>No atendimento de 10/03/2024, segundo o prontuário apresentado, predominavam febre, vômitos e diarreia, sem registro de quadro de dor abdominal. <strong>Seria, na verdade, incoerente solicitar exames de imagem</strong>.</p>
+<p>Dada a epidemiologia típica do centro-oeste brasileiro, suspeitar de arboviroses era essencial e assim o fez o médico no dia 10/03/24, Dr. Marcelo, ao solicitar testagem para Dengue. Tão embasado estava que em 12/03/24 <strong>o paciente realiza novo teste contra o antígeno NS1 de alta sensibilidade que retorna positivo</strong>, conforme consta dos autos e reproduzo a seguir.</p>
+
+
+
+<div class="mediaframe">
+  <img src="../../pix/medicina/pericias/0002/dengue-upa.png">
+  <figcaption>Teste contra o antígeno NS1 da Dengue solicitado novamente nos laboratórios do IGES-DF com resultado positivo/reagente.</figcaption>
+  </img>
+</div>
+<p>Ergo, <strong>no atendimento realizado dia 10/03/24 não há razões que impusessem a realização de exame de imagem para investigação de apendicite</strong>. Ademais, cabe ressaltar que o Dr. Marcelo acerta em sua hipótese diagnóstica, esta sim, a única corroborada laboratorialmente por teste de alta sensibilidade, como acima demonstrado.</p>
+<div class="page-break"></div>
+<h3 id="3-a-conduta-adotada-pelos-médicos-responsáveis-pelo-atendimento-do-1º-coautor-prescrição-de-sintomáticos-antibióticos-alta-hospitalar-foi-adequada-diante-do-quadro-clínico-apresentado-houve-omissão-imprudência-imperícia-ou-negligência-no-acompanhamento-e-na-investigação-diagnóstica">3. A conduta adotada pelos médicos responsáveis pelo atendimento do 1º coautor (prescrição de sintomáticos, antibióticos, alta hospitalar) foi adequada diante do quadro clínico apresentado? Houve omissão, imprudência, imperícia ou negligência no acompanhamento e na investigação diagnóstica?</h3>
+<p>Considerando os elementos registrados no prontuário, a conduta adotada no atendimento de 10/03/2024 mostrou-se compatível com o quadro clínico então documentado.</p>
+<p>A avaliação médica deve ser realizada de acordo com os dados disponíveis <strong>no momento do atendimento</strong>, e não à luz do diagnóstico posteriormente estabelecido. Naquele momento, estavam registrados febre, vômitos e diarreia, sem documentação de sinais clínicos característicos de apendicite. A alta, acompanhada de tratamento sintomático e <strong>orientação quanto à evolução clínica e ao retorno diante de persistência ou agravamento</strong>, é compatível com uma abordagem prudente quando não há elementos suficientes para caracterizar abdome cirúrgico.<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>A posterior confirmação de apendicite não permite, por si só, concluir que o diagnóstico deveria necessariamente ter sido realizado no atendimento anterior.</p>
+<p>Quanto aos conceitos médico-legais, não se identificam, nos elementos aqui analisados, dados objetivos suficientes para caracterizar <strong>negligência, imprudência ou imperícia</strong>. A existência de diagnóstico diferencial posteriormente não confirmado ou de diagnóstico final diferente daquele inicialmente considerado não constitui, isoladamente, prova de erro profissional.</p>
+<div class="page-break"></div>
+<h3 id="4-a-ausência-de-exames-complementares-de-imagem-eou-a-alta-hospitalar-precoce-contribuíram-para-o-agravamento-do-quadro-clínico-do-1º-coautor-culminando-em-apendicite-complicada-e-sepse-abdominal">4. A ausência de exames complementares de imagem e/ou a alta hospitalar precoce contribuíram para o agravamento do quadro clínico do 1º coautor, culminando em apendicite complicada e sepse abdominal?</h3>
+<p>Não é possível estabelecer, com base nos elementos apresentados, relação causal direta entre a ausência de exame de imagem ou a alta hospitalar e a posterior evolução para apendicite complicada.</p>
+<p>A apendicite apresenta evolução variável e pode inicialmente manifestar-se de forma inespecífica, particularmente na população pediátrica. Embora o diagnóstico oportuno reduza o risco de complicações, não é possível realizar, retrospectivamente, a afirmação contrafactual de que a realização de determinado exame em 10/03/2024 necessariamente teria identificado a doença e evitado sua progressão<sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. Tal fato é tão verdade que há, em inúmeros casos, exames tanto de imagem quanto laboratoriais totalmente dentro da normalidade em apendicites clássicas. Uma coorte de qualidade foi realizada nos Países Baixos revelando que cerca de 2% dos pacientes com exames laboratoriais normais evoluíram com apendicite e não puderam descartar essa possibilidade inclusive para os casos de apendicite dita <em>complicada</em><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>.</p>
+<p>Além disso, a presença posterior de apendicite complicada demonstra a condição encontrada posteriormente, mas <strong>não permite determinar, isoladamente, em que momento o processo inflamatório apendicular se tornou clinicamente detectável nem se a evolução teria sido modificada pela realização de exame de imagem naquele atendimento específico</strong>. A extrapolação temporal na medicina raramente é precisa o suficiente para afirmações categóricas.</p>
+<p>Existem meta-análises que mostram poderosos valores preditivos de apendicite quando existe combinação de vários exames mas estes mesmos estudos ressaltam a impossibilidade iniciar o algoritmo decisivo sem dor abdominal como norte<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. Isto é, <strong>não faz sentido a suspeita de apendicite sem dor abdominal característica</strong>.</p>
+<p>Portanto, não há elementos suficientes para afirmar nexo causal médico entre a ausência de imagem/alta hospitalar e a evolução posterior da doença.</p>
+<div class="page-break"></div>
+<h3 id="5-o-diagnóstico-precoce-e-o-tratamento-adequado-da-apendicite-poderiam-ter-evitado-a-evolução-para-o-quadro-grave-supuração-sepse-necessidade-de-cirurgia-de-emergência-e-cicatriz-extensa">5. O diagnóstico precoce e o tratamento adequado da apendicite poderiam ter evitado a evolução para o quadro grave (supuração, sepse, necessidade de cirurgia de emergência e cicatriz extensa)?</h3>
+<p>De modo geral, o diagnóstico e o tratamento oportunos da apendicite estão associados à redução do risco de perfuração e outras complicações. Entretanto, <strong>não é possível afirmar, especificamente neste caso, que um diagnóstico realizado em momento anterior teria necessariamente evitado a supuração ou modificado o desfecho</strong>.<sup id="fnref3:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref1:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p>A evolução para apendicite complicada depende de múltiplos fatores relacionados à própria doença, ao portador e ao seu tempo de evolução. A literatura realmente reconhece que a apresentação pediátrica pode ser atípica e que o diagnóstico tardio está associado a maior frequência de perfuração,<sup id="fnref4:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> mas também há estudos que reputam responsabilidade ao diagnóstico precoce tanto ao médico como ao paciente, tendo em vista justamente quadros como o ilustrado, atípicos<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>, de evolução inesperada. Porém, a população pediátrica não opera por relatos claros, sempre fidedignos ou precisos e é próprio da especialidade trabalhar com informações menos colaborativas.</p>
+<p>Quanto à cicatriz, sua existência decorre do tratamento cirúrgico realizado. A extensão da incisão está relacionada à necessidade de acesso adequado à cavidade abdominal e às condições encontradas durante o procedimento, especialmente nos casos complicados. Assim, <strong>não é possível atribuir a extensão da cicatriz, isoladamente, a uma suposta demora diagnóstica</strong>. Mesmo a abordagem de apendicite feita no momento mais breve possível cursará com cicatriz cirúrgica, própria do tratamento.</p>
+<p>Por fim, mesmo que houvesse dano cicatricial de qualquer ordem, <strong>esta teria de ser demonstrada por perícia do ato cirúrgico</strong>, o que não é objeto de análise desta perícia.</p>
+<p>No caso concreto, também deve ser distinguida a ocorrência de apendicite supurada da ocorrência de sepse. Conforme os elementos apresentados para análise, houve apendicite supurada, mas não há elementos suficientes, nesta documentação, para afirmar que tenha ocorrido sepse, uma entidade essencialmente de critérios estabelecidos e revisados por comunidades internacionais <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. Esclareço: <strong>a sepse só se comprovaria por, no mínimo, fidedigna descrição de quadro de choque, altos marcadores inflamatórios, gasometria arterial tendente à acidemia e evolução com prolongada antibioticoterapia</strong>.</p>
+<div class="page-break"></div>
+<h3 id="6-a-cicatriz-resultante-da-cirurgia-realizada-no-1º-coautor-é-compatível-com-o-procedimento-de-emergência-para-apendicite-complicada-trata-se-de-sequela-permanente-há-outros-danos-estéticos-ou-funcionais-decorrentes-do-episódio">6. A cicatriz resultante da cirurgia realizada no 1º coautor é compatível com o procedimento de emergência para apendicite complicada? Trata-se de sequela permanente? Há outros danos estéticos ou funcionais decorrentes do episódio?</h3>
+<p>Vide quesito 5.</p>
+<p><em>Adedum</em></p>
+<p>A cicatriz descrita e apresentada é compatível com uma incisão utilizada para apendicectomia, particularmente a incisão de McBurney. A via de acesso depende das condições clínicas, anatômicas e operatórias encontradas, bem como da técnica empregada<sup id="fnref5:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>A cicatriz cutânea decorrente de procedimento cirúrgico constitui alteração anatômica permanente, embora seu aspecto possa sofrer modificações ao longo do processo de maturação cicatricial.</p>
+<p>Com base exclusivamente na descrição e nas fotografias apresentadas, <strong>não foram identificados elementos que permitam caracterizar cicatriz queloidiana, deformidade cicatricial importante ou prejuízo funcional decorrente da cicatriz</strong>. A avaliação definitiva de dano estético, entretanto, deve considerar exame presencial, localização, dimensões, relevo, coloração, mobilidade e repercussão funcional do tecido subjacente.</p>
+<p>Há de se reiterar que a técnica cirúrgica não é objeto desta perícia.</p>
+<div class="page-break"></div>
+<h3 id="7-o-atendimento-prestado-no-hospital-brasiliense-seguiu-os-protocolos-médicos-e-as-diretrizes-da-medicina-baseada-em-evidências-para-casos-de-abdome-agudo-em-crianças">7. O atendimento prestado no Hospital Brasiliense seguiu os protocolos médicos e as diretrizes da medicina baseada em evidências para casos de abdome agudo em crianças?</h3>
+<p>Considerando especificamente o atendimento de 10/03/2024 e os dados registrados no prontuário, <strong>não se encontrava documentado quadro clínico característico de abdome agudo inflamatório ou de apendicite que impusesse, naquele momento, investigação específica por imagem ou tratamento cirúrgico</strong>.</p>
+<p>A medicina baseada em evidências recomenda que a investigação da apendicite pediátrica seja orientada pela combinação da história clínica, exame físico, exames laboratoriais e, quando indicada pela probabilidade clínica, exames de imagem. Não existe recomendação de realização indiscriminada de exames de imagem em toda criança com febre, vômitos ou diarreia.<sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>No Brasil, se levarmos em conta a posição oficial bibliográfica da Sociedade Brasileira de Pediatria, o quadro-score de suspeita para apendicite nem mesmo leva em conta exames de imagens e, como ressaltado anteriormente, atribui maior valor a sensibilidade abdominal clássica do quadro, o chamado abdome defeso<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>:</p>
+
+
+
+<div class="mediaframe">
+  <img src="../../pix/medicina/pericias/0002/sbp1.png">
+  <figcaption>Critérios segundo a Sociedade Brasileira de Pediatria - 2025.</figcaption>
+  </img>
+</div>
+<p>Dessa forma, <strong>não foram identificados, nos elementos analisados, dados suficientes para caracterizar desvio das boas práticas médicas no atendimento em questão</strong>.</p>
+<div class="page-break"></div>
+<h3 id="8-há-elementos-nos-autos-que-permitam-afirmar-que-o-sofrimento-físico-e-psíquico-do-1º-coautor-e-de-sua-genitora-2ª-coautora-decorreu-da-evolução-do-quadro-clínico-em-razão-da-conduta-médica-adotada">8. Há elementos nos autos que permitam afirmar que o sofrimento físico e psíquico do 1º coautor e de sua genitora (2ª coautora) decorreu da evolução do quadro clínico em razão da conduta médica adotada?</h3>
+<p>A evolução de uma doença pode produzir sofrimento físico e repercussões emocionais tanto no paciente quanto em seus familiares. Contudo, a existência desse sofrimento não permite, por si só, estabelecer que tenha sido causado por conduta médica inadequada.</p>
+<p>No caso analisado, os elementos apresentados não permitem estabelecer nexo causal entre o sofrimento relatado e uma conduta médica caracterizada como negligente, imprudente ou imperita.</p>
+<p>A posterior identificação de apendicite complicada também não permite concluir que sua evolução tenha sido determinada pelo atendimento médico anterior. Para essa conclusão seria necessário demonstrar que houve conduta médica inadequada e que essa conduta apresentou relação causal suficientemente estabelecida com o resultado. O discorrer deste laudo <em>deducendi</em> não encontrou prática médica incoerente ou notoriamente errada para subsidiar a identificação de momento pontual da origem do sofrimento. Este parece decorrer mais do próprio processo de adoecimento do que do cuidado recebido.</p>
+<p>Os autos narram um caso atípico de apendicite desvendada fora do seu momento tenro. Sua marcha temporal e sintomática diferenciada não são elementos de prova e sim notas epidemiológicas, isto é, estatística alheia à forma mais comum de apresentação da moléstia. Isto, <em>per si</em>, não é conjunto probatório das condutas e a aludida culpa recai sobre o infortúnio de uma apendicite que superou antibiótico prévio, cursou sem ser aguda e escapou da suspeita diagnóstica pela ausência de dor abdominal. Normalmente, neste caso, a perícia da peça cirúrgica poderia revelar patógenos raros, bactérias conhecidamente resistentes, apêndice de anatomia interna extravagante<sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> etc.</p>
+<p>Portanto, <strong>sob o ponto de vista médico-pericial, não há elementos suficientes para afirmar que o sofrimento físico ou psíquico decorreu de falha na conduta médica adotada no atendimento analisado</strong>.</p>
+<h3 id="9-deseja-a-perita-acrescentar-alguma-observação-técnica-relevante-para-o-esclarecimento-do-juízo">9. Deseja a perita acrescentar alguma observação técnica relevante para o esclarecimento do Juízo?</h3>
+<p>Nada há a acrescentar sob o ponto de vista médico-pericial, <em>no momento</em>.</p>
+<br>
+<br>
+<br>
+<br>
+Brasília, 26 de agosto de 2026.
+<div class=center>
+<p>CRM-DF 33.612</p>
+<p>Dr. Jefferson T.</p>
+</div>
+<div class="page-break"></div>
+<br>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Di Saverio S, Podda M, De Simone B, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. <em>World Journal of Emergency Surgery</em>. 2020;15:27. doi:10.1186/s13017-020-00306-3.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref4:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref5:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Kulik DM, Uleryk E, Maguire JL. Does this child have appendicitis? A systematic review of clinical prediction rules for children with acute abdominal pain. <em>Journal of Clinical Epidemiology</em>. 2013;66(1):95-104. doi:10.1016/j.jclinepi.2012.09.004.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>PAULSON, Erik K.; KALADY, Matthew F.; PAPPAS, Theodore N. Suspected appendicitis. <em>New England Journal of Medicine</em>, v. 348, n. 3, p. 236-242, 2003.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>American College of Radiology. <em>ACR Appropriateness Criteria®: Suspected Appendicitis—Child</em>. American College of Radiology.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Becker C, Kharbanda A. Acute appendicitis in pediatric patients: an evidence-based review. <em>Pediatric Emergency Medicine Practice</em>. 2019;16(9).&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Kim DY, et al. Diagnostic accuracy of history, physical examination, laboratory tests, and point-of-care ultrasound for pediatric acute appendicitis in the emergency department: a systematic review and meta-analysis. <em>Academic Emergency Medicine</em>. 2017.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>de Jonge J, Scheijmans JCG, van Rossem CC, van Geloven AAW, Boermeester MA, Bemelman WA; Snapshot Appendicitis Collaborative Study group. Normal inflammatory markers and acute appendicitis: a national multicentre prospective cohort analysis. <em>Int J Colorectal Dis. 2021 Jul;36(7):1507-1513. doi: 10.1007/s00384-021-03933-7</em>. Epub 2021 Apr 27. PMID: 33907858; PMCID: PMC8195794.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>R E B Andersson, Meta-analysis of the clinical and laboratory diagnosis of appendicitis, <em>British Journal of Surgery</em>, Volume 91, Issue 1, January 2004, Pages 28–37, <a href="https://doi.org/10.1002/bjs.4464">https://doi.org/10.1002/bjs.4464</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>GUIDRY, Scott P.; POOLE, Galen V. The anatomy of appendicitis. <em>The American surgeon</em>, v. 60, n. 1, p. 68-71, 1994.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>DELLINGER, R. Phillip et al. Surviving sepsis campaign. <em>Critical care medicine</em>, v. 51, n. 4, p. 431-444, 2023.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p><em>SOCIEDADE BRASILEIRA DE PEDIATRIA</em>. Tratado de pediatria. 6. ed. Barueri, SP: Manole, 2025.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    
+    
+    
+    
+    
+    <br>
+    <a id="retornaTop" href='#' onClick="retornaTopo()"><b><span class="material-icons">vertical_align_top</span></b></a>
+    
+    <script>
+      function retornaTopo() {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </article>
+
+
+            </td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>
+                <div class="laudo-footer">
+    <strong>Dr. Jefferson Torres CRM-DF 33.612 - Aesclepius Clínica Médica LTDA  59.323.299/0001-68</strong><br>
+                    <big><i>Informação médica, perícias e ferramentas para profissionais de saúde</big></i><br>
+                    contato@jefferson.med.br - (61) 99873-9933
+                </div>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+  <footer>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id=footDocs>
+    Dr. Jefferson Torres CRM-DF 33.612 - Aesclepius Clínica Médica LTDA  59.323.299/0001-68<br>
+    Informação médica, perícias e ferramentas para profissionais de saúde<br>
+    <a href="https://www.jeffersontorres.com.br">Desenvolvido por Jefferson T. @2026 </a>
+    </p>
+    <p id=footDef>
+    Este <i>website</i> se destina a profissionais de saúde e pode conter mídias e informações sensíveis. Todo o
+      conteúdo deve ser entendido como informação geral médica para fins acadêmicos. O autor não se responsabiliza por
+      <b>nenhuma</b> forma de uso das informações disponibilizadas neste domínio <i>web</i>.
+    </p>
+  </footer>
+  
+</body>
+
+</html>
