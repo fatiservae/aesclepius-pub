@@ -154,7 +154,7 @@ function checkAnswer(index) {
     alert('Nenhuma opção marcada para a pergunta!');
   }
 
-  counter.innerHTML = `<span style="color: var(--termo)"> ${prova}</span><br>BANCA: <span style="color:var(--termo)"> ${banca}</span> ANO: <span style="color:var(--termo)"> ${ano}</span><br>Corretas:  <span style="color: var(--verde-servo)">${corrects} </span>Erradas:  <span style="color: var(--vermelho-google)">${errors} </span><br>`
+  counter.innerHTML = `<span style="color: var(--termo)"> ${prova}</span><br>BANCA: <span style="color:var(--termo)"> ${banca}</span> ANO: <span style="color:var(--termo)"> ${ano}</span><br>Corretas:  <span style="color: darkgreen">${corrects} </span>Erradas:  <span style="color: var(--vermelho-google)">${errors} </span><br>`
 }
 prova = "N/A";
 ano = "N/A";
