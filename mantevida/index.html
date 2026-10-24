@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="description"
+  content="Explore uma biblioteca de artigos médicos revisados, abordando temas como prevenção, diagnósticos, tratamentos e novas descobertas na medicina. Ideal para profissionais de saúde.">
+<meta name="keywords"
+  content="artigos de saúde, conteúdo médico, educação médica, doenças, tratamentos, prevenção, pesquisas médicas, blog de saúde">
+<meta name="keywords"
+  content="calculadoras médicas, artigos médicos, saúde, bem-estar, medicina, especialistas em saúde, consulta online, doenças, tratamentos, diagnóstico médico, telemedicina">
+<meta name="robots" content="index, follow">
+<head>
+
+
+    <meta property="og:title" content="Aesclepius">
+    <meta property="og:description" content="Ferramentas médicas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aesclepius.com.br/mantevida/">
+    <meta property="og:image" content="https://www.aesclepius.com.br/favicon2.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.aesclepius.com.br/favicon2.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">    
+  
+  
+  
+  <script type="module" src="../baseof-mermaid-theme.js"></script>
+  
+  <title>mantevida | Aesclepius</title>
+  <link rel="canonical" href="https://www.aesclepius.com.br/">
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  
+  <link rel="icon" href="../favicon2.png">
+  <meta name="description" content="Relatório de análise operacional Mantevida - Pronto-socorro pediátrico (L2 Norte)
+Fluxo de trabalho
+O sistema Tasy comporta a automatização de prescrições conforme protocolos, ferramenta ainda não usada:
+
+
+
+
+  
+  Exemplo de prescrição por rotinas.
+  
+
+
+
+
+
+  
+  Exemplo de prescrição por protocolos.
+  
+
+Plantões matutinos durante a semana
+Tempo médio de passagem de enfermaria: 5h.
+Mapa de calor
+Quantidade de pacientes chamados por plantonista em cada horário matutino em dia útil:
+
+block-beta
+    columns 15
+
+    t1[&#34;07h&#34;]
+    t2[&#34;07:30&#34;]
+    t3[&#34;08h&#34;]
+    t4[&#34;08:30&#34;]
+    t5[&#34;09h&#34;]
+    t6[&#34;09:30&#34;]
+    t7[&#34;10h&#34;]
+    t8[&#34;10:30&#34;]
+    t9[&#34;11h&#34;]
+    t10[&#34;11:30&#34;]
+    t11[&#34;12h&#34;]
+    t12[&#34;12:30&#34;]
+    t13[&#34;13h&#34;]
+    t14[&#34;13:30&#34;]
+    t15[&#34;14h&#34;]
+
+    p1[&#34;1&#34;]
+    p2[&#34;1&#34;]
+    p3[&#34;1&#34;]
+    p4[&#34;1&#34;]
+    p5[&#34;1&#34;]
+    p6[&#34;1&#34;]
+    p7[&#34;2&#34;]
+    p8[&#34;5&#34;]
+    p9[&#34;2&#34;]
+    p10[&#34;2&#34;]
+    p11[&#34;4&#34;]
+    p12[&#34;7&#34;]
+    p13[&#34;7&#34;]
+    p14[&#34;6&#34;]
+    p15[&#34;5&#34;]
+
+    classDef low fill:#d9f0d3,stroke:#aaa,color:#000
+    classDef medium fill:#fee08b,stroke:#aaa,color:#000
+    classDef high fill:#f46d43,stroke:#aaa,color:#000
+    classDef veryhigh fill:#d73027,stroke:#aaa,color:#fff
+
+    class p1,p2,p3,p4,p5,p6,p9,p10 low
+    class p7 medium
+    class p8,p11 high
+    class p12,p13,p14,p15 veryhigh
+
+
+Observa-se uma sobrecarga transicional do fim do plantão matutino, com acúmulo de pacientes por plantonista.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+  
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+  <nav class=barra>
+    <a href="../index.html"><span class="material-icons">home</span></a>
+    <a href="../files/"><span class="material-icons">inventory_2</span></a>
+    <a href="../banco-de-questoes/"><span class="material-icons">school</span></a>
+    <a href="../dicionario/"><span class="material-icons">menu_book</span></a>
+    <a href="../bulario/"><span class="material-icons">medication</span></a>
+    <a href="../tags/calculadoras/"><span class="material-icons">calculate</span></a>
+    <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
+    
+    <script>const noglobalsearch = false </script>
+    <div class=divGlobalSearch>
+      <input type="text" id="globalsearch" placeholder="    busca..."></input>
+    </div>
+    <ul id="artlist">
+      <li data-tags=""><a href="https://www.aesclepius.com.br/mantevida/">mantevida</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/corticoterapias/">Corticoterapias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/infortunistica/">Infortunística e medicina laboral</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/piolho/">Pediculose, piolhos e sarna</a></li>
+      <li data-tags="[medicina hematologia pediatria obstetrícia]"><a href="https://www.aesclepius.com.br/tipos_sanguineos/">Tipos sanguíneos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/pericias/0001/">0001</a></li>
+      <li data-tags="[medicina infectologia pediatria oncologia]"><a href="https://www.aesclepius.com.br/linfonodomegalia/">Linfonodomegalias</a></li>
+      <li data-tags="[endocrinologia calculadoras esporte]"><a href="https://www.aesclepius.com.br/testosterona/">Testosterona</a></li>
+      <li data-tags="[pediatria emergências pneumologia]"><a href="https://www.aesclepius.com.br/asma/">Asma</a></li>
+      <li data-tags="[pediatria farmacologia calculadoras emergências]"><a href="https://www.aesclepius.com.br/doses-diluicoes-preparos/">Calculadoras de doses, diluições e preparos</a></li>
+      <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
+      <li data-tags="[geriatria pediatria nutrologia dieta]"><a href="https://www.aesclepius.com.br/suplementacao/">Vitaminas e suplementos dietéticos</a></li>
+      <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.aesclepius.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
+      <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.aesclepius.com.br/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
+      <li data-tags="[pneumologia infectologia resumos]"><a href="https://www.aesclepius.com.br/doencas-pulmonares/">Pneumopatias</a></li>
+      <li data-tags="[pediatria emergências trauma]"><a href="https://www.aesclepius.com.br/traumantismo-cranioencefalcio/">Traumatismo craniencefálico</a></li>
+      <li data-tags="[medicina emergências neurologia]"><a href="https://www.aesclepius.com.br/avc/">Acidente vascular cerebral</a></li>
+      <li data-tags="[pediatria medicina]"><a href="https://www.aesclepius.com.br/neonatologia/">Neonatologia e recém-nascidos</a></li>
+      <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.aesclepius.com.br/saude-mulher/">Saúde da mulher</a></li>
+      <li data-tags="[dor medicina urologia]"><a href="https://www.aesclepius.com.br/prostatopatias/">Testículo e prostatopatias</a></li>
+      <li data-tags="[medicina história política Brasil]"><a href="https://www.aesclepius.com.br/sus/">Sistema único de saúde do Brasil</a></li>
+      <li data-tags="[medicina calculadoras projetos]"><a href="https://www.aesclepius.com.br/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
+      <li data-tags="[cirurgia medicina]"><a href="https://www.aesclepius.com.br/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
+      <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.aesclepius.com.br/doenca-renal/">Nefropatias</a></li>
+      <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.aesclepius.com.br/calculadoras-fetais/">Calculadoras fetais</a></li>
+      <li data-tags="[emergências medicina]"><a href="https://www.aesclepius.com.br/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
+      <li data-tags="[medicina infectologia ciência história]"><a href="https://www.aesclepius.com.br/antibioticos/">Antibioticoterapia</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/autismo/">Bases fisiopatológicas do autismo</a></li>
+      <li data-tags="[sociologia medicina]"><a href="https://www.aesclepius.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
+      <li data-tags="[medicina ginecologia emergência]"><a href="https://www.aesclepius.com.br/sangramento-uterino-anormal/">Sangramento uterino anormal</a></li>
+      <li data-tags="[medicina farmacologia]"><a href="https://www.aesclepius.com.br/adiccao/">Adicção: os impactos de diversas drogas</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/recurso_primeira_inst/">Recurso 1 Inst</a></li>
+      <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.aesclepius.com.br/receituario/">Documento em papel timbrado</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/febre-reumatica/">Febre reumática</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatopatias/">Hepatopatias</a></li>
+      <li data-tags="[hematologia emergências dermatologia pediatria]"><a href="https://www.aesclepius.com.br/purpuras/">Púrpuras e lesões hemáticas</a></li>
+      <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.aesclepius.com.br/anemias/">Anemias: investigação e tratamento</a></li>
+      <li data-tags="[medicina infectologia]"><a href="https://www.aesclepius.com.br/gastrite/">Gastrite e úlceras gástricas</a></li>
+      <li data-tags="[medicina arboviroses infectologia]"><a href="https://www.aesclepius.com.br/dengue/">Dengue</a></li>
+      <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.aesclepius.com.br/cetoacidose/">Cetoacidose diabética</a></li>
+      <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.aesclepius.com.br/processo-morte/">Processo ativo de morte</a></li>
+      <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.aesclepius.com.br/ventilador-mec/">Simulador de ventilador mecânico</a></li>
+      <li data-tags="[calculadoras Medicina Emergência Cardiologia]"><a href="https://www.aesclepius.com.br/insuficiencia-cardiaca/">Insuficiência cardíaca</a></li>
+      <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.aesclepius.com.br/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
+      <li data-tags="[dermatologia emergências Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/exantematicas/">Doenças exantematicas</a></li>
+      <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.aesclepius.com.br/eletrocardiograma/">Eletrocardiograma</a></li>
+      <li data-tags="[Medicina Projetos]"><a href="https://www.aesclepius.com.br/neoplasias/">Nomeclatura das neoplasias</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/surdez/">Surdez aguda</a></li>
+      <li data-tags="[Medicina Calculadoras Ciência]"><a href="https://www.aesclepius.com.br/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/colesterol/">Dislipidemias</a></li>
+      <li data-tags="[emergências medicina anestesia]"><a href="https://www.aesclepius.com.br/intubacao/">Intubação orotraqueal</a></li>
+      <li data-tags="[medicina apresentações]"><a href="https://www.aesclepius.com.br/apresentacoes/">Minhas apresentações</a></li>
+      <li data-tags="[Medicina Resumos]"><a href="https://www.aesclepius.com.br/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
+      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.aesclepius.com.br/antropometria/">Calculadoras de superfície corporal</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.aesclepius.com.br/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
+      <li data-tags="[obstetrícia medicina resumos guias pediatria]"><a href="https://www.aesclepius.com.br/gestacao/">Concepção, gestação, pré-natal e pós-parto</a></li>
+      <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.aesclepius.com.br/hanseniase/">Hanseníase</a></li>
+      <li data-tags="[Intensiva Medicina Emergência]"><a href="https://www.aesclepius.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/taquicardias/">Taquiarritimias: visão geral</a></li>
+      <li data-tags="[Medicina Dor]"><a href="https://www.aesclepius.com.br/analgesias/">Analgesias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/files/">Arquivos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/ia-medica/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+      <li data-tags="[medicina projetos farmacologia]"><a href="https://www.aesclepius.com.br/bulario/">Bulário</a></li>
+      <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.aesclepius.com.br/vacinas/">Imunológicos e vacinas</a></li>
+      <li data-tags="[medicina projetos ciência]"><a href="https://www.aesclepius.com.br/dicionario/">Dicionário</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/hemodinamica/">Hemodinâmica</a></li>
+      <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.aesclepius.com.br/queimados/">Calculadoras para pacientes queimados</a></li>
+      <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.aesclepius.com.br/convulsoes/">Convulsões e grande mal</a></li>
+      <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.aesclepius.com.br/dor-toracica/">Dor torácica</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
+      <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.aesclepius.com.br/banco-de-questoes/">Banco de questões</a></li>
+      <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.aesclepius.com.br/tokyo-guideline/">Colecistite aguda</a></li>
+      <li data-tags="[emergências Medicina Resumos Projetos Calculadoras]"><a href="https://www.aesclepius.com.br/gasometria-arterial/">Distúrbios do pH e gasometria arterial</a></li>
+      <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.aesclepius.com.br/wells-tep/">Tromboembolismo pulmonar</a></li>
+      <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.aesclepius.com.br/sites-uteis/">Websites e páginas úteis</a></li>
+      </ul>
+    <script src=../baseof-search.js></script>
+  </nav>
+</head>
+
+<body>
+
+
+  <article>
+    
+    
+
+    
+    <script src=../baseof-tema.js></script>
+    
+    
+
+    
+    <h2 id="relatório-de-análise-operacional-mantevida---pronto-socorro-pediátrico-l2-norte">Relatório de análise operacional Mantevida - Pronto-socorro pediátrico (L2 Norte)</h2>
+<h3 id="fluxo-de-trabalho">Fluxo de trabalho</h3>
+<p>O sistema Tasy comporta a automatização de prescrições conforme protocolos, ferramenta ainda não usada:</p>
+
+
+
+<div class="mediaframe">
+  <img src="../pix/medicina/mantevida/tasy-rotinas.png">
+  <figcaption>Exemplo de prescrição por rotinas.</figcaption>
+  </img>
+</div>
+
+
+
+<div class="mediaframe">
+  <img src="../pix/medicina/mantevida/tasy-protocolos.png">
+  <figcaption>Exemplo de prescrição por protocolos.</figcaption>
+  </img>
+</div>
+<h3 id="plantões-matutinos-durante-a-semana">Plantões matutinos durante a semana</h3>
+<p>Tempo médio de passagem de enfermaria: 5h.</p>
+<h3 id="mapa-de-calor">Mapa de calor</h3>
+<p>Quantidade de pacientes chamados por plantonista em cada horário matutino em dia útil:</p>
+<pre class="mermaid">
+block-beta
+    columns 15
+
+    t1["07h"]
+    t2["07:30"]
+    t3["08h"]
+    t4["08:30"]
+    t5["09h"]
+    t6["09:30"]
+    t7["10h"]
+    t8["10:30"]
+    t9["11h"]
+    t10["11:30"]
+    t11["12h"]
+    t12["12:30"]
+    t13["13h"]
+    t14["13:30"]
+    t15["14h"]
+
+    p1["1"]
+    p2["1"]
+    p3["1"]
+    p4["1"]
+    p5["1"]
+    p6["1"]
+    p7["2"]
+    p8["5"]
+    p9["2"]
+    p10["2"]
+    p11["4"]
+    p12["7"]
+    p13["7"]
+    p14["6"]
+    p15["5"]
+
+    classDef low fill:#d9f0d3,stroke:#aaa,color:#000
+    classDef medium fill:#fee08b,stroke:#aaa,color:#000
+    classDef high fill:#f46d43,stroke:#aaa,color:#000
+    classDef veryhigh fill:#d73027,stroke:#aaa,color:#fff
+
+    class p1,p2,p3,p4,p5,p6,p9,p10 low
+    class p7 medium
+    class p8,p11 high
+    class p12,p13,p14,p15 veryhigh
+</pre>
+
+<p>Observa-se uma sobrecarga transicional do fim do plantão matutino, com acúmulo de pacientes por plantonista.</p>
+<p>A carga por plantonista é maior em praticamente todos os dias, tendo em vista a ausência do segundo plantonista enfermarista.</p>
+<h3 id="icterícia-neonatal">Icterícia neonatal</h3>
+<p>O retorno de pacientes com quadro ictérico é aumentado na L2 Norte pela presença da maternidade no local.</p>
+<p>Os pais estão habituados à visitas constantes à unidade porque, em geral, a mãe faz todo acompanhamento obstétrico no mesmo local.</p>
+<p>Retornam, em mais de 90% dos casos, por ictéricia mínima, insegurança do pediatra ambulatorial ou receio em geral.</p>
+<p>Em cerca de 6% dos casos a ictéricia tem valor de fototerapia.</p>
+<pre class="mermaid">xychart-beta
+    title "Retornos por icterícia neonatal — média mensal"
+    x-axis ["Sem necessidade de PS", "Indicação de fototerapia", "Icterícia colestática"]
+    y-axis "Percentual dos retornos (%)" 0 --> 100
+    bar [90, 8, 2]
+</pre>
+
+<p>Claramente, não se trata de uma demanda que atrapalhe o fluxo normal dos atendimentos. Porém, os pais são demandantes de exame. Apesar das indicações de literatura médica, todos tem receios da evolução do quadro e solicitam bilirrubinemia sérica.</p>
+<h4 id="fluxo-proposto">Fluxo proposto</h4>
+<p>Fazer uso da triagem de não urgência (<span style="color: blue">AZUL</span>)</p>
+<ol>
+<li>Iniciar triagem azul para os pacientes com queixa de icterícia e orientar enfermagem a informar ao médico se tratar de queixa única e paciente estável.</li>
+<li>Médico solicitar bilirrubinemia e outros exames antes do antedimento.</li>
+<li>Paciente retorna com orientação de atendimento triagem AZUL (sem tempo de espera definido), devendo aguardar atendimento dos pacientes triados em maior gravidade.</li>
+</ol>
+<p>Além disso, há clara necessidade de orientar melhor o paciente na alta do alojamento conjunto de que haverá uma icterícia normal, branda, reconhecer seu progresso e orientar os pais a registrarem fotos diárias do pacinete em luz natural para análise médica no retorno, se necessário.</p>
+<p>Orientar todos os médicos (alojamento conjunto e pronto-socorro) a imprimir curva de icterícia por tempo de vida do Ministério da Saúde ou OMS e grampear na caderneta da criança.</p>
+<h3 id="triagem-em-ordem-invertida">Triagem em ordem invertida</h3>
+<p>Há cerca de um mês e meio o pronto-socorro opera em triagem invertida, com abertura de ficha cadastral antes da classificação de risco.</p>
+<p>Todos os médicos e outros profissionais de saúde envolvidos podem responder criminalmente segundo os termos do artigo 135-A do Código Penal Brasileiro:</p>
+<pre tabindex="0"><code>Art. 135-A.  Exigir cheque-caução, nota promissória ou qualquer garantia, bem como o preenchimento prévio de formulários administrativos, como condição para o atendimento médico-hospitalar emergencial:  (Incluído pela Lei nº 12.653, de 2012).
+
+Pena - detenção, de 3 (três) meses a 1 (um) ano, e multa. (Incluído pela Lei nº 12.653, de 2012).
+
+Parágrafo único.  A pena é aumentada até o dobro se da negativa de atendimento resulta lesão corporal de natureza grave, e até o triplo se resulta a morte. (Incluído pela Lei nº 12.653, de 2012).
+</code></pre><p>Este fluxo invertido é fruto de desantenção e desqualificação do apoio jurídico do hospital.</p>
+<p>Além disso, os pacientes entendem como tempo de espera toda a duração desde o momento que entram no hospital até o atendimento médico. Esta ordem invertida dilata este tempo porque uma vez com fichas iniciadas, muitos se perdem pela unidade ou não buscam a triagem correta a tempo.</p>
+<h3 id="sinalizações-no-nosocômio">Sinalizações no nosocômio</h3>
+<p>A unidade hospitalar da Asa Norte L2 não conta com sinalização clara da classificação de níveis de emergência de Vancouver. Sem uma placa afixada, há uma cultura entre os pacientes mais frequentadores de solicitarem atendimento direto, adentrarem consultório, avançarem sobre o box de emergência para constatar nível de lotação etc.</p>
+<p><strong>Propostas</strong>:</p>
+<ol>
+<li>Placas claras, grandes, com identificação por cor e nome da cor e tempo de espera.</li>
+<li>Iniciar uso da classificação AZUL.</li>
+</ol>
+
+
+
+<div class="mediaframe">
+  <img src="../pix/medicina/vancouver.png">
+  <figcaption>Exemplo de placa a ser confeccionada e afixada nas dependências do pronto-socorro.</figcaption>
+  </img>
+</div>
+<h3 id="guias-dos-planos-de-saúde">Guias dos planos de saúde</h3>
+<p>Atualmente os médicos assinam, durante os atendimentos, a ficha guia do plano de saúde, vinculada ao atendimento.</p>
+<p>Porém, esta obrigação legal se faz sobre o responsável técnico imediato ou representante legal do quadro médico respectivo daquele atendimento.</p>
+<p>Estas fichas estão circulando pelo hospital com a história clínica e prescrições dos pacientes anexadas, em clara violação do Código de Ética Médica:</p>
+<pre tabindex="0"><code>É vedado ao médico:
+
+Art. 73. Revelar fato de que tenha conhecimento em virtude do exercício de sua profissão, salvo por motivo justo, dever legal ou consentimento, por escrito, do paciente.
+</code></pre><h3 id="protocolos-pediátricos">Protocolos pediátricos</h3>
+<p>Atualmente, o corpo de protocos clínicos propostos são engessamentos da conduta médica, outra clara violação ético-médica.</p>
+<p><strong>Propostas</strong>:</p>
+<ol>
+<li>Hospedar uma página de internet, site, com fluxos <strong>propostos</strong> para quadros mais típicos.</li>
+<li>Afixar junto ao box de emergência os fluxos do PALS mais recente, plastificados.</li>
+</ol>
+<h3 id="tasy">Tasy</h3>
+<p>O sistema Tasy é globalmente utilizado e se trata de um sistema avançado.</p>
+<p>Porém, seu uso exige a figura de um preposto nomeado ou representado pelo próprio responsável técnico para comunicação junto ao corpo de Tecnologia do hospital.</p>
+<p>Existem inúmeros ajustes necessários para pediatria: via inalatória para adrenalina, avisos de doses máximas, salvar prescrições padrões, ajustes em volume de infusão e injeção intramuscular etc.</p>
+<p><strong>Proposta</strong>: posso me voluntariar a fazer interface com equipe de TI para ajustes no Tasy.</p>
+<p>Adendo: se faz mandatório criar uma fórmula Holliday-Segar padronizada para a equipe e gravar um vídeo instrutivo de como criá-la no Tasy.</p>
+<h3></h3>
+<ul>
+<li>Pega plantão</li>
+<li>Aesclepius</li>
+<li>Adaptações de escala</li>
+<li>Ficha triando após guichê, aumentou tempo de espera.</li>
+<li>Triagem triagem triagem triagem</li>
+<li>⁠triagem adiantar bilirrubina, tirar consulta desenvolvimento etc</li>
+<li>⁠outros hospitais tem placa orientando triagens</li>
+<li>⁠fusex tá pagando?</li>
+<li>⁠assino direto um monte de ficha. Não era o coordenador?!</li>
+<li>pagamento o certo é PS primeiro</li>
+</ul>
+<p><em>Ajustes</em></p>
+<ol>
+<li>Protocolo de sepse pediátrico.</li>
+<li>Criar protocolos diferentes junto ao laboratório.
+Ajustes Tasy:</li>
+<li>Via inalatória para soros hipertônicos e adrenalina.</li>
+<li>Tirar aviso de bomba de infusão que sai em algumas prescrições</li>
+<li>⁠Criar padrão de manutenção Holliday</li>
+</ol>
+
+    
+    
+    
+    
+    
+    <br>
+    <a id="retornaTop" href='#' onClick="retornaTopo()"><b><span class="material-icons">vertical_align_top</span></b></a>
+    
+    <script>
+      function retornaTopo() {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </article>
+
+
+<footer>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<p id=footDocs></p>
+<p>Este <i>website</i> se destina a profissionais de saúde e pode conter mídias e informações sensíveis. Todo o conteúdo deve ser entendido como informação geral médica para fins acadêmicos. O autor não se responsabiliza por <b>nenhuma</b> forma de uso das informações disponibilizadas neste domínio <i>web</i>.<br>Aesclepius Clínica Médica LTDA  59.323.299/0001-68<br> Informação médica, perícias e ferramentas para profissionais de saúde<br> <a href='https://www.jeffersontorres.com.br'>Desenvolvido por Jefferson T. @2026 </a>
+</footer>
+
+</body>
+</html>

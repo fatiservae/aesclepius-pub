@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.aesclepius.com.br/</loc>
-    <lastmod>2026-07-07T10:54:02-03:00</lastmod>
+    <lastmod>2026-09-21T18:30:26-03:00</lastmod>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/mantevida/</loc>
+    <lastmod>2026-09-21T18:30:26-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/corticoterapias/</loc>
     <lastmod>2026-07-07T10:54:02-03:00</lastmod>
@@ -31,6 +34,12 @@
   </url><url>
     <loc>https://www.aesclepius.com.br/tipos_sanguineos/</loc>
     <lastmod>2025-11-11T09:52:38-03:00</lastmod>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/pericias/0001/</loc>
+    <lastmod>2025-09-28T07:09:07-03:00</lastmod>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/pericias/</loc>
+    <lastmod>2025-09-28T07:09:07-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/tags/infectologia/</loc>
     <lastmod>2025-03-26T22:53:30-03:00</lastmod>
@@ -198,6 +207,9 @@
     <lastmod>2024-06-20T16:10:46-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/adiccao/</loc>
+    <lastmod>2024-06-17T23:37:33-03:00</lastmod>
+  </url><url>
+    <loc>https://www.aesclepius.com.br/recurso_primeira_inst/</loc>
     <lastmod>2024-06-17T23:37:33-03:00</lastmod>
   </url><url>
     <loc>https://www.aesclepius.com.br/receituario/</loc>
@@ -377,7 +389,5 @@
     <loc>https://www.aesclepius.com.br/categories/</loc>
   </url><url>
     <loc>https://www.aesclepius.com.br/medicina/</loc>
-  </url><url>
-    <loc>https://www.aesclepius.com.br/pericias/</loc>
   </url>
 </urlset>

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="description"
+  content="Explore uma biblioteca de artigos médicos revisados, abordando temas como prevenção, diagnósticos, tratamentos e novas descobertas na medicina. Ideal para profissionais de saúde.">
+<meta name="keywords"
+  content="artigos de saúde, conteúdo médico, educação médica, doenças, tratamentos, prevenção, pesquisas médicas, blog de saúde">
+<meta name="keywords"
+  content="calculadoras médicas, artigos médicos, saúde, bem-estar, medicina, especialistas em saúde, consulta online, doenças, tratamentos, diagnóstico médico, telemedicina">
+<meta name="robots" content="index, follow">
+<head>
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+.laudo-print {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.laudo-print td,
+.laudo-print th,
+.laudo-print tr {
+    border: none;
+    padding: 0;
+}
+
+@media print {
+
+.laudo-print h2 {
+    color: #4a2c20 !important;
+}
+
+.laudo-print h3 {
+    color: #7a523d !important;
+}
+
+table.laudo-print {
+  max-width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2ch !important;
+}
+
+    .page-break {
+        break-before: page !important;
+        page-break-before: always !important;
+    }
+
+    @page {
+        size: A4;
+        margin-right: 0 !important;
+        margin-top: 3cm;
+        margin-bottom: 3cm;
+    }
+
+    .laudo-print {
+        width: 100% !important;
+        border: 0 !important;
+        border-collapse: collapse !important;
+        border-spacing: 0 !important;
+        outline: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .laudo-print tr,
+    .laudo-print td,
+    .laudo-print th {
+        margin-right: 0 !important;
+        border: 0 !important;
+        outline: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+    }
+
+    .laudo-print thead,
+    .laudo-print tbody,
+    .laudo-print tfoot {
+        margin-right: 0 !important;
+        margin-bottom: 3cm;
+        border: 0 !important;
+    }
+    .laudo-print thead{
+        margin-right: 0 !important;
+        margin-top: 3cm;
+    }
+    .laudo-header img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+    }
+
+    .laudo-header strong {
+        display: block;
+        font-size: 14pt;
+        font-weight: 600;
+    }
+
+    .laudo-header span {
+        display: block;
+        font-size: 9pt;
+        color: #666;
+    }
+
+    .laudo-footer {
+        padding-top: 8px;
+        margin-top: 20px;
+        border-top: 1px solid #ccc;
+        font-size: 8pt;
+        line-height: 1.4;
+        color: #666;
+    }
+
+    .laudo-footer strong {
+        font-weight: 500;
+        color: #444;
+    }
+
+    .no-print,
+    nav,
+    body > header:not(.laudo-header),
+    body > footer:not(.laudo-footer) {
+        display: none !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        background-image: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+ .laudo-print thead td {
+        padding-top: 1cm !important;
+        padding-bottom: 1cm !important;
+        padding-left: 0.2cm !important;
+        padding-right: 0 !important;
+    }
+
+    .laudo-print tfoot td {
+        padding-top: 1cm !important;
+        padding-bottom: 1cm !important;
+        padding-left: 0.2cm !important;
+        padding-right: 0 !important;
+    }
+
+    .laudo-print p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    table {
+      margin-right: 0 !important;
+    }
+
+   .laudo-print {
+        width: 100% !important;
+        table-layout: fixed !important;
+    }
+
+    .laudo-print td {
+        width: 100% !important;
+    }
+
+    .laudo-print article {
+        width: 100% !important;
+        max-width: none !important;
+    }    
+}
+@media screen {
+    .laudo-header,
+    .laudo-footer {
+        display: none;
+    }
+}
+</style>
+
+    <meta property="og:title" content="Aesclepius">
+    <meta property="og:description" content="Ferramentas médicas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aesclepius.com.br/recurso_primeira_inst/">
+    <meta property="og:image" content="https://www.aesclepius.com.br/favicon2.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.aesclepius.com.br/favicon2.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">    
+  
+  
+  
+  <title>Recurso 1 Inst | Aesclepius</title>
+  <link rel="canonical" href="https://www.aesclepius.com.br/">
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  
+  <link rel="icon" href="../favicon2.png">
+  <meta name="description" content="Recurso administrativo — Auto de Infração nº YE02572575
+À autoridade competente do DER/DF
+Jefferson Torres da Silva, pessoa física sob o número 035.856.601-00 brasileiro e brasiliense, solteiro, médico e empresário, também já qualificado nos autos do Auto de Infração nº YE02572575, vem, respeitosamente, apresentar RECURSO ADMINISTRATIVO, pelos fundamentos a seguir.
+1. Da abordagem e da insuficiência dos elementos informados ao condutor
+A abordagem ocorreu em 10/08/2025, pela manhã, em feriado de Dia dos Pais, quando o recorrente conduzia seu veículo acompanhado de três senhoras de idade, em deslocamento por via de trânsito tranquilo.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+  
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+  <nav class=barra>
+    <a href="../index.html"><span class="material-icons">home</span></a>
+    <a href="../files/"><span class="material-icons">inventory_2</span></a>
+    <a href="../banco-de-questoes/"><span class="material-icons">school</span></a>
+    <a href="../dicionario/"><span class="material-icons">menu_book</span></a>
+    <a href="../bulario/"><span class="material-icons">medication</span></a>
+    <a href="../tags/calculadoras/"><span class="material-icons">calculate</span></a>
+    <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
+    
+    <script>const noglobalsearch = false </script>
+    <div class=divGlobalSearch>
+      <input type="text" id="globalsearch" placeholder="    busca..."></input>
+    </div>
+    <ul id="artlist">
+      <li data-tags=""><a href="https://www.aesclepius.com.br/mantevida/">mantevida</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/corticoterapias/">Corticoterapias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/infortunistica/">Infortunística e medicina laboral</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/piolho/">Pediculose, piolhos e sarna</a></li>
+      <li data-tags="[medicina hematologia pediatria obstetrícia]"><a href="https://www.aesclepius.com.br/tipos_sanguineos/">Tipos sanguíneos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/pericias/0001/">0001</a></li>
+      <li data-tags="[medicina infectologia pediatria oncologia]"><a href="https://www.aesclepius.com.br/linfonodomegalia/">Linfonodomegalias</a></li>
+      <li data-tags="[endocrinologia calculadoras esporte]"><a href="https://www.aesclepius.com.br/testosterona/">Testosterona</a></li>
+      <li data-tags="[pediatria emergências pneumologia]"><a href="https://www.aesclepius.com.br/asma/">Asma</a></li>
+      <li data-tags="[pediatria farmacologia calculadoras emergências]"><a href="https://www.aesclepius.com.br/doses-diluicoes-preparos/">Calculadoras de doses, diluições e preparos</a></li>
+      <li data-tags="[Pediatria Pneumologia Emergências]"><a href="https://www.aesclepius.com.br/insuficiencia-respiratoria/">Insuficiência respiratória</a></li>
+      <li data-tags="[geriatria pediatria nutrologia dieta]"><a href="https://www.aesclepius.com.br/suplementacao/">Vitaminas e suplementos dietéticos</a></li>
+      <li data-tags="[emergências cardiologia pediatria]"><a href="https://www.aesclepius.com.br/sinais-vitais/">Valores de referência para sinais vitais</a></li>
+      <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.aesclepius.com.br/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
+      <li data-tags="[pneumologia infectologia resumos]"><a href="https://www.aesclepius.com.br/doencas-pulmonares/">Pneumopatias</a></li>
+      <li data-tags="[pediatria emergências trauma]"><a href="https://www.aesclepius.com.br/traumantismo-cranioencefalcio/">Traumatismo craniencefálico</a></li>
+      <li data-tags="[medicina emergências neurologia]"><a href="https://www.aesclepius.com.br/avc/">Acidente vascular cerebral</a></li>
+      <li data-tags="[pediatria medicina]"><a href="https://www.aesclepius.com.br/neonatologia/">Neonatologia e recém-nascidos</a></li>
+      <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.aesclepius.com.br/saude-mulher/">Saúde da mulher</a></li>
+      <li data-tags="[dor medicina urologia]"><a href="https://www.aesclepius.com.br/prostatopatias/">Testículo e prostatopatias</a></li>
+      <li data-tags="[medicina história política Brasil]"><a href="https://www.aesclepius.com.br/sus/">Sistema único de saúde do Brasil</a></li>
+      <li data-tags="[medicina calculadoras projetos]"><a href="https://www.aesclepius.com.br/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
+      <li data-tags="[cirurgia medicina]"><a href="https://www.aesclepius.com.br/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
+      <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.aesclepius.com.br/doenca-renal/">Nefropatias</a></li>
+      <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.aesclepius.com.br/calculadoras-fetais/">Calculadoras fetais</a></li>
+      <li data-tags="[emergências medicina]"><a href="https://www.aesclepius.com.br/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
+      <li data-tags="[medicina infectologia ciência história]"><a href="https://www.aesclepius.com.br/antibioticos/">Antibioticoterapia</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/autismo/">Bases fisiopatológicas do autismo</a></li>
+      <li data-tags="[sociologia medicina]"><a href="https://www.aesclepius.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
+      <li data-tags="[medicina ginecologia emergência]"><a href="https://www.aesclepius.com.br/sangramento-uterino-anormal/">Sangramento uterino anormal</a></li>
+      <li data-tags="[medicina farmacologia]"><a href="https://www.aesclepius.com.br/adiccao/">Adicção: os impactos de diversas drogas</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/recurso_primeira_inst/">Recurso 1 Inst</a></li>
+      <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.aesclepius.com.br/receituario/">Documento em papel timbrado</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/febre-reumatica/">Febre reumática</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.aesclepius.com.br/hepatopatias/">Hepatopatias</a></li>
+      <li data-tags="[hematologia emergências dermatologia pediatria]"><a href="https://www.aesclepius.com.br/purpuras/">Púrpuras e lesões hemáticas</a></li>
+      <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.aesclepius.com.br/anemias/">Anemias: investigação e tratamento</a></li>
+      <li data-tags="[medicina infectologia]"><a href="https://www.aesclepius.com.br/gastrite/">Gastrite e úlceras gástricas</a></li>
+      <li data-tags="[medicina arboviroses infectologia]"><a href="https://www.aesclepius.com.br/dengue/">Dengue</a></li>
+      <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.aesclepius.com.br/cetoacidose/">Cetoacidose diabética</a></li>
+      <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.aesclepius.com.br/processo-morte/">Processo ativo de morte</a></li>
+      <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.aesclepius.com.br/ventilador-mec/">Simulador de ventilador mecânico</a></li>
+      <li data-tags="[calculadoras Medicina Emergência Cardiologia]"><a href="https://www.aesclepius.com.br/insuficiencia-cardiaca/">Insuficiência cardíaca</a></li>
+      <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.aesclepius.com.br/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
+      <li data-tags="[dermatologia emergências Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/exantematicas/">Doenças exantematicas</a></li>
+      <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.aesclepius.com.br/eletrocardiograma/">Eletrocardiograma</a></li>
+      <li data-tags="[Medicina Projetos]"><a href="https://www.aesclepius.com.br/neoplasias/">Nomeclatura das neoplasias</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/surdez/">Surdez aguda</a></li>
+      <li data-tags="[Medicina Calculadoras Ciência]"><a href="https://www.aesclepius.com.br/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/colesterol/">Dislipidemias</a></li>
+      <li data-tags="[emergências medicina anestesia]"><a href="https://www.aesclepius.com.br/intubacao/">Intubação orotraqueal</a></li>
+      <li data-tags="[medicina apresentações]"><a href="https://www.aesclepius.com.br/apresentacoes/">Minhas apresentações</a></li>
+      <li data-tags="[Medicina Resumos]"><a href="https://www.aesclepius.com.br/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
+      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.aesclepius.com.br/antropometria/">Calculadoras de superfície corporal</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.aesclepius.com.br/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
+      <li data-tags="[obstetrícia medicina resumos guias pediatria]"><a href="https://www.aesclepius.com.br/gestacao/">Concepção, gestação, pré-natal e pós-parto</a></li>
+      <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.aesclepius.com.br/hanseniase/">Hanseníase</a></li>
+      <li data-tags="[Intensiva Medicina Emergência]"><a href="https://www.aesclepius.com.br/drogas-vasoativas/">Drogas vasoativas</a></li>
+      <li data-tags="[Medicina]"><a href="https://www.aesclepius.com.br/taquicardias/">Taquiarritimias: visão geral</a></li>
+      <li data-tags="[Medicina Dor]"><a href="https://www.aesclepius.com.br/analgesias/">Analgesias</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/files/">Arquivos</a></li>
+      <li data-tags=""><a href="https://www.aesclepius.com.br/ia-medica/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+      <li data-tags="[medicina projetos farmacologia]"><a href="https://www.aesclepius.com.br/bulario/">Bulário</a></li>
+      <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.aesclepius.com.br/vacinas/">Imunológicos e vacinas</a></li>
+      <li data-tags="[medicina projetos ciência]"><a href="https://www.aesclepius.com.br/dicionario/">Dicionário</a></li>
+      <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.aesclepius.com.br/hemodinamica/">Hemodinâmica</a></li>
+      <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.aesclepius.com.br/queimados/">Calculadoras para pacientes queimados</a></li>
+      <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.aesclepius.com.br/convulsoes/">Convulsões e grande mal</a></li>
+      <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.aesclepius.com.br/dor-toracica/">Dor torácica</a></li>
+      <li data-tags="[medicina ciência]"><a href="https://www.aesclepius.com.br/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
+      <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.aesclepius.com.br/banco-de-questoes/">Banco de questões</a></li>
+      <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.aesclepius.com.br/tokyo-guideline/">Colecistite aguda</a></li>
+      <li data-tags="[emergências Medicina Resumos Projetos Calculadoras]"><a href="https://www.aesclepius.com.br/gasometria-arterial/">Distúrbios do pH e gasometria arterial</a></li>
+      <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.aesclepius.com.br/wells-tep/">Tromboembolismo pulmonar</a></li>
+      <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.aesclepius.com.br/sites-uteis/">Websites e páginas úteis</a></li>
+      </ul>
+    <script src=../baseof-search.js></script>
+  </nav>
+</head>
+
+<body>
+
+
+<table class="laudo-print">
+    <thead>
+        <tr>
+            <td>
+            
+                    <div>
+                        <strong>RECURSO DE 1a INSTÂNCIA</strong><br>
+                        <span>Ao DER/DF</span><br>
+                        <hr style="border: 1px solid darkgray; border-radius: 3px; width: 30vw;">
+                    </div>
+
+                    <div>
+                        <span style="font-family: Caveat; font-size: 200%;"></span><br>
+                        <span></span><br>
+                    </div>
+                    
+            </div>
+            </td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>
+
+  <article>
+    
+    
+
+    
+    <script src=../baseof-tema.js></script>
+    
+    
+
+    
+    <h1 id="recurso-administrativo--auto-de-infração-nº-ye02572575">Recurso administrativo — Auto de Infração nº YE02572575</h1>
+<p>À autoridade competente do DER/DF</p>
+<p><strong>Jefferson Torres da Silva</strong>, pessoa física sob o número 035.856.601-00 brasileiro e brasiliense, solteiro, médico e empresário, também já qualificado nos autos do Auto de Infração nº YE02572575, vem, respeitosamente, apresentar <strong>RECURSO ADMINISTRATIVO</strong>, pelos fundamentos a seguir.</p>
+<h2 id="1-da-abordagem-e-da-insuficiência-dos-elementos-informados-ao-condutor">1. Da abordagem e da insuficiência dos elementos informados ao condutor</h2>
+<p>A abordagem ocorreu em 10/08/2025, pela manhã, em feriado de Dia dos Pais, quando o recorrente conduzia seu veículo acompanhado de três senhoras de idade, em deslocamento por via de trânsito tranquilo.</p>
+<p>Durante a abordagem, o agente não se apresentou adequadamente, não esclareceu a natureza da fiscalização, não informou ao condutor qual procedimento estava sendo realizado, tampouco forneceu qualquer informação acerca do equipamento supostamente utilizado, limitando-se, na prática, a solicitar que o condutor abaixasse o vidro e soprasse um canudo.</p>
+<p>Não houve esclarecimento sobre marca, modelo, identificação ou condições metrológicas do equipamento, nem demonstração, no momento da abordagem, de qualquer circunstância objetiva que permitisse ao condutor compreender a natureza e a finalidade do procedimento que lhe era solicitado. Questionado sobre as alternativas, o agente se limitou a dizer que era obrigatória a realização do procedimento.</p>
+<p>A questão é relevante porque a atuação administrativa sancionatória não se resume à existência abstrata de poder de fiscalização: o auto deve conter a identificação da autoridade, agente ou equipamento que comprovar a infração, e a própria infração deve ser comprovada por meio legalmente admitido e previamente regulamentado.</p>
+<h2 id="2-da-ausência-de-elementos-concretos-que-individualizem-a-situação-fiscalizada">2. Da ausência de elementos concretos que individualizem a situação fiscalizada</h2>
+<p>Não se pretende sustentar que a inexistência de sinais de alteração psicomotora, isoladamente, afaste a infração prevista no art. 165-A do CTB.</p>
+<p>O que se questiona é a consistência concreta do procedimento administrativo.</p>
+<p>O contexto da abordagem — veículo conduzido em circunstâncias ordinárias, em feriado, com três passageiras idosas e em rota de trânsito tranquilo — não constitui prova de qualquer ilícito, mas torna particularmente relevante esclarecer qual era a finalidade específica da averiguação e quais elementos objetivos determinaram a forma pela qual ela foi realizada.</p>
+<p>Se o Estado pretende impor sanção administrativa de elevada gravidade a partir da recusa a determinado procedimento, é indispensável que o processo permita verificar o que foi efetivamente solicitado, por quem, mediante qual procedimento, com qual equipamento e em quais circunstâncias.</p>
+<h2 id="3-da-evolução-normativa-e-da-necessidade-de-interpretação-favorável-diante-da-dúvida-objetiva">3. Da evolução normativa e da necessidade de interpretação favorável diante da dúvida objetiva</h2>
+<p>A regulamentação atualmente vigente do CONTRAN, por meio da Resolução nº 1.031/2026, passou a <strong>distinguir expressamente a triagem da efetiva constatação da infração</strong>, admitindo o pré-teste ou teste passivo justamente como procedimento de orientação, cujo resultado é exclusivamente indicativo e não pode, isoladamente, fundamentar autuação. A mesma regulamentação passou a disciplinar expressamente o reteste quando fatores técnicos ou operacionais possam comprometer o resultado, inclusive pela presença de álcool residual no trato respiratório superior.</p>
+<p>É certo que a Resolução nº 1.031/2026 é posterior aos fatos e não se pretende sua aplicação retroativa.</p>
+<p>Entretanto, sua edição constitui elemento interpretativo relevante: <strong>o próprio regime administrativo atualmente reconhece que circunstâncias técnicas ou operacionais podem interferir na aferição e que a fiscalização deve distinguir uma indicação inicial de uma efetiva constatação probatória</strong>.</p>
+<p>Ora, se o próprio Estado vem adiante revelar que o teste do chamado &ldquo;bafômetro&rdquo; incorria em possíveis interpretações distorcidas, o requerente, cidadão, tem também o direito de arguir a mesma linha de raciocínio em sede administrativa.</p>
+<p>Não se mostra juridicamente adequado, portanto, interpretar a atividade sancionatória de forma a maximizar a punição quando existem dúvidas objetivas sobre a regularidade e a suficiência do procedimento realizado.</p>
+<p>Em matéria administrativa sancionatória, a dúvida razoável quanto à regularidade do procedimento e à consistência do conjunto probatório deve ser solucionada sem ampliar, por presunção, o poder punitivo estatal em detrimento do administrado.</p>
+<h2 id="4-da-ausência-de-acesso-integral-aos-elementos-do-processo">4. Da ausência de acesso integral aos elementos do processo</h2>
+<p>Outro aspecto especialmente relevante é a impossibilidade de acesso integral ao procedimento administrativo.</p>
+<p>Ao consultar o andamento, o recorrente não consegue visualizar o conteúdo dos documentos que teriam fundamentado a autuação ou seu posterior processamento, encontrando apenas registros de encaminhamento entre unidades administrativas.</p>
+<p>Assim, o administrado é colocado na situação paradoxal de ter de exercer plenamente seu direito de defesa sem acesso integral aos próprios elementos utilizados pela Administração para sustentar a penalidade.</p>
+<p>A situação é particularmente grave porque o recorrente necessita verificar, entre outros pontos:</p>
+<ul>
+<li>Eventual termo ou registro de sinais de alteração da capacidade psicomotora;</li>
+<li>Identificação do agente responsável pela abordagem;</li>
+<li>Identificação do equipamento utilizado;</li>
+<li>Documentação relativa ao equipamento;</li>
+<li>Eventuais registros, imagens ou vídeos da abordagem;</li>
+<li>Documentos relativos às medidas administrativas registradas;</li>
+<li>Decisões administrativas já proferidas;</li>
+<li>Fundamentos utilizados para eventual indeferimento da defesa prévia.</li>
+</ul>
+<p>Sem esses elementos, a defesa fica limitada àquilo que consta superficialmente do sistema, não sendo possível exercer contraditório substancial sobre o conjunto probatório.</p>
+<h2 id="5-da-demora-administrativa-incompatível-com-a-finalidade-do-procedimento">5. Da demora administrativa incompatível com a finalidade do procedimento</h2>
+<p>A defesa prévia foi apresentada tempestivamente e, apesar disso, o recorrente permaneceu por mais de um ano aguardando a análise administrativa, sem que tivesse acesso claro à decisão ou ao conteúdo integral do processamento.</p>
+<p>O lapso temporal é particularmente relevante porque o processo administrativo de trânsito não existe apenas para produzir uma penalidade ao final de período indefinido. O próprio CTB estrutura uma sequência procedimental de autuação, defesa, julgamento e recurso, estabelecendo mecanismos e prazos destinados a assegurar a regularidade do processo. O art. 282, por exemplo, condiciona a aplicação da penalidade ao indeferimento da defesa prévia ou à sua não apresentação, enquanto o art. 285 disciplina o recurso contra a penalidade.</p>
+<p>A demora excessiva, além de prejudicar concretamente o exercício da defesa — especialmente pela dificuldade crescente de reconstrução dos fatos e obtenção de elementos probatórios — enfraquece a própria finalidade da atuação administrativa, que deve guardar relação temporal minimamente razoável com o fato que pretende sancionar.</p>
+<p>Não é lógico nem racional ao Estado punir, anos depois, uma infração <strong>presumida</strong> em que o suposto infrator teve a defesa cerceada desde a abordagem.</p>
+<p>Não se trata simplesmente de alegar que todo decurso de tempo extingue automaticamente a pretensão administrativa. Trata-se de reconhecer que a Administração não pode transformar a morosidade do próprio procedimento em fator de prejuízo ao administrado, especialmente quando este apresentou defesa tempestiva e permaneceu aguardando sua apreciação.</p>
+<h2 id="6-da-necessidade-de-controle-da-consistência-do-auto">6. Da necessidade de controle da consistência do auto</h2>
+<p>O art. 281 do CTB atribui expressamente à autoridade de trânsito o dever de julgar a consistência do auto de infração, determinando seu arquivamento quando considerado inconsistente ou irregular.</p>
+<p>No presente caso, existem questões objetivas que impedem que a autuação seja examinada apenas a partir da presunção abstrata de legitimidade do ato administrativo:</p>
+<ul>
+<li>Abordagem sem adequada identificação e esclarecimento do procedimento ao condutor;</li>
+<li>Ausência de informação sobre o equipamento utilizado;</li>
+<li>Inexistência, ao menos nos elementos atualmente acessíveis ao recorrente, de documentação suficiente para reconstrução da fiscalização;</li>
+<li>Ausência de acesso integral ao processo administrativo;</li>
+<li>Inconsistências anteriormente apontadas quanto às medidas administrativas registradas;</li>
+<li>E demora superior a um ano para apreciação da defesa apresentada.</li>
+</ul>
+<p>Diante desse conjunto, mostra-se indispensável que a Administração examine efetivamente a regularidade e consistência do auto, e não apenas a ocorrência formal da recusa.</p>
+<h2 id="7-da-ausência-de-motivação-adequada-da-decisão-administrativa">7. Da ausência de motivação adequada da decisão administrativa</h2>
+<p>A decisão ora impugnada informa que, após análise do processo administrativo, o Departamento de Estradas de Rodagem do Distrito Federal – DER/DF concluiu que “não foram encontradas razões consubstanciadas no Código de Trânsito Brasileiro – CTB e legislação complementar que pudessem propiciar o cancelamento do auto de infração”, mantendo, por consequência, a penalidade aplicada.</p>
+<p>Todavia, com a devida vênia, a fundamentação apresentada não atende ao dever de motivação dos atos administrativos, uma vez que não explicita, de forma clara, concreta e congruente, quais foram os fundamentos fáticos e jurídicos utilizados pela Administração para afastar os argumentos apresentados pelo recorrente.</p>
+<p>A Lei Federal nº 9.784/1999, aplicável aos processos administrativos no âmbito do Distrito Federal por força da Lei Distrital nº 2.834/2001, estabelece, em seu art. 50, que os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, especialmente quando negarem, limitarem ou afetarem direitos ou interesses, quando impuserem ou agravarem deveres, encargos ou sanções, bem como quando decidirem recursos administrativos. O §1º do mesmo dispositivo estabelece que a motivação deve ser explícita, clara e congruente.</p>
+<p>No caso concreto, entretanto, a decisão limita-se a afirmar que não foram encontradas “razões consubstanciadas no Código de Trânsito Brasileiro e legislação complementar” capazes de ensejar o cancelamento da penalidade.</p>
+<p>Não foram indicados, contudo, quais argumentos apresentados pelo recorrente foram analisados, quais fatos constantes dos autos foram considerados pela Administração, quais dispositivos legais foram concretamente aplicados ao caso e, principalmente, por quais razões jurídicas e fáticas tais argumentos foram rejeitados.</p>
+<p>A simples referência genérica ao Código de Trânsito Brasileiro e à legislação complementar não se confunde com a efetiva motivação do ato administrativo.</p>
+<p>A motivação não se satisfaz com a mera indicação abstrata de normas jurídicas. É necessário que exista uma relação lógica entre os fatos concretamente apurados no processo, os argumentos apresentados pelo administrado, os dispositivos legais aplicados e a conclusão administrativa adotada.</p>
+<p>Nesse sentido, o Superior Tribunal de Justiça reconhece que o dever de motivação exige a indicação dos fundamentos de fato e de direito que sustentam o ato administrativo, ressaltando que a motivação deve permitir a compreensão da correlação entre os fatos considerados pela Administração e a providência adotada.</p>
+<p>Também é entendimento do STJ que a indicação genérica da causa do ato não é suficiente para atender ao dever de motivação, devendo os motivos ser apresentados de forma explícita, clara e congruente.</p>
+<p>A deficiência de fundamentação assume especial relevância no presente caso porque a decisão administrativa mantém penalidade que restringe o direito de dirigir do recorrente, produzindo consequência jurídica concreta e gravosa.</p>
+<p>Além disso, a ausência de motivação suficiente prejudica diretamente o exercício do contraditório e da ampla defesa, pois o administrado precisa conhecer as razões efetivamente adotadas pela Administração para que possa impugná-las de maneira específica.</p>
+<p>Não é suficiente, portanto, afirmar que a Administração “não encontrou razões” para cancelar a penalidade. É indispensável demonstrar por que as razões apresentadas pelo administrado não foram acolhidas.</p>
+<p>A propósito, o próprio art. 50, §1º, da Lei nº 9.784/1999 admite que a Administração adote como motivação os fundamentos de pareceres, informações, decisões ou propostas anteriores, desde que os incorpore ao ato decisório. O que não se verifica na notificação em questão, uma vez que não há indicação de parecer, relatório ou manifestação técnica/jurídica cujos fundamentos tenham sido expressamente adotados como razão de decidir.</p>
+<p>Dessa forma, requer-se o reconhecimento da insuficiência da motivação apresentada na decisão administrativa, com a consequente revisão/anulação da decisão, para que seja proferida nova decisão devidamente fundamentada, com a apreciação individualizada dos argumentos apresentados pelo recorrente e a indicação dos respectivos fundamentos fáticos e jurídicos.</p>
+<p>Diante do exposto, requer seja reconhecida a ausência/insuficiência de motivação da decisão administrativa impugnada, diante da inobservância do art. 50, incisos I, II e V, e §1º, da Lei Federal nº 9.784/1999, aplicável ao Distrito Federal por força da Lei Distrital nº 2.834/2001, determinando-se a prolação de nova decisão administrativa, na qual sejam expressamente indicados os fundamentos fáticos e jurídicos utilizados para afastar cada um dos argumentos apresentados pelo recorrente, bem como a relação entre os fatos constantes dos autos e a penalidade mantida.</p>
+<h2 id="8-da-desorganização-sistemática-do-der">8. Da desorganização sistemática do DER</h2>
+
+
+
+<div class="mediaframe">
+  <img src="../pix/sistemaradar.jpg">
+  <figcaption>Sistema RADAR incorre em erro material de prazo para interposição de recurso ao DER.</figcaption>
+  </img>
+</div>
+<p>Às 10h do dia 14 de outubro de 2026, ao tentar protocolar este recurso em tela via sistema RADAR, como instruído pelos sites oficiais do DER/DETRAN, o usuário encontra data de vencimento do prazo de recurso divergente da notificação física recebida por Correios, como abaixo consta na íntegra. Aquela, informa vencimento do direito em 05/10 e esta em 17/10, ambos do atual ano de 2026.</p>
+
+
+
+<div class="mediaframe">
+  <img src="../pix/notificacaoDER1.jpg">
+  <figcaption>Fronte da notificação oficialmente entregue pelos Correios do Brasil</figcaption>
+  </img>
+</div>
+
+
+
+<div class="mediaframe">
+  <img src="../pix/notificacaoDER2.jpg">
+  <figcaption>Corpo da notificação, com explícito prazo de recurso divergente do sistema RADAR.</figcaption>
+  </img>
+</div>
+<p>De tal maneira, resta uma via de defesa parcialmente cerceada, porque a informação publicamente disponibilizada pelos órgãos são conflitantes e levam a crer que é findado o defeso. A via eletrônica dos recursos conversa com o princípio constitucional da eficiência, regra do artigo 37, fundamental e necessária, uma vez que o interesse público sempre insiste na maneira mais eficiente, do ponto de vista do cidadão, da execução dos serviços públicos.</p>
+<p>Cabe, assim, retorno de justificativa ao usuário e ponderação na atividade punitiva, uma vez que, em caso divergente, o prazo a se considerar deveria sempre ser o mais dilatado, justamente no sentido de evitar prejuízo ao direito de defesa e não o contrário. Há, ainda, de se imaginar quantos penalizados por processo similar desistiram de defesa pelo encurtado prazo do sistema RADAR que é divulgado por órgãos oficiais como meio lícito recursal.</p>
+<p>Ainda, nesta seara, cabe destacar que a informação divergente de prazos importa ao direito penalizado porque o efeito suspensivo o considera, como reza o CTB:</p>
+<pre tabindex="0"><code>Art. 285. O recurso contra a penalidade imposta nos termos do art. 282 deste Código será interposto perante a autoridade que imputou a penalidade e terá efeito suspensivo. 
+</code></pre><h2 id="9-pedidos">9. Pedidos</h2>
+<p>Diante do exposto, requer:</p>
+<ul>
+<li>a) o conhecimento e provimento do presente recurso, com o cancelamento da penalidade e arquivamento do Auto de Infração nº YE02572575, nos termos do art. 281, §1º, I, do CTB;</li>
+<li>b) subsidiariamente, caso não seja esse o entendimento, seja assegurado ao recorrente acesso integral aos autos e a todos os elementos que fundamentaram a autuação e seu processamento, inclusive documentos, termos, registros, imagens, vídeos, informações relativas ao equipamento e decisões administrativas;</li>
+<li>c) após disponibilização integral dos autos, seja realizada nova análise da consistência da autuação, com apreciação individualizada dos argumentos apresentados;</li>
+<li>d) que eventual decisão seja expressamente fundamentada, enfrentando os pontos objetivos suscitados neste recurso, especialmente a regularidade do procedimento de abordagem, a identificação do equipamento, a documentação da fiscalização, a ausência de acesso integral aos autos e a demora na apreciação da defesa prévia.</li>
+<li>e) que seja considerado tempestivo o atual recurso, como observado o prazo explícito da notificação entregue pelos Correios do Brasil.</li>
+<li>f) que a Administração, na sua figura o DER, se posicione publicamente sobre as divergências de prazos recursais expostas e, pelo interesse público difuso, levante campanha ampla informando sobre tal situação para que o benefício seja difundido e não preservado entre partes neste processo administrativo.</li>
+<li>g) que até reanálise do recurso anterior conforme pedido em &ldquo;c&rdquo; e, até decisão deste recurso, mantenha-se efeito suspensivo de prazos e punições pretendidas, conforme artigo 285 do CTB.</li>
+</ul>
+<p>Termos em que,
+pede deferimento.</p>
+<p>Brasília, 15 de outubro de 2026.</p>
+<p>Jefferson Torres da Silva</p>
+
+    
+    
+    
+    
+    
+    <script>
+      function retornaTopo() {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </article>
+
+
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>
+                <div class="laudo-footer">
+        <p id=footDocs>Jefferson Torres da Silva - CPF 035.856.601-00 - Habilitação 05761380671 - Auto de infração nº YE02572575</p>
+        <p id=footDef></p>
+                </div>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+<footer>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<p id=footDocs>Jefferson Torres da Silva - CPF 035.856.601-00 - Habilitação 05761380671 - Auto de infração nº YE02572575</p>
+<p>Este <i>website</i> se destina a profissionais de saúde e pode conter mídias e informações sensíveis. Todo o conteúdo deve ser entendido como informação geral médica para fins acadêmicos. O autor não se responsabiliza por <b>nenhuma</b> forma de uso das informações disponibilizadas neste domínio <i>web</i>.<br>Aesclepius Clínica Médica LTDA  59.323.299/0001-68<br> Informação médica, perícias e ferramentas para profissionais de saúde<br> <a href='https://www.jeffersontorres.com.br'>Desenvolvido por Jefferson T. @2026 </a>
+</footer>
+
+</body>
+</html>

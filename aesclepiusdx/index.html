@@ -1,0 +1,115 @@
+<html>
+<!DOCTYPE html>
+<head>
+<title>AesclepiusDx</title>
+<link rel="icon"
+href='data:image/svg+xml,
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="sans" font-size="100" font-weight="bold"> R </text>
+<text x="80%" y="80%" text-anchor="middle" dominant-baseline="middle" font-family="sans" font-size="70" font-weight="bold"> x </text>
+</svg>'><meta name="viewport"
+      content="width=device-width,
+               initial-scale=1,
+               maximum-scale=1,
+               minimum-scale=1,
+               user-scalable=no,
+               viewport-fit=cover">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" /> -->
+  <meta charset="utf-8">
+  <style>
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 🔥 importante */
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+  
+    <!-- html, body { -->
+      <!-- margin: 0; -->
+      <!-- height: 100%; -->
+    <!-- } -->
+    <!-- canvas { -->
+      <!-- width: 100vw; -->
+      <!-- height: 100vh; -->
+      <!-- display: block; -->
+    }
+  </style>
+
+   <!-- Open Graph -->
+    <meta property="og:title" content="AesclepiusDx">
+    <meta property="og:description" content="Assistente profissional de condutas médicas">
+    <meta property="og:image" content="https://www.aesclepius.com.br/pix/dx.png">
+    <meta property="og:url" content="https://www.aesclepius.com.br">
+    <meta property="og:type" content="website">  
+<link rel="modulepreload" href="/aesclepiusrx/ui-9676f363a0d53557.js" crossorigin="anonymous" integrity="sha384-bhEb6gwZQoYJGryIGCMtDYvhjuWJIAHIqkusJfHIPPufhtIIWBk+RZzzka0s4SPC"><link rel="modulepreload" href="/aesclepiusrx/snippets/ui-9ff0b9f353ace9a0/browser.js" crossorigin="anonymous" integrity="sha384-CA2dDwdzjwJOCstD846rqtSK5vXGVcCRtNVO7MK7Jy3F49rDqu4Ozs66me7yPDfl"><link rel="preload" href="/aesclepiusrx/ui-9676f363a0d53557_bg.wasm" crossorigin="anonymous" integrity="sha384-dZ/HPO1LAiz/CCA21MlWj5rCb2DLSQvwAIV8IJvzb0RGEucSGwMJPHgiSn+o/WbF" as="fetch" type="application/wasm"></head>
+<body>
+<script>
+
+(function () {
+    const patch = (el) => {
+        if (!(el instanceof HTMLInputElement)) return;
+
+        if (el.id !== "egui_text_agent") return;
+
+        el.autocapitalize = "none";
+        el.setAttribute("autocapitalize", "none");
+
+        el.autocorrect = "off";
+        el.setAttribute("autocorrect", "off");
+
+        el.spellcheck = false;
+        <!-- Deu certo.. -->
+        <!-- console.log("Patched egui_text_agent"); -->
+    };
+
+    new MutationObserver((mutations) => {
+        for (const mutation of mutations) {
+            for (const node of mutation.addedNodes) {
+                patch(node);
+
+                if (node.querySelectorAll) {
+                    node.querySelectorAll("input").forEach(patch);
+                }
+            }
+        }
+    }).observe(document.documentElement, {
+        childList: true,
+        subtree: true,
+    });
+
+    const existing = document.getElementById("egui_text_agent");
+    if (existing) {
+        patch(existing);
+    }
+})();
+
+const APP_VERSION = "0.1.5";
+
+if (localStorage.getItem("app_version") !== APP_VERSION) {
+    localStorage.clear();
+    localStorage.setItem("app_version", APP_VERSION);
+}
+</script>
+  <canvas id="app"></canvas>
+  <!-- <script data-trunk src="Cargo.toml"></script> -->
+
+<script type="module">
+import init, * as bindings from '/aesclepiusrx/ui-9676f363a0d53557.js';
+const wasm = await init({ module_or_path: '/aesclepiusrx/ui-9676f363a0d53557_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
