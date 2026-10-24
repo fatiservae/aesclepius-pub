@@ -54,33 +54,21 @@ canvas {
 <script>
 
 (function () {
+    const patch = (el) => {
+        if (!(el instanceof HTMLInputElement)) return;
 
-const patch = (el) => {
-    if (!(el instanceof HTMLInputElement)) return;
-    if (el.id !== "egui_text_agent") return;
+        if (el.id !== "egui_text_agent") return;
 
-    el.setAttribute("autocapitalize", "none");
-    el.setAttribute("autocorrect", "off");
-    el.setAttribute("spellcheck", "false");
+        el.autocapitalize = "none";
+        el.setAttribute("autocapitalize", "none");
 
-    el.removeAttribute("readonly");
-    el.removeAttribute("disabled");
-};
-    <!-- const patch = (el) => { -->
-        <!-- if (!(el instanceof HTMLInputElement)) return; -->
+        el.autocorrect = "off";
+        el.setAttribute("autocorrect", "off");
 
-        <!-- if (el.id !== "egui_text_agent") return; -->
-
-        <!-- el.autocapitalize = "none"; -->
-        <!-- el.setAttribute("autocapitalize", "none"); -->
-
-        <!-- el.autocorrect = "off"; -->
-        <!-- el.setAttribute("autocorrect", "off"); -->
-
-        <!-- el.spellcheck = false; -->
+        el.spellcheck = false;
         <!-- Deu certo.. -->
         <!-- console.log("Patched egui_text_agent"); -->
-    <!-- }; -->
+    };
 
     new MutationObserver((mutations) => {
         for (const mutation of mutations) {
@@ -104,10 +92,23 @@ document.addEventListener("focusin", (event) => {
 });
 
 document.addEventListener("touchend", (event) => {
-    if (event.target.id === "egui_text_agent") {
-        console.log("egui: toque no campo");
+    const el = document.getElementById("egui_text_agent");
+
+    if (!el) return;
+
+    if (event.target === el) {
+        el.focus({ preventScroll: true });
     }
-}, true);    const existing = document.getElementById("egui_text_agent");
+}, { capture: true });
+
+
+<!-- document.addEventListener("touchend", (event) => { -->
+    <!-- if (event.target.id === "egui_text_agent") { -->
+        <!-- console.log("egui: toque no campo"); -->
+    <!-- } -->
+<!-- }, true); -->
+
+const existing = document.getElementById("egui_text_agent");
     if (existing) {
         patch(existing);
     }
