@@ -49,26 +49,38 @@ canvas {
     <meta property="og:image" content="https://www.aesclepius.com.br/pix/dx.png">
     <meta property="og:url" content="https://www.aesclepius.com.br">
     <meta property="og:type" content="website">  
-<link rel="modulepreload" href="/aesclepiusdx/ui-9676f363a0d53557.js" crossorigin="anonymous" integrity="sha384-bhEb6gwZQoYJGryIGCMtDYvhjuWJIAHIqkusJfHIPPufhtIIWBk+RZzzka0s4SPC"><link rel="modulepreload" href="/aesclepiusdx/snippets/ui-9ff0b9f353ace9a0/browser.js" crossorigin="anonymous" integrity="sha384-CA2dDwdzjwJOCstD846rqtSK5vXGVcCRtNVO7MK7Jy3F49rDqu4Ozs66me7yPDfl"><link rel="preload" href="/aesclepiusdx/ui-9676f363a0d53557_bg.wasm" crossorigin="anonymous" integrity="sha384-dZ/HPO1LAiz/CCA21MlWj5rCb2DLSQvwAIV8IJvzb0RGEucSGwMJPHgiSn+o/WbF" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/aesclepiusdx/ui-75baa2dd69b5b231.js" crossorigin="anonymous" integrity="sha384-nDDglkYHWXizjqNTQ0Z3TwS1IFfSLOvo9RwrbPRp6i04M9VLlFtWN4vzXYErWrWN"><link rel="modulepreload" href="/aesclepiusdx/snippets/ui-9ff0b9f353ace9a0/browser.js" crossorigin="anonymous" integrity="sha384-CA2dDwdzjwJOCstD846rqtSK5vXGVcCRtNVO7MK7Jy3F49rDqu4Ozs66me7yPDfl"><link rel="preload" href="/aesclepiusdx/ui-75baa2dd69b5b231_bg.wasm" crossorigin="anonymous" integrity="sha384-2X7K9STFDEaAIGA9FGNFVS1AxGZ33Np/HO4HWpnjhc8zjy8I2Q6ilkT3PjFE1bCk" as="fetch" type="application/wasm"></head>
 <body>
 <script>
 
 (function () {
-    const patch = (el) => {
-        if (!(el instanceof HTMLInputElement)) return;
 
-        if (el.id !== "egui_text_agent") return;
+const patch = (el) => {
+    if (!(el instanceof HTMLInputElement)) return;
+    if (el.id !== "egui_text_agent") return;
 
-        el.autocapitalize = "none";
-        el.setAttribute("autocapitalize", "none");
+    el.setAttribute("autocapitalize", "none");
+    el.setAttribute("autocorrect", "off");
+    el.setAttribute("spellcheck", "false");
 
-        el.autocorrect = "off";
-        el.setAttribute("autocorrect", "off");
+    el.removeAttribute("readonly");
+    el.removeAttribute("disabled");
+};
+    <!-- const patch = (el) => { -->
+        <!-- if (!(el instanceof HTMLInputElement)) return; -->
 
-        el.spellcheck = false;
+        <!-- if (el.id !== "egui_text_agent") return; -->
+
+        <!-- el.autocapitalize = "none"; -->
+        <!-- el.setAttribute("autocapitalize", "none"); -->
+
+        <!-- el.autocorrect = "off"; -->
+        <!-- el.setAttribute("autocorrect", "off"); -->
+
+        <!-- el.spellcheck = false; -->
         <!-- Deu certo.. -->
         <!-- console.log("Patched egui_text_agent"); -->
-    };
+    <!-- }; -->
 
     new MutationObserver((mutations) => {
         for (const mutation of mutations) {
@@ -85,7 +97,17 @@ canvas {
         subtree: true,
     });
 
-    const existing = document.getElementById("egui_text_agent");
+document.addEventListener("focusin", (event) => {
+    if (event.target.id === "egui_text_agent") {
+        console.log("egui: foco recebido");
+    }
+});
+
+document.addEventListener("touchend", (event) => {
+    if (event.target.id === "egui_text_agent") {
+        console.log("egui: toque no campo");
+    }
+}, true);    const existing = document.getElementById("egui_text_agent");
     if (existing) {
         patch(existing);
     }
@@ -102,8 +124,8 @@ if (localStorage.getItem("app_version") !== APP_VERSION) {
   <!-- <script data-trunk src="Cargo.toml"></script> -->
 
 <script type="module">
-import init, * as bindings from '/aesclepiusdx/ui-9676f363a0d53557.js';
-const wasm = await init({ module_or_path: '/aesclepiusdx/ui-9676f363a0d53557_bg.wasm' });
+import init, * as bindings from '/aesclepiusdx/ui-75baa2dd69b5b231.js';
+const wasm = await init({ module_or_path: '/aesclepiusdx/ui-75baa2dd69b5b231_bg.wasm' });
 
 
 window.wasmBindings = bindings;
